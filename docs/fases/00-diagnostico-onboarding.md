@@ -21,18 +21,18 @@ Entender el contexto de negocio, el estado real de la célula (si existe) y esta
 
 ### 0.2 Diagnóstico de madurez (solo célula existente)
 
-Aplicar el assessment en 2–3 semanas combinando **datos** (historial de Jira, pipelines, incidentes) y **conversaciones** (1:1, observación de ceremonias).
+Aplicar el [assessment de madurez](../caja-de-herramientas/assessment-madurez.md) en 2–3 semanas combinando **datos** (historial de Jira, pipelines, incidentes) y **conversaciones** (1:1, observación de ceremonias). Son 30 preguntas en seis dimensiones, con criterios observables para cada nivel:
 
-| Dimensión | Preguntas guía | Evidencia |
-|---|---|---|
-| Producto | ¿El backlog conecta con objetivos de negocio? ¿Se mide el impacto? | Backlog, roadmap, KPIs |
-| Flujo | ¿Cuánto tarda un ítem de idea a producción? ¿Cuánto WIP hay? | Lead time, CFD, ítems envejecidos |
-| Ingeniería | ¿Hay CI? ¿Tests automatizados? ¿Cuánto cuesta desplegar? | Pipelines, cobertura, frecuencia de despliegue |
-| Calidad | ¿Cuántos defectos escapan a producción? | Bugs en prod, change failure rate |
-| Equipo | ¿Hay seguridad psicológica? ¿Quién decide qué? | 1:1, Happiness Door, rotación |
-| Relación con negocio | ¿El PO tiene autoridad real? ¿Hay feedback de usuarios? | Ceremonias observadas |
+| Dimensión | Qué evalúa |
+|---|---|
+| Producto | Conexión del backlog con el negocio, medición de impacto, hipótesis, roadmap, contacto con usuarios |
+| Flujo | Visibilidad, límites de WIP, previsibilidad, trabajo no planificado, bloqueos |
+| Ingeniería | Integración continua, despliegue, ambientes, arquitectura, observabilidad |
+| Calidad | Automatización de pruebas, rol de QA, defectos escapados, DoD, incidentes |
+| Equipo | Estabilidad, autoorganización, seguridad psicológica, mejora continua, conocimiento |
+| Relación con negocio | Autoridad del PO, patrocinio, revisiones, planificación, modelo de gobierno |
 
-Cada dimensión se puntúa de **1 (inicial) a 5 (optimizado)**. El resultado se presenta como gráfico de radar y define el orden de las siguientes fases.
+El equipo se autoevalúa y el facilitador puntúa lo observado. La [calculadora de madurez](../caja-de-herramientas/calculadora-madurez.md) genera el radar con ambas miradas, marca las brechas de percepción y propone el orden de fases según las reglas de priorización.
 
 !!! tip "Datos del pasado"
     En célula existente, extrae al menos 3 meses de historial de tickets para calcular lead time, throughput y WIP de línea base. El [Agile Metric Hub](https://github.com/andresga79/agile-metric-hub) puede servir para cruzar sprints.
@@ -56,7 +56,7 @@ Cada dimensión se puntúa de **1 (inicial) a 5 (optimizado)**. El resultado se 
 | Artefacto | Plantilla |
 |---|---|
 | Mapa de stakeholders | — |
-| Assessment de madurez (radar) | Tabla de esta página |
+| Assessment de madurez (radar) | [Cuestionario](../caja-de-herramientas/assessment-madurez.md) y [calculadora](../caja-de-herramientas/calculadora-madurez.md) |
 | Team Canvas | [Plantilla](../caja-de-herramientas/team-canvas.md) |
 | Delegation Board | [Plantilla](../caja-de-herramientas/delegation-board.md) |
 | Plan de onboarding por persona | — |
@@ -80,7 +80,7 @@ Cada dimensión se puntúa de **1 (inicial) a 5 (optimizado)**. El resultado se 
 ## Criterios de salida
 
 - [ ] Objetivo de negocio del producto escrito en una frase y aceptado por el patrocinador.
-- [ ] Assessment completado y presentado (célula existente).
+- [ ] Assessment completado, con brechas conversadas y orden de fases acordado (célula existente).
 - [ ] Team Canvas y Delegation Board publicados y visibles.
 - [ ] Roles con dedicación real confirmada.
 - [ ] Todas las personas con accesos completos.

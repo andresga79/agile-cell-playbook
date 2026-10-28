@@ -4,6 +4,8 @@ Plantillas listas para copiar. Cada una indica en qué fase se usa.
 
 | Herramienta | Fase | Marco de origen |
 |---|---|---|
+| [Assessment de madurez](assessment-madurez.md) | 0 | Diagnóstico de células |
+| [Calculadora de madurez](calculadora-madurez.md) | 0 | Diagnóstico de células |
 | [Team Canvas](team-canvas.md) | 0 | Facilitación de equipos |
 | [Delegation Board](delegation-board.md) | 0, 6 | Management 3.0 |
 | [Lean Canvas e hipótesis](lean-canvas-hipotesis.md) | 1, 6 | Lean Startup |

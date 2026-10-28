@@ -41,4 +41,4 @@ docs/
 
 ## Contribuir
 
-Ver [docs/contribuir.md](docs/contribuir.md). Toda mejora entra por pull request y queda registrada en el changelog.
+El mantenedor publica directo a `main` validando antes con `mkdocs build --strict`. Otras personas contribuyen por pull request. Detalle en [docs/contribuir.md](docs/contribuir.md). Todo cambio queda registrado en el changelog.

@@ -68,6 +68,13 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
+extra_css:
+  - assets/css/assessment.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js
+  - assets/js/assessment.js
+
 nav:
   - Inicio: index.md
   - Cómo usar la guía: como-usar.md
@@ -83,6 +90,8 @@ nav:
       - "Transversal · Gobierno con proveedores": fases/transversal-gobierno-proveedores.md
   - Caja de herramientas:
       - caja-de-herramientas/index.md
+      - Assessment de madurez: caja-de-herramientas/assessment-madurez.md
+      - Calculadora de madurez: caja-de-herramientas/calculadora-madurez.md
       - Team Canvas: caja-de-herramientas/team-canvas.md
       - Delegation Board: caja-de-herramientas/delegation-board.md
       - Lean Canvas e hipótesis: caja-de-herramientas/lean-canvas-hipotesis.md
