@@ -50,6 +50,8 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/assessment.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -706,6 +708,10 @@
       
         
       
+        
+      
+        
+      
     
     
       
@@ -747,6 +753,48 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../caja-de-herramientas/assessment-madurez/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Assessment de madurez
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../caja-de-herramientas/calculadora-madurez/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Calculadora de madurez
+  </span>
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -1059,18 +1107,42 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#formas-de-contribuir" class="md-nav__link">
+  <a href="#flujo-del-mantenedor-directo-a-main" class="md-nav__link">
     <span class="md-ellipsis">
-      Formas de contribuir
+      Flujo del mantenedor: directo a main
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Flujo del mantenedor: directo a main">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#preparar-el-entorno-una-sola-vez" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preparar el entorno (una sola vez)
     </span>
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#cada-cambio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cada cambio
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#flujo-de-trabajo" class="md-nav__link">
+  <a href="#contribuciones-de-otras-personas" class="md-nav__link">
     <span class="md-ellipsis">
-      Flujo de trabajo
+      Contribuciones de otras personas
     </span>
   </a>
   
@@ -1120,18 +1192,42 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#formas-de-contribuir" class="md-nav__link">
+  <a href="#flujo-del-mantenedor-directo-a-main" class="md-nav__link">
     <span class="md-ellipsis">
-      Formas de contribuir
+      Flujo del mantenedor: directo a main
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Flujo del mantenedor: directo a main">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#preparar-el-entorno-una-sola-vez" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preparar el entorno (una sola vez)
     </span>
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#cada-cambio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cada cambio
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#flujo-de-trabajo" class="md-nav__link">
+  <a href="#contribuciones-de-otras-personas" class="md-nav__link">
     <span class="md-ellipsis">
-      Flujo de trabajo
+      Contribuciones de otras personas
     </span>
   </a>
   
@@ -1170,29 +1266,50 @@
 
 
 <h1 id="contribuir">Contribuir<a class="headerlink" href="#contribuir" title="Permanent link">&para;</a></h1>
-<p>Esta guía mejora con la experiencia de células reales. Toda contribución es bienvenida.</p>
-<h2 id="formas-de-contribuir">Formas de contribuir<a class="headerlink" href="#formas-de-contribuir" title="Permanent link">&para;</a></h2>
-<ol>
-<li><strong>Proponer una mejora:</strong> abre un <em>issue</em> con la plantilla <strong>Propuesta de mejora</strong>.</li>
-<li><strong>Editar directamente:</strong> usa el ícono de lápiz ✏️ en cualquier página; GitHub crea un pull request.</li>
-<li><strong>Cambios grandes:</strong> crea una rama, edita en local con <code>mkdocs serve</code> y abre un pull request.</li>
-</ol>
-<h2 id="flujo-de-trabajo">Flujo de trabajo<a class="headerlink" href="#flujo-de-trabajo" title="Permanent link">&para;</a></h2>
+<p>Esta guía mejora con la experiencia de células reales.</p>
+<h2 id="flujo-del-mantenedor-directo-a-main">Flujo del mantenedor: directo a <code>main</code><a class="headerlink" href="#flujo-del-mantenedor-directo-a-main" title="Permanent link">&para;</a></h2>
+<p>El mantenedor publica los cambios directamente en <code>main</code>. Cada push dispara el workflow, que valida el sitio en modo estricto y lo publica en GitHub Pages.</p>
 <pre class="mermaid"><code>flowchart LR
-    I[Issue o idea] --&gt; B[Rama corta]
-    B --&gt; E[Editar en docs/]
+    P[git pull] --&gt; E[Editar docs/]
     E --&gt; C[Actualizar changelog]
-    C --&gt; PR[Pull request]
-    PR --&gt; R[Revisión]
-    R --&gt; M[Merge a main]
-    M --&gt; P[Publicación automática]</code></pre>
+    C --&gt; V[mkdocs build --strict]
+    V --&gt; G[commit + push a main]
+    G --&gt; W[Publicación automática]</code></pre>
+<h3 id="preparar-el-entorno-una-sola-vez">Preparar el entorno (una sola vez)<a class="headerlink" href="#preparar-el-entorno-una-sola-vez" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>.venv
+<span class="nb">source</span><span class="w"> </span>.venv/bin/activate
+pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+</code></pre></div>
+<h3 id="cada-cambio">Cada cambio<a class="headerlink" href="#cada-cambio" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="nb">source</span><span class="w"> </span>.venv/bin/activate<span class="w">      </span><span class="c1"># en cada terminal nueva</span>
+git<span class="w"> </span>pull<span class="w">                       </span><span class="c1"># trae ediciones hechas desde la web</span>
+<span class="c1"># editar archivos en docs/ y actualizar docs/changelog.md</span>
+mkdocs<span class="w"> </span>serve<span class="w">                   </span><span class="c1"># opcional: ver en http://127.0.0.1:8000</span>
+mkdocs<span class="w"> </span>build<span class="w"> </span>--strict<span class="w">          </span><span class="c1"># debe terminar sin WARNING ni ERROR</span>
+git<span class="w"> </span>add<span class="w"> </span>.
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Descripción corta del cambio"</span>
+git<span class="w"> </span>push
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Sin revisión previa</p>
+<p>Al publicar directo en <code>main</code>, el build estricto en local es la única barrera antes de que el cambio llegue al repositorio. Si el workflow falla, la web no se actualiza y la pestaña <strong>Actions</strong> muestra el error.</p>
+</div>
+<h2 id="contribuciones-de-otras-personas">Contribuciones de otras personas<a class="headerlink" href="#contribuciones-de-otras-personas" title="Permanent link">&para;</a></h2>
+<p>Quien no mantiene el repositorio contribuye por pull request:</p>
+<ol>
+<li><strong>Proponer una mejora:</strong> abrir un <em>issue</em> con la plantilla <strong>Propuesta de mejora</strong>.</li>
+<li><strong>Editar desde la web:</strong> el ícono de lápiz ✏️ de cada página crea un pull request automáticamente.</li>
+<li><strong>Cambios grandes:</strong> hacer <em>fork</em>, editar en local y abrir un pull request.</li>
+</ol>
+<p>El workflow valida el build de cada pull request antes del merge.</p>
 <h2 id="convenciones">Convenciones<a class="headerlink" href="#convenciones" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Cada fase mantiene la estructura: objetivo, entradas, actividades, artefactos, métricas, roles, criterios de salida y antipatrones.</li>
 <li>Los diagramas se escriben en <strong>Mermaid</strong> dentro del Markdown.</li>
 <li>Las plantillas nuevas van en <code>docs/caja-de-herramientas/</code> y se agregan al índice y a <code>mkdocs.yml</code>.</li>
+<li>Las preguntas del assessment viven en <code>assessment-madurez.md</code>; si cambian, se actualiza su texto corto en <code>docs/assets/js/assessment.js</code>.</li>
 <li>Todo cambio de contenido actualiza <code>docs/changelog.md</code>.</li>
-<li>El build debe pasar en modo estricto: <code>mkdocs build --strict</code>.</li>
+<li>Versionado: <strong>mayor</strong> si cambia la estructura de fases, <strong>menor</strong> si se agrega contenido o herramientas, <strong>parche</strong> para correcciones.</li>
 </ul>
 
 
@@ -1280,6 +1397,10 @@
     
     
       <script src="../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+      
+        <script src="../assets/js/assessment.js"></script>
       
     
   </body>

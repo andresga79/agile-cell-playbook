@@ -52,6 +52,8 @@
       
     
     
+      <link rel="stylesheet" href="../../assets/css/assessment.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -867,6 +869,10 @@
       
         
       
+        
+      
+        
+      
     
     
       
@@ -908,6 +914,48 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caja-de-herramientas/assessment-madurez/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Assessment de madurez
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caja-de-herramientas/calculadora-madurez/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Calculadora de madurez
+  </span>
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -1368,49 +1416,42 @@
 <li>Identificar las restricciones duras: regulatorias, presupuestarias, de fechas, tecnológicas.</li>
 </ol>
 <h3 id="02-diagnostico-de-madurez-solo-celula-existente">0.2 Diagnóstico de madurez (solo célula existente)<a class="headerlink" href="#02-diagnostico-de-madurez-solo-celula-existente" title="Permanent link">&para;</a></h3>
-<p>Aplicar el assessment en 2–3 semanas combinando <strong>datos</strong> (historial de Jira, pipelines, incidentes) y <strong>conversaciones</strong> (1:1, observación de ceremonias).</p>
+<p>Aplicar el <a href="../../caja-de-herramientas/assessment-madurez/">assessment de madurez</a> en 2–3 semanas combinando <strong>datos</strong> (historial de Jira, pipelines, incidentes) y <strong>conversaciones</strong> (1:1, observación de ceremonias). Son 30 preguntas en seis dimensiones, con criterios observables para cada nivel:</p>
 <table>
 <thead>
 <tr>
 <th>Dimensión</th>
-<th>Preguntas guía</th>
-<th>Evidencia</th>
+<th>Qué evalúa</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Producto</td>
-<td>¿El backlog conecta con objetivos de negocio? ¿Se mide el impacto?</td>
-<td>Backlog, roadmap, KPIs</td>
+<td>Conexión del backlog con el negocio, medición de impacto, hipótesis, roadmap, contacto con usuarios</td>
 </tr>
 <tr>
 <td>Flujo</td>
-<td>¿Cuánto tarda un ítem de idea a producción? ¿Cuánto WIP hay?</td>
-<td>Lead time, CFD, ítems envejecidos</td>
+<td>Visibilidad, límites de WIP, previsibilidad, trabajo no planificado, bloqueos</td>
 </tr>
 <tr>
 <td>Ingeniería</td>
-<td>¿Hay CI? ¿Tests automatizados? ¿Cuánto cuesta desplegar?</td>
-<td>Pipelines, cobertura, frecuencia de despliegue</td>
+<td>Integración continua, despliegue, ambientes, arquitectura, observabilidad</td>
 </tr>
 <tr>
 <td>Calidad</td>
-<td>¿Cuántos defectos escapan a producción?</td>
-<td>Bugs en prod, change failure rate</td>
+<td>Automatización de pruebas, rol de QA, defectos escapados, DoD, incidentes</td>
 </tr>
 <tr>
 <td>Equipo</td>
-<td>¿Hay seguridad psicológica? ¿Quién decide qué?</td>
-<td>1:1, Happiness Door, rotación</td>
+<td>Estabilidad, autoorganización, seguridad psicológica, mejora continua, conocimiento</td>
 </tr>
 <tr>
 <td>Relación con negocio</td>
-<td>¿El PO tiene autoridad real? ¿Hay feedback de usuarios?</td>
-<td>Ceremonias observadas</td>
+<td>Autoridad del PO, patrocinio, revisiones, planificación, modelo de gobierno</td>
 </tr>
 </tbody>
 </table>
-<p>Cada dimensión se puntúa de <strong>1 (inicial) a 5 (optimizado)</strong>. El resultado se presenta como gráfico de radar y define el orden de las siguientes fases.</p>
+<p>El equipo se autoevalúa y el facilitador puntúa lo observado. La <a href="../../caja-de-herramientas/calculadora-madurez/">calculadora de madurez</a> genera el radar con ambas miradas, marca las brechas de percepción y propone el orden de fases según las reglas de priorización.</p>
 <div class="admonition tip">
 <p class="admonition-title">Datos del pasado</p>
 <p>En célula existente, extrae al menos 3 meses de historial de tickets para calcular lead time, throughput y WIP de línea base. El <a href="https://github.com/andresga79/agile-metric-hub">Agile Metric Hub</a> puede servir para cruzar sprints.</p>
@@ -1444,7 +1485,7 @@
 </tr>
 <tr>
 <td>Assessment de madurez (radar)</td>
-<td>Tabla de esta página</td>
+<td><a href="../../caja-de-herramientas/assessment-madurez/">Cuestionario</a> y <a href="../../caja-de-herramientas/calculadora-madurez/">calculadora</a></td>
 </tr>
 <tr>
 <td>Team Canvas</td>
@@ -1509,7 +1550,7 @@
 <h2 id="criterios-de-salida">Criterios de salida<a class="headerlink" href="#criterios-de-salida" title="Permanent link">&para;</a></h2>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Objetivo de negocio del producto escrito en una frase y aceptado por el patrocinador.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Assessment completado y presentado (célula existente).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Assessment completado, con brechas conversadas y orden de fases acordado (célula existente).</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Team Canvas y Delegation Board publicados y visibles.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Roles con dedicación real confirmada.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Todas las personas con accesos completos.</li>
@@ -1623,6 +1664,10 @@
     
     
       <script src="../../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+      
+        <script src="../../assets/js/assessment.js"></script>
       
     
   </body>
