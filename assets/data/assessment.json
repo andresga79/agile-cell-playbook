@@ -1,0 +1,219 @@
+{
+ "source": "caja-de-herramientas/assessment-madurez.md",
+ "dimensions": [
+  {
+   "id": "PR",
+   "name": "Producto",
+   "phases": "Fase 1 · Descubrimiento",
+   "phaseLinks": [
+    {
+     "text": "Fase 1 · Descubrimiento",
+     "url": "fases/01-descubrimiento/"
+    }
+   ],
+   "questions": [
+    {
+     "id": "PR1",
+     "text": "¿El backlog está conectado con objetivos de negocio?"
+    },
+    {
+     "id": "PR2",
+     "text": "¿Se mide el impacto de lo que se entrega?"
+    },
+    {
+     "id": "PR3",
+     "text": "¿Se validan hipótesis antes de construir?"
+    },
+    {
+     "id": "PR4",
+     "text": "¿Cómo es el roadmap?"
+    },
+    {
+     "id": "PR5",
+     "text": "¿El equipo tiene contacto con usuarios reales?"
+    }
+   ]
+  },
+  {
+   "id": "FL",
+   "name": "Flujo",
+   "phases": "Fase 3 · Sistema de trabajo y Fase 5 · Medición",
+   "phaseLinks": [
+    {
+     "text": "Fase 3 · Sistema de trabajo",
+     "url": "fases/03-sistema-de-trabajo/"
+    },
+    {
+     "text": "Fase 5 · Medición",
+     "url": "fases/05-medicion/"
+    }
+   ],
+   "questions": [
+    {
+     "id": "FL1",
+     "text": "¿El tablero refleja el flujo real del trabajo?"
+    },
+    {
+     "id": "FL2",
+     "text": "¿Se limita el trabajo en curso?"
+    },
+    {
+     "id": "FL3",
+     "text": "¿Qué tan predecible es la entrega?"
+    },
+    {
+     "id": "FL4",
+     "text": "¿Cómo se gestiona el trabajo no planificado?"
+    },
+    {
+     "id": "FL5",
+     "text": "¿Cómo se gestionan bloqueos y dependencias?"
+    }
+   ]
+  },
+  {
+   "id": "IN",
+   "name": "Ingeniería",
+   "phases": "Fase 2 · Fundaciones técnicas",
+   "phaseLinks": [
+    {
+     "text": "Fase 2 · Fundaciones técnicas",
+     "url": "fases/02-fundaciones-tecnicas/"
+    }
+   ],
+   "questions": [
+    {
+     "id": "IN1",
+     "text": "¿Existe integración continua?"
+    },
+    {
+     "id": "IN2",
+     "text": "¿Cómo se despliega a producción?"
+    },
+    {
+     "id": "IN3",
+     "text": "¿Cómo son los ambientes?"
+    },
+    {
+     "id": "IN4",
+     "text": "¿La arquitectura está documentada?"
+    },
+    {
+     "id": "IN5",
+     "text": "¿Cómo se detectan los problemas en producción?"
+    }
+   ]
+  },
+  {
+   "id": "CA",
+   "name": "Calidad",
+   "phases": "Fase 2 · Fundaciones técnicas y Fase 4 · Entrega continua",
+   "phaseLinks": [
+    {
+     "text": "Fase 2 · Fundaciones técnicas",
+     "url": "fases/02-fundaciones-tecnicas/"
+    },
+    {
+     "text": "Fase 4 · Entrega continua",
+     "url": "fases/04-entrega-continua/"
+    }
+   ],
+   "questions": [
+    {
+     "id": "CA1",
+     "text": "¿Cuánto se automatizan las pruebas?"
+    },
+    {
+     "id": "CA2",
+     "text": "¿Cuál es el rol de QA?"
+    },
+    {
+     "id": "CA3",
+     "text": "¿Cómo evolucionan los defectos escapados a producción?"
+    },
+    {
+     "id": "CA4",
+     "text": "¿Existe y se cumple una Definition of Done?"
+    },
+    {
+     "id": "CA5",
+     "text": "¿Cómo se gestionan los incidentes?"
+    }
+   ]
+  },
+  {
+   "id": "EQ",
+   "name": "Equipo",
+   "phases": "Fase 0 · Onboarding (Team Canvas, Delegation Board) y Fase 6 · Mejora",
+   "phaseLinks": [
+    {
+     "text": "Fase 0 · Onboarding",
+     "url": "fases/00-diagnostico-onboarding/"
+    },
+    {
+     "text": "Fase 6 · Mejora",
+     "url": "fases/06-mejora-innovacion/"
+    }
+   ],
+   "questions": [
+    {
+     "id": "EQ1",
+     "text": "¿El equipo es estable y dedicado?"
+    },
+    {
+     "id": "EQ2",
+     "text": "¿Cuánto se autoorganiza el equipo?"
+    },
+    {
+     "id": "EQ3",
+     "text": "¿Hay seguridad psicológica?"
+    },
+    {
+     "id": "EQ4",
+     "text": "¿Funciona la mejora continua?"
+    },
+    {
+     "id": "EQ5",
+     "text": "¿Cómo se distribuye el conocimiento?"
+    }
+   ]
+  },
+  {
+   "id": "NE",
+   "name": "Relación con negocio",
+   "phases": "Fase 1 · Descubrimiento y Gobierno con proveedores",
+   "phaseLinks": [
+    {
+     "text": "Fase 1 · Descubrimiento",
+     "url": "fases/01-descubrimiento/"
+    },
+    {
+     "text": "Gobierno con proveedores",
+     "url": "fases/transversal-gobierno-proveedores/"
+    }
+   ],
+   "questions": [
+    {
+     "id": "NE1",
+     "text": "¿El Product Owner tiene autoridad real?"
+    },
+    {
+     "id": "NE2",
+     "text": "¿El patrocinador está involucrado?"
+    },
+    {
+     "id": "NE3",
+     "text": "¿Cómo son las revisiones con negocio?"
+    },
+    {
+     "id": "NE4",
+     "text": "¿Cómo planifica el negocio con el equipo?"
+    },
+    {
+     "id": "NE5",
+     "text": "¿El modelo de gobierno favorece el valor?"
+    }
+   ]
+  }
+ ]
+}
