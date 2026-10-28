@@ -535,6 +535,8 @@
       
         
       
+        
+      
     
     
       
@@ -746,6 +748,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fases/transversal-traspaso-proveedor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Transversal · Traspaso a equipo interno
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -764,6 +787,8 @@
       
         
           
+        
+      
         
       
         
@@ -1085,6 +1110,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../caja-de-herramientas/plan-traspaso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plan de traspaso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1245,7 +1291,10 @@
     B --&gt; B1{¿El producto ya está validado?}
     B1 --&gt;|No| B2[Fase 0 → 1 completa con experimentos&lt;br/&gt;antes de escalar el equipo]
     B1 --&gt;|Sí| B3[Fase 0 → 1 liviana → 2 → 3]
-    C --&gt; C1[Fase 0: diagnóstico de 2 a 3 semanas]
+    C --&gt; C0{¿Pasa de un proveedor&lt;br/&gt;a un equipo interno?}
+    C0 --&gt;|Sí| T[Traspaso a equipo interno&lt;br/&gt;antes de la Fase 0]
+    T --&gt; C1
+    C0 --&gt;|No| C1[Fase 0: diagnóstico de 2 a 3 semanas]
     C1 --&gt; C2[Priorizar las fases con peor&lt;br/&gt;puntaje en el assessment]
     C2 --&gt; C3[Estabilizar flujo primero:&lt;br/&gt;Fase 3 y 4]</code></pre>
 <h2 id="tiempos-de-referencia">Tiempos de referencia<a class="headerlink" href="#tiempos-de-referencia" title="Permanent link">&para;</a></h2>
@@ -1295,6 +1344,7 @@
 </tr>
 </tbody>
 </table>
+<p>Un <a href="../fases/transversal-traspaso-proveedor/">traspaso de proveedor a equipo interno</a> suma de 3 a 6 meses antes de que el equipo interno retome la Fase 0.</p>
 <div class="admonition warning">
 <p class="admonition-title">Los tiempos son referencia, no compromiso</p>
 <p>Una fase termina cuando cumple sus <strong>criterios de salida</strong>, no cuando vence el plazo.</p>

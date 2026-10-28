@@ -1,0 +1,1877 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Metodología para crear o tomar una célula ágil y entregar valor de negocio con mirada de flujo">
+      
+      
+        <meta name="author" content="Andres Gonzalez">
+      
+      
+        <link rel="canonical" href="https://andresga79.github.io/agile-cell-playbook/fases/transversal-traspaso-proveedor/">
+      
+      
+        <link rel="prev" href="../transversal-gobierno-proveedores/">
+      
+      
+        <link rel="next" href="../../caja-de-herramientas/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
+    
+    
+      
+        <title>Transversal · Traspaso a equipo interno - Agile Cell Playbook</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/css/assessment.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#transversal-traspaso-de-proveedor-a-equipo-interno" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../.." title="Agile Cell Playbook" class="md-header__button md-logo" aria-label="Agile Cell Playbook" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Agile Cell Playbook
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Transversal · Traspaso a equipo interno
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/andresga79/agile-cell-playbook" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    andresga79/agile-cell-playbook
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Inicio
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../como-usar/" class="md-tabs__link">
+        
+  
+    
+  
+  Cómo usar la guía
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+    
+  
+  Fases
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../caja-de-herramientas/" class="md-tabs__link">
+          
+  
+    
+  
+  Caja de herramientas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../glosario/" class="md-tabs__link">
+        
+  
+    
+  
+  Glosario
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../changelog/" class="md-tabs__link">
+        
+  
+    
+  
+  Changelog
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../contribuir/" class="md-tabs__link">
+        
+  
+    
+  
+  Contribuir
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Agile Cell Playbook" class="md-nav__button md-logo" aria-label="Agile Cell Playbook" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Agile Cell Playbook
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/andresga79/agile-cell-playbook" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    andresga79/agile-cell-playbook
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inicio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../como-usar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cómo usar la guía
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Fases
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Fases
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../00-diagnostico-onboarding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    0 · Diagnóstico y onboarding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-descubrimiento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1 · Descubrimiento de producto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-fundaciones-tecnicas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2 · Fundaciones técnicas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-sistema-de-trabajo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3 · Diseño del sistema de trabajo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-entrega-continua/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4 · Entrega continua de valor
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-medicion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5 · Medición y aprendizaje
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-mejora-innovacion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6 · Mejora, innovación y escalamiento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../transversal-gobierno-proveedores/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Transversal · Gobierno con proveedores
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Transversal · Traspaso a equipo interno
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Transversal · Traspaso a equipo interno
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo-de-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivo de negocio
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entradas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entradas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etapas-del-traspaso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Etapas del traspaso
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actividades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actividades
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Actividades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t1-preparar-el-traspaso" class="md-nav__link">
+    <span class="md-ellipsis">
+      T.1 Preparar el traspaso
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t2-shadowing-el-equipo-interno-observa" class="md-nav__link">
+    <span class="md-ellipsis">
+      T.2 Shadowing: el equipo interno observa
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3-reverse-shadowing-el-equipo-interno-ejecuta" class="md-nav__link">
+    <span class="md-ellipsis">
+      T.3 Reverse shadowing: el equipo interno ejecuta
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t4-operacion-autonoma-con-respaldo" class="md-nav__link">
+    <span class="md-ellipsis">
+      T.4 Operación autónoma con respaldo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t5-cierre-y-salida" class="md-nav__link">
+    <span class="md-ellipsis">
+      T.5 Cierre y salida
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t6-cuidar-a-las-personas" class="md-nav__link">
+    <span class="md-ellipsis">
+      T.6 Cuidar a las personas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#artefactos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Artefactos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metricas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Métricas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Roles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-de-salida" class="md-nav__link">
+    <span class="md-ellipsis">
+      Criterios de salida
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#antipatrones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Antipatrones
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../caja-de-herramientas/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Caja de herramientas
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Caja de herramientas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caja-de-herramientas/assessment-madurez/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Assessment de madurez
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caja-de-herramientas/calculadora-madurez/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Calculadora de madurez
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caja-de-herramientas/team-canvas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Team Canvas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caja-de-herramientas/delegation-board/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Delegation Board
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caja-de-herramientas/lean-canvas-hipotesis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lean Canvas e hipótesis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caja-de-herramientas/user-story-map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    User Story Map
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caja-de-herramientas/adr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ADR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caja-de-herramientas/dor-dod/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DoR y DoD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caja-de-herramientas/politicas-tablero/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Políticas del tablero
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caja-de-herramientas/checklist-produccion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Checklist de paso a producción
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caja-de-herramientas/catalogo-metricas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Catálogo de métricas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caja-de-herramientas/retro-datos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Retrospectiva basada en datos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caja-de-herramientas/plan-traspaso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plan de traspaso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glosario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glosario
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Changelog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contribuir/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribuir
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo-de-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivo de negocio
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entradas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entradas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etapas-del-traspaso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Etapas del traspaso
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actividades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actividades
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Actividades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t1-preparar-el-traspaso" class="md-nav__link">
+    <span class="md-ellipsis">
+      T.1 Preparar el traspaso
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t2-shadowing-el-equipo-interno-observa" class="md-nav__link">
+    <span class="md-ellipsis">
+      T.2 Shadowing: el equipo interno observa
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3-reverse-shadowing-el-equipo-interno-ejecuta" class="md-nav__link">
+    <span class="md-ellipsis">
+      T.3 Reverse shadowing: el equipo interno ejecuta
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t4-operacion-autonoma-con-respaldo" class="md-nav__link">
+    <span class="md-ellipsis">
+      T.4 Operación autónoma con respaldo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t5-cierre-y-salida" class="md-nav__link">
+    <span class="md-ellipsis">
+      T.5 Cierre y salida
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t6-cuidar-a-las-personas" class="md-nav__link">
+    <span class="md-ellipsis">
+      T.6 Cuidar a las personas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#artefactos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Artefactos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metricas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Métricas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Roles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-de-salida" class="md-nav__link">
+    <span class="md-ellipsis">
+      Criterios de salida
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#antipatrones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Antipatrones
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/andresga79/agile-cell-playbook/edit/main/docs/fases/transversal-traspaso-proveedor.md" title="Editar esta página" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="transversal-traspaso-de-proveedor-a-equipo-interno">Transversal · Traspaso de proveedor a equipo interno<a class="headerlink" href="#transversal-traspaso-de-proveedor-a-equipo-interno" title="Permanent link">&para;</a></h1>
+<p>Aplica cuando una célula <strong>externalizada o mixta</strong> pasa a manos de un <strong>equipo interno</strong> (<em>insourcing</em>), total o parcialmente. Es la ejecución del plan de salida definido en <a href="../transversal-gobierno-proveedores/">Gobierno con proveedores</a> y una variante exigente de la ruta <strong>Tomar</strong>: el equipo que recibe no existe o es nuevo, y el equipo que conoce el sistema se va.</p>
+<div class="admonition abstract">
+<p class="admonition-title">Principio del traspaso</p>
+<p>No se traspasa un sistema: se traspasa la <strong>capacidad de cambiarlo con seguridad</strong>. El traspaso termina cuando el equipo interno lleva cambios a producción y resuelve incidentes sin ayuda, no cuando vence el contrato.</p>
+</div>
+<h2 id="objetivo-de-negocio">Objetivo de negocio<a class="headerlink" href="#objetivo-de-negocio" title="Permanent link">&para;</a></h2>
+<p>Transferir la operación y la evolución del producto al equipo interno <strong>sin interrumpir el flujo de valor</strong> ni degradar la calidad en producción, y dejar al cliente con control total sobre el código, la infraestructura, los datos y el conocimiento.</p>
+<h2 id="entradas">Entradas<a class="headerlink" href="#entradas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Decisión de traspaso aprobada por el patrocinador, con fecha objetivo y alcance (total, parcial o por dominio).</li>
+<li>Contrato vigente con su plan de salida: periodo de traslape, entregables, propiedad intelectual y continuidad del servicio.</li>
+<li>Equipo interno identificado, aunque esté incompleto, y presupuesto para contratar lo que falte.</li>
+<li>Assessment de madurez reciente de la célula (si no existe, se aplica en la etapa 1).</li>
+<li>Línea base de métricas de flujo, DORA y calidad (ver <a href="../05-medicion/">Fase 5</a>).</li>
+</ul>
+<h2 id="etapas-del-traspaso">Etapas del traspaso<a class="headerlink" href="#etapas-del-traspaso" title="Permanent link">&para;</a></h2>
+<pre class="mermaid"><code>flowchart LR
+    E1[1 · Preparar&lt;br/&gt;inventario y plan] --&gt; E2[2 · Shadowing&lt;br/&gt;interno observa]
+    E2 --&gt; E3[3 · Reverse shadowing&lt;br/&gt;interno ejecuta]
+    E3 --&gt; E4[4 · Operación autónoma&lt;br/&gt;proveedor de respaldo]
+    E4 --&gt; E5[5 · Cierre&lt;br/&gt;y salida]
+    E3 -. criterios no cumplidos .-&gt; E2
+    E4 -. criterios no cumplidos .-&gt; E3</code></pre>
+<table>
+<thead>
+<tr>
+<th>Etapa</th>
+<th>Quién ejecuta</th>
+<th>Quién respalda</th>
+<th>Duración de referencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 · Preparar</td>
+<td>Proveedor y cliente</td>
+<td>—</td>
+<td>2–3 semanas</td>
+</tr>
+<tr>
+<td>2 · Shadowing</td>
+<td>Proveedor</td>
+<td>Equipo interno observa y pregunta</td>
+<td>2–4 semanas</td>
+</tr>
+<tr>
+<td>3 · Reverse shadowing</td>
+<td>Equipo interno</td>
+<td>Proveedor revisa y corrige</td>
+<td>3–6 semanas</td>
+</tr>
+<tr>
+<td>4 · Operación autónoma</td>
+<td>Equipo interno</td>
+<td>Proveedor disponible a demanda</td>
+<td>4–8 semanas</td>
+</tr>
+<tr>
+<td>5 · Cierre</td>
+<td>Cliente</td>
+<td>—</td>
+<td>1–2 semanas</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Las etapas avanzan por criterios, no por calendario</p>
+<p>Si el equipo interno no cumple los criterios de una etapa, se extiende el traslape. Cortar el traslape para cumplir una fecha traslada el riesgo a producción.</p>
+</div>
+<h2 id="actividades">Actividades<a class="headerlink" href="#actividades" title="Permanent link">&para;</a></h2>
+<h3 id="t1-preparar-el-traspaso">T.1 Preparar el traspaso<a class="headerlink" href="#t1-preparar-el-traspaso" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Inventario de activos</strong>: repositorios, pipelines, ambientes, cuentas cloud, dominios, certificados, secretos, licencias, herramientas SaaS, bases de datos y backups. Para cada activo: dónde vive, quién es dueño y si está a nombre del cliente.</li>
+<li><strong>Transferir la propiedad antes que el conocimiento</strong>: todo activo que esté a nombre del proveedor pasa al cliente en esta etapa, y se <strong>rotan las credenciales</strong> compartidas.</li>
+<li><strong>Mapa de conocimiento</strong>: listar dominios funcionales, componentes técnicos y procesos operativos (despliegue, monitoreo, guardias, cierres de mes), con quién los domina hoy y quién los recibirá. Ver <a href="../../caja-de-herramientas/plan-traspaso/">plan de traspaso</a>.</li>
+<li><strong>Brechas de documentación</strong>: verificar que existan diagramas C4, ADRs, runbooks, DoR/DoD y políticas del tablero. Lo que falte se produce <strong>durante</strong> el shadowing, escrito por el equipo interno y revisado por el proveedor.</li>
+<li><strong>Plan de personas</strong>: perfiles necesarios, contrataciones, y si alguna persona del proveedor se incorporará al cliente (revisar cláusulas contractuales).</li>
+<li><strong>Congelar el riesgo, no el producto</strong>: acordar con el PO qué cambios de alto riesgo (migraciones, cambios de arquitectura) se adelantan o posponen para no coincidir con el cambio de manos.</li>
+</ol>
+<h3 id="t2-shadowing-el-equipo-interno-observa">T.2 Shadowing: el equipo interno observa<a class="headerlink" href="#t2-shadowing-el-equipo-interno-observa" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Equipo interno y proveedor trabajan en el <strong>mismo tablero y las mismas ceremonias</strong>. No hay un tablero de traspaso separado.</li>
+<li>Cada persona interna tiene una <strong>contraparte</strong> en el proveedor por área de conocimiento.</li>
+<li>El equipo interno participa en refinamientos, code reviews, despliegues e incidentes como observador activo.</li>
+<li>Sesiones de transferencia <strong>sobre trabajo real</strong>, no presentaciones: recorrer el código de una historia en curso, un despliegue o un postmortem.</li>
+<li>El equipo interno levanta su entorno local de cero y despliega un cambio trivial a staging (<em>walking skeleton</em> del traspaso).</li>
+</ul>
+<h3 id="t3-reverse-shadowing-el-equipo-interno-ejecuta">T.3 Reverse shadowing: el equipo interno ejecuta<a class="headerlink" href="#t3-reverse-shadowing-el-equipo-interno-ejecuta" title="Permanent link">&para;</a></h3>
+<ul>
+<li>El equipo interno toma historias reales y las lleva a producción; el proveedor <strong>revisa</strong> pull requests y despliegues.</li>
+<li>El equipo interno entra a la <strong>guardia</strong> con el proveedor como segundo nivel.</li>
+<li>Se practica al menos un <strong>rollback</strong> y un <strong>restore de backup</strong> conducidos por el equipo interno.</li>
+<li>Cada sesión de transferencia termina con un artefacto actualizado (runbook, ADR, diagrama) en el repositorio del cliente.</li>
+</ul>
+<h3 id="t4-operacion-autonoma-con-respaldo">T.4 Operación autónoma con respaldo<a class="headerlink" href="#t4-operacion-autonoma-con-respaldo" title="Permanent link">&para;</a></h3>
+<ul>
+<li>El equipo interno opera solo. El proveedor queda <strong>disponible a demanda</strong> con un tiempo de respuesta acordado y un tope de horas.</li>
+<li>Cada consulta al proveedor se registra: qué se preguntó y qué documentación faltaba. Es el mejor indicador de lo que el traspaso no cubrió.</li>
+<li>Se revisan las métricas contra la línea base en la revisión de servicio.</li>
+</ul>
+<h3 id="t5-cierre-y-salida">T.5 Cierre y salida<a class="headerlink" href="#t5-cierre-y-salida" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Verificar que el <strong>inventario de activos</strong> está completo, a nombre del cliente y con credenciales rotadas.</li>
+<li>Retirar los accesos del proveedor a todos los sistemas.</li>
+<li>Cerrar formalmente el contrato: entregables recibidos, propiedad intelectual y garantías.</li>
+<li><strong>Retrospectiva de traspaso</strong> con ambos equipos: qué funcionó, qué aprendimos para el próximo.</li>
+<li>Volver a aplicar el <a href="../../caja-de-herramientas/assessment-madurez/">assessment de madurez</a> y retomar el ciclo desde la <a href="../00-diagnostico-onboarding/">Fase 0</a> con el equipo interno.</li>
+</ol>
+<h3 id="t6-cuidar-a-las-personas">T.6 Cuidar a las personas<a class="headerlink" href="#t6-cuidar-a-las-personas" title="Permanent link">&para;</a></h3>
+<ul>
+<li>El equipo saliente pierde el incentivo a transferir: acordar con el proveedor <strong>bonos o hitos de pago ligados a los criterios de traspaso</strong>, no a la fecha.</li>
+<li>Explicitar al equipo interno qué decide desde el primer día y cómo cambia con el tiempo en el <a href="../../caja-de-herramientas/delegation-board/">Delegation Board</a>.</li>
+<li>Hacer un nuevo <a href="../../caja-de-herramientas/team-canvas/">Team Canvas</a> cuando el equipo interno queda solo: es otro equipo.</li>
+</ul>
+<h2 id="artefactos">Artefactos<a class="headerlink" href="#artefactos" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Artefacto</th>
+<th>Plantilla</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inventario de activos</td>
+<td><a href="../../caja-de-herramientas/plan-traspaso/">Plan de traspaso</a></td>
+</tr>
+<tr>
+<td>Mapa de conocimiento</td>
+<td><a href="../../caja-de-herramientas/plan-traspaso/">Plan de traspaso</a></td>
+</tr>
+<tr>
+<td>Runbooks operativos</td>
+<td>Repo del producto, <code>docs/runbooks/</code></td>
+</tr>
+<tr>
+<td>Diagramas C4 y ADRs actualizados</td>
+<td>Repo del producto (ver <a href="../02-fundaciones-tecnicas/">Fase 2</a>)</td>
+</tr>
+<tr>
+<td>Registro de consultas al proveedor</td>
+<td><a href="../../caja-de-herramientas/plan-traspaso/">Plan de traspaso</a></td>
+</tr>
+<tr>
+<td>Acta de cierre</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<h2 id="metricas">Métricas<a class="headerlink" href="#metricas" title="Permanent link">&para;</a></h2>
+<p>Durante el traspaso, el éxito es que <strong>las métricas no se degraden</strong> respecto a la línea base:</p>
+<table>
+<thead>
+<tr>
+<th>Métrica</th>
+<th>Qué indica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lead time y throughput</td>
+<td>El flujo de valor sigue funcionando durante el cambio de manos</td>
+</tr>
+<tr>
+<td>Change failure rate y tiempo de recuperación</td>
+<td>La calidad en producción se mantiene</td>
+</tr>
+<tr>
+<td>% de despliegues hechos por el equipo interno</td>
+<td>Avance real del traspaso</td>
+</tr>
+<tr>
+<td>% del mapa de conocimiento con al menos 2 personas internas</td>
+<td>Reducción del <em>bus factor</em></td>
+</tr>
+<tr>
+<td>Consultas al proveedor por semana</td>
+<td>Debe tender a cero en la etapa 4</td>
+</tr>
+<tr>
+<td>Tiempo para levantar el entorno local por una persona interna</td>
+<td>Calidad de la documentación</td>
+</tr>
+</tbody>
+</table>
+<h2 id="roles">Roles<a class="headerlink" href="#roles" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Actividad</th>
+<th>Patrocinador</th>
+<th>PO</th>
+<th>Tech Lead interno</th>
+<th>Equipo interno</th>
+<th>Proveedor</th>
+<th>SM / Coach</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Decisión y plan de traspaso</td>
+<td>A</td>
+<td>R</td>
+<td>C</td>
+<td>I</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>Inventario y transferencia de activos</td>
+<td>I</td>
+<td>A</td>
+<td>R</td>
+<td>C</td>
+<td>R</td>
+<td>I</td>
+</tr>
+<tr>
+<td>Shadowing y reverse shadowing</td>
+<td>I</td>
+<td>C</td>
+<td>A</td>
+<td>R</td>
+<td>R</td>
+<td>F</td>
+</tr>
+<tr>
+<td>Avance de etapa</td>
+<td>C</td>
+<td>A</td>
+<td>R</td>
+<td>C</td>
+<td>C</td>
+<td>F</td>
+</tr>
+<tr>
+<td>Cierre y salida</td>
+<td>A</td>
+<td>R</td>
+<td>R</td>
+<td>C</td>
+<td>C</td>
+<td>I</td>
+</tr>
+</tbody>
+</table>
+<p><em>F = facilita.</em></p>
+<h2 id="criterios-de-salida">Criterios de salida<a class="headerlink" href="#criterios-de-salida" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Todos los activos del inventario están a nombre del cliente y con credenciales rotadas.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> El proveedor no tiene accesos activos.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> El equipo interno desplegó a producción, ejecutó un rollback y resolvió un incidente sin ayuda.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Cada área del mapa de conocimiento tiene al menos 2 personas internas que la dominan.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Runbooks, C4, ADRs y DoR/DoD vigentes en el repositorio del cliente.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Métricas de flujo y calidad iguales o mejores que la línea base durante 4 semanas.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Retrospectiva de traspaso hecha y assessment de madurez reaplicado.</li>
+</ul>
+<h2 id="antipatrones">Antipatrones<a class="headerlink" href="#antipatrones" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Traspaso por documentos</strong>: el proveedor entrega un "manual" en la última semana y se va.</li>
+<li><strong>Traslape cortado por presupuesto</strong>: se ahorra un mes de proveedor y se paga en incidentes.</li>
+<li><strong>Activos a nombre del proveedor</strong>: cuentas cloud, dominios o licencias que el cliente descubre que no controla.</li>
+<li><strong>Big bang</strong>: todo el conocimiento cambia de manos el mismo día. Traspasar por dominio o componente reduce el riesgo.</li>
+<li><strong>Tablero paralelo de traspaso</strong>: la transferencia compite con el producto en lugar de hacerse sobre el trabajo real.</li>
+<li><strong>Héroe interno</strong>: una sola persona recibe todo el conocimiento y reemplaza la dependencia del proveedor por otra.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
+        
+          
+          <a href="../transversal-gobierno-proveedores/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Transversal · Gobierno con proveedores">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Transversal · Gobierno con proveedores
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../caja-de-herramientas/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Caja de herramientas">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                Caja de herramientas
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Agile Cell Playbook · versionado en GitHub
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "navigation.indexes", "search.suggest", "search.highlight", "content.action.edit", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+      
+        <script src="../../assets/js/assessment.js"></script>
+      
+    
+  </body>
+</html>
