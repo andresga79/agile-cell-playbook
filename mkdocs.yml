@@ -88,6 +88,7 @@ nav:
       - "5 · Medición y aprendizaje": fases/05-medicion.md
       - "6 · Mejora, innovación y escalamiento": fases/06-mejora-innovacion.md
       - "Transversal · Gobierno con proveedores": fases/transversal-gobierno-proveedores.md
+      - "Transversal · Traspaso a equipo interno": fases/transversal-traspaso-proveedor.md
   - Caja de herramientas:
       - caja-de-herramientas/index.md
       - Assessment de madurez: caja-de-herramientas/assessment-madurez.md
@@ -102,6 +103,7 @@ nav:
       - Checklist de paso a producción: caja-de-herramientas/checklist-produccion.md
       - Catálogo de métricas: caja-de-herramientas/catalogo-metricas.md
       - Retrospectiva basada en datos: caja-de-herramientas/retro-datos.md
+      - Plan de traspaso: caja-de-herramientas/plan-traspaso.md
   - Glosario: glosario.md
   - Changelog: changelog.md
   - Contribuir: contribuir.md

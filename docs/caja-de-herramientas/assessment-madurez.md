@@ -127,6 +127,9 @@ Promedio de las preguntas respondidas (sin N/A), redondeado a un decimal.
 | Equipo | [Fase 0 · Onboarding](../fases/00-diagnostico-onboarding.md) (Team Canvas, Delegation Board) y [Fase 6 · Mejora](../fases/06-mejora-innovacion.md) |
 | Relación con negocio | [Fase 1 · Descubrimiento](../fases/01-descubrimiento.md) y [Gobierno con proveedores](../fases/transversal-gobierno-proveedores.md) |
 
+!!! note "Antes de un traspaso"
+    Si la célula pasará de un proveedor a un equipo interno, un puntaje bajo en EQ5 (conocimiento) o en Ingeniería alarga el traslape. Úsalo para dimensionar el [plan de traspaso](../fases/transversal-traspaso-proveedor.md).
+
 ### Reglas de priorización
 
 1. **Primero el flujo.** Si Flujo está por debajo de 2,5, la Fase 3 va primero aunque otra dimensión tenga menor puntaje: sin flujo visible y limitado, ninguna otra mejora se puede medir.

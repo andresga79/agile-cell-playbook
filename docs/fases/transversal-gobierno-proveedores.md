@@ -52,8 +52,20 @@ En lugar de "X horas" o "Y puntos por sprint", acordar:
 
 - Código, documentación, ADRs y pipelines en **repositorios del cliente**.
 - DoD incluye documentación mínima y pruebas automatizadas.
-- Plan de salida (*exit plan*) definido en el contrato: traspaso, periodo de traslape, propiedad intelectual.
+- Plan de salida (*exit plan*) definido en el contrato: traspaso, periodo de traslape, propiedad intelectual. Su ejecución se describe en [Traspaso a equipo interno](transversal-traspaso-proveedor.md).
+- Activos (cuentas cloud, dominios, licencias, secretos) **a nombre del cliente** desde el primer día.
 - Rotación planificada con al menos 2 semanas de traslape.
+
+## Criterios de salida
+
+El gobierno está establecido cuando:
+
+- [ ] Modelo de contratación elegido y justificado.
+- [ ] Product Owner del lado del cliente con dedicación real.
+- [ ] Niveles de servicio basados en flujo acordados, con línea base y fuente de datos.
+- [ ] Cadencias de gobierno en el calendario de ambas partes.
+- [ ] Código, pipelines, documentación y activos en cuentas del cliente.
+- [ ] Plan de salida incluido en el contrato.
 
 ## Antipatrones
 

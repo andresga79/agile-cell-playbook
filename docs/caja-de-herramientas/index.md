@@ -16,3 +16,4 @@ Plantillas listas para copiar. Cada una indica en qué fase se usa.
 | [Checklist de paso a producción](checklist-produccion.md) | 4 | DevOps |
 | [Catálogo de métricas](catalogo-metricas.md) | 5 | Kanban, DORA, Management 3.0 |
 | [Retrospectiva basada en datos](retro-datos.md) | 5, 6 | Scrum, Kanban |
+| [Plan de traspaso](plan-traspaso.md) | Transversal | Gestión de transiciones de servicio |

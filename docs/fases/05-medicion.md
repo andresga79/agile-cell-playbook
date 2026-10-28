@@ -10,6 +10,13 @@ Saber, con datos, si la célula está **entregando valor**, si lo hace de forma 
     3. **¿Entregamos con calidad y seguridad?** → métricas DORA y de calidad.
     4. **¿Es sostenible para las personas?** → métricas de salud del equipo.
 
+## Entradas
+
+- MVO y outcomes del roadmap (Fase 1).
+- Pipeline y monitoreo operativos como fuente de datos DORA (Fase 2).
+- Tablero con estados y políticas explícitas como fuente de datos de flujo (Fase 3).
+- Célula existente: al menos 3 meses de historial de tickets.
+
 ## Actividades
 
 ### 5.1 Definir el set mínimo
@@ -66,6 +73,26 @@ Las métricas se revisan en:
 | Dashboard de flujo y DORA | Jira, herramienta de BI o [Agile Metric Hub](https://github.com/andresga79/agile-metric-hub) |
 | Dashboard de outcomes | Herramienta de analítica de producto |
 | Registro de salud del equipo | Hoja o herramienta de encuestas |
+
+## Métricas
+
+Esta fase mide la calidad del propio sistema de medición:
+
+- Porcentaje del set mínimo con dato actualizado, dueño y fuente automática.
+- Decisiones registradas por trimestre que se basaron en métricas.
+- Acierto de los pronósticos: porcentaje de entregas que caen dentro del rango pronosticado.
+
+## Roles
+
+| Actividad | Patrocinador | PO | SM / Coach | Equipo | Tech Lead |
+|---|---|---|---|---|---|
+| Definir el set mínimo | C | A | R | C | C |
+| Línea base y dashboard | I | C | A | R | R |
+| Pronósticos | I | C | A | R | I |
+| Salud del equipo | I | I | R/A | R | C |
+| Decisiones con métricas | A | R | F | C | C |
+
+*F = facilita.*
 
 ## Criterios de salida
 

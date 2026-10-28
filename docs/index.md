@@ -22,6 +22,8 @@
 
     Hay un equipo trabajando, con historia, deuda y hábitos. La Fase 0 es un **diagnóstico** y define qué fases reforzar primero. No se rehace todo: se estabiliza el flujo y luego se mejora.
 
+    Si la célula pasa de un proveedor a un equipo interno, sigue además el capítulo de [Traspaso a equipo interno](fases/transversal-traspaso-proveedor.md).
+
 ## Mapa de la metodología
 
 ```mermaid
@@ -35,6 +37,8 @@ flowchart LR
     F6 -. nuevas hipótesis .-> F1
     F5 -. ajuste del sistema .-> F3
     G[Transversal · Gobierno con proveedores] -.- F0 & F3 & F5
+    T[Transversal · Traspaso<br/>a equipo interno] -.- G
+    T -. reinicia con<br/>equipo interno .-> F0
 ```
 
 Las fases son **secuenciales al arrancar** y **cíclicas en régimen**: una vez la célula está en marcha, las fases 1 a 6 conviven en paralelo como ciclos de distinto ritmo (descubrimiento continuo, entrega continua, mejora continua).

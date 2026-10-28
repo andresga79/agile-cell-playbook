@@ -12,6 +12,22 @@ Historial de versiones de la metodología. Formato basado en [Keep a Changelog](
 - Agregar casos de ejemplo por escenario (crear vs. tomar).
 - Plantilla de Value Stream Map.
 
+## [0.3.0] · 2026-10-28
+
+### Agregado
+
+- **Transversal · Traspaso de proveedor a equipo interno**: cinco etapas (preparar, shadowing, reverse shadowing, operación autónoma y cierre) que avanzan por criterios, con inventario de activos, métricas que no deben degradarse, RACI, criterios de salida y antipatrones.
+- **Plan de traspaso** en la caja de herramientas: inventario de activos, mapa de conocimiento con niveles 0–3, criterios de avance por etapa y registro de consultas al proveedor.
+- Glosario: exit plan, mapa de conocimiento, shadowing, reverse shadowing y traslape.
+
+### Cambiado
+
+- Inicio y Cómo usar la guía: la ruta Tomar distingue el caso de traspaso desde un proveedor.
+- Gobierno con proveedores: el plan de salida enlaza al traspaso y exige activos a nombre del cliente desde el inicio.
+- Fase 0 y assessment: el traspaso como entrada y EQ5 como indicador del traslape necesario.
+- Fases 3 a 6 completan la plantilla de 8 partes: roles en 3 y 4; entradas, métricas y roles en 5; entradas, roles y criterios de salida en 6.
+- Gobierno con proveedores: criterios de salida.
+
 ## [0.2.0] · 2026-10-28
 
 ### Agregado

@@ -9,6 +9,7 @@ Entender el contexto de negocio, el estado real de la célula (si existe) y esta
 - Patrocinador de negocio identificado y con disponibilidad.
 - Objetivo estratégico al que contribuye el producto (OKR, meta del área).
 - Modelo de contratación: equipo propio, externalizado o mixto.
+- Si la célula viene de un proveedor: [traspaso a equipo interno](transversal-traspaso-proveedor.md) cerrado o, al menos, en operación autónoma.
 - Si la célula existe: acceso a Jira/Azure DevOps, repositorios, pipelines, monitoreo y documentación.
 
 ## Actividades

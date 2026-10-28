@@ -9,7 +9,10 @@ flowchart TD
     B --> B1{¿El producto ya está validado?}
     B1 -->|No| B2[Fase 0 → 1 completa con experimentos<br/>antes de escalar el equipo]
     B1 -->|Sí| B3[Fase 0 → 1 liviana → 2 → 3]
-    C --> C1[Fase 0: diagnóstico de 2 a 3 semanas]
+    C --> C0{¿Pasa de un proveedor<br/>a un equipo interno?}
+    C0 -->|Sí| T[Traspaso a equipo interno<br/>antes de la Fase 0]
+    T --> C1
+    C0 -->|No| C1[Fase 0: diagnóstico de 2 a 3 semanas]
     C1 --> C2[Priorizar las fases con peor<br/>puntaje en el assessment]
     C2 --> C3[Estabilizar flujo primero:<br/>Fase 3 y 4]
 ```
@@ -25,6 +28,8 @@ flowchart TD
 | 4 · Entrega continua | Continua | Continua |
 | 5 · Medición | Línea base en 4–6 semanas | Línea base en 2 semanas (hay historia) |
 | 6 · Mejora e innovación | Continua desde el mes 2 | Continua |
+
+Un [traspaso de proveedor a equipo interno](fases/transversal-traspaso-proveedor.md) suma de 3 a 6 meses antes de que el equipo interno retome la Fase 0.
 
 !!! warning "Los tiempos son referencia, no compromiso"
     Una fase termina cuando cumple sus **criterios de salida**, no cuando vence el plazo.

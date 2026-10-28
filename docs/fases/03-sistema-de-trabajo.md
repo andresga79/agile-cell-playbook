@@ -88,6 +88,18 @@ Reservar capacidad explícita para soporte y deuda (por ejemplo, 70 % producto, 
 - Edad de los ítems en curso (*WIP aging*).
 - Número de ítems bloqueados y tiempo bloqueado.
 
+## Roles
+
+| Actividad | Patrocinador | PO | SM / Coach | Equipo | Tech Lead |
+|---|---|---|---|---|---|
+| Analizar la demanda | I | C | A | R | C |
+| Elegir el marco (ADR de proceso) | I | C | A | R | C |
+| Tablero, WIP y políticas | I | C | A | R | C |
+| Cadencias | I | C | R/A | C | I |
+| Reserva de capacidad | I | A | R | C | C |
+
+*R = responsable, A = aprueba, C = consultado, I = informado.*
+
 ## Criterios de salida
 
 - [ ] Demanda clasificada y marco elegido con su justificación (ADR de proceso).

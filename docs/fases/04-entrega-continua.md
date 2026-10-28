@@ -79,6 +79,18 @@ En la Sprint Review o revisión de entrega se muestra **software funcionando en 
 - Throughput semanal.
 - Porcentaje de ítems liberados que tienen métrica de uso.
 
+## Roles
+
+| Actividad | Patrocinador | PO | Equipo | QA | Tech Lead | SM / Coach |
+|---|---|---|---|---|---|---|
+| Criterios de aceptación (*three amigos*) | I | A | R | R | C | F |
+| Despliegue a producción | I | I | R | C | A | I |
+| Liberación al usuario | I | A | R | C | C | I |
+| Incidentes y postmortems | I | I | R | C | A | F |
+| Revisión con negocio | C | A | R | C | C | F |
+
+*F = facilita.*
+
 ## Criterios de salida (régimen estable)
 
 Esta fase es continua. Se considera en **régimen estable** cuando:

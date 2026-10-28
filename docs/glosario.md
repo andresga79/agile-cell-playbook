@@ -27,6 +27,9 @@ DORA
 Eficiencia de flujo
 :   Proporción del lead time en que un ítem recibe trabajo activo.
 
+Exit plan
+:   Plan de salida acordado en el contrato con un proveedor: traslape, entregables, propiedad intelectual y continuidad del servicio.
+
 Feature flag
 :   Mecanismo para activar o desactivar funcionalidades sin desplegar código nuevo.
 
@@ -36,17 +39,29 @@ Lead time
 Monte Carlo
 :   Simulación que usa datos históricos de throughput para pronosticar fechas o alcance con probabilidades.
 
+Mapa de conocimiento
+:   Matriz que cruza áreas funcionales, técnicas y operativas con las personas que las dominan y su nivel. Mide el avance de un traspaso.
+
 MVO
 :   *Minimum Viable Outcome*. El cambio mínimo y medible en el comportamiento del usuario o negocio que valida una apuesta.
 
 MVP
 :   *Minimum Viable Product*. El producto mínimo construido para aprender si se logra el MVO.
 
+Reverse shadowing
+:   Etapa de un traspaso en que el equipo receptor ejecuta el trabajo real y el equipo saliente revisa y corrige.
+
+Shadowing
+:   Etapa de un traspaso en que el equipo receptor observa al equipo saliente trabajar sobre casos reales y pregunta.
+
 SLE
 :   *Service Level Expectation*. Pronóstico basado en datos del tiempo en que se completará un ítem (ej. 85 % en 10 días).
 
 Throughput
 :   Cantidad de ítems terminados por unidad de tiempo.
+
+Traslape
+:   Periodo en que el equipo saliente y el entrante trabajan juntos para transferir conocimiento sin cortar el servicio.
 
 Trunk-based development
 :   Práctica de integrar cambios a la rama principal al menos una vez al día.

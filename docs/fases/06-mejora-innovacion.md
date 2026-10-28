@@ -4,6 +4,13 @@
 
 Que la célula mejore de forma sostenida su capacidad de entregar valor, genere nuevas oportunidades de negocio y pueda crecer o replicarse sin perder lo logrado.
 
+## Entradas
+
+- Métricas con línea base y tendencias (Fase 5).
+- Acciones de retrospectivas y postmortems.
+- Portafolio de hipótesis (Fase 1).
+- Assessment de madurez anterior, para comparar la evolución.
+
 ## Actividades
 
 ### 6.1 Mejora continua (Kaizen)
@@ -66,6 +73,29 @@ Si se crea una segunda célula:
 - Número de mejoras completadas y su efecto medido.
 - Porcentaje de capacidad dedicada a mejora e innovación.
 - Ideas del equipo que llegan a experimento y a producción.
+
+## Roles
+
+| Actividad | Patrocinador | PO | SM / Coach | Equipo | Tech Lead |
+|---|---|---|---|---|---|
+| Backlog de mejora | I | C | A | R | C |
+| Value Stream Mapping | C | R | A | R | R |
+| Portafolio de experimentos e innovación | C | A | F | R | R |
+| Revisión del Delegation Board | C | R | A | R | C |
+| Decisión de escalar | A | R | C | C | R |
+
+*F = facilita.*
+
+## Criterios de salida (régimen estable)
+
+Esta fase es continua. Se considera en **régimen estable** cuando:
+
+- [ ] Backlog de mejora visible, con capacidad reservada y máximo 2 mejoras en curso.
+- [ ] Al menos una mejora completada con su efecto medido contra la línea base.
+- [ ] Value Stream Map actual y futuro hecho en los últimos 6 meses.
+- [ ] Revisión trimestral de apuestas con decisión registrada (perseverar, pivotar o parar).
+- [ ] Assessment reaplicado y comparado con el anterior.
+- [ ] Delegation Board revisado en los últimos 6 meses.
 
 ## Antipatrones
 
