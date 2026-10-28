@@ -63,7 +63,7 @@ Las métricas se revisan en:
 | Artefacto | Dónde vive |
 |---|---|
 | Catálogo de métricas de la célula | [Plantilla](../caja-de-herramientas/catalogo-metricas.md) |
-| Dashboard de flujo y DORA | Jira, herramienta de BI o [Agile Metric Hub](https://github.com/jgonzalezall/agile-metric-hub) |
+| Dashboard de flujo y DORA | Jira, herramienta de BI o [Agile Metric Hub](https://github.com/andresga79/agile-metric-hub) |
 | Dashboard de outcomes | Herramienta de analítica de producto |
 | Registro de salud del equipo | Hoja o herramienta de encuestas |
 

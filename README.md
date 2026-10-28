@@ -37,7 +37,7 @@ docs/
 
 ## Relacionado
 
-- [Agile Metric Hub](https://github.com/jgonzalezall/agile-metric-hub): implementación de referencia de las métricas definidas en la Fase 5.
+- [Agile Metric Hub](https://github.com/andresga79/agile-metric-hub): implementación de referencia de las métricas definidas en la Fase 5.
 
 ## Contribuir
 

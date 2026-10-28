@@ -35,7 +35,7 @@ Aplicar el assessment en 2–3 semanas combinando **datos** (historial de Jira, 
 Cada dimensión se puntúa de **1 (inicial) a 5 (optimizado)**. El resultado se presenta como gráfico de radar y define el orden de las siguientes fases.
 
 !!! tip "Datos del pasado"
-    En célula existente, extrae al menos 3 meses de historial de tickets para calcular lead time, throughput y WIP de línea base. El [Agile Metric Hub](https://github.com/jgonzalezall/agile-metric-hub) puede servir para cruzar sprints.
+    En célula existente, extrae al menos 3 meses de historial de tickets para calcular lead time, throughput y WIP de línea base. El [Agile Metric Hub](https://github.com/andresga79/agile-metric-hub) puede servir para cruzar sprints.
 
 ### 0.3 Formar o reconocer el equipo
 
