@@ -53,6 +53,7 @@ jobs:
         with:
           args: >-
             --no-progress
+            --scheme https --scheme http
             --exclude '^https?://127\.0\.0\.1'
             --exclude '^https?://localhost'
             --exclude 'andresga79\.github\.io/agile-cell-playbook'
