@@ -3,15 +3,23 @@ name: Publicar guía
 on:
   push:
     branches: [main]
+    tags: ["v*"]
   pull_request:
     branches: [main]
+  schedule:
+    - cron: "0 12 * * 1"   # lunes: revisión semanal de enlaces externos
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: publicar-guia-${{ github.event_name == 'pull_request' && github.ref || 'pages' }}
+  cancel-in-progress: false
+
 jobs:
   build:
+    if: github.event_name != 'schedule'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,6 +31,30 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Construir en modo estricto (falla si hay enlaces rotos)
         run: mkdocs build --strict
+      - name: Archivar cada versión publicada (tags v*)
+        if: github.event_name != 'pull_request'
+        run: .github/scripts/build_archive.sh site
       - name: Publicar en GitHub Pages
         if: github.event_name != 'pull_request'
-        run: mkdocs gh-deploy --force
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          ghp-import --no-jekyll --push --force --branch gh-pages \
+            --message "Publica ${GITHUB_SHA::7}" site
+
+  enlaces-externos:
+    # Informativo: un sitio externo caído no debe bloquear la publicación.
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Revisar enlaces externos
+        uses: lycheeverse/lychee-action@v2.0.2
+        with:
+          args: >-
+            --no-progress
+            --exclude '^https?://127\.0\.0\.1'
+            --exclude '^https?://localhost'
+            --exclude 'andresga79\.github\.io/agile-cell-playbook'
+            'docs/**/*.md' README.md
+          fail: true

@@ -18,7 +18,7 @@ Abre http://127.0.0.1:8000. Cada cambio en `docs/` se recarga en vivo.
 
 ## Publicación
 
-Cada merge a `main` dispara `.github/workflows/deploy.yml`, que construye el sitio en modo estricto y lo publica en la rama `gh-pages`.
+Cada push a `main` o tag `vX.Y.Z` dispara `.github/workflows/deploy.yml`, que construye el sitio en modo estricto, archiva cada versión publicada en `versiones/vX.Y.Z/` y lo publica en la rama `gh-pages`.
 
 Configuración única en GitHub: **Settings → Pages → Source: Deploy from a branch → `gh-pages` / root**.
 
@@ -28,11 +28,18 @@ Configuración única en GitHub: **Settings → Pages → Source: Deploy from a 
 docs/
 ├── index.md                  Portada y visión general
 ├── como-usar.md              Cómo recorrer la guía según tu escenario
-├── fases/                    Fases 0 a 6 + gobierno con proveedores
-├── caja-de-herramientas/     Plantillas y checklists reutilizables
+├── fases/                    Fases 0 a 6 y capítulos transversales
+│                             (gobierno con proveedores, traspaso a equipo interno, IA en la célula)
+├── caja-de-herramientas/     Plantillas, checklists y herramientas interactivas
+├── casos/                    Casos de ejemplo por escenario
+├── assets/                   CSS y JS de la calculadora de madurez y el pronóstico Monte Carlo
 ├── glosario.md
+├── versiones.md              Versiones archivadas
 ├── changelog.md              Historial de versiones de la metodología
 └── contribuir.md
+hooks/                        Hook de MkDocs que genera los datos del assessment
+includes/                     Siglas con tooltip y textos reutilizables
+.github/                      Workflow de publicación, scripts de archivo y plantillas de issue
 ```
 
 ## Relacionado

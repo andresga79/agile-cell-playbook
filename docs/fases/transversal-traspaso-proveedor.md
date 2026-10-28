@@ -37,6 +37,8 @@ flowchart LR
 | 4 · Operación autónoma | Equipo interno | Proveedor disponible a demanda | 4–8 semanas |
 | 5 · Cierre | Cliente | — | 1–2 semanas |
 
+Un recorrido completo, con una etapa que se extiende, está en el caso [Traspaso de proveedor](../casos/traspaso-proveedor.md).
+
 !!! warning "Las etapas avanzan por criterios, no por calendario"
     Si el equipo interno no cumple los criterios de una etapa, se extiende el traslape. Cortar el traslape para cumplir una fecha traslada el riesgo a producción.
 

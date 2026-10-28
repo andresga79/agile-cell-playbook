@@ -8,9 +8,30 @@ Historial de versiones de la metodología. Formato basado en [Keep a Changelog](
 
 ## Próximas iteraciones sugeridas
 
-- Validar el assessment con una célula real y calibrar los criterios.
-- Agregar casos de ejemplo por escenario (crear vs. tomar).
-- Plantilla de Value Stream Map.
+- Validar el assessment y los casos de ejemplo con células reales y calibrar los criterios.
+- Versión en inglés de la guía.
+
+## [0.4.0] · 2026-10-28
+
+### Agregado
+
+- **Casos de ejemplo**: tres recorridos ficticios con números coherentes (crear una célula, tomar una célula existente y traspaso de proveedor a equipo interno).
+- **Transversal · IA en la célula**: casos de uso por fase, cambios en DoD y revisión, seguridad y propiedad intelectual, medición como experimento con línea base y cláusulas con proveedores.
+- **Pronóstico Monte Carlo** interactivo: "¿cuándo?" y "¿cuánto?" con percentiles 50, 85 y 95 a partir del throughput histórico.
+- Nuevas herramientas: Cost of Delay y WSJF, seguridad en el flujo, mapa de stakeholders, plan de onboarding y offboarding, roadmap por outcomes, calendario de cadencias, Value Stream Mapping, acuerdos de trabajo distribuido y tablero de dependencias.
+- **Calculadora de madurez**: guarda los puntajes en el navegador, comparte resultados por enlace y compara dos aplicaciones.
+- **Versiones archivadas**: cada versión publicada queda disponible en `versiones/vX.Y.Z/`, sin cambiar las URLs de la versión actual.
+- Versión imprimible de toda la guía, fecha de última actualización en cada página y tooltips para siglas.
+- Glosario: 34 términos nuevos.
+- Plantillas de issue "Error o enlace roto" y "Caso de una célula real", y revisión semanal de enlaces externos.
+
+### Cambiado
+
+- Las fases y herramientas existentes enlazan a las nuevas plantillas; ya no quedan artefactos sin plantilla.
+- Las preguntas del assessment tienen una sola fuente: la calculadora las lee desde `assessment-madurez.md` al construir el sitio.
+- Chart.js se carga solo en las páginas que lo usan.
+- Fase 6: el Delegation Board se revisa cada trimestre, igual que en su plantilla.
+- README y Contribuir actualizados con la estructura y el proceso de publicación de versiones.
 
 ## [0.3.0] · 2026-10-28
 

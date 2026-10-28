@@ -138,6 +138,8 @@ Promedio de las preguntas respondidas (sin N/A), redondeado a un decimal.
 4. **Máximo dos frentes a la vez.** Aplicar el mismo límite de WIP a la mejora.
 5. **Brechas de percepción.** Una diferencia de más de 1 punto entre autoevaluación y observación se trata antes que el puntaje: es una conversación pendiente, no un error de medición.
 
+El caso [Tomar una célula](../casos/tomar-celula.md) aplica estas reglas a un resultado real de punta a punta.
+
 ## Registro de resultados
 
 Guarda cada aplicación para comparar en el tiempo. La calculadora exporta esta tabla lista para pegar:

@@ -35,3 +35,49 @@
   #assessment-app .aa-colhead { display: none; }
   #assessment-app .aa-q .aa-sel-wrap::before { content: attr(data-label); display: block; font-size: .65rem; color: var(--md-default-fg-color--light); }
 }
+#assessment-app .aa-status { margin: .75rem 0 0; min-height: 1.2em; }
+#assessment-app .aa-block-label { display: block; font-size: .75rem; color: var(--md-default-fg-color--light); margin: .75rem 0 .25rem; }
+#assessment-app textarea, #assessment-app .aa-share-url {
+  width: 100%; box-sizing: border-box; font-family: var(--md-code-font-family); font-size: .72rem;
+  padding: .5rem; border-radius: .2rem; border: 1px solid var(--md-default-fg-color--lighter);
+  background: var(--md-default-bg-color); color: var(--md-default-fg-color);
+}
+#assessment-app textarea:focus-visible, #assessment-app .aa-share-url:focus-visible { outline: 2px solid var(--md-accent-fg-color); outline-offset: 2px; }
+#assessment-app .aa-export { margin-top: 1rem; }
+#assessment-app details.aa-compare { border-left: 3px solid var(--md-default-fg-color--lighter); padding: .25rem 0 .25rem .9rem; margin: 2rem 0 0; font-size: .8rem; }
+#assessment-app details.aa-compare > summary { cursor: pointer; font-weight: 700; font-size: .85rem; }
+#assessment-app details.aa-compare .aa-actions { margin-top: .75rem; }
+#assessment-app .aa-up { color: var(--md-typeset-a-color); font-weight: 700; }
+#assessment-app .aa-down { color: var(--md-code-hl-number-color, #c2185b); font-weight: 700; }
+
+/* Pronóstico Monte Carlo (comparte el estilo de la calculadora) */
+#montecarlo-app { --mc-gap: 1rem; font-size: .8rem; }
+#montecarlo-app label, #montecarlo-app legend { display: block; font-size: .75rem; color: var(--md-default-fg-color--light); margin-bottom: .25rem; }
+#montecarlo-app .mc-field { margin-bottom: 1rem; }
+#montecarlo-app .mc-row { display: flex; flex-wrap: wrap; gap: var(--mc-gap); }
+#montecarlo-app .mc-row .mc-field { flex: 1 1 10rem; }
+#montecarlo-app .mc-hint { font-size: .7rem; color: var(--md-default-fg-color--light); margin: .25rem 0 0; }
+#montecarlo-app fieldset { border: 0; padding: 0; margin: 0 0 1rem; }
+#montecarlo-app fieldset label { display: flex; align-items: center; gap: .4rem; font-size: .8rem; color: var(--md-default-fg-color); margin: .3rem 0; cursor: pointer; }
+#montecarlo-app input[type="text"], #montecarlo-app input[type="number"], #montecarlo-app input[type="date"], #montecarlo-app textarea {
+  font: inherit; font-size: .8rem; padding: .35rem .5rem; border-radius: .2rem; width: 100%; box-sizing: border-box;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  background: var(--md-default-bg-color); color: var(--md-default-fg-color);
+}
+#montecarlo-app textarea { font-family: var(--md-code-font-family); font-size: .75rem; }
+#montecarlo-app input:focus-visible, #montecarlo-app textarea:focus-visible, #montecarlo-app button:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color); outline-offset: 2px;
+}
+#montecarlo-app [aria-invalid="true"] { border-color: var(--md-code-hl-number-color, #c2185b); }
+#montecarlo-app button {
+  font: inherit; font-size: .8rem; cursor: pointer; padding: .5rem 1rem; border-radius: .2rem;
+  border: 1px solid var(--md-primary-fg-color); background: var(--md-primary-fg-color); color: var(--md-primary-bg-color);
+}
+#montecarlo-app .mc-error { color: var(--md-code-hl-number-color, #c2185b); }
+#montecarlo-app .mc-results { margin-top: 1.5rem; }
+#montecarlo-app .mc-summary { color: var(--md-default-fg-color--light); }
+#montecarlo-app .mc-chart { position: relative; height: 16rem; margin: 1rem 0; }
+
+/* Versión imprimible (print-site): las calculadoras son interactivas y no se muestran */
+#print-site-page #assessment-app, #print-site-page #montecarlo-app { display: none; }
+@media print { #assessment-app .aa-actions, #assessment-app details.aa-compare, #montecarlo-app form { display: none; } }

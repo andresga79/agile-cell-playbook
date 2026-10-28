@@ -51,7 +51,7 @@ sequenceDiagram
 
 ### 4.4 Paso a producción
 
-Cada paso a producción sigue el [checklist de paso a producción](../caja-de-herramientas/checklist-produccion.md). En organizaciones con comité de cambios (CAB), la meta es demostrar con datos (change failure rate bajo, rollback probado) que los cambios estándar pueden aprobarse de forma automática.
+Cada paso a producción sigue el [checklist de paso a producción](../caja-de-herramientas/checklist-produccion.md). La evidencia de seguridad que genera el pipeline ([seguridad en el flujo](../caja-de-herramientas/seguridad-en-el-flujo.md)) es la que sostiene la aprobación automática ante auditoría. En organizaciones con comité de cambios (CAB), la meta es demostrar con datos (change failure rate bajo, rollback probado) que los cambios estándar pueden aprobarse de forma automática.
 
 ### 4.5 Gestión de incidentes y hotfix
 

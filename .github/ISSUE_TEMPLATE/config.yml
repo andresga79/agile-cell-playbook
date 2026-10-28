@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Leer la guía
+    url: https://andresga79.github.io/agile-cell-playbook/
+    about: Revisa la versión publicada antes de abrir un issue.

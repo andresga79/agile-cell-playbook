@@ -48,13 +48,16 @@ En lugar de "X horas" o "Y puntos por sprint", acordar:
 | Comité directivo trimestral | Patrocinador, gerencia proveedor | Outcomes, roadmap, contrato, capacidad |
 | Retro cliente–proveedor semestral | Representantes de ambos | Salud de la relación |
 
+Para ubicarlas junto a las ceremonias de la célula, ver el [calendario de cadencias](../caja-de-herramientas/calendario-cadencias.md).
+
 ## Protección del conocimiento
 
 - Código, documentación, ADRs y pipelines en **repositorios del cliente**.
 - DoD incluye documentación mínima y pruebas automatizadas.
 - Plan de salida (*exit plan*) definido en el contrato: traspaso, periodo de traslape, propiedad intelectual. Su ejecución se describe en [Traspaso a equipo interno](transversal-traspaso-proveedor.md).
 - Activos (cuentas cloud, dominios, licencias, secretos) **a nombre del cliente** desde el primer día.
-- Rotación planificada con al menos 2 semanas de traslape.
+- Rotación planificada con al menos 2 semanas de traslape (ver [plan de onboarding y offboarding](../caja-de-herramientas/plan-onboarding.md)).
+- Reglas explícitas sobre el uso de herramientas de IA por parte del proveedor (ver [IA en la célula](transversal-ia-en-la-celula.md)).
 
 ## Criterios de salida
 

@@ -71,4 +71,4 @@ Todas las fases siguen la misma plantilla para que sean fáciles de recorrer y a
 7. **Criterios de salida**: checklist para pasar a la siguiente.
 8. **Antipatrones** frecuentes.
 
-Empieza por [Cómo usar la guía](como-usar.md).
+Empieza por [Cómo usar la guía](como-usar.md) y revisa los [casos de ejemplo](casos/index.md) para ver la metodología aplicada de punta a punta.

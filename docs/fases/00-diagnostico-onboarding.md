@@ -17,7 +17,7 @@ Entender el contexto de negocio, el estado real de la célula (si existe) y esta
 ### 0.1 Entender el negocio
 
 1. Entrevista con el patrocinador: ¿qué problema existe?, ¿cuánto cuesta no resolverlo?, ¿cómo se ve el éxito en 6 y 12 meses?
-2. Mapear stakeholders en una matriz poder / interés.
+2. Mapear stakeholders en una matriz poder / interés (ver [mapa de stakeholders](../caja-de-herramientas/mapa-stakeholders.md)).
 3. Identificar las restricciones duras: regulatorias, presupuestarias, de fechas, tecnológicas.
 
 ### 0.2 Diagnóstico de madurez (solo célula existente)
@@ -48,7 +48,7 @@ El equipo se autoevalúa y el facilitador puntúa lo observado. La [calculadora 
 
 ### 0.4 Acuerdos mínimos de arranque
 
-- Canales de comunicación y horarios de solapamiento.
+- Canales de comunicación y horarios de solapamiento (en equipos distribuidos, ver [acuerdos de trabajo distribuido](../caja-de-herramientas/acuerdos-trabajo-distribuido.md)).
 - Cadencia inicial de ceremonias (se refina en Fase 3).
 - Accesos y herramientas para todas las personas desde el día 1.
 
@@ -56,11 +56,11 @@ El equipo se autoevalúa y el facilitador puntúa lo observado. La [calculadora 
 
 | Artefacto | Plantilla |
 |---|---|
-| Mapa de stakeholders | — |
+| Mapa de stakeholders | [Plantilla](../caja-de-herramientas/mapa-stakeholders.md) |
 | Assessment de madurez (radar) | [Cuestionario](../caja-de-herramientas/assessment-madurez.md) y [calculadora](../caja-de-herramientas/calculadora-madurez.md) |
 | Team Canvas | [Plantilla](../caja-de-herramientas/team-canvas.md) |
 | Delegation Board | [Plantilla](../caja-de-herramientas/delegation-board.md) |
-| Plan de onboarding por persona | — |
+| Plan de onboarding por persona | [Plantilla](../caja-de-herramientas/plan-onboarding.md) |
 
 ## Métricas
 

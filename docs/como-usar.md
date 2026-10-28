@@ -17,6 +17,8 @@ flowchart TD
     C2 --> C3[Estabilizar flujo primero:<br/>Fase 3 y 4]
 ```
 
+Cada ruta tiene un caso de ejemplo: [Crear una célula](casos/crear-celula.md), [Tomar una célula](casos/tomar-celula.md) y [Traspaso de proveedor](casos/traspaso-proveedor.md).
+
 ## Tiempos de referencia
 
 | Fase | Crear (célula nueva) | Tomar (célula existente) |
@@ -40,6 +42,9 @@ Un [traspaso de proveedor a equipo interno](fases/transversal-traspaso-proveedor
 - **Empieza por donde duele.** En una célula existente, el diagnóstico decide el orden.
 - **Lotes pequeños también para la guía.** No implementes todas las herramientas a la vez; introduce una o dos por iteración.
 - **Mide antes de cambiar.** Toma una línea base antes de cualquier intervención para poder demostrar mejora.
+
+!!! tip "Para llevar la guía a una reunión"
+    La [versión imprimible](../print_page/) reúne todas las páginas en un solo documento que puedes guardar como PDF desde el navegador.
 
 ## Cómo iterar esta guía
 

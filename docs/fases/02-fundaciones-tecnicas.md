@@ -73,6 +73,7 @@ Reglas mínimas:
 - El pipeline corre en cada PR; no se integra código con pipeline en rojo.
 - Pipeline completo hasta staging en menos de 15 minutos como meta.
 - **Feature flags** para separar despliegue de liberación.
+- Controles de seguridad en el pipeline (secretos, dependencias, imágenes) que generan evidencia para auditoría. Ver [seguridad en el flujo](../caja-de-herramientas/seguridad-en-el-flujo.md).
 
 ### 2.5 Estrategia de QA
 
@@ -108,6 +109,7 @@ Definir **Definition of Ready** y **Definition of Done** con el equipo. Ver [pla
 | Pipeline CI/CD | Repo del producto (`.github/workflows`, `.gitlab-ci.yml`, Azure Pipelines) |
 | Estrategia de QA | Esta guía + repo del producto |
 | DoR / DoD | [Plantilla](../caja-de-herramientas/dor-dod.md) |
+| Controles de seguridad y evidencia | [Seguridad en el flujo](../caja-de-herramientas/seguridad-en-el-flujo.md) |
 
 ## Métricas
 

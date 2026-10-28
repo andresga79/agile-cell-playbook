@@ -22,7 +22,7 @@ Que la célula mejore de forma sostenida su capacidad de entregar valor, genere 
 
 ### 6.2 Value Stream Mapping
 
-Cada 3–6 meses, mapear el flujo de valor completo (de la idea al usuario) y calcular:
+Cada 3–6 meses, mapear el flujo de valor completo (de la idea al usuario) con la [plantilla de Value Stream Mapping](../caja-de-herramientas/value-stream-map.md) y calcular:
 
 - **Eficiencia de flujo** = tiempo de trabajo activo ÷ lead time total. En la mayoría de las organizaciones es menor al 15 %; el desperdicio está en las esperas, no en el trabajo.
 - Dónde están las mayores esperas (aprobaciones, dependencias, ambientes, QA).
@@ -55,7 +55,7 @@ Si se crea una segunda célula:
 
 - Dividir por **dominio o flujo de valor**, no por capa técnica.
 - Sembrar la nueva célula con 1–2 personas de la célula madura.
-- Coordinar con cadencias livianas (sincronización de PO, revisión de operaciones conjunta, tablero de dependencias).
+- Coordinar con cadencias livianas (sincronización de PO, revisión de operaciones conjunta, [tablero de dependencias](../caja-de-herramientas/tablero-dependencias.md)).
 - Reutilizar esta guía desde la Fase 0.
 
 ## Artefactos
@@ -63,7 +63,8 @@ Si se crea una segunda célula:
 | Artefacto | Plantilla |
 |---|---|
 | Backlog de mejora | — |
-| Value Stream Map actual y futuro | — |
+| Value Stream Map actual y futuro | [Plantilla](../caja-de-herramientas/value-stream-map.md) |
+| Tablero de dependencias (si hay varias células) | [Plantilla](../caja-de-herramientas/tablero-dependencias.md) |
 | Portafolio de experimentos | [Plantilla](../caja-de-herramientas/lean-canvas-hipotesis.md) |
 | Delegation Board actualizado | [Plantilla](../caja-de-herramientas/delegation-board.md) |
 
@@ -95,7 +96,7 @@ Esta fase es continua. Se considera en **régimen estable** cuando:
 - [ ] Value Stream Map actual y futuro hecho en los últimos 6 meses.
 - [ ] Revisión trimestral de apuestas con decisión registrada (perseverar, pivotar o parar).
 - [ ] Assessment reaplicado y comparado con el anterior.
-- [ ] Delegation Board revisado en los últimos 6 meses.
+- [ ] Delegation Board revisado en el último trimestre.
 
 ## Antipatrones
 

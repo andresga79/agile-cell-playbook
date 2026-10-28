@@ -23,7 +23,8 @@ Un ítem está terminado cuando:
 
 - [ ] Código revisado por al menos una persona (pull request aprobado).
 - [ ] Pruebas unitarias y de integración automatizadas y en verde.
-- [ ] Análisis estático y de seguridad sin hallazgos críticos.
+- [ ] Análisis estático y de seguridad sin hallazgos críticos (ver [seguridad en el flujo](seguridad-en-el-flujo.md)).
+- [ ] Código generado con IA revisado y probado con el mismo estándar que el resto (ver [IA en la célula](../fases/transversal-ia-en-la-celula.md)).
 - [ ] Criterios de aceptación verificados (automatizados cuando sea posible).
 - [ ] Prueba exploratoria realizada.
 - [ ] Documentación técnica actualizada (README, ADR, API).

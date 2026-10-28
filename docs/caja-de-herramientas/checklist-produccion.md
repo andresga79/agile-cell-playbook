@@ -5,7 +5,7 @@
 ## Antes del despliegue
 
 - [ ] Todos los ítems incluidos cumplen la DoD.
-- [ ] Pipeline en verde: build, pruebas, análisis estático y de seguridad, escaneo de imagen.
+- [ ] Pipeline en verde: build, pruebas, análisis estático y de seguridad, escaneo de imagen (ver [seguridad en el flujo](seguridad-en-el-flujo.md)).
 - [ ] La imagen a desplegar es **la misma** que se probó en staging (mismo *digest*).
 - [ ] Migraciones de base de datos son compatibles hacia atrás (*expand / contract*).
 - [ ] Feature flags configurados (desactivados si la liberación es posterior).

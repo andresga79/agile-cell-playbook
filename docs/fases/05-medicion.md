@@ -49,6 +49,8 @@ Reemplazar la estimación en horas por **pronósticos probabilísticos**:
 - *¿Cuánto entregaremos en 6 semanas?* → simulación de Monte Carlo con el throughput histórico.
 - *¿Cuándo termina este release de 40 ítems?* → Monte Carlo con rango de fechas y probabilidad.
 
+Usa el [pronóstico Monte Carlo](../caja-de-herramientas/pronostico-monte-carlo.md) para calcularlo en el navegador con tu throughput histórico.
+
 ### 5.5 Medir la salud del equipo (Management 3.0)
 
 - **Happiness Door**: al final de la retro, cada persona marca su estado. Tendencias, no números absolutos.

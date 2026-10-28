@@ -18,7 +18,7 @@
 |---|---|---|
 | Lead time | Desde que se compromete un ítem hasta que está en producción | Previsibilidad para negocio |
 | Cycle time | Desde que se empieza a trabajar hasta terminar | Eficiencia interna |
-| Throughput | Ítems terminados por semana | Pronósticos (Monte Carlo) |
+| Throughput | Ítems terminados por semana | Pronósticos ([Monte Carlo](pronostico-monte-carlo.md)) |
 | WIP | Ítems en curso | Control del flujo |
 | WIP aging | Edad de los ítems en curso | Detectar ítems atascados |
 | Eficiencia de flujo | Tiempo activo ÷ lead time | Desperdicio por esperas |

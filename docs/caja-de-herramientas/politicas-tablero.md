@@ -24,6 +24,8 @@
 | 🔵 Estándar | Historia del roadmap | FIFO según prioridad del PO | Según columnas |
 | ⚪ Intangible | Deuda técnica, mejora | Capacidad reservada (ej. 10–20 %) | Máximo 1–2 |
 
+Para decidir la clase y el orden dentro de cada clase, ver [Cost of Delay y WSJF](cost-of-delay-wsjf.md).
+
 ## Reglas generales
 
 - **Se empieza por la derecha**: antes de tomar algo nuevo, ayudar a terminar lo que está más cerca de producción.

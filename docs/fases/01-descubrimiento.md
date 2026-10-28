@@ -10,6 +10,8 @@ Reducir la incertidumbre antes de invertir en construcción: definir el problema
 
     Primero se define el MVO; el MVP se diseña para alcanzarlo. Un MVP sin MVO es solo una versión pequeña del producto.
 
+    Ejemplo completo en el caso [Crear una célula](../casos/crear-celula.md).
+
 ## Entradas
 
 - Objetivo de negocio de la Fase 0.
@@ -45,6 +47,8 @@ Formato: *Creemos que **[entregable]** para **[actor]** logrará **[impacto]**. 
 
 Priorizar hipótesis por **riesgo × valor** y validar primero las más riesgosas con el experimento más barato posible (prototipo, *fake door*, Mago de Oz, concierge).
 
+Cuando hay que ordenar entregables ya validados que compiten por la misma capacidad, usar [Cost of Delay y WSJF](../caja-de-herramientas/cost-of-delay-wsjf.md) para hacer explícito el costo económico de esperar.
+
 ### 1.4 User Story Map
 
 1. Definir la **columna vertebral**: actividades del usuario de izquierda a derecha.
@@ -56,7 +60,7 @@ Ver [plantilla de User Story Map](../caja-de-herramientas/user-story-map.md).
 
 ### 1.5 Roadmap por outcomes
 
-Roadmap en formato **Ahora / Siguiente / Después**, expresado en problemas y outcomes, no en fechas y funcionalidades.
+Roadmap en formato **Ahora / Siguiente / Después**, expresado en problemas y outcomes, no en fechas y funcionalidades. Ver [plantilla de roadmap por outcomes](../caja-de-herramientas/roadmap-outcomes.md).
 
 ## Artefactos
 
@@ -66,7 +70,7 @@ Roadmap en formato **Ahora / Siguiente / Después**, expresado en problemas y ou
 | Impact Map | Diagrama de esta página |
 | Backlog de hipótesis | [Plantilla](../caja-de-herramientas/lean-canvas-hipotesis.md) |
 | User Story Map con releases | [Plantilla](../caja-de-herramientas/user-story-map.md) |
-| Roadmap Ahora / Siguiente / Después | — |
+| Roadmap Ahora / Siguiente / Después | [Plantilla](../caja-de-herramientas/roadmap-outcomes.md) |
 
 ## Métricas
 

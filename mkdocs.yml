@@ -42,6 +42,21 @@ theme:
 plugins:
   - search:
       lang: es
+  - git-revision-date-localized:
+      type: date
+      locale: es
+      fallback_to_build_date: true
+      strict: false   # archivos aún sin commit no deben romper el build estricto
+  - print-site:
+      add_to_navigation: true
+      print_page_title: Versión imprimible
+      add_print_site_banner: true
+      print_site_banner_template: includes/print-banner.tpl
+      add_table_of_contents: true
+      toc_title: Contenido
+      add_cover_page: true
+      enumerate_headings: false
+      enumerate_figures: false
 
 markdown_extensions:
   - admonition
@@ -60,6 +75,10 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - abbr
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abreviaturas.md
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.superfences:
@@ -71,9 +90,8 @@ markdown_extensions:
 extra_css:
   - assets/css/assessment.css
 
-extra_javascript:
-  - https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js
-  - assets/js/assessment.js
+hooks:
+  - hooks/assessment_data.py
 
 nav:
   - Inicio: index.md
@@ -89,21 +107,38 @@ nav:
       - "6 · Mejora, innovación y escalamiento": fases/06-mejora-innovacion.md
       - "Transversal · Gobierno con proveedores": fases/transversal-gobierno-proveedores.md
       - "Transversal · Traspaso a equipo interno": fases/transversal-traspaso-proveedor.md
+      - "Transversal · IA en la célula": fases/transversal-ia-en-la-celula.md
   - Caja de herramientas:
       - caja-de-herramientas/index.md
+      - Mapa de stakeholders: caja-de-herramientas/mapa-stakeholders.md
       - Assessment de madurez: caja-de-herramientas/assessment-madurez.md
       - Calculadora de madurez: caja-de-herramientas/calculadora-madurez.md
       - Team Canvas: caja-de-herramientas/team-canvas.md
       - Delegation Board: caja-de-herramientas/delegation-board.md
+      - Acuerdos de trabajo distribuido: caja-de-herramientas/acuerdos-trabajo-distribuido.md
+      - Plan de onboarding y offboarding: caja-de-herramientas/plan-onboarding.md
       - Lean Canvas e hipótesis: caja-de-herramientas/lean-canvas-hipotesis.md
+      - Cost of Delay y WSJF: caja-de-herramientas/cost-of-delay-wsjf.md
       - User Story Map: caja-de-herramientas/user-story-map.md
+      - Roadmap por outcomes: caja-de-herramientas/roadmap-outcomes.md
       - ADR: caja-de-herramientas/adr.md
+      - Seguridad en el flujo: caja-de-herramientas/seguridad-en-el-flujo.md
       - DoR y DoD: caja-de-herramientas/dor-dod.md
       - Políticas del tablero: caja-de-herramientas/politicas-tablero.md
+      - Calendario de cadencias: caja-de-herramientas/calendario-cadencias.md
       - Checklist de paso a producción: caja-de-herramientas/checklist-produccion.md
       - Catálogo de métricas: caja-de-herramientas/catalogo-metricas.md
+      - Pronóstico Monte Carlo: caja-de-herramientas/pronostico-monte-carlo.md
       - Retrospectiva basada en datos: caja-de-herramientas/retro-datos.md
+      - Value Stream Mapping: caja-de-herramientas/value-stream-map.md
+      - Tablero de dependencias: caja-de-herramientas/tablero-dependencias.md
       - Plan de traspaso: caja-de-herramientas/plan-traspaso.md
+  - Casos de ejemplo:
+      - casos/index.md
+      - Crear una célula: casos/crear-celula.md
+      - Tomar una célula: casos/tomar-celula.md
+      - Traspaso de proveedor: casos/traspaso-proveedor.md
   - Glosario: glosario.md
+  - Versiones: versiones.md
   - Changelog: changelog.md
   - Contribuir: contribuir.md
