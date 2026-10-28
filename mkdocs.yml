@@ -1,0 +1,98 @@
+site_name: Agile Cell Playbook
+site_description: Metodología para crear o tomar una célula ágil y entregar valor de negocio con mirada de flujo
+site_author: Andres Gonzalez
+site_url: https://andresga79.github.io/agile-cell-playbook/
+repo_url: https://github.com/andresga79/agile-cell-playbook
+repo_name: andresga79/agile-cell-playbook
+edit_uri: edit/main/docs/
+copyright: Agile Cell Playbook · versionado en GitHub
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: es
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Inicio: index.md
+  - Cómo usar la guía: como-usar.md
+  - Fases:
+      - fases/index.md
+      - "0 · Diagnóstico y onboarding": fases/00-diagnostico-onboarding.md
+      - "1 · Descubrimiento de producto": fases/01-descubrimiento.md
+      - "2 · Fundaciones técnicas": fases/02-fundaciones-tecnicas.md
+      - "3 · Diseño del sistema de trabajo": fases/03-sistema-de-trabajo.md
+      - "4 · Entrega continua de valor": fases/04-entrega-continua.md
+      - "5 · Medición y aprendizaje": fases/05-medicion.md
+      - "6 · Mejora, innovación y escalamiento": fases/06-mejora-innovacion.md
+      - "Transversal · Gobierno con proveedores": fases/transversal-gobierno-proveedores.md
+  - Caja de herramientas:
+      - caja-de-herramientas/index.md
+      - Team Canvas: caja-de-herramientas/team-canvas.md
+      - Delegation Board: caja-de-herramientas/delegation-board.md
+      - Lean Canvas e hipótesis: caja-de-herramientas/lean-canvas-hipotesis.md
+      - User Story Map: caja-de-herramientas/user-story-map.md
+      - ADR: caja-de-herramientas/adr.md
+      - DoR y DoD: caja-de-herramientas/dor-dod.md
+      - Políticas del tablero: caja-de-herramientas/politicas-tablero.md
+      - Checklist de paso a producción: caja-de-herramientas/checklist-produccion.md
+      - Catálogo de métricas: caja-de-herramientas/catalogo-metricas.md
+      - Retrospectiva basada en datos: caja-de-herramientas/retro-datos.md
+  - Glosario: glosario.md
+  - Changelog: changelog.md
+  - Contribuir: contribuir.md
