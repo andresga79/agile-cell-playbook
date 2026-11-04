@@ -55,7 +55,7 @@ No sirve como etiqueta para justificar que se dejaron las partes incómodas de S
 
 - [Cuándo Scrumban](cuando-scrumban.md) · [Combinar cadencia y flujo](cadencia-y-flujo.md) · [Antipatrones](antipatrones-scrumban.md)
 - [Scrum en una página](../scrum/scrum-en-una-pagina.md) · [Kanban en una página](../kanban/kanban-en-una-pagina.md)
-- [Fase 3 · Diseño del sistema de trabajo](../../fases/03-sistema-de-trabajo.md)
+- [Fase 3 · Diseño del sistema de trabajo](../../fases/03-sistema-de-trabajo.md) · [Scrumban paso a paso](../../fases/transversal-scrumban-paso-a-paso.md)
 
 ## Para profundizar
 

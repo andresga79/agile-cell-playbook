@@ -70,7 +70,7 @@ Que el equipo, el PO y el patrocinador cuenten, en unas tres semanas, con un **d
 5. Si el diagnóstico muestra roles o acuerdos difusos, el [Team Canvas](../caja-de-herramientas/team-canvas.md) suele ser un buen primer taller después de la devolución.
 
 !!! note "Puerta de entrada y orden de fases"
-    Son dos salidas distintas que se complementan. La calculadora ordena **qué fases del playbook reforzar**. La puerta de entrada dice **en qué peldaño de la implementación del flujo empezar** dentro de la [Fase 3](03-sistema-de-trabajo.md). La calculadora no cambia.
+    Son dos salidas distintas que se complementan. La calculadora ordena **qué fases del playbook reforzar**. La puerta de entrada dice **en qué peldaño de la [escalera de flujo](transversal-scrumban-paso-a-paso.md) empezar** dentro de la [Fase 3](03-sistema-de-trabajo.md). La puerta no reemplaza el orden de fases que propone la calculadora.
 
 ## Qué no hacer en las primeras semanas
 
@@ -94,7 +94,7 @@ Reúne señales de las secciones "Qué observar al llegar a un equipo" de las fi
 | Parte del trabajo de la semana no aparece en el tablero | Tablero y 1:1 | [Visualizar](../biblioteca/kanban/visualizar.md) |
 | El tablero termina antes de que el trabajo llegue a producción | Tablero | [Visualizar](../biblioteca/kanban/visualizar.md) |
 | Columnas "listo para…" llenas, con más ítems que las activas | Tablero | [WIP y sistema pull](../biblioteca/kanban/wip-y-pull.md) |
-| Más de dos ítems en curso por persona | Tablero | [WIP y sistema pull](../biblioteca/kanban/wip-y-pull.md) |
+| Más de dos ítems en curso por persona (como referencia) | Tablero | [WIP y sistema pull](../biblioteca/kanban/wip-y-pull.md) |
 | Sin límites de WIP visibles, o nadie sabe qué pasa al alcanzarlos | Tablero | [Kanban en una página](../biblioteca/kanban/kanban-en-una-pagina.md) |
 | Ítems con más del doble de la edad típica, y nadie sabe por qué | Tablero | [Work item age](../biblioteca/flujo/work-item-age.md) |
 | Columnas como "Hecho, pendiente de QA" que acumulan ítems | Tablero | [Artefactos y compromisos](../biblioteca/scrum/artefactos-y-compromisos.md) |
@@ -119,7 +119,7 @@ Reúne señales de las secciones "Qué observar al llegar a un equipo" de las fi
 
 ## Elegir la puerta de entrada
 
-La puerta de entrada es el peldaño por el que empiezas a implementar el flujo. La escalera va del 0 al 9: **0** observar y tomar la línea base (lo que haces en estas tres semanas), **1** visualizar el trabajo real, **2** políticas explícitas, **3** limitar el WIP, **4** sistema pull, **5** métricas de flujo y SLE, **6** cadencias, **7** clases de servicio, **8** pronóstico probabilístico y **9** mejora continua con experimentos. Se sube por criterio cumplido, no por calendario. El detalle de cada peldaño llega con la transversal Scrumban paso a paso, que está en preparación.
+La puerta de entrada es el peldaño por el que empiezas a implementar el flujo. La escalera va del 0 al 9: **0** observar y tomar la línea base (lo que haces en estas tres semanas), **1** visualizar el trabajo real, **2** políticas explícitas, **3** limitar el WIP, **4** sistema pull y empezar por la derecha, **5** métricas de flujo y SLE, **6** cadencias, **7** clases de servicio, **8** pronóstico probabilístico y **9** mejora continua con experimentos. Se sube por criterio cumplido, no por calendario. El detalle de cada peldaño, con su señal de "listo, sigue", está en [Implementar Scrumban paso a paso](transversal-scrumban-paso-a-paso.md).
 
 **Primero, el marco.** El % de demanda no planificada decide con qué cadencias se recorre la escalera, según el árbol de la [Fase 3 §3.2](03-sistema-de-trabajo.md#32-elegir-el-marco-segun-la-demanda):
 
@@ -136,7 +136,9 @@ Ver [Cuándo sí y cuándo no Scrumban](../biblioteca/scrumban/cuando-scrumban.m
 | Equipo sin marco, todo es urgente | Menos de 2; FL1 en 1 | Peldaño 1: visualizar | No imponer ceremonias, solo hacer visible el trabajo |
 | "Scrum a medias": Sprints que no cierran, trabajo que entra a mitad del Sprint | De 2 a 2,9; FL2 y FL4 en 2 o menos | Peldaños 2 y 3: políticas y WIP dentro del Sprint | Conservar lo que funciona (Sprint Goal, retro) y agregar flujo |
 | Kanban sin disciplina: tablero sin límites ni métricas | De 2 a 2,9; FL1 en 3 o más, FL2 y FL3 en 2 o menos | Peldaños 3 y 4: WIP y pull | Sumar cadencias |
-| Equipo maduro | 3 o más, sin preguntas de Flujo bajo 3 | Peldaños 5 y 8: métricas y pronóstico | Afinar, no cambiar |
+| Equipo maduro | 3 o más; FL2 en 4 o más y ninguna pregunta de Flujo bajo 3 | Peldaños 5 y 8: métricas y pronóstico | Afinar, no cambiar |
+
+Si el equipo no encaja en ninguna fila, o encaja en dos, decide con las señales observadas y con la regla de abajo: si dudas, entra por la más baja.
 
 - **Si dudas entre dos puertas, entra por la más baja.** Confirmar rápido un peldaño que ya está cumplido cuesta poco; saltarse uno cuesta mucho.
 - **Si el puntaje y las señales no coinciden, mandan las señales confirmadas con datos.** Revisa también la brecha con la autoevaluación.

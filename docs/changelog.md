@@ -20,10 +20,12 @@ Lo publicado después del último tag aparece en `[Sin publicar]`.
 - **Transversal · Llegar a un equipo nuevo**: la agenda de las primeras tres semanas de quien llega como SM o coach (escuchar y medir, observar, diagnosticar y devolver), con su postura, preguntas para los 1:1, qué no hacer, una tabla de señales de diagnóstico enlazada a las fichas y cómo elegir la puerta de entrada.
 - Nueva herramienta: **diario de observación**.
 - Biblioteca: sesión 10 de la ruta de estudio, "Preparar la llegada a un equipo".
+- **Transversal · Implementar Scrumban paso a paso**: una escalera de diez peldaños, del 0 al 9, que se sube por criterio cumplido y no por calendario. Cada peldaño trae su objetivo, cómo hacerlo, su señal de "listo, sigue", una duración como referencia, su riesgo principal y las fichas que lo explican. Incluye cuándo conviene Scrum con flujo, Scrumban o Kanban con cadencias, las puertas de entrada y qué se conserva y qué se transforma al venir de "Scrum a medias".
 
 ### Cambiado
 
 - El assessment de madurez avisa, en su plan de 3 semanas, que la transversal lo envuelve cuando quien lo aplica llega nuevo. La Fase 0 §0.2, la ruta Tomar de "Cómo usar la guía", el caso "Tomar una célula", el índice de fases y la portada de la biblioteca enlazan a la transversal.
+- La Fase 3 §3.2, la ficha "Qué es Scrumban", el índice de fases y la transversal de llegada enlazan a la escalera.
 
 ## [0.5.0] · 2026-11-04
 
