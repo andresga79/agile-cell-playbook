@@ -32,3 +32,4 @@
 *[OKRs]: Objectives and Key Results: un objetivo y pocos resultados clave medibles
 *[JTBD]: Jobs to be Done: el progreso que una persona intenta lograr en una circunstancia
 *[ODI]: Outcome-Driven Innovation: método de Jobs to be Done de Anthony Ulwick
+*[ADKAR]: Awareness, Desire, Knowledge, Ability, Reinforcement: modelo de cambio individual de Prosci

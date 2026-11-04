@@ -23,7 +23,7 @@ La numeración varía según la fuente. La guía oficial de Kanban University lo
 
 ## Para qué sirve (y cuándo no)
 
-Evita el error más común al introducir Kanban: copiar un tablero genérico (por hacer, en curso, hecho) que no refleja la demanda ni lo que le importa al cliente. Además, los pasos 1 y 2 hacen que el equipo hable de su servicio antes de hablar de herramientas, y eso baja la resistencia.
+Evita el error más común al introducir Kanban: copiar un tablero genérico (por hacer, en curso, hecho) que no refleja la demanda ni lo que le importa al cliente. Además, los pasos 1 y 2 hacen que el equipo hable de su servicio antes de hablar de herramientas, y eso baja la [resistencia](../facilitacion/resistencia-al-cambio.md).
 
 No hace falta un taller completo para un equipo chico con un flujo simple: los pasos se pueden recorrer en una conversación de una hora. Y si el problema principal no es el flujo (por ejemplo, un conflicto serio en el equipo o la falta de dueño de producto), STATIK no lo resuelve.
 

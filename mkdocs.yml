@@ -208,6 +208,12 @@ nav:
           - Management 3.0: biblioteca/personas/management-30.md
           - Posturas de coaching: biblioteca/personas/posturas-de-coaching.md
           - Agile Fluency: biblioteca/personas/agile-fluency.md
+      - Facilitación y cambio:
+          - biblioteca/facilitacion/index.md
+          - Liberating Structures: biblioteca/facilitacion/liberating-structures.md
+          - Cynefin: biblioteca/facilitacion/cynefin.md
+          - Kotter y ADKAR: biblioteca/facilitacion/kotter-adkar.md
+          - Resistencia al cambio: biblioteca/facilitacion/resistencia-al-cambio.md
   - Casos de ejemplo:
       - casos/index.md
       - Crear una célula: casos/crear-celula.md

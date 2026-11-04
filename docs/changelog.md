@@ -29,6 +29,9 @@ Lo publicado después del último tag aparece en `[Sin publicar]`.
 - **Biblioteca · Personas y equipos**: 6 fichas (Team Topologies, Seguridad psicológica, Desarrollo de equipos, Management 3.0, Posturas de coaching y Agile Fluency), con su índice de área. Management 3.0 enlaza al Delegation Board y a la Fase 5 §5.5 sin repetirlos; Desarrollo de equipos presenta a Tuckman con sus críticas, y Posturas de coaching se centra en los seis papeles de Adkins sin repetir las posturas del SM.
 - Glosario: Agile Fluency, carga cognitiva, ley de Conway, Management 3.0, modelo de Tuckman, seguridad psicológica y Team Topologies; Moving Motivators actualizado con enlace a su ficha.
 - Llegar a un equipo nuevo: tres señales de diagnóstico enlazadas a las fichas de Personas y equipos, y enlace a Posturas de coaching desde "Tu postura". Fichas del núcleo de Scrum enlazan a la nueva área en "Relacionado".
+- **Biblioteca · Facilitación y cambio**: 4 fichas (Liberating Structures, Cynefin, Kotter y ADKAR, y Resistencia al cambio), con su índice de área. Cynefin usa la elección entre Scrum, Scrumban y Kanban como ejemplo de decidir según el contexto; Kotter y ADKAR explica por qué Kotter queda grande para un solo equipo, y Resistencia al cambio conecta con el cambio evolutivo del Kanban Method y la escalera de Scrumban.
+- Glosario: ADKAR, Cynefin, Liberating Structures y ocho pasos de Kotter. Sigla ADKAR.
+- Llegar a un equipo nuevo: tres señales de diagnóstico enlazadas a las fichas de Facilitación y cambio, y la fila de Antipatrones de Scrumban pasa junto a las demás de "Tablero y 1:1". Implementar Scrumban paso a paso y varias fichas del núcleo (Retrospectiva, Kanban Method, STATIK y Cuándo sí y cuándo no Scrumban) enlazan a la nueva área.
 
 ### Corregido
 

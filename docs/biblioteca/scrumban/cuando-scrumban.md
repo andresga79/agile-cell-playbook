@@ -18,7 +18,7 @@ Los umbrales son una heurística del playbook, **como referencia**; no vienen de
 
 ## Para qué sirve (y cuándo no)
 
-Sirve para elegir con datos. El porcentaje no alcanza: mira también si el equipo necesita un objetivo compartido para enfocarse y si hay interesados que valoran una revisión con fecha fija.
+Sirve para elegir con datos. El porcentaje no alcanza: mira también si el equipo necesita un objetivo compartido y si hay interesados que valoran una revisión con fecha fija.
 
 Scrumban **no conviene** cuando:
 
@@ -29,7 +29,7 @@ Scrumban **no conviene** cuando:
 
 ## Cómo se aplica
 
-1. Toma 3 o 4 Sprints (o 6 a 8 semanas) de historia y cuenta el trabajo **no** planificado que *llegó*, como clasifica la demanda entrante la [Fase 3 §3.1](../../fases/03-sistema-de-trabajo.md#31-analizar-la-demanda). Contar solo los ítems terminados es una aproximación.
+1. Toma 3 o 4 Sprints (o 6 a 8 semanas) y cuenta el trabajo **no** planificado que *llegó*, como clasifica la demanda entrante la [Fase 3 §3.1](../../fases/03-sistema-de-trabajo.md#31-analizar-la-demanda). Contar solo los ítems terminados es una aproximación.
 2. Separa lo urgente de verdad (incidentes y hotfix) de lo que solo llegó tarde o por un atajo.
 3. Ubica al equipo en la tabla y revisa los factores cualitativos de arriba.
 4. Elige un experimento de 3 o 4 semanas, con una señal de éxito escrita: Sprint Goal cumplido, lead time de lo urgente o ítems arrastrados entre Sprints.
@@ -55,7 +55,7 @@ Scrumban **no conviene** cuando:
 
 - [Qué es Scrumban](que-es-scrumban.md) · [Combinar cadencia y flujo](cadencia-y-flujo.md) · [Antipatrones de Scrumban](antipatrones-scrumban.md)
 - [El Sprint y Sprint Planning](../scrum/sprint-y-planning.md) · [Clases de servicio](../kanban/clases-de-servicio.md) · [Las cadencias de Kanban](../kanban/cadencias-kanban.md)
-- [Fase 3 · Diseño del sistema de trabajo](../../fases/03-sistema-de-trabajo.md)
+- [Fase 3 · Diseño del sistema de trabajo](../../fases/03-sistema-de-trabajo.md) · [Cynefin](../facilitacion/cynefin.md)
 
 ## Para profundizar
 

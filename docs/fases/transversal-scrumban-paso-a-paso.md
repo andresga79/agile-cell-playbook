@@ -7,6 +7,8 @@ El nombre dice Scrumban, pero la escalera es la misma para un equipo que se qued
 !!! abstract "Principio"
     Empieza por donde estás. Respeta lo que hoy funciona, cambia una cosa a la vez como experimento y sube de peldaño cuando se cumple su señal, **no cuando pasa el tiempo**. Si una señal se pierde, se baja un peldaño sin drama: es información, no un fracaso.
 
+    Los pasos chicos, reversibles y propuestos por el equipo son también la mejor respuesta a la resistencia: ver [Resistencia al cambio](../biblioteca/facilitacion/resistencia-al-cambio.md) y, para leer dónde se traba cada persona, [Kotter y ADKAR](../biblioteca/facilitacion/kotter-adkar.md).
+
 ```mermaid
 flowchart TD
     P0[0 · Observar<br/>línea base] --> A[1–2 · Ver y acordar<br/>tablero y políticas]
@@ -93,7 +95,7 @@ Cada peldaño indica su objetivo, cómo hacerlo, la señal que dice que está cu
 - **Señal de "listo, sigue":** línea base con lead time P85, throughput, WIP y % no planificado; puerta de entrada y primer experimento acordados con el equipo y el PO.
 - **Duración típica:** las tres semanas de la llegada; una o dos si ya conoces al equipo.
 - **Riesgo principal:** cambiar algo antes de entender para qué existe, o alargar la observación sin fecha.
-- **Fichas:** [Cuándo sí y cuándo no Scrumban](../biblioteca/scrumban/cuando-scrumban.md) · [Diario de observación](../caja-de-herramientas/diario-observacion.md) · [Catálogo de métricas](../caja-de-herramientas/catalogo-metricas.md)
+- **Fichas:** [Cuándo sí y cuándo no Scrumban](../biblioteca/scrumban/cuando-scrumban.md) · [Cynefin](../biblioteca/facilitacion/cynefin.md) · [Diario de observación](../caja-de-herramientas/diario-observacion.md) · [Catálogo de métricas](../caja-de-herramientas/catalogo-metricas.md)
 
 ### Peldaño 1 · Visualizar el trabajo real
 
@@ -174,7 +176,7 @@ Cada peldaño indica su objetivo, cómo hacerlo, la señal que dice que está cu
 - **Señal de "listo, sigue":** este peldaño no termina. Su señal de salud es que los experimentos los propone el equipo, se cierran con una decisión basada en datos y las políticas cambian sin que el coach lo pida.
 - **Duración típica:** permanente; cada experimento, como referencia, de dos a cuatro semanas.
 - **Riesgo principal:** experimentos que propone el coach y el equipo solo tolera, o cambiar varias cosas a la vez y no saber cuál funcionó.
-- **Fichas:** [Retrospectiva basada en datos](../caja-de-herramientas/retro-datos.md#formato-del-experimento-de-mejora) · [Principios y prácticas del Kanban Method](../biblioteca/kanban/kanban-method.md) · [Fase 6](06-mejora-innovacion.md)
+- **Fichas:** [Retrospectiva basada en datos](../caja-de-herramientas/retro-datos.md#formato-del-experimento-de-mejora) · [Principios y prácticas del Kanban Method](../biblioteca/kanban/kanban-method.md) · [Liberating Structures](../biblioteca/facilitacion/liberating-structures.md) · [Fase 6](06-mejora-innovacion.md)
 
 ## Si vienes de "Scrum a medias"
 

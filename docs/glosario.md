@@ -3,6 +3,9 @@
 Accountability
 :   En Scrum, responsabilidad de la que alguien rinde cuentas. La Scrum Guide 2020 define tres: Product Owner, Scrum Master y Developers. Ver [la ficha](biblioteca/scrum/accountabilities.md).
 
+ADKAR
+:   Modelo de Jeff Hiatt (Prosci) con cinco resultados que una persona alcanza en orden para cambiar: *awareness*, *desire*, *knowledge*, *ability* y *reinforcement*. Ver [Kotter y ADKAR](biblioteca/facilitacion/kotter-adkar.md).
+
 ADR
 :   *Architecture Decision Record*. Documento breve que registra una decisión, su contexto y consecuencias.
 
@@ -70,6 +73,9 @@ Cycle time
 :   Tiempo desde que se empieza a trabajar en un ítem hasta que se termina.
 
     En la Kanban Guide, *cycle time* abarca desde el punto de inicio hasta el de término que define el equipo; si el inicio es el punto de compromiso y el término la entrega, equivale al lead time de esta guía. Ver [Métricas y vocabularios](biblioteca/flujo/metricas-y-vocabularios.md).
+
+Cynefin
+:   Marco de Dave Snowden para elegir cómo decidir según la relación entre causa y efecto: dominios claro, complicado, complejo y caótico, más la confusión. Ver [la ficha](biblioteca/facilitacion/cynefin.md).
 
 Daily Scrum
 :   Evento diario de 15 minutos en que los Developers inspeccionan el avance hacia el Sprint Goal y ajustan su plan. Ver [la ficha](biblioteca/scrum/daily-scrum.md).
@@ -163,6 +169,9 @@ Ley de Conway
 Ley de Little
 :   Relación entre promedios de un sistema estable: tiempo en el sistema = WIP ÷ throughput. Vale solo si se cumplen sus supuestos. Ver [la ficha](biblioteca/flujo/ley-de-little.md).
 
+Liberating Structures
+:   Repertorio de microestructuras de Henri Lipmanowicz y Keith McCandless para que participen todas las voces de una reunión, como 1-2-4-All o 15% Solutions. Ver [la ficha](biblioteca/facilitacion/liberating-structures.md).
+
 Management 3.0
 :   Propuesta de Jurgen Appelo (2010) para gestionar equipos como sistemas complejos, con prácticas como Delegation Poker, Moving Motivators y Kudo Cards. Ver [la ficha](biblioteca/personas/management-30.md).
 
@@ -192,6 +201,9 @@ MVP
 
 Nexus
 :   Marco de Scrum.org para que 3 a 9 Scrum Teams trabajen sobre un mismo producto, con foco en la integración. Ver [la ficha](biblioteca/scrum/escalamiento.md).
+
+Ocho pasos de Kotter
+:   Modelo de John Kotter (1996) para liderar un cambio organizacional, de crear sentido de urgencia a anclar los nuevos enfoques en la cultura. Ver [Kotter y ADKAR](biblioteca/facilitacion/kotter-adkar.md).
 
 Offboarding
 :   Salida planificada de una persona, con traspaso de responsabilidades, conocimiento y accesos.
