@@ -6,7 +6,7 @@
 
 ## Qué es
 
-David J. Anderson y Teodora Bozheva publicaron el KMM en 2018 (la segunda edición es de 2020). Cruza las seis prácticas generales del Kanban Method con siete niveles, del 0 al 6. En cada nivel describe qué prácticas aparecen, con qué profundidad, qué valores culturales las sostienen y qué resultados se pueden esperar.
+David J. Anderson y Teodora Bozheva publicaron el KMM en 2018. Cruza las seis prácticas generales del Kanban Method con siete niveles, del 0 al 6. En cada nivel describe qué prácticas aparecen, con qué profundidad, qué valores culturales las sostienen y qué resultados se pueden esperar.
 
 | Nivel | Nombre | Rasgo principal |
 |---|---|---|
@@ -58,4 +58,4 @@ El [assessment de madurez](../../caja-de-herramientas/assessment-madurez.md) del
 
 ## Para profundizar
 
-- David J. Anderson y Teodora Bozheva, *Kanban Maturity Model: Evolving Fit-for-Purpose Organizations*, 2018. Segunda edición, 2020.
+- David J. Anderson y Teodora Bozheva, *Kanban Maturity Model: Evolving Fit-for-Purpose Organizations*, 2018.
