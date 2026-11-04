@@ -1,6 +1,6 @@
 # Liberating Structures
 
-**En una frase:** Microestructuras de 10 a 50 minutos que cambian cómo se reparte la palabra en una reunión, para que todas las voces cuenten y no solo las de siempre.
+**En una frase:** Microestructuras que cambian cómo se reparte la palabra en una reunión, para que todas las voces cuenten y no solo las de siempre.
 
 **Área:** Facilitación y cambio · **Lectura:** ~3 min
 
