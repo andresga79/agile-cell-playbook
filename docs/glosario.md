@@ -31,7 +31,7 @@ CD3
 :   *Cost of Delay Divided by Duration*. Prioriza dividiendo el costo de demora por semana entre la duración estimada.
 
 CFD
-:   *Cumulative Flow Diagram*. Gráfico que muestra la cantidad de ítems por estado a lo largo del tiempo.
+:   *Cumulative Flow Diagram*. Gráfico que muestra la cantidad de ítems por estado a lo largo del tiempo. Ver [Cómo leer un CFD](biblioteca/flujo/cfd.md).
 
 Change failure rate
 :   Porcentaje de despliegues que causan una falla en producción que requiere corrección.
@@ -44,6 +44,8 @@ Cost of Delay
 
 Cycle time
 :   Tiempo desde que se empieza a trabajar en un ítem hasta que se termina.
+
+    En la Kanban Guide, *cycle time* abarca desde el punto de inicio hasta el de término que define el equipo; si el inicio es el punto de compromiso y el término la entrega, equivale al lead time de esta guía. Ver [Métricas y vocabularios](biblioteca/flujo/metricas-y-vocabularios.md).
 
 Daily Scrum
 :   Evento diario de 15 minutos en que los Developers inspeccionan el avance hacia el Sprint Goal y ajustan su plan. Ver [la ficha](biblioteca/scrum/daily-scrum.md).
@@ -111,8 +113,13 @@ Kudo Cards
 Lead time
 :   Tiempo desde que se compromete un ítem hasta que está disponible en producción.
 
+    En la Kanban Guide, el mismo tramo se llama *cycle time* cuando el equipo define el inicio en el punto de compromiso y el término en la entrega; ver [Métricas y vocabularios](biblioteca/flujo/metricas-y-vocabularios.md).
+
 LeSS
 :   *Large-Scale Scrum*. Marco de Craig Larman y Bas Vodde para que varios equipos trabajen sobre un producto con un solo Product Owner y un solo Product Backlog. Ver [la ficha](biblioteca/scrum/escalamiento.md).
+
+Ley de Little
+:   Relación entre promedios de un sistema estable: tiempo en el sistema = WIP ÷ throughput. Vale solo si se cumplen sus supuestos. Ver [la ficha](biblioteca/flujo/ley-de-little.md).
 
 Mapa de conocimiento
 :   Matriz que cruza áreas funcionales, técnicas y operativas con las personas que las dominan y su nivel. Mide el avance de un traspaso.
@@ -124,7 +131,7 @@ Métrica de vanidad
 :   Indicador que crece sin reflejar valor, como las líneas de código generadas.
 
 Monte Carlo
-:   Simulación que usa datos históricos de throughput para pronosticar fechas o alcance con probabilidades.
+:   Simulación que usa datos históricos de throughput para pronosticar fechas o alcance con probabilidades. Ver [Pronóstico probabilístico](biblioteca/flujo/pronostico-probabilistico.md).
 
 Moving Motivators
 :   Juego de Management 3.0 para conocer qué motiva a cada persona y cómo lo afecta un cambio.
@@ -183,6 +190,9 @@ SBOM
 SCA
 :   *Software Composition Analysis*. Análisis de dependencias de terceros por vulnerabilidades y licencias.
 
+Scatterplot de tiempos
+:   Gráfico en que cada punto es un ítem terminado, con su fecha de término y cuánto tardó; se lee con percentiles. Ver [la ficha](biblioteca/flujo/scatterplot-sle.md).
+
 Scrum Master
 :   Accountability de Scrum que responde por la efectividad del Scrum Team y por que Scrum se entienda y practique en el equipo y la organización.
 
@@ -196,7 +206,7 @@ Sistema pull
 :   Sistema en que se empieza un ítem nuevo solo cuando hay capacidad libre, en vez de asignar trabajo sin mirar el WIP. Ver [WIP y sistema pull](biblioteca/kanban/wip-y-pull.md).
 
 SLE
-:   *Service Level Expectation*. Pronóstico basado en datos del tiempo en que se completará un ítem (ej. 85 % en 10 días).
+:   *Service Level Expectation*. Pronóstico basado en datos del tiempo en que se completará un ítem (ej. 85 % en 10 días). Ver [Scatterplot, percentiles y SLE](biblioteca/flujo/scatterplot-sle.md).
 
 Sprint
 :   Ciclo de duración fija, de un mes o menos, que contiene todos los eventos de Scrum. Ver [la ficha](biblioteca/scrum/sprint-y-planning.md).
@@ -223,7 +233,7 @@ Three amigos
 :   Conversación entre PO, desarrollo y QA para acordar los criterios de aceptación de una historia antes de construirla.
 
 Throughput
-:   Cantidad de ítems terminados por unidad de tiempo.
+:   Cantidad de ítems terminados por unidad de tiempo. Ver [Métricas y vocabularios](biblioteca/flujo/metricas-y-vocabularios.md).
 
 Time to first deploy
 :   Tiempo desde que una persona se incorpora hasta que su primer cambio llega a producción.
@@ -248,6 +258,9 @@ Walking skeleton
 
 WIP
 :   *Work in Progress*. Trabajo iniciado y no terminado. Ver [WIP y sistema pull](biblioteca/kanban/wip-y-pull.md).
+
+Work item age
+:   Tiempo que lleva un ítem en curso desde que empezó hasta hoy. Es una de las cuatro métricas de la Kanban Guide; el playbook la llama WIP aging. Ver [la ficha](biblioteca/flujo/work-item-age.md).
 
 WSJF
 :   *Weighted Shortest Job First*. Prioriza dividiendo el Cost of Delay entre el tamaño del trabajo, con escalas relativas.

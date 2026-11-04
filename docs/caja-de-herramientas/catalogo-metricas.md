@@ -26,6 +26,9 @@
 
 Reportar tiempos con **percentiles (50, 85, 95)**, no promedios.
 
+!!! tip "Dos vocabularios"
+    Esta tabla usa el vocabulario del Kanban Method. La Kanban Guide llama *cycle time* al tramo que defina el equipo y no usa *lead time*. La equivalencia está en [Métricas y vocabularios](../biblioteca/flujo/metricas-y-vocabularios.md).
+
 ## Entrega y calidad (DORA)
 
 | Métrica | Élite (referencia) | Uso |

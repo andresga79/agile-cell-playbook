@@ -30,6 +30,8 @@ No medir todo. Empezar con **una o dos métricas por familia**, ver el [catálog
 | Entrega | Frecuencia de despliegue y change failure rate |
 | Equipo | Happiness Door o encuesta de pulso quincenal |
 
+Si el equipo usa el vocabulario de la Kanban Guide, revisa la equivalencia de lead time y cycle time en [Métricas y vocabularios](../biblioteca/flujo/metricas-y-vocabularios.md).
+
 ### 5.2 Tomar la línea base
 
 Antes de intervenir, medir 4–6 semanas (o extraer historial). Sin línea base no se puede demostrar mejora.
@@ -49,7 +51,7 @@ Reemplazar la estimación en horas por **pronósticos probabilísticos**:
 - *¿Cuánto entregaremos en 6 semanas?* → simulación de Monte Carlo con el throughput histórico.
 - *¿Cuándo termina este release de 40 ítems?* → Monte Carlo con rango de fechas y probabilidad.
 
-Usa el [pronóstico Monte Carlo](../caja-de-herramientas/pronostico-monte-carlo.md) para calcularlo en el navegador con tu throughput histórico.
+Usa el [pronóstico Monte Carlo](../caja-de-herramientas/pronostico-monte-carlo.md) para calcularlo en el navegador con tu throughput histórico. El concepto, y cuándo no aplica, está en la ficha [Pronóstico probabilístico](../biblioteca/flujo/pronostico-probabilistico.md).
 
 ### 5.5 Medir la salud del equipo (Management 3.0)
 

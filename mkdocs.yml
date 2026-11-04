@@ -163,6 +163,14 @@ nav:
           - STATIK: biblioteca/kanban/statik.md
           - Kanban Maturity Model: biblioteca/kanban/kmm.md
           - Flight Levels: biblioteca/kanban/flight-levels.md
+      - Métricas de flujo:
+          - biblioteca/flujo/index.md
+          - Las métricas de flujo y sus dos vocabularios: biblioteca/flujo/metricas-y-vocabularios.md
+          - Ley de Little y sus supuestos: biblioteca/flujo/ley-de-little.md
+          - Work item age y aging WIP: biblioteca/flujo/work-item-age.md
+          - Cómo leer un CFD: biblioteca/flujo/cfd.md
+          - Scatterplot, percentiles y SLE: biblioteca/flujo/scatterplot-sle.md
+          - Pronóstico probabilístico: biblioteca/flujo/pronostico-probabilistico.md
   - Casos de ejemplo:
       - casos/index.md
       - Crear una célula: casos/crear-celula.md

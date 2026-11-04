@@ -13,7 +13,7 @@ Las dos escuelas lo ponen en el centro:
 - La Kanban Guide (mayo de 2025) exige **controlar explícitamente** el WIP entre los puntos de inicio y de término. El equipo elige cómo representarlo, y se empieza algo nuevo solo cuando hay una señal clara de capacidad.
 - El Kanban Method lo nombra como práctica: **limitar el WIP**.
 
-La razón está en la Ley de Little: si el ritmo de entrega se mantiene, más trabajo en curso significa que cada ítem pasa, en promedio, más tiempo en el sistema. El lema es *deja de empezar, empieza a terminar*.
+La razón está en la [Ley de Little](../flujo/ley-de-little.md): si el ritmo de entrega se mantiene, más trabajo en curso significa que cada ítem pasa, en promedio, más tiempo en el sistema. El lema es *deja de empezar, empieza a terminar*.
 
 ## Para qué sirve (y cuándo no)
 
@@ -49,6 +49,7 @@ Tiene límites. Si el cuello de botella está fuera del equipo (otra área, un p
 ## Relacionado
 
 - [Visualizar](visualizar.md) · [Políticas explícitas](politicas-explicitas.md) · [Clases de servicio](clases-de-servicio.md)
+- [Ley de Little](../flujo/ley-de-little.md) · [Work item age](../flujo/work-item-age.md) · [Cómo leer un CFD](../flujo/cfd.md)
 - [Fase 3 · Diseño del sistema de trabajo](../../fases/03-sistema-de-trabajo.md)
 - [Políticas del tablero](../../caja-de-herramientas/politicas-tablero.md) · [Catálogo de métricas](../../caja-de-herramientas/catalogo-metricas.md)
 

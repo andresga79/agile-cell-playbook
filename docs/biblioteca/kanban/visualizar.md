@@ -13,7 +13,7 @@ Dos marcas ordenan el tablero:
 - **Punto de compromiso:** la línea a partir de la cual el equipo se compromete a terminar el ítem. Antes de ella hay **opciones**, que se pueden descartar sin costo.
 - **Punto de entrega:** donde el ítem llega al cliente o queda disponible para usarse.
 
-En el Kanban Method, el **lead time** se mide entre ambos puntos. La Kanban Guide pide algo equivalente: que la Definition of Workflow diga cuándo un ítem se considera iniciado y terminado.
+En el Kanban Method, el **lead time** se mide entre ambos puntos. La Kanban Guide no usa ese término: pide que la Definition of Workflow diga cuándo un ítem se considera iniciado y terminado, y llama *cycle time* al tiempo entre esos puntos. Si son el compromiso y la entrega, es el mismo tramo (ver [Métricas y vocabularios](../flujo/metricas-y-vocabularios.md)).
 
 ```mermaid
 flowchart LR
@@ -60,6 +60,7 @@ La [Fase 3 §3.3](../../fases/03-sistema-de-trabajo.md#33-disenar-el-tablero) tr
 ## Relacionado
 
 - [Kanban en una página](kanban-en-una-pagina.md) · [WIP y sistema pull](wip-y-pull.md) · [Políticas explícitas](politicas-explicitas.md)
+- [Métricas y vocabularios](../flujo/metricas-y-vocabularios.md) · [Work item age](../flujo/work-item-age.md)
 - [Value Stream Mapping](../../caja-de-herramientas/value-stream-map.md)
 - [Políticas del tablero](../../caja-de-herramientas/politicas-tablero.md)
 

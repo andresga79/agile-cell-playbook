@@ -54,3 +54,15 @@ Cada sesión incluye lecturas, una pregunta para autoevaluarte y un ejercicio co
 **Lee:** [Clases de servicio](kanban/clases-de-servicio.md) · [Las cadencias de Kanban](kanban/cadencias-kanban.md) · [Kanban Maturity Model](kanban/kmm.md) · [Flight Levels](kanban/flight-levels.md)  
 **Pregúntate:** ¿El problema de flujo más grande de tu último equipo estaba dentro del equipo o entre equipos?  
 **Ejercicio:** Haz una lista de las reuniones de un equipo que conozcas y marca qué cadencia de Kanban cubre cada una. Señala la que falta y en qué reunión existente la incorporarías, sin agregar una nueva.
+
+### Sesión 7 · Métricas de flujo: vocabulario y Ley de Little (~25 min)
+
+**Lee:** [Las métricas de flujo y sus dos vocabularios](flujo/metricas-y-vocabularios.md) · [Ley de Little y sus supuestos](flujo/ley-de-little.md) · [Work item age y aging WIP](flujo/work-item-age.md)  
+**Pregúntate:** En tu último equipo, ¿entre qué dos puntos del tablero se medía el "cycle time", y cómo se llamaría esa medición en la otra escuela?  
+**Ejercicio:** Imagina un equipo con 18 ítems en curso, que termina 3 por semana y empezó 5 por semana el último mes. Calcula el tiempo promedio que da la Ley de Little, señala qué supuesto se rompe y escribe la política que propondrías para recuperarlo.
+
+### Sesión 8 · Métricas de flujo: CFD, scatterplot y pronóstico (~25 min)
+
+**Lee:** [Cómo leer un CFD](flujo/cfd.md) · [Scatterplot, percentiles y SLE](flujo/scatterplot-sle.md) · [Pronóstico probabilístico](flujo/pronostico-probabilistico.md)  
+**Pregúntate:** ¿Cómo respondía tu último equipo a "¿cuándo está?", y qué habría cambiado si hubiera respondido con un rango y una probabilidad?  
+**Ejercicio:** Toma los tiempos de los últimos 20 ítems terminados de un equipo que conozcas (o invéntalos con algunos muy lentos). Calcula los percentiles 50 y 85, escribe un SLE y redacta cómo se lo explicarías a una persona de negocio en dos frases.

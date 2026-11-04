@@ -53,7 +53,7 @@ No sirve si todo el trabajo tiene el mismo perfil: una sola clase basta. Tampoco
 ## Relacionado
 
 - [Políticas explícitas](politicas-explicitas.md) · [WIP y sistema pull](wip-y-pull.md) · [STATIK](statik.md)
-- [Cost of Delay y WSJF](../../caja-de-herramientas/cost-of-delay-wsjf.md)
+- [Cost of Delay y WSJF](../../caja-de-herramientas/cost-of-delay-wsjf.md) · [Scatterplot, percentiles y SLE](../flujo/scatterplot-sle.md)
 - [Fase 3 §3.3 · Diseñar el tablero](../../fases/03-sistema-de-trabajo.md#33-disenar-el-tablero)
 
 ## Para profundizar

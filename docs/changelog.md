@@ -20,6 +20,7 @@ Lo publicado después del último tag aparece en `[Sin publicar]`.
 - Biblioteca: portada y ruta de estudio. Tooltips de siglas en pantallas táctiles.
 - Biblioteca · Scrum: 11 fichas (Scrum en una página, accountabilities, Sprint y Planning, Daily Scrum, Sprint Review, retrospectiva, artefactos y compromisos, refinamiento, antipatrones, Evidence-Based Management y escalamiento) y las sesiones 1 a 3 de la ruta de estudio.
 - Biblioteca · Kanban: 10 fichas (Kanban en una página, principios y prácticas del Kanban Method, visualizar, WIP y sistema pull, políticas explícitas, clases de servicio, cadencias, STATIK, Kanban Maturity Model y Flight Levels) y las sesiones 4 a 6 de la ruta de estudio. La Fase 3 enlaza a las fichas de WIP, clases de servicio y cadencias.
+- Biblioteca · Métricas de flujo: 6 fichas (métricas y sus dos vocabularios, Ley de Little, work item age, CFD, scatterplot y SLE, y pronóstico probabilístico) y las sesiones 7 y 8 de la ruta de estudio. La Fase 5 y el catálogo de métricas enlazan a las fichas; el glosario suma Ley de Little, scatterplot de tiempos y work item age, y aclara la equivalencia de lead time y cycle time con la Kanban Guide.
 
 ## [0.4.0] · 2026-10-28
 

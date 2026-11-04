@@ -55,7 +55,7 @@ Un equipo único y pequeño no necesita las siete por separado. Una daily, una r
 ## Relacionado
 
 - [Principios y prácticas del Kanban Method](kanban-method.md) · [Clases de servicio](clases-de-servicio.md) · [Flight Levels](flight-levels.md)
-- [Calendario de cadencias](../../caja-de-herramientas/calendario-cadencias.md)
+- [Calendario de cadencias](../../caja-de-herramientas/calendario-cadencias.md) · [Scatterplot, percentiles y SLE](../flujo/scatterplot-sle.md)
 - [Fase 3 §3.5 · Cadencias](../../fases/03-sistema-de-trabajo.md#35-cadencias)
 
 ## Para profundizar

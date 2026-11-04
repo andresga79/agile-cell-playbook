@@ -48,13 +48,13 @@ Kanban encaja cuando la demanda llega de forma continua o impredecible, o cuando
 - ¿Tres personas dan la misma respuesta a "¿cuándo empieza y cuándo termina un ítem?"?
 - ¿Se empiezan más ítems de los que se terminan cada semana?
 - ¿Qué métricas nombran y cómo las calculan? El mismo nombre puede esconder dos mediciones.
-- ¿Existe algún momento en que el equipo mire datos de flujo, o solo mira el tablero?
+- ¿El equipo mira datos de flujo en algún momento, o solo el tablero?
 
 ## Relacionado
 
 - [Principios y prácticas del Kanban Method](kanban-method.md) · [WIP y sistema pull](wip-y-pull.md) · [Visualizar](visualizar.md)
 - [Fase 3 · Diseño del sistema de trabajo](../../fases/03-sistema-de-trabajo.md)
-- [Catálogo de métricas](../../caja-de-herramientas/catalogo-metricas.md)
+- [Catálogo de métricas](../../caja-de-herramientas/catalogo-metricas.md) · [Métricas y vocabularios](../flujo/metricas-y-vocabularios.md)
 
 ## Para profundizar
 
