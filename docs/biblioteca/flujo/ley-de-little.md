@@ -17,14 +17,14 @@ Ejemplo ilustrativo: con 12 ítems en curso en promedio y 4 terminados por seman
 **Los supuestos**, tal como los resume Vacanti, para el intervalo que mides:
 
 1. En promedio, entra al sistema lo mismo que sale.
-2. Todo lo que se empieza termina y sale; lo que se abandona se registra como tal.
+2. Todo lo que se empieza termina y sale del sistema.
 3. El WIP al inicio y al final del intervalo es parecido.
 4. La edad promedio del WIP no crece ni baja.
 5. CT, WIP y TH se miden en unidades consistentes (ítems y días, por ejemplo).
 
 ## Para qué sirve (y cuándo no)
 
-Explica por qué limitar el WIP acorta los tiempos: con el mismo ritmo de salida, menos trabajo en curso significa menos espera para cada ítem. Sobre todo, Vacanti propone usar los supuestos como **políticas del proceso**. Cada vez que el equipo empieza más de lo que termina, deja ítems envejeciendo o abandona trabajo sin registrarlo, rompe un supuesto y pierde previsibilidad.
+Explica por qué limitar el WIP acorta los tiempos: con el mismo ritmo de salida, menos trabajo en curso significa menos espera para cada ítem. Sobre todo, Vacanti propone usar los supuestos como **políticas del proceso**. Cada vez que el equipo empieza más de lo que termina, deja ítems envejeciendo o abandona trabajo ya empezado, rompe un supuesto y pierde previsibilidad.
 
 No sirve para pronosticar: describe el pasado con promedios, y Vacanti insiste en no usarla para comprometer fechas. Para eso existe el [pronóstico probabilístico](pronostico-probabilistico.md). Tampoco exige que los ítems sean del mismo tamaño: trabaja con promedios.
 
