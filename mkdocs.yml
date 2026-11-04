@@ -92,6 +92,7 @@ extra_css:
 
 hooks:
   - hooks/assessment_data.py
+  - hooks/fichas.py
 
 nav:
   - Inicio: index.md
