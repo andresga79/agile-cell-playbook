@@ -5,6 +5,7 @@ Plantillas listas para copiar. Cada una indica en qué fase se usa.
 | Herramienta | Fase | Marco de origen |
 |---|---|---|
 | [Mapa de stakeholders](mapa-stakeholders.md) | 0 | Gestión de stakeholders |
+| [Diario de observación](diario-observacion.md) | 0, transversal | Coaching |
 | [Assessment de madurez](assessment-madurez.md) | 0 | Diagnóstico de células |
 | [Calculadora de madurez](calculadora-madurez.md) | 0 | Diagnóstico de células |
 | [Team Canvas](team-canvas.md) | 0 | Facilitación de equipos |

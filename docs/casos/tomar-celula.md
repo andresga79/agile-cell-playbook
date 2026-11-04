@@ -25,6 +25,8 @@ Historial de los últimos 3 meses (Jira, pipelines e incidentes):
 
 ### Semanas 1–3 · Fase 0: assessment
 
+Como el SM / Coach llegaba nuevo, organizó estas semanas con la transversal [Llegar a un equipo nuevo](../fases/transversal-llegar-equipo-nuevo.md): 1:1 y datos en la primera, observación en la segunda y devolución en la tercera.
+
 Se aplicó el [assessment de madurez](../caja-de-herramientas/assessment-madurez.md) con su plan de 3 semanas y se registró en la [calculadora](../caja-de-herramientas/calculadora-madurez.md). Puntaje por dimensión (promedio de 5 preguntas):
 
 | Dimensión | Autoevaluación | Observado | Brecha | Nivel |

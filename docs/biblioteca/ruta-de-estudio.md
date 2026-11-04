@@ -72,3 +72,9 @@ Cada sesión incluye lecturas, una pregunta para autoevaluarte y un ejercicio co
 **Lee:** [Qué es Scrumban y de dónde viene](scrumban/que-es-scrumban.md) · [Cuándo sí y cuándo no Scrumban](scrumban/cuando-scrumban.md) · [Combinar cadencia y flujo](scrumban/cadencia-y-flujo.md) · [Antipatrones de Scrumban](scrumban/antipatrones-scrumban.md)  
 **Pregúntate:** Si un equipo te dice "hacemos Scrumban", ¿cómo sabrías si lo vive como una transición, como un destino o como una excusa para dejar de hacer algo?  
 **Ejercicio:** Imagina un equipo de Scrum en el que el 35 % de los ítems terminados en los últimos cuatro Sprints entró después de la Planning. Decide si le propondrías Scrumban, escribe qué conservarías de Scrum, el primer experimento de flujo y la señal que mirarías en un mes para saber si funcionó.
+
+### Sesión 10 · Preparar la llegada a un equipo (~25 min)
+
+**Lee:** [Llegar a un equipo nuevo](../fases/transversal-llegar-equipo-nuevo.md) · [Diario de observación](../caja-de-herramientas/diario-observacion.md)  
+**Pregúntate:** ¿Qué cambiarías en tu primera semana con un equipo si no pudieras opinar hasta haber observado cada ceremonia al menos una vez?  
+**Ejercicio:** Imagina que llegas a un equipo que dice hacer Scrum, con 6 ítems arrastrados del último Sprint y un 30 % de trabajo que entra después de la Planning. Escribe tres filas del diario que esperarías encontrar, la puerta de entrada que recomendarías y la señal que confirmaría tu hipótesis antes de la semana 3.

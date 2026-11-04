@@ -18,6 +18,9 @@ Cuestionario para diagnosticar una célula existente en seis dimensiones. El res
 
 ### Plan de 3 semanas
 
+!!! tip "Si llegas nuevo al equipo"
+    La transversal [Llegar a un equipo nuevo](../fases/transversal-llegar-equipo-nuevo.md) envuelve este mismo plan desde la mirada de quien llega: postura, preguntas para los 1:1, qué no hacer, el [diario de observación](diario-observacion.md) y cómo elegir la puerta de entrada. En ese caso, conviene empezar los 1:1 en la semana 1.
+
 | Semana | Actividad | Resultado |
 |---|---|---|
 | 1 · Datos | Extraer 3 meses de historial de Jira (o equivalente), pipelines, incidentes y releases. Calcular lead time, throughput, WIP, frecuencia de despliegue y defectos escapados | Línea base cuantitativa |

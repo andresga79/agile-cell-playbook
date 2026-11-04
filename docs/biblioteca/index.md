@@ -24,5 +24,7 @@ La biblioteca se publica por áreas y esta lista crece con cada entrega: [Scrum]
 
 Si prefieres un orden, sigue la [ruta de estudio](ruta-de-estudio.md): 10 sesiones cortas, pensadas para leer en el teléfono.
 
+Si estás por llegar a un equipo nuevo, la transversal [Llegar a un equipo nuevo](../fases/transversal-llegar-equipo-nuevo.md) reúne las señales de las fichas en una sola tabla de diagnóstico.
+
 !!! note "Complementa, no reemplaza"
     Las fichas complementan las fases de la guía y no las reemplazan. Las fases dicen qué hacer y en qué orden; las fichas explican el concepto que hay detrás cuando lo necesitas.

@@ -12,6 +12,7 @@
 | T | [Gobierno con proveedores](transversal-gobierno-proveedores.md) | ¿Cómo gobernamos una célula externalizada por resultados? | Acuerdo de servicio por outcomes |
 | T | [Traspaso a equipo interno](transversal-traspaso-proveedor.md) | ¿Cómo pasamos la célula del proveedor al equipo interno sin cortar el flujo? | Plan de traspaso |
 | T | [IA en la célula](transversal-ia-en-la-celula.md) | ¿Cómo usamos IA sin perder calidad, seguridad ni aprendizaje? | Política de uso de IA + experimento con línea base |
+| T | [Llegar a un equipo nuevo](transversal-llegar-equipo-nuevo.md) | ¿Qué hago en mis primeras tres semanas con un equipo que no conozco? | Diario de observación + puerta de entrada |
 
 ## Ritmos en régimen
 

@@ -35,6 +35,8 @@ Aplicar el [assessment de madurez](../caja-de-herramientas/assessment-madurez.md
 
 El equipo se autoevalúa y el facilitador puntúa lo observado. La [calculadora de madurez](../caja-de-herramientas/calculadora-madurez.md) genera el radar con ambas miradas, marca las brechas de percepción y propone el orden de fases según las reglas de priorización.
 
+Si llegas nuevo al equipo como SM o coach, la transversal [Llegar a un equipo nuevo](transversal-llegar-equipo-nuevo.md) organiza estas semanas desde tu mirada: qué escuchar, qué observar, qué no cambiar todavía y cómo elegir la puerta de entrada.
+
 !!! tip "Datos del pasado"
     En célula existente, extrae al menos 3 meses de historial de tickets para calcular lead time, throughput y WIP de línea base. El [Agile Metric Hub](https://github.com/andresga79/agile-metric-hub) puede servir para cruzar sprints.
 

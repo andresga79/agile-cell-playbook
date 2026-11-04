@@ -17,6 +17,8 @@ flowchart TD
     C2 --> C3[Estabilizar flujo primero:<br/>Fase 3 y 4]
 ```
 
+En la ruta Tomar, si llegas nuevo como SM o coach, sigue [Llegar a un equipo nuevo](fases/transversal-llegar-equipo-nuevo.md) durante el diagnóstico de la Fase 0.
+
 Cada ruta tiene un caso de ejemplo: [Crear una célula](casos/crear-celula.md), [Tomar una célula](casos/tomar-celula.md) y [Traspaso de proveedor](casos/traspaso-proveedor.md).
 
 ## Tiempos de referencia

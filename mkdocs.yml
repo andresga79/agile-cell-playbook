@@ -110,9 +110,11 @@ nav:
       - "Transversal · Gobierno con proveedores": fases/transversal-gobierno-proveedores.md
       - "Transversal · Traspaso a equipo interno": fases/transversal-traspaso-proveedor.md
       - "Transversal · IA en la célula": fases/transversal-ia-en-la-celula.md
+      - "Transversal · Llegar a un equipo nuevo": fases/transversal-llegar-equipo-nuevo.md
   - Caja de herramientas:
       - caja-de-herramientas/index.md
       - Mapa de stakeholders: caja-de-herramientas/mapa-stakeholders.md
+      - Diario de observación: caja-de-herramientas/diario-observacion.md
       - Assessment de madurez: caja-de-herramientas/assessment-madurez.md
       - Calculadora de madurez: caja-de-herramientas/calculadora-madurez.md
       - Team Canvas: caja-de-herramientas/team-canvas.md
