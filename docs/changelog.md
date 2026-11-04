@@ -15,6 +15,8 @@ Lo publicado después del último tag aparece en `[Sin publicar]`.
 
 ## [Sin publicar]
 
+## [0.5.0] · 2026-11-04
+
 ### Agregado
 
 - Biblioteca: portada y ruta de estudio. Tooltips de siglas en pantallas táctiles.
