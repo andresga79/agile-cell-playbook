@@ -50,6 +50,7 @@ Tiene límites. Si el cuello de botella está fuera del equipo (otra área, un p
 
 - [Visualizar](visualizar.md) · [Políticas explícitas](politicas-explicitas.md) · [Clases de servicio](clases-de-servicio.md)
 - [Ley de Little](../flujo/ley-de-little.md) · [Work item age](../flujo/work-item-age.md) · [Cómo leer un CFD](../flujo/cfd.md)
+- [Principios de flujo de Reinertsen](../lean/principios-de-flujo.md)
 - [Fase 3 · Diseño del sistema de trabajo](../../fases/03-sistema-de-trabajo.md)
 - [Políticas del tablero](../../caja-de-herramientas/politicas-tablero.md) · [Catálogo de métricas](../../caja-de-herramientas/catalogo-metricas.md)
 

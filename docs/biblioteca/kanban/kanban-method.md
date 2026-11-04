@@ -66,7 +66,7 @@ El orden es una referencia, no una regla del método. Para ver la profundidad de
 ## Relacionado
 
 - [Kanban en una página](kanban-en-una-pagina.md) · [WIP y sistema pull](wip-y-pull.md) · [Políticas explícitas](politicas-explicitas.md) · [Las cadencias de Kanban](cadencias-kanban.md)
-- [Fase 3 · Diseño del sistema de trabajo](../../fases/03-sistema-de-trabajo.md)
+- [Lean en una página](../lean/lean-en-una-pagina.md) · [Fase 3 · Diseño del sistema de trabajo](../../fases/03-sistema-de-trabajo.md)
 
 ## Para profundizar
 

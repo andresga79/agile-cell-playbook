@@ -15,6 +15,9 @@ Asistente de código
 Blue / Green
 :   Estrategia de despliegue con dos ambientes de producción idénticos; se cambia el tráfico de uno a otro y se vuelve atrás al instante si falla.
 
+Bucle de realimentación
+:   En pensamiento sistémico, cadena de causas que vuelve sobre sí misma. Los bucles de refuerzo amplifican un cambio y los de equilibrio lo frenan. Ver [Pensamiento sistémico](biblioteca/lean/pensamiento-sistemico.md).
+
 Bus factor
 :   Cantidad de personas que tendrían que faltar para que el equipo no pueda seguir operando una parte del sistema.
 
@@ -55,6 +58,9 @@ Definition of Workflow
 
 Dependencia externa
 :   Trabajo, recurso o aprobación que una célula necesita de otra célula o de un tercero para terminar un ítem.
+
+Desperdicio
+:   En lean (*muda*), todo lo que consume tiempo o esfuerzo sin acercar valor al cliente. Ver [Los desperdicios en software](biblioteca/lean/desperdicios.md).
 
 Developers
 :   En Scrum, las personas del equipo que crean cualquier aspecto de un incremento usable en cada Sprint, sin importar su especialidad.
@@ -98,6 +104,9 @@ Impact Mapping
 Increment
 :   En Scrum, paso concreto y usable hacia el Product Goal. Cumple la Definition of Done y se suma a los anteriores; puede haber varios por Sprint.
 
+Jidoka
+:   Pilar del Sistema de Producción Toyota: detener el proceso apenas aparece un problema para no seguir produciendo defectos. Ver [Lean en una página](biblioteca/lean/lean-en-una-pagina.md).
+
 Kanban Guide
 :   Guía de Daniel Vacanti y John Coleman (kanbanguides.org) que define Kanban como una estrategia para optimizar el flujo de valor. Ver [Kanban en una página](biblioteca/kanban/kanban-en-una-pagina.md).
 
@@ -117,6 +126,9 @@ Lead time
 :   Tiempo desde que se compromete un ítem hasta que está disponible en producción.
 
     En la Kanban Guide, el mismo tramo se llama *cycle time* cuando el equipo define el inicio en el punto de compromiso y el término en la entrega; ver [Métricas y vocabularios](biblioteca/flujo/metricas-y-vocabularios.md).
+
+Lean
+:   Forma de gestionar el trabajo que nace del Sistema de Producción Toyota y se centra en el valor para el cliente, el flujo y la mejora continua. Ver [Lean en una página](biblioteca/lean/lean-en-una-pagina.md).
 
 LeSS
 :   *Large-Scale Scrum*. Marco de Craig Larman y Bas Vodde para que varios equipos trabajen sobre un producto con un solo Product Owner y un solo Product Backlog. Ver [la ficha](biblioteca/scrum/escalamiento.md).
@@ -151,6 +163,9 @@ Nexus
 Offboarding
 :   Salida planificada de una persona, con traspaso de responsabilidades, conocimiento y accesos.
 
+Pensamiento sistémico
+:   Mirar los resultados como producto de la estructura de un sistema (stocks, flujos, bucles y demoras) y no del esfuerzo individual. Ver [la ficha](biblioteca/lean/pensamiento-sistemico.md).
+
 Personal Map
 :   Herramienta de Management 3.0 para conocer el contexto personal de cada integrante del equipo.
 
@@ -165,6 +180,9 @@ Product Backlog
 
 Product Goal
 :   Estado futuro del producto que sirve de objetivo de largo plazo para el Scrum Team. Ver [Artefactos y compromisos](biblioteca/scrum/artefactos-y-compromisos.md).
+
+Punto de apalancamiento
+:   Lugar de un sistema donde un cambio pequeño produce un efecto grande. Según Donella Meadows, las reglas y las metas pesan más que los números. Ver [Pensamiento sistémico](biblioteca/lean/pensamiento-sistemico.md).
 
 Punto de compromiso
 :   Línea del tablero a partir de la cual el equipo se compromete a terminar un ítem; antes de ella solo hay opciones. Ver [Visualizar](biblioteca/kanban/visualizar.md).
@@ -231,6 +249,9 @@ STRIDE
 
 Swarming
 :   Práctica en que varias personas del equipo se juntan sobre un mismo ítem para destrabarlo o terminarlo antes de empezar otro.
+
+Tamaño de lote
+:   Cantidad de trabajo que pasa junta de una etapa a la siguiente. Lotes más chicos acortan las colas y aceleran la retroalimentación. Ver [Principios de flujo](biblioteca/lean/principios-de-flujo.md).
 
 Threat modeling
 :   Análisis de cómo puede atacarse una funcionalidad antes de construirla.

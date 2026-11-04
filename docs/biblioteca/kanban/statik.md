@@ -54,7 +54,7 @@ No hace falta un taller completo para un equipo chico con un flujo simple: los p
 
 - [Visualizar](visualizar.md) · [Clases de servicio](clases-de-servicio.md) · [Principios y prácticas del Kanban Method](kanban-method.md)
 - [Fase 3 §3.1 · Analizar la demanda](../../fases/03-sistema-de-trabajo.md#31-analizar-la-demanda)
-- [Value Stream Mapping](../../caja-de-herramientas/value-stream-map.md)
+- [Value Stream Mapping](../../caja-de-herramientas/value-stream-map.md) · [Pensamiento sistémico](../lean/pensamiento-sistemico.md)
 
 ## Para profundizar
 

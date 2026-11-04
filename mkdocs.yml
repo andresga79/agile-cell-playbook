@@ -180,6 +180,12 @@ nav:
           - Cuándo sí y cuándo no: biblioteca/scrumban/cuando-scrumban.md
           - Combinar cadencia y flujo: biblioteca/scrumban/cadencia-y-flujo.md
           - Antipatrones de Scrumban: biblioteca/scrumban/antipatrones-scrumban.md
+      - Lean y flujo:
+          - biblioteca/lean/index.md
+          - Lean en una página: biblioteca/lean/lean-en-una-pagina.md
+          - Los desperdicios en software: biblioteca/lean/desperdicios.md
+          - Principios de flujo de Reinertsen: biblioteca/lean/principios-de-flujo.md
+          - Pensamiento sistémico: biblioteca/lean/pensamiento-sistemico.md
   - Casos de ejemplo:
       - casos/index.md
       - Crear una célula: casos/crear-celula.md

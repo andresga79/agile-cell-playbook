@@ -54,7 +54,7 @@ No sirve para pronosticar: describe el pasado con promedios, y Vacanti insiste e
 ## Relacionado
 
 - [Métricas y vocabularios](metricas-y-vocabularios.md) · [Work item age](work-item-age.md) · [Cómo leer un CFD](cfd.md)
-- [WIP y sistema pull](../kanban/wip-y-pull.md) · [Políticas explícitas](../kanban/politicas-explicitas.md)
+- [WIP y sistema pull](../kanban/wip-y-pull.md) · [Políticas explícitas](../kanban/politicas-explicitas.md) · [Principios de flujo](../lean/principios-de-flujo.md)
 - [Catálogo de métricas](../../caja-de-herramientas/catalogo-metricas.md)
 
 ## Para profundizar

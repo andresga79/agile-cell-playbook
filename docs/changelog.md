@@ -15,6 +15,12 @@ Lo publicado después del último tag aparece en `[Sin publicar]`.
 
 ## [Sin publicar]
 
+### Agregado
+
+- **Biblioteca · Lean y flujo**: 4 fichas (Lean en una página, Los desperdicios en software, Principios de flujo de Reinertsen y Pensamiento sistémico), con su índice de área. Distinguen los siete desperdicios de Ohno de su traducción al software de los Poppendieck y enlazan a Cost of Delay y WSJF y a Value Stream Mapping sin repetirlos.
+- Glosario: bucle de realimentación, desperdicio, jidoka, lean, pensamiento sistémico, punto de apalancamiento y tamaño de lote. Sigla TPS.
+- Llegar a un equipo nuevo: tres señales de diagnóstico enlazadas a las fichas de Lean. Varias fichas del núcleo enlazan a la nueva área en "Relacionado".
+
 ### Corregido
 
 - Escalera Scrumban: señal del peldaño 5 y métrica de edad coherentes con el SLE; resumen de señales por peldaño, enlace a los puntajes de entrada y la escalera también aplica si ya conoces al equipo.

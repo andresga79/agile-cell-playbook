@@ -98,6 +98,7 @@ Reúne señales de las secciones "Qué observar al llegar a un equipo" de las fi
 | Sin límites de WIP visibles, o nadie sabe qué pasa al alcanzarlos | Tablero | [Kanban en una página](../biblioteca/kanban/kanban-en-una-pagina.md) |
 | Ítems con más del doble de la edad típica, y nadie sabe por qué | Tablero | [Work item age](../biblioteca/flujo/work-item-age.md) |
 | Columnas como "Hecho, pendiente de QA" que acumulan ítems | Tablero | [Artefactos y compromisos](../biblioteca/scrum/artefactos-y-compromisos.md) |
+| Un ítem típico cambia de manos varias veces antes de llegar a producción | Tablero y 1:1 | [Los desperdicios en software](../biblioteca/lean/desperdicios.md) |
 | El Sprint Goal no está escrito, o es una lista de ítems | Tablero | [El Sprint y Sprint Planning](../biblioteca/scrum/sprint-y-planning.md) |
 | Todas las personas le hablan a una sola | Daily | [Daily Scrum](../biblioteca/scrum/daily-scrum.md) |
 | Se recorre a las personas, no el tablero | Daily | [Combinar cadencia y flujo](../biblioteca/scrumban/cadencia-y-flujo.md) |
@@ -114,7 +115,9 @@ Reúne señales de las secciones "Qué observar al llegar a un equipo" de las fi
 | Cada persona mide el cycle time entre puntos distintos | Datos y 1:1 | [Métricas y vocabularios](../biblioteca/flujo/metricas-y-vocabularios.md) |
 | Tres personas dan respuestas distintas sobre cuándo un ítem pasa de columna | 1:1 | [Políticas explícitas](../biblioteca/kanban/politicas-explicitas.md) |
 | Los stakeholders piden trabajo directo a los Developers, sin pasar por el backlog | 1:1 y canal del equipo | [Accountabilities](../biblioteca/scrum/accountabilities.md) |
+| Hay una persona sin la cual "no sale nada" y apaga los incendios | 1:1 | [Pensamiento sistémico](../biblioteca/lean/pensamiento-sistemico.md) |
 | "¿Cuándo está?" se responde con una fecha sin datos o con "depende" | Conversaciones con negocio | [Pronóstico probabilístico](../biblioteca/flujo/pronostico-probabilistico.md) |
+| Se mide o se celebra la ocupación de las personas, no la entrega | Conversaciones con negocio | [Principios de flujo](../biblioteca/lean/principios-de-flujo.md) |
 | "Hacemos Scrumban", pero no hay Sprint Goal ni límites de WIP escritos | 1:1 y tablero | [Antipatrones de Scrumban](../biblioteca/scrumban/antipatrones-scrumban.md) |
 
 ## Elegir la puerta de entrada

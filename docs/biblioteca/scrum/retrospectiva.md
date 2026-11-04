@@ -56,7 +56,7 @@ Para la versión con datos (CFD, percentiles, bloqueos), el formato de experimen
 ## Relacionado
 
 - [Sprint Review](sprint-review.md) · [Artefactos y compromisos](artefactos-y-compromisos.md) · [Antipatrones de Scrum](antipatrones-scrum.md)
-- [Retrospectiva basada en datos](../../caja-de-herramientas/retro-datos.md) · [Políticas explícitas](../kanban/politicas-explicitas.md)
+- [Retrospectiva basada en datos](../../caja-de-herramientas/retro-datos.md) · [Políticas explícitas](../kanban/politicas-explicitas.md) · [Pensamiento sistémico](../lean/pensamiento-sistemico.md)
 - [Fase 6 · Mejora, innovación y escalamiento](../../fases/06-mejora-innovacion.md)
 
 ## Para profundizar

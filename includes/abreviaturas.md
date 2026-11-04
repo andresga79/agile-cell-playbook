@@ -23,3 +23,4 @@
 *[SAFe]: Scaled Agile Framework: marco para coordinar agilidad desde equipos hasta portafolio
 *[STATIK]: Systems Thinking Approach to Introducing Kanban: pasos para diseñar un sistema Kanban desde el servicio y su cliente
 *[KMM]: Kanban Maturity Model: mapa de siete niveles de madurez de Kanban University
+*[TPS]: Toyota Production System: Sistema de Producción Toyota, origen de lean
