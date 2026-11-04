@@ -1497,6 +1497,8 @@
       
         
       
+        
+      
     
     
       
@@ -2686,6 +2688,185 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_8" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../biblioteca/ingenieria/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Ingeniería
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_8" id="__nav_5_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_8">
+            <span class="md-nav__icon md-icon"></span>
+            Ingeniería
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../biblioteca/ingenieria/xp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Extreme Programming (XP)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../biblioteca/ingenieria/bdd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BDD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../biblioteca/ingenieria/trunk-based/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trunk-based development
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../biblioteca/ingenieria/dora/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DORA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../biblioteca/ingenieria/space/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SPACE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -2986,8 +3167,12 @@
 <dd>Herramienta de IA que ejecuta tareas de varios pasos con cierta autonomía (abrir PRs, correr comandos) bajo permisos definidos.</dd>
 <dt>Asistente de código</dt>
 <dd>Herramienta de IA que sugiere o genera código dentro del editor o del flujo de revisión.</dd>
+<dt><abbr title="Behaviour-Driven Development: acordar el comportamiento con ejemplos y automatizarlos como pruebas">BDD</abbr></dt>
+<dd><em>Behaviour-Driven Development</em>. Práctica de acordar el comportamiento esperado con ejemplos concretos en lenguaje de negocio (Given / When / Then) y automatizarlos como pruebas. Ver <a href="../biblioteca/ingenieria/bdd/">la ficha</a>.</dd>
 <dt>Blue / Green</dt>
 <dd>Estrategia de despliegue con dos ambientes de producción idénticos; se cambia el tráfico de uno a otro y se vuelve atrás al instante si falla.</dd>
+<dt>Branch by abstraction</dt>
+<dd>Técnica para reemplazar una parte grande del sistema por etapas, detrás de una capa intermedia, sin abrir una rama de larga vida. Ver <a href="../biblioteca/ingenieria/trunk-based/">Trunk-based development</a>.</dd>
 <dt>Bucle de realimentación</dt>
 <dd>En pensamiento sistémico, cadena de causas que vuelve sobre sí misma. Los bucles de refuerzo amplifican un cambio y los de equilibrio lo frenan. Ver <a href="../biblioteca/lean/pensamiento-sistemico/">Pensamiento sistémico</a>.</dd>
 <dt>Bus factor</dt>
@@ -3003,7 +3188,9 @@
 <dt><abbr title="Cumulative Flow Diagram: gráfico de ítems por estado a lo largo del tiempo">CFD</abbr></dt>
 <dd><em>Cumulative Flow Diagram</em>. Gráfico que muestra la cantidad de ítems por estado a lo largo del tiempo. Ver <a href="../biblioteca/flujo/cfd/">Cómo leer un <abbr title="Cumulative Flow Diagram: gráfico de ítems por estado a lo largo del tiempo">CFD</abbr></a>.</dd>
 <dt>Change failure rate</dt>
-<dd>Porcentaje de despliegues que causan una falla en producción que requiere corrección.</dd>
+<dd>Porcentaje de despliegues que causan una falla en producción que requiere corrección. En la guía vigente de <abbr title="DevOps Research and Assessment: programa de investigación sobre entrega de software y sus métricas de velocidad y estabilidad">DORA</abbr> se llama <em>change fail rate</em>. Ver <a href="../biblioteca/ingenieria/dora/"><abbr title="DevOps Research and Assessment: programa de investigación sobre entrega de software y sus métricas de velocidad y estabilidad">DORA</abbr></a>.</dd>
+<dt>Change lead time</dt>
+<dd>En <abbr title="DevOps Research and Assessment: programa de investigación sobre entrega de software y sus métricas de velocidad y estabilidad">DORA</abbr>, tiempo desde que un cambio se registra en el control de versiones (commit) hasta que está en producción. Es un tramo más corto que el lead time del playbook. Ver <a href="../biblioteca/ingenieria/dora/"><abbr title="DevOps Research and Assessment: programa de investigación sobre entrega de software y sus métricas de velocidad y estabilidad">DORA</abbr></a>.</dd>
 <dt>Clase de servicio</dt>
 <dd>Política que define cómo se trata un tipo de ítem según su urgencia y costo de demora. Ver <a href="../biblioteca/kanban/clases-de-servicio/">la ficha</a>.</dd>
 <dt>Cost of Delay</dt>
@@ -3025,8 +3212,8 @@
 <dd>En Scrum, las personas del equipo que crean cualquier aspecto de un incremento usable en cada Sprint, sin importar su especialidad.</dd>
 <dt><abbr title="Definition of Ready: acuerdo sobre cuándo un ítem puede empezar">DoR</abbr> / <abbr title="Definition of Done: acuerdo sobre cuándo un ítem está terminado">DoD</abbr></dt>
 <dd><em>Definition of Ready</em> y <em>Definition of Done</em>. Acuerdos sobre cuándo un ítem puede empezar y cuándo está terminado.</dd>
-<dt><abbr title="Métricas de desempeño de entrega: frecuencia de despliegue, lead time de cambios, change failure rate y tiempo de recuperación">DORA</abbr></dt>
-<dd>Cuatro métricas de desempeño de entrega de software: frecuencia de despliegue, lead time de cambios, change failure rate y tiempo de recuperación.</dd>
+<dt><abbr title="DevOps Research and Assessment: programa de investigación sobre entrega de software y sus métricas de velocidad y estabilidad">DORA</abbr></dt>
+<dd><em>DevOps Research and Assessment</em>. Programa de investigación sobre entrega de software y sus métricas. La guía vigente usa cinco: change lead time, deployment frequency, failed deployment recovery time, change fail rate y deployment rework rate. El playbook usa las cuatro clásicas: frecuencia de despliegue, lead time de cambios, change failure rate y tiempo de recuperación. Ver <a href="../biblioteca/ingenieria/dora/">la ficha</a>.</dd>
 <dt><abbr title="Evidence-Based Management: guía de Scrum.org para medir y mejorar el valor de un producto">EBM</abbr></dt>
 <dd><em>Evidence-Based Management</em>. Guía de Scrum.org para medir y mejorar el valor de un producto con metas por niveles y cuatro áreas clave de valor. Ver <a href="../biblioteca/scrum/ebm/">la ficha</a>.</dd>
 <dt>Eficiencia de flujo</dt>
@@ -3064,7 +3251,7 @@
 <dt>Lead time</dt>
 <dd>
 <p>Tiempo desde que se compromete un ítem hasta que está disponible en producción.</p>
-<p>En la Kanban Guide, el mismo tramo se llama <em>cycle time</em> cuando el equipo define el inicio en el punto de compromiso y el término en la entrega; ver <a href="../biblioteca/flujo/metricas-y-vocabularios/">Métricas y vocabularios</a>.</p>
+<p>En la Kanban Guide, el mismo tramo se llama <em>cycle time</em> cuando el equipo define el inicio en el punto de compromiso y el término en la entrega; ver <a href="../biblioteca/flujo/metricas-y-vocabularios/">Métricas y vocabularios</a>. No es el <em>change lead time</em> de <abbr title="DevOps Research and Assessment: programa de investigación sobre entrega de software y sus métricas de velocidad y estabilidad">DORA</abbr>, que va del commit a producción.</p>
 </dd>
 <dt>Lean</dt>
 <dd>Forma de gestionar el trabajo que nace del Sistema de Producción Toyota y se centra en el valor para el cliente, el flujo y la mejora continua. Ver <a href="../biblioteca/lean/lean-en-una-pagina/">Lean en una página</a>.</dd>
@@ -3136,6 +3323,8 @@
 <dd>Sistema en que se empieza un ítem nuevo solo cuando hay capacidad libre, en vez de asignar trabajo sin mirar el <abbr title="Work in Progress: trabajo iniciado y no terminado">WIP</abbr>. Ver <a href="../biblioteca/kanban/wip-y-pull/"><abbr title="Work in Progress: trabajo iniciado y no terminado">WIP</abbr> y sistema pull</a>.</dd>
 <dt><abbr title="Service Level Expectation: pronóstico del plazo en que se completa un ítem">SLE</abbr></dt>
 <dd><em>Service Level Expectation</em>. Pronóstico basado en datos del tiempo en que se completará un ítem (ej. 85 % en 10 días). Ver <a href="../biblioteca/flujo/scatterplot-sle/">Scatterplot, percentiles y <abbr title="Service Level Expectation: pronóstico del plazo en que se completa un ítem">SLE</abbr></a>.</dd>
+<dt><abbr title="Satisfacción, desempeño, actividad, comunicación y eficiencia: marco de productividad de developers">SPACE</abbr></dt>
+<dd>Marco de cinco dimensiones para hablar de productividad de developers: satisfacción y bienestar, desempeño, actividad, comunicación y colaboración, y eficiencia y flujo. Ver <a href="../biblioteca/ingenieria/space/">la ficha</a>.</dd>
 <dt>Sprint</dt>
 <dd>Ciclo de duración fija, de un mes o menos, que contiene todos los eventos de Scrum. Ver <a href="../biblioteca/scrum/sprint-y-planning/">la ficha</a>.</dd>
 <dt>Sprint Backlog</dt>
@@ -3150,6 +3339,8 @@
 <dd>Práctica en que varias personas del equipo se juntan sobre un mismo ítem para destrabarlo o terminarlo antes de empezar otro.</dd>
 <dt>Tamaño de lote</dt>
 <dd>Cantidad de trabajo que pasa junta de una etapa a la siguiente. Lotes más chicos acortan las colas y aceleran la retroalimentación. Ver <a href="../biblioteca/lean/principios-de-flujo/">Principios de flujo</a>.</dd>
+<dt><abbr title="Test-Driven Development: escribir primero la prueba y después el código">TDD</abbr></dt>
+<dd><em>Test-Driven Development</em>. Escribir primero una prueba que falla, luego el código mínimo que la hace pasar, y después mejorar el diseño. En <abbr title="Extreme Programming: valores y prácticas de ingeniería de Kent Beck">XP</abbr> se llama <em>test-first</em>.</dd>
 <dt>Threat modeling</dt>
 <dd>Análisis de cómo puede atacarse una funcionalidad antes de construirla.</dd>
 <dt>Three amigos</dt>
@@ -3163,7 +3354,7 @@
 <dt>Traslape</dt>
 <dd>Periodo en que el equipo saliente y el entrante trabajan juntos para transferir conocimiento sin cortar el servicio.</dd>
 <dt>Trunk-based development</dt>
-<dd>Práctica de integrar cambios a la rama principal al menos una vez al día.</dd>
+<dd>Práctica de integrar cambios a la rama principal al menos una vez al día, sin ramas de larga vida. Ver <a href="../biblioteca/ingenieria/trunk-based/">la ficha</a>.</dd>
 <dt>Value Stream Map</dt>
 <dd>Diagrama del flujo de valor de la idea al usuario, con tiempos de proceso y de espera por etapa.</dd>
 <dt>Ventana de solapamiento</dt>
@@ -3176,6 +3367,8 @@
 <dd>Tiempo que lleva un ítem en curso desde que empezó hasta hoy. Es una de las cuatro métricas de la Kanban Guide; el playbook la llama <abbr title="Work in Progress: trabajo iniciado y no terminado">WIP</abbr> aging. Ver <a href="../biblioteca/flujo/work-item-age/">la ficha</a>.</dd>
 <dt><abbr title="Weighted Shortest Job First: Cost of Delay dividido por el tamaño del trabajo">WSJF</abbr></dt>
 <dd><em>Weighted Shortest Job First</em>. Prioriza dividiendo el Cost of Delay entre el tamaño del trabajo, con escalas relativas.</dd>
+<dt><abbr title="Extreme Programming: valores y prácticas de ingeniería de Kent Beck">XP</abbr></dt>
+<dd><em>Extreme Programming</em>. Valores, principios y prácticas de Kent Beck, como programación en pares, integración continua y test-first, para que cambiar el software siga siendo barato. Ver <a href="../biblioteca/ingenieria/xp/">la ficha</a>.</dd>
 </dl>
 
 
