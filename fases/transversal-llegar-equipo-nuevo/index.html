@@ -18,7 +18,7 @@
         <link rel="prev" href="../transversal-ia-en-la-celula/">
       
       
-        <link rel="next" href="../../caja-de-herramientas/">
+        <link rel="next" href="../transversal-scrumban-paso-a-paso/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -555,6 +555,8 @@
       
         
       
+        
+      
     
     
       
@@ -1008,6 +1010,27 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../transversal-scrumban-paso-a-paso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Transversal · Scrumban paso a paso
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -3187,7 +3210,7 @@
 </ol>
 <div class="admonition note">
 <p class="admonition-title">Puerta de entrada y orden de fases</p>
-<p>Son dos salidas distintas que se complementan. La calculadora ordena <strong>qué fases del playbook reforzar</strong>. La puerta de entrada dice <strong>en qué peldaño de la implementación del flujo empezar</strong> dentro de la <a href="../03-sistema-de-trabajo/">Fase 3</a>. La calculadora no cambia.</p>
+<p>Son dos salidas distintas que se complementan. La calculadora ordena <strong>qué fases del playbook reforzar</strong>. La puerta de entrada dice <strong>en qué peldaño de la <a href="../transversal-scrumban-paso-a-paso/">escalera de flujo</a> empezar</strong> dentro de la <a href="../03-sistema-de-trabajo/">Fase 3</a>. La puerta no reemplaza el orden de fases que propone la calculadora.</p>
 </div>
 <h2 id="que-no-hacer-en-las-primeras-semanas">Qué no hacer en las primeras semanas<a class="headerlink" href="#que-no-hacer-en-las-primeras-semanas" title="Permanent link">&para;</a></h2>
 <ul>
@@ -3230,7 +3253,7 @@
 <td><a href="../../biblioteca/kanban/wip-y-pull/"><abbr title="Work in Progress: trabajo iniciado y no terminado">WIP</abbr> y sistema pull</a></td>
 </tr>
 <tr>
-<td>Más de dos ítems en curso por persona</td>
+<td>Más de dos ítems en curso por persona (como referencia)</td>
 <td>Tablero</td>
 <td><a href="../../biblioteca/kanban/wip-y-pull/"><abbr title="Work in Progress: trabajo iniciado y no terminado">WIP</abbr> y sistema pull</a></td>
 </tr>
@@ -3342,7 +3365,7 @@
 </tbody>
 </table>
 <h2 id="elegir-la-puerta-de-entrada">Elegir la puerta de entrada<a class="headerlink" href="#elegir-la-puerta-de-entrada" title="Permanent link">&para;</a></h2>
-<p>La puerta de entrada es el peldaño por el que empiezas a implementar el flujo. La escalera va del 0 al 9: <strong>0</strong> observar y tomar la línea base (lo que haces en estas tres semanas), <strong>1</strong> visualizar el trabajo real, <strong>2</strong> políticas explícitas, <strong>3</strong> limitar el <abbr title="Work in Progress: trabajo iniciado y no terminado">WIP</abbr>, <strong>4</strong> sistema pull, <strong>5</strong> métricas de flujo y <abbr title="Service Level Expectation: pronóstico del plazo en que se completa un ítem">SLE</abbr>, <strong>6</strong> cadencias, <strong>7</strong> clases de servicio, <strong>8</strong> pronóstico probabilístico y <strong>9</strong> mejora continua con experimentos. Se sube por criterio cumplido, no por calendario. El detalle de cada peldaño llega con la transversal Scrumban paso a paso, que está en preparación.</p>
+<p>La puerta de entrada es el peldaño por el que empiezas a implementar el flujo. La escalera va del 0 al 9: <strong>0</strong> observar y tomar la línea base (lo que haces en estas tres semanas), <strong>1</strong> visualizar el trabajo real, <strong>2</strong> políticas explícitas, <strong>3</strong> limitar el <abbr title="Work in Progress: trabajo iniciado y no terminado">WIP</abbr>, <strong>4</strong> sistema pull y empezar por la derecha, <strong>5</strong> métricas de flujo y <abbr title="Service Level Expectation: pronóstico del plazo en que se completa un ítem">SLE</abbr>, <strong>6</strong> cadencias, <strong>7</strong> clases de servicio, <strong>8</strong> pronóstico probabilístico y <strong>9</strong> mejora continua con experimentos. Se sube por criterio cumplido, no por calendario. El detalle de cada peldaño, con su señal de "listo, sigue", está en <a href="../transversal-scrumban-paso-a-paso/">Implementar Scrumban paso a paso</a>.</p>
 <p><strong>Primero, el marco.</strong> El % de demanda no planificada decide con qué cadencias se recorre la escalera, según el árbol de la <a href="../03-sistema-de-trabajo/#32-elegir-el-marco-segun-la-demanda">Fase 3 §3.2</a>:</p>
 <ul>
 <li><strong>Menos de 20 %</strong> y Scrum funciona: mantén Scrum y suma las prácticas de flujo. Los peldaños 1 a 5 y el 8 sirven igual.</li>
@@ -3381,12 +3404,13 @@
 </tr>
 <tr>
 <td>Equipo maduro</td>
-<td>3 o más, sin preguntas de Flujo bajo 3</td>
+<td>3 o más; FL2 en 4 o más y ninguna pregunta de Flujo bajo 3</td>
 <td>Peldaños 5 y 8: métricas y pronóstico</td>
 <td>Afinar, no cambiar</td>
 </tr>
 </tbody>
 </table>
+<p>Si el equipo no encaja en ninguna fila, o encaja en dos, decide con las señales observadas y con la regla de abajo: si dudas, entra por la más baja.</p>
 <ul>
 <li><strong>Si dudas entre dos puertas, entra por la más baja.</strong> Confirmar rápido un peldaño que ya está cumplido cuesta poco; saltarse uno cuesta mucho.</li>
 <li><strong>Si el puntaje y las señales no coinciden, mandan las señales confirmadas con datos.</strong> Revisa también la brecha con la autoevaluación.</li>
@@ -3615,13 +3639,13 @@
         
         
           
-          <a href="../../caja-de-herramientas/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Caja de herramientas">
+          <a href="../transversal-scrumban-paso-a-paso/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Transversal · Scrumban paso a paso">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Siguiente
               </span>
               <div class="md-ellipsis">
-                Caja de herramientas
+                Transversal · Scrumban paso a paso
               </div>
             </div>
             <div class="md-footer__button md-icon">
