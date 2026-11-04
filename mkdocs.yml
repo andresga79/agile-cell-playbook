@@ -21,6 +21,7 @@ theme:
     - content.action.edit
     - content.code.copy
     - content.tabs.link
+    - content.tooltips
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -134,6 +135,9 @@ nav:
       - Value Stream Mapping: caja-de-herramientas/value-stream-map.md
       - Tablero de dependencias: caja-de-herramientas/tablero-dependencias.md
       - Plan de traspaso: caja-de-herramientas/plan-traspaso.md
+  - Biblioteca:
+      - biblioteca/index.md
+      - Ruta de estudio: biblioteca/ruta-de-estudio.md
   - Casos de ejemplo:
       - casos/index.md
       - Crear una célula: casos/crear-celula.md

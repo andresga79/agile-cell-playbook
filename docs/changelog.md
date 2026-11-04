@@ -6,10 +6,18 @@ Historial de versiones de la metodología. Formato basado en [Keep a Changelog](
 - **Menor (0.2, 0.3):** se agregan o modifican contenidos o herramientas.
 - **Parche (0.1.1):** correcciones y aclaraciones.
 
+Lo publicado después del último tag aparece en `[Sin publicar]`.
+
 ## Próximas iteraciones sugeridas
 
 - Validar el assessment y los casos de ejemplo con células reales y calibrar los criterios.
 - Versión en inglés de la guía.
+
+## [Sin publicar]
+
+### Agregado
+
+- Biblioteca: portada y ruta de estudio. Tooltips de siglas en pantallas táctiles.
 
 ## [0.4.0] · 2026-10-28
 
