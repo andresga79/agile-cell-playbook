@@ -4,7 +4,7 @@
 *[CoD]: Cost of Delay: valor que se pierde por cada unidad de tiempo que un ítem se demora
 *[DoD]: Definition of Done: acuerdo sobre cuándo un ítem está terminado
 *[DoR]: Definition of Ready: acuerdo sobre cuándo un ítem puede empezar
-*[DORA]: Métricas de desempeño de entrega: frecuencia de despliegue, lead time de cambios, change failure rate y tiempo de recuperación
+*[DORA]: DevOps Research and Assessment: programa de investigación sobre entrega de software y sus métricas de velocidad y estabilidad
 *[MVO]: Minimum Viable Outcome: el cambio mínimo y medible que valida una apuesta
 *[MVP]: Minimum Viable Product: el producto mínimo para intentar lograr el MVO
 *[PO]: Product Owner
@@ -24,3 +24,7 @@
 *[STATIK]: Systems Thinking Approach to Introducing Kanban: pasos para diseñar un sistema Kanban desde el servicio y su cliente
 *[KMM]: Kanban Maturity Model: mapa de siete niveles de madurez de Kanban University
 *[TPS]: Toyota Production System: Sistema de Producción Toyota, origen de lean
+*[XP]: Extreme Programming: valores y prácticas de ingeniería de Kent Beck
+*[BDD]: Behaviour-Driven Development: acordar el comportamiento con ejemplos y automatizarlos como pruebas
+*[TDD]: Test-Driven Development: escribir primero la prueba y después el código
+*[SPACE]: Satisfacción, desempeño, actividad, comunicación y eficiencia: marco de productividad de developers

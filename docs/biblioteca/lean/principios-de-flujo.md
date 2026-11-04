@@ -57,6 +57,7 @@ No es un método para implementar los 175 principios, sino un marco para razonar
 
 - [Lean en una página](lean-en-una-pagina.md) · [Los desperdicios en software](desperdicios.md) · [Pensamiento sistémico](pensamiento-sistemico.md)
 - [Ley de Little](../flujo/ley-de-little.md) · [WIP y sistema pull](../kanban/wip-y-pull.md) · [Clases de servicio](../kanban/clases-de-servicio.md)
+- [Trunk-based development](../ingenieria/trunk-based.md)
 - [Cost of Delay y WSJF](../../caja-de-herramientas/cost-of-delay-wsjf.md) · [Value Stream Mapping](../../caja-de-herramientas/value-stream-map.md)
 
 ## Para profundizar

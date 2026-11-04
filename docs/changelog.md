@@ -20,6 +20,9 @@ Lo publicado después del último tag aparece en `[Sin publicar]`.
 - **Biblioteca · Lean y flujo**: 4 fichas (Lean en una página, Los desperdicios en software, Principios de flujo de Reinertsen y Pensamiento sistémico), con su índice de área. Distinguen los siete desperdicios de Ohno de su traducción al software de los Poppendieck y enlazan a Cost of Delay y WSJF y a Value Stream Mapping sin repetirlos.
 - Glosario: bucle de realimentación, desperdicio, jidoka, lean, pensamiento sistémico, punto de apalancamiento y tamaño de lote. Sigla TPS.
 - Llegar a un equipo nuevo: tres señales de diagnóstico enlazadas a las fichas de Lean. Varias fichas del núcleo enlazan a la nueva área en "Relacionado".
+- **Biblioteca · Ingeniería**: 5 fichas (Extreme Programming, BDD, Trunk-based development, DORA y SPACE), con su índice de área. DORA presenta las cinco métricas vigentes de dora.dev, aclara que su *change lead time* (del commit a producción) no es el lead time del playbook y enlaza a la Fase 5 y al catálogo de métricas sin repetirlos; BDD enlaza a DoR y DoD.
+- Glosario: BDD, branch by abstraction, change lead time, SPACE, TDD y XP; DORA y trunk-based development actualizados con enlace a su ficha. Siglas XP, BDD, TDD y SPACE.
+- Llegar a un equipo nuevo: tres señales de diagnóstico enlazadas a las fichas de Ingeniería. Fichas del núcleo y de Lean enlazan a la nueva área en "Relacionado".
 
 ### Corregido
 

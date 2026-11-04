@@ -52,7 +52,7 @@ Se vuelve desperdicio cuando:
 ## Relacionado
 
 - [Artefactos y compromisos](artefactos-y-compromisos.md) · [El Sprint y Sprint Planning](sprint-y-planning.md) · [Antipatrones de Scrum](antipatrones-scrum.md)
-- [DoR y DoD](../../caja-de-herramientas/dor-dod.md) · [User Story Map](../../caja-de-herramientas/user-story-map.md)
+- [DoR y DoD](../../caja-de-herramientas/dor-dod.md) · [BDD](../ingenieria/bdd.md) · [User Story Map](../../caja-de-herramientas/user-story-map.md)
 - [Fase 1 · Descubrimiento de producto](../../fases/01-descubrimiento.md)
 
 ## Para profundizar

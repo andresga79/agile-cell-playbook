@@ -186,6 +186,13 @@ nav:
           - Los desperdicios en software: biblioteca/lean/desperdicios.md
           - Principios de flujo de Reinertsen: biblioteca/lean/principios-de-flujo.md
           - Pensamiento sistémico: biblioteca/lean/pensamiento-sistemico.md
+      - Ingeniería:
+          - biblioteca/ingenieria/index.md
+          - Extreme Programming (XP): biblioteca/ingenieria/xp.md
+          - BDD: biblioteca/ingenieria/bdd.md
+          - Trunk-based development: biblioteca/ingenieria/trunk-based.md
+          - DORA: biblioteca/ingenieria/dora.md
+          - SPACE: biblioteca/ingenieria/space.md
   - Casos de ejemplo:
       - casos/index.md
       - Crear una célula: casos/crear-celula.md

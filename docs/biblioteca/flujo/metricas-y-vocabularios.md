@@ -6,7 +6,7 @@
 
 ## Qué es
 
-Cuatro mediciones describen el flujo: cuánto hay en curso, cuánto se termina, cuánto tardó lo terminado y cuánto lleva lo abierto. No necesitan estimaciones: salen de las fechas en que cada ítem cruza los puntos de inicio y de término.
+Cuatro mediciones describen el flujo: cuánto hay en curso, cuánto se termina, cuánto tardó lo terminado y cuánto lleva lo abierto. No necesitan estimaciones: salen de las fechas en que cada ítem cruza los puntos de inicio y término.
 
 El problema es el nombre: el playbook usa el vocabulario del **Kanban Method** (Anderson). La **Kanban Guide** (Vacanti y Coleman, versión 2025.5) usa otro y no habla de *lead time*. Esta es la equivalencia:
 
@@ -19,18 +19,18 @@ El problema es el nombre: el playbook usa el vocabulario del **Kanban Method** (
 | Tiempo que lleva un ítem abierto | **WIP aging** (edad de lo que está en curso) | **Work item age**: tiempo desde el inicio hasta hoy |
 | Promesa de plazo | Lead time P85 como referencia de servicio | **SLE**: un plazo y una probabilidad, basados en el cycle time histórico |
 
-La clave: en la Guide, *cycle time* no es un tramo fijo. Es el tiempo entre los puntos de inicio y de término que el equipo escribe en su Definition of Workflow. La Guide exige cuatro métricas (WIP, throughput, work item age y cycle time) y permite renombrarlas si se usan como ella las describe.
+La clave: en la Guide, *cycle time* no es un tramo fijo. Es el tiempo entre los puntos de inicio y término que el equipo escribe en su Definition of Workflow. La Guide exige cuatro métricas (WIP, throughput, work item age y cycle time) y permite renombrarlas si se usan como ella las describe.
 
 ## Para qué sirve (y cuándo no)
 
-Evita malentendidos con otro equipo, un proveedor o alguien formado en ProKanban o en Kanban University. Un "cycle time de 5 días" puede ser el lead time de un equipo o solo el tramo de desarrollo de otro.
+Evita malentendidos con otro equipo, un proveedor o alguien formado en ProKanban o Kanban University. Un "cycle time de 5 días" puede ser el lead time de un equipo o solo el tramo de desarrollo de otro.
 
-No sirve como discusión de identidad: ninguna escuela tiene "el nombre correcto". Lo que importa es escribir qué se mide y medirlo siempre igual.
+No sirve como discusión de identidad: ninguna escuela tiene "el nombre correcto". Importa escribir qué se mide y medirlo siempre igual.
 
 ## Cómo se aplica
 
 1. Escribe en las políticas del tablero dónde empieza y dónde termina cada medición, con el nombre que usa el equipo.
-2. Si el equipo viene de la Kanban Guide, anota la equivalencia con el playbook.
+2. Si el equipo viene de la Kanban Guide, anota la equivalencia.
 3. Mide en ítems, no en puntos ni en horas.
 4. Revisa las cuatro métricas juntas: el throughput puede subir mientras el WIP y la edad se disparan.
 5. Reporta los tiempos con percentiles, no con promedios. Ver [Scatterplot, percentiles y SLE](scatterplot-sle.md).
@@ -39,13 +39,13 @@ No sirve como discusión de identidad: ninguna escuela tiene "el nombre correcto
 
 - Comparar el cycle time de equipos que lo miden entre puntos distintos.
 - Cambiar el punto de inicio en la herramienta y leer la "mejora" como real.
-- Medir throughput en puntos de historia.
+- Confundir el lead time con el *change lead time* de [DORA](../ingenieria/dora.md) (del commit a producción).
 - Mirar solo lo terminado (lead time) y no lo que envejece en curso.
 - Usar los nombres de una escuela con las definiciones de la otra.
 
 ## Qué observar al llegar a un equipo
 
-- Pregunta "¿desde cuándo y hasta cuándo mides el cycle time?" a dos o tres personas. ¿Responden lo mismo?
+- Pregunta "¿desde cuándo y hasta cuándo mides el cycle time?" a varias personas. ¿Responden lo mismo?
 - ¿La herramienta calcula las métricas desde la columna que el equipo cree? Revisa la configuración, no el informe.
 - ¿Hay un informe con tiempos en promedio? Pide la distribución.
 - ¿Alguien sabe cuántos ítems hay en curso hoy sin contarlos?

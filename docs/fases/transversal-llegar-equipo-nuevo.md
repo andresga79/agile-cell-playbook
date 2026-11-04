@@ -104,6 +104,7 @@ Reúne señales de las secciones "Qué observar al llegar a un equipo" de las fi
 | Se recorre a las personas, no el tablero | Daily | [Combinar cadencia y flujo](../biblioteca/scrumban/cadencia-y-flujo.md) |
 | Lo que se dice no coincide con lo que muestra el tablero | Daily | [Scrum en una página](../biblioteca/scrum/scrum-en-una-pagina.md) |
 | Llegan ítems que no caben en un Sprint o con preguntas que debieron resolverse antes | Planning | [Refinamiento](../biblioteca/scrum/refinamiento.md) |
+| Los criterios de aceptación no tienen ejemplos concretos o se escriben después del código | Refinamiento | [BDD](../biblioteca/ingenieria/bdd.md) |
 | Solo asisten el equipo y el PO, y se presenta más de lo que se conversa | Review | [Sprint Review](../biblioteca/scrum/sprint-review.md) |
 | Las acciones de las últimas tres retros no se completaron y los temas se repiten | Retro | [Sprint Retrospective](../biblioteca/scrum/retrospectiva.md) |
 | Se empiezan más ítems de los que se terminan | Datos | [Ley de Little](../biblioteca/flujo/ley-de-little.md) |
@@ -113,6 +114,8 @@ Reúne señales de las secciones "Qué observar al llegar a un equipo" de las fi
 | Tiempos en promedio y mucha distancia entre los percentiles 50 y 95 | Datos | [Scatterplot, percentiles y SLE](../biblioteca/flujo/scatterplot-sle.md) |
 | La salida del CFD avanza a escalones | Datos | [Cómo leer un CFD](../biblioteca/flujo/cfd.md) |
 | Cada persona mide el cycle time entre puntos distintos | Datos y 1:1 | [Métricas y vocabularios](../biblioteca/flujo/metricas-y-vocabularios.md) |
+| Nadie sabe cada cuánto se despliega ni qué cuenta como despliegue fallido | Datos y 1:1 | [DORA](../biblioteca/ingenieria/dora.md) |
+| Ramas o pull requests que viven más de unos días, o una "semana de integración" | Repositorio | [Trunk-based development](../biblioteca/ingenieria/trunk-based.md) |
 | Tres personas dan respuestas distintas sobre cuándo un ítem pasa de columna | 1:1 | [Políticas explícitas](../biblioteca/kanban/politicas-explicitas.md) |
 | Los stakeholders piden trabajo directo a los Developers, sin pasar por el backlog | 1:1 y canal del equipo | [Accountabilities](../biblioteca/scrum/accountabilities.md) |
 | Hay una persona sin la cual "no sale nada" y apaga los incendios | 1:1 | [Pensamiento sistémico](../biblioteca/lean/pensamiento-sistemico.md) |

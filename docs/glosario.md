@@ -12,8 +12,14 @@ Agente de IA
 Asistente de código
 :   Herramienta de IA que sugiere o genera código dentro del editor o del flujo de revisión.
 
+BDD
+:   *Behaviour-Driven Development*. Práctica de acordar el comportamiento esperado con ejemplos concretos en lenguaje de negocio (Given / When / Then) y automatizarlos como pruebas. Ver [la ficha](biblioteca/ingenieria/bdd.md).
+
 Blue / Green
 :   Estrategia de despliegue con dos ambientes de producción idénticos; se cambia el tráfico de uno a otro y se vuelve atrás al instante si falla.
+
+Branch by abstraction
+:   Técnica para reemplazar una parte grande del sistema por etapas, detrás de una capa intermedia, sin abrir una rama de larga vida. Ver [Trunk-based development](biblioteca/ingenieria/trunk-based.md).
 
 Bucle de realimentación
 :   En pensamiento sistémico, cadena de causas que vuelve sobre sí misma. Los bucles de refuerzo amplifican un cambio y los de equilibrio lo frenan. Ver [Pensamiento sistémico](biblioteca/lean/pensamiento-sistemico.md).
@@ -37,7 +43,10 @@ CFD
 :   *Cumulative Flow Diagram*. Gráfico que muestra la cantidad de ítems por estado a lo largo del tiempo. Ver [Cómo leer un CFD](biblioteca/flujo/cfd.md).
 
 Change failure rate
-:   Porcentaje de despliegues que causan una falla en producción que requiere corrección.
+:   Porcentaje de despliegues que causan una falla en producción que requiere corrección. En la guía vigente de DORA se llama *change fail rate*. Ver [DORA](biblioteca/ingenieria/dora.md).
+
+Change lead time
+:   En DORA, tiempo desde que un cambio se registra en el control de versiones (commit) hasta que está en producción. Es un tramo más corto que el lead time del playbook. Ver [DORA](biblioteca/ingenieria/dora.md).
 
 Clase de servicio
 :   Política que define cómo se trata un tipo de ítem según su urgencia y costo de demora. Ver [la ficha](biblioteca/kanban/clases-de-servicio.md).
@@ -69,7 +78,7 @@ DoR / DoD
 :   *Definition of Ready* y *Definition of Done*. Acuerdos sobre cuándo un ítem puede empezar y cuándo está terminado.
 
 DORA
-:   Cuatro métricas de desempeño de entrega de software: frecuencia de despliegue, lead time de cambios, change failure rate y tiempo de recuperación.
+:   *DevOps Research and Assessment*. Programa de investigación sobre entrega de software y sus métricas. La guía vigente usa cinco: change lead time, deployment frequency, failed deployment recovery time, change fail rate y deployment rework rate. El playbook usa las cuatro clásicas: frecuencia de despliegue, lead time de cambios, change failure rate y tiempo de recuperación. Ver [la ficha](biblioteca/ingenieria/dora.md).
 
 EBM
 :   *Evidence-Based Management*. Guía de Scrum.org para medir y mejorar el valor de un producto con metas por niveles y cuatro áreas clave de valor. Ver [la ficha](biblioteca/scrum/ebm.md).
@@ -125,7 +134,7 @@ Kudo Cards
 Lead time
 :   Tiempo desde que se compromete un ítem hasta que está disponible en producción.
 
-    En la Kanban Guide, el mismo tramo se llama *cycle time* cuando el equipo define el inicio en el punto de compromiso y el término en la entrega; ver [Métricas y vocabularios](biblioteca/flujo/metricas-y-vocabularios.md).
+    En la Kanban Guide, el mismo tramo se llama *cycle time* cuando el equipo define el inicio en el punto de compromiso y el término en la entrega; ver [Métricas y vocabularios](biblioteca/flujo/metricas-y-vocabularios.md). No es el *change lead time* de DORA, que va del commit a producción.
 
 Lean
 :   Forma de gestionar el trabajo que nace del Sistema de Producción Toyota y se centra en el valor para el cliente, el flujo y la mejora continua. Ver [Lean en una página](biblioteca/lean/lean-en-una-pagina.md).
@@ -232,6 +241,9 @@ Sistema pull
 SLE
 :   *Service Level Expectation*. Pronóstico basado en datos del tiempo en que se completará un ítem (ej. 85 % en 10 días). Ver [Scatterplot, percentiles y SLE](biblioteca/flujo/scatterplot-sle.md).
 
+SPACE
+:   Marco de cinco dimensiones para hablar de productividad de developers: satisfacción y bienestar, desempeño, actividad, comunicación y colaboración, y eficiencia y flujo. Ver [la ficha](biblioteca/ingenieria/space.md).
+
 Sprint
 :   Ciclo de duración fija, de un mes o menos, que contiene todos los eventos de Scrum. Ver [la ficha](biblioteca/scrum/sprint-y-planning.md).
 
@@ -253,6 +265,9 @@ Swarming
 Tamaño de lote
 :   Cantidad de trabajo que pasa junta de una etapa a la siguiente. Lotes más chicos acortan las colas y aceleran la retroalimentación. Ver [Principios de flujo](biblioteca/lean/principios-de-flujo.md).
 
+TDD
+:   *Test-Driven Development*. Escribir primero una prueba que falla, luego el código mínimo que la hace pasar, y después mejorar el diseño. En XP se llama *test-first*.
+
 Threat modeling
 :   Análisis de cómo puede atacarse una funcionalidad antes de construirla.
 
@@ -272,7 +287,7 @@ Traslape
 :   Periodo en que el equipo saliente y el entrante trabajan juntos para transferir conocimiento sin cortar el servicio.
 
 Trunk-based development
-:   Práctica de integrar cambios a la rama principal al menos una vez al día.
+:   Práctica de integrar cambios a la rama principal al menos una vez al día, sin ramas de larga vida. Ver [la ficha](biblioteca/ingenieria/trunk-based.md).
 
 Value Stream Map
 :   Diagrama del flujo de valor de la idea al usuario, con tiempos de proceso y de espera por etapa.
@@ -291,3 +306,6 @@ Work item age
 
 WSJF
 :   *Weighted Shortest Job First*. Prioriza dividiendo el Cost of Delay entre el tamaño del trabajo, con escalas relativas.
+
+XP
+:   *Extreme Programming*. Valores, principios y prácticas de Kent Beck, como programación en pares, integración continua y test-first, para que cambiar el software siga siendo barato. Ver [la ficha](biblioteca/ingenieria/xp.md).
