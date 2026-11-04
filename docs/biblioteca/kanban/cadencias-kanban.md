@@ -13,7 +13,7 @@
 | Kanban meeting (*standup*) | Coordinar el día recorriendo el tablero de derecha a izquierda | Diaria |
 | Reposición (*replenishment*) | Elegir qué opciones cruzan el punto de compromiso | Semanal |
 | Planificación de entrega (*delivery planning*) | Decidir qué se entrega y avisar a quien lo recibe | Según cada entrega |
-| Revisión del servicio (*service delivery review*) | Comparar el servicio con lo que espera el cliente, con datos | Quincenal |
+| Revisión del servicio (*service delivery review*) | Comparar el servicio con lo que espera el cliente, con datos | Quincenal (el playbook parte con mensual; ver [Fase 3 §3.5](../../fases/03-sistema-de-trabajo.md#35-cadencias)) |
 | Revisión de operaciones (*operations review*) | Mirar varios servicios juntos: dependencias y capacidad | Mensual |
 | Revisión de riesgos (*risk review*) | Analizar bloqueos y riesgos que se repiten | Mensual |
 | Revisión de estrategia (*strategy review*) | Decidir qué servicios ofrecer y a qué mercado | Trimestral |

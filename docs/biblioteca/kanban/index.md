@@ -1,6 +1,6 @@
 # Kanban
 
-Fichas sobre Kanban según sus dos escuelas: la Kanban Guide (ProKanban.org) y el Kanban Method (Kanban University). Cada una dice qué escuela habla, para qué sirve la práctica, cuándo no, y qué observar en un equipo real. Las métricas usan el vocabulario del playbook: lead time y cycle time según el Kanban Method.
+Fichas sobre Kanban según sus dos escuelas: la Kanban Guide (Daniel Vacanti y John Coleman, kanbanguides.org) y el Kanban Method (Kanban University). Cada una dice qué escuela habla, para qué sirve la práctica, cuándo no, y qué observar en un equipo real. Las métricas usan el vocabulario del playbook: lead time y cycle time según el Kanban Method.
 
 | Ficha | En una frase |
 |---|---|

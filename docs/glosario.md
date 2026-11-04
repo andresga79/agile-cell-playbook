@@ -99,7 +99,7 @@ Increment
 :   En Scrum, paso concreto y usable hacia el Product Goal. Cumple la Definition of Done y se suma a los anteriores; puede haber varios por Sprint.
 
 Kanban Guide
-:   Guía de ProKanban.org (Daniel Vacanti y John Coleman) que define Kanban como una estrategia para optimizar el flujo de valor. Ver [Kanban en una página](biblioteca/kanban/kanban-en-una-pagina.md).
+:   Guía de Daniel Vacanti y John Coleman (kanbanguides.org) que define Kanban como una estrategia para optimizar el flujo de valor. Ver [Kanban en una página](biblioteca/kanban/kanban-en-una-pagina.md).
 
 Kanban Guide for Scrum Teams
 :   Guía de Scrum.org (Daniel Vacanti y Yuval Yeret, versión de enero de 2021) que suma a Scrum prácticas de flujo y cuatro métricas sin reemplazar ninguna parte de Scrum. Ver [Combinar cadencia y flujo](biblioteca/scrumban/cadencia-y-flujo.md).
@@ -155,7 +155,7 @@ Personal Map
 :   Herramienta de Management 3.0 para conocer el contexto personal de cada integrante del equipo.
 
 Planificación por umbral
-:   Planificar cuando la lista de ítems listos baja de un nivel acordado (el *punto de pedido* de Corey Ladas), en vez de hacerlo por calendario. Ver [Combinar cadencia y flujo](biblioteca/scrumban/cadencia-y-flujo.md).
+:   Planificar cuando la lista de ítems listos baja de un nivel acordado (el *punto de pedido* de Corey Ladas), en vez de hacerlo solo por calendario. Ver [Combinar cadencia y flujo](biblioteca/scrumban/cadencia-y-flujo.md).
 
 Postmortem
 :   Análisis sin culpa de un incidente para entender sus causas y definir acciones que eviten que se repita.

@@ -1,6 +1,6 @@
 # Transversal · Implementar Scrumban paso a paso
 
-Aplica cuando ya hiciste el diagnóstico de [Llegar a un equipo nuevo](transversal-llegar-equipo-nuevo.md) y acordaste una **puerta de entrada**. Es una escalera de diez peldaños, del 0 al 9, para sumar gestión de flujo a un equipo **desde donde está hoy**, un cambio pequeño a la vez.
+Aplica cuando ya hiciste el diagnóstico de [Llegar a un equipo nuevo](transversal-llegar-equipo-nuevo.md) (o ya conoces al equipo) y acordaste una **puerta de entrada**. Es una escalera de diez peldaños, del 0 al 9, para sumar gestión de flujo a un equipo **desde donde está hoy**, un cambio pequeño a la vez.
 
 El nombre dice Scrumban, pero la escalera es la misma para un equipo que se queda en Scrum y suma flujo, y para uno que trabaja con Kanban y necesita cadencias. Lo que cambia es qué cadencias se agregan en el peldaño 6 (ver [¿Es Scrumban lo que este equipo necesita?](#es-scrumban-lo-que-este-equipo-necesita)).
 
@@ -56,9 +56,28 @@ No todos los equipos empiezan en el peldaño 1. La puerta se elige al cerrar la 
 | Kanban sin disciplina (tablero sin límites ni métricas) | Peldaños 3 y 4, WIP + pull | Sumar cadencias |
 | Equipo maduro | Peldaños 5 y 8, métricas + pronóstico | Afinar, no cambiar |
 
+Los puntajes de referencia para elegir están en [Elegir la puerta de entrada](transversal-llegar-equipo-nuevo.md#elegir-la-puerta-de-entrada).
+
 - **Entrar alto no salta los peldaños de abajo.** En las primeras dos semanas, confirma que las señales de "listo, sigue" de los peldaños anteriores se cumplen. Si una no se cumple, baja a ese peldaño.
 - **Si dudas entre dos puertas, entra por la más baja.** Confirmar rápido un peldaño cumplido cuesta poco; saltarse uno cuesta mucho.
 - Las puertas de dos peldaños se trabajan juntas porque se sostienen entre sí: sin políticas, el límite de WIP no dice qué hacer al alcanzarlo; sin pull, el límite solo genera esperas.
+
+## Resumen de señales
+
+Para consultar rápido (por ejemplo, desde el teléfono): qué debe cumplirse antes de subir de peldaño.
+
+| Peldaño | Señal de "listo, sigue" |
+|---|---|
+| 0 · Observar | Línea base y puerta de entrada acordadas con el equipo y el PO |
+| 1 · Visualizar | Dos semanas con todo el trabajo en el tablero y bloqueos con motivo y fecha |
+| 2 · Políticas | Tres personas responden igual cuándo un ítem cambia de columna |
+| 3 · WIP | Límite respetado casi todos los días, ajustado al menos una vez con datos |
+| 4 · Pull | Nadie asigna fuera de la regla; empezados y terminados se parecen |
+| 5 · Métricas y SLE | SLE visible; ítems sobre P50 se conversan y los cercanos al SLE reciben acción |
+| 6 · Cadencias | Cada cadencia con propósito, insumo y decisión registrada; reuniones bajo 10 % |
+| 7 · Clases de servicio | Política escrita por clase, carril urgente bajo su límite, lead time por clase |
+| 8 · Pronóstico | El PO pronostica solo una pregunta real y se compara con lo ocurrido |
+| 9 · Mejora continua | El equipo propone experimentos y cierra con decisión basada en datos |
 
 ## Actividades
 
@@ -116,7 +135,7 @@ Cada peldaño indica su objetivo, cómo hacerlo, la señal que dice que está cu
 
 - **Objetivo:** responder "¿cuánto tarda un ítem?" con datos, y actuar sobre los ítems mientras todavía están en curso.
 - **Cómo:** acuerda dónde empieza y dónde termina la medición; el playbook usa lead time, del compromiso a la entrega. Muestra la edad de cada ítem en el tablero. Calcula el SLE con ítems terminados **después** de los límites de WIP, porque los anteriores son de otro sistema. Mientras juntas datos, publica un SLE provisional y dilo.
-- **Señal de "listo, sigue":** el SLE está escrito y visible, y los ítems que pasan el percentil 85 se conversan en la Daily antes de vencer.
+- **Señal de "listo, sigue":** el SLE está escrito y visible, y los ítems que pasan el P50 se conversan en la Daily y los que se acercan al SLE reciben acción antes de superarlo.
 - **Duración típica:** cuatro a ocho semanas, lo que tarda juntar datos del sistema nuevo. Mientras tanto, puedes empezar el peldaño 6 con un SLE provisional.
 - **Riesgo principal:** usar las métricas para evaluar personas o comparar equipos, o negociar el SLE como una promesa.
 - **Fichas:** [Métricas y vocabularios](../biblioteca/flujo/metricas-y-vocabularios.md) · [Scatterplot, percentiles y SLE](../biblioteca/flujo/scatterplot-sle.md) · [Work item age](../biblioteca/flujo/work-item-age.md) · [Cómo leer un CFD](../biblioteca/flujo/cfd.md)
@@ -199,7 +218,7 @@ Se comparan contra la línea base del peldaño 0:
 | Ítems empezados frente a terminados | Si el sistema está estable |
 | Lead time P85 y distancia entre P50 y P95 | Predictibilidad: debe bajar y estrecharse |
 | % de ítems terminados dentro del SLE | Si el SLE describe al sistema |
-| Ítems en curso con edad sobre el percentil 85 | Si se actúa a tiempo |
+| % de ítems en curso que superaron el SLE (debe bajar) | Si se actúa a tiempo |
 | % no planificado y uso del carril urgente | Si cambió la demanda o se abusa de lo urgente |
 | Pronósticos que acertaron dentro de su rango | Si negocio puede confiar en ellos |
 | Experimentos cerrados con decisión | Si la mejora es continua |

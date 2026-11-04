@@ -17,7 +17,7 @@ La guía 2020 ya no propone las tres preguntas clásicas (qué hice ayer, qué h
 
 ## Para qué sirve (y cuándo no)
 
-Según la guía, mejora la comunicación, detecta impedimentos, acelera las decisiones y reduce la necesidad de otras reuniones. Bien hecha, es la inspección más frecuente del sistema.
+Según la guía, mejora la comunicación, detecta impedimentos, acelera las decisiones y elimina la necesidad de otras reuniones. Bien hecha, es la inspección más frecuente del sistema.
 
 No sirve como:
 
@@ -46,7 +46,7 @@ No sirve como:
 - ¿A quién le habla cada persona? Si todas miran a una sola, es un reporte.
 - ¿Se mencionan los ítems bloqueados y cuántos días llevan así?
 - ¿Hay ítems en curso que nadie nombra durante varios días? Su antigüedad suele decir más que la reunión.
-- ¿Cuántos ítems en curso hay por persona? Más de dos sugiere trabajo fragmentado.
+- ¿Cuántos ítems en curso hay por persona? Más de dos (como referencia) sugiere trabajo fragmentado.
 - ¿Alguien ofrece ayuda para terminar algo de otra persona?
 - ¿Termina a tiempo y con un plan, o con un "bueno, sigamos"?
 

@@ -138,7 +138,7 @@ Ver [Cuándo sí y cuándo no Scrumban](../biblioteca/scrumban/cuando-scrumban.m
 | Kanban sin disciplina: tablero sin límites ni métricas | De 2 a 2,9; FL1 en 3 o más, FL2 y FL3 en 2 o menos | Peldaños 3 y 4: WIP y pull | Sumar cadencias |
 | Equipo maduro | 3 o más; FL2 en 4 o más y ninguna pregunta de Flujo bajo 3 | Peldaños 5 y 8: métricas y pronóstico | Afinar, no cambiar |
 
-Si el equipo no encaja en ninguna fila, o encaja en dos, decide con las señales observadas y con la regla de abajo: si dudas, entra por la más baja.
+Si el equipo no encaja en ninguna fila, o encaja en dos, decide con las señales observadas y con las reglas de abajo.
 
 - **Si dudas entre dos puertas, entra por la más baja.** Confirmar rápido un peldaño que ya está cumplido cuesta poco; saltarse uno cuesta mucho.
 - **Si el puntaje y las señales no coinciden, mandan las señales confirmadas con datos.** Revisa también la brecha con la autoevaluación.

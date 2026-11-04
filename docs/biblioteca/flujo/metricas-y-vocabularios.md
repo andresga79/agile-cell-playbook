@@ -13,7 +13,7 @@ El problema es el nombre: el playbook usa el vocabulario del **Kanban Method** (
 | Concepto | Kanban Method / playbook | Kanban Guide |
 |---|---|---|
 | Trabajo en curso | **WIP**: ítems comprometidos y no entregados | **WIP**: ítems iniciados y no terminados |
-| Ritmo de salida | **Throughput**: ítems terminados por semana | **Throughput**: ítems terminados por unidad de tiempo |
+| Ritmo de salida | **Throughput**: ítems terminados por unidad de tiempo | **Throughput**: ítems terminados por unidad de tiempo |
 | Del compromiso a la entrega | **Lead time** | **Cycle time**, si el inicio definido es el compromiso y el término, la entrega |
 | De empezar a terminar el trabajo | **Cycle time** | **Cycle time**, si el equipo define esos puntos de inicio y término |
 | Tiempo que lleva un ítem abierto | **WIP aging** (edad de lo que está en curso) | **Work item age**: tiempo desde el inicio hasta hoy |

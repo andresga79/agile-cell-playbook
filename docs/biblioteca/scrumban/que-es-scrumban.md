@@ -11,7 +11,7 @@ El término viene de **Corey Ladas**, que en 2008 escribió el ensayo "Scrumban"
 1. Hacer visible el trabajo en un tablero.
 2. Limitar la multitarea por persona, después el WIP total y por estado, con una lista de "listos" de límite chico.
 3. **Desacoplar la planificación de la entrega**, que para él es el primer paso más allá de Scrum.
-4. Planificar cuando la lista de pendientes baja de un **punto de pedido** (*order point*), no por calendario.
+4. Planificar cuando la lista de pendientes baja de un **punto de pedido** (*order point*), no solo por calendario.
 
 El punto final, según Ladas, es un sistema pull con priorización bajo demanda. En 2021 lo aclaró: Scrumban nunca pretendió ser un proceso definido ni prescriptivo, sino una estrategia para llegar a la entrega continua.
 

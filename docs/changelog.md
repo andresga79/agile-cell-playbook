@@ -15,6 +15,14 @@ Lo publicado después del último tag aparece en `[Sin publicar]`.
 
 ## [Sin publicar]
 
+### Corregido
+
+- Escalera Scrumban: señal del peldaño 5 y métrica de edad coherentes con el SLE; resumen de señales por peldaño, enlace a los puntajes de entrada y la escalera también aplica si ya conoces al equipo.
+- Crédito de la Kanban Guide a Daniel Vacanti y John Coleman (kanbanguides.org), sin atribuirla a ProKanban.org.
+- Daily Scrum ("elimina la necesidad de otras reuniones"), retrospectiva (fase "Generar comprensión") y cadencias de Kanban (nota sobre la revisión del servicio).
+- Scrumban: "no solo por calendario" en la planificación por umbral, y el trabajo no planificado se cuenta por lo que llegó.
+- Métricas: throughput con la misma redacción en ambas escuelas; llegada a un equipo nuevo sin repetición en la elección de puerta.
+
 ## [0.6.0] · 2026-11-04
 
 ### Agregado

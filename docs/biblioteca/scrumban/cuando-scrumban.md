@@ -14,11 +14,11 @@ Es elegir qué combinación de cadencia y flujo le sirve a un equipo según su d
 | 20 % a 50 % | Scrumban: cadencia más flujo con WIP | Que el Sprint Goal siga siendo creíble |
 | Más de 50 % | Kanban con cadencias de revisión | Que haya reposición, revisión y retro con datos |
 
-Los umbrales son una heurística del playbook, **como referencia**: no vienen de la Scrum Guide ni de la Kanban Guide. En los tres casos se usan métricas de flujo, límites de WIP y políticas explícitas. Lo que cambia es dónde está el compromiso: en el Sprint Goal, en el nivel de servicio o en los dos.
+Los umbrales son una heurística del playbook, **como referencia**; no vienen de ninguna guía. En los tres casos se usan métricas de flujo, límites de WIP y políticas explícitas. Lo que cambia es dónde está el compromiso: en el Sprint Goal, en el nivel de servicio o en los dos.
 
 ## Para qué sirve (y cuándo no)
 
-Sirve para elegir con datos y no por moda. El porcentaje no alcanza: mira también si el equipo necesita un objetivo compartido para enfocarse y si hay interesados que valoran una revisión con fecha fija.
+Sirve para elegir con datos. El porcentaje no alcanza: mira también si el equipo necesita un objetivo compartido para enfocarse y si hay interesados que valoran una revisión con fecha fija.
 
 Scrumban **no conviene** cuando:
 
@@ -29,7 +29,7 @@ Scrumban **no conviene** cuando:
 
 ## Cómo se aplica
 
-1. Toma 3 o 4 Sprints (o 6 a 8 semanas) de historia y cuenta los ítems terminados que **no** estaban planificados al inicio del período.
+1. Toma 3 o 4 Sprints (o 6 a 8 semanas) de historia y cuenta el trabajo **no** planificado que *llegó*, como clasifica la demanda entrante la [Fase 3 §3.1](../../fases/03-sistema-de-trabajo.md#31-analizar-la-demanda). Contar solo los ítems terminados es una aproximación.
 2. Separa lo urgente de verdad (incidentes y hotfix) de lo que solo llegó tarde o por un atajo.
 3. Ubica al equipo en la tabla y revisa los factores cualitativos de arriba.
 4. Elige un experimento de 3 o 4 semanas, con una señal de éxito escrita: Sprint Goal cumplido, lead time de lo urgente o ítems arrastrados entre Sprints.

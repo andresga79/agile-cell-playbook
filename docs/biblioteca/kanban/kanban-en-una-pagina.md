@@ -8,7 +8,7 @@
 
 Las dos escuelas comparten el núcleo: visualizar el trabajo, controlar el WIP, empezar algo nuevo solo cuando hay capacidad y mejorar el flujo con datos. Difieren en cuánto prescriben.
 
-- **Kanban Guide** (Daniel Vacanti y John Coleman, ProKanban.org). Es mínima: define Kanban como "una estrategia para optimizar el flujo de valor a través de un proceso". La edición vigente es la de mayo de 2025.
+- **Kanban Guide** (Daniel Vacanti y John Coleman, kanbanguides.org). Es mínima: define Kanban como "una estrategia para optimizar el flujo de valor a través de un proceso". La edición vigente es la de mayo de 2025.
 - **Kanban Method** (David J. Anderson, Kanban University). Es un método de cambio evolutivo para servicios de trabajo del conocimiento, descrito en el libro de Anderson de 2010.
 
 | Aspecto | Kanban Guide | Kanban Method |

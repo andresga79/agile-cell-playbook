@@ -26,7 +26,7 @@ Una estructura muy usada es la de Esther Derby y Diana Larsen, en cinco fases:
 
 1. **Preparar el ambiente:** objetivo de la sesión y un check-in breve.
 2. **Recoger datos:** hechos del Sprint, idealmente métricas de flujo y no solo percepciones.
-3. **Generar ideas:** buscar patrones y causas.
+3. **Generar comprensión (*generate insights*):** buscar patrones y causas.
 4. **Decidir qué hacer:** pocas acciones concretas, con responsable.
 5. **Cerrar:** resumir y evaluar la propia retro.
 
