@@ -21,3 +21,5 @@
 *[SM]: Scrum Master
 *[LeSS]: Large-Scale Scrum: marco para escalar Scrum a varios equipos sobre un mismo producto
 *[SAFe]: Scaled Agile Framework: marco para coordinar agilidad desde equipos hasta portafolio
+*[STATIK]: Systems Thinking Approach to Introducing Kanban: pasos para diseñar un sistema Kanban desde el servicio y su cliente
+*[KMM]: Kanban Maturity Model: mapa de siete niveles de madurez de Kanban University

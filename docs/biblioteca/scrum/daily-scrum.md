@@ -53,7 +53,7 @@ No sirve como:
 ## Relacionado
 
 - [El Sprint y Sprint Planning](sprint-y-planning.md) · [Accountabilities](accountabilities.md) · [Antipatrones de Scrum](antipatrones-scrum.md)
-- [Políticas del tablero](../../caja-de-herramientas/politicas-tablero.md)
+- [WIP y sistema pull](../kanban/wip-y-pull.md) · [Políticas del tablero](../../caja-de-herramientas/politicas-tablero.md)
 - [Calendario de cadencias](../../caja-de-herramientas/calendario-cadencias.md)
 
 ## Para profundizar

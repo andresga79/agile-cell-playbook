@@ -37,7 +37,7 @@ Change failure rate
 :   Porcentaje de despliegues que causan una falla en producción que requiere corrección.
 
 Clase de servicio
-:   Política que define cómo se trata un tipo de ítem según su urgencia y costo de demora.
+:   Política que define cómo se trata un tipo de ítem según su urgencia y costo de demora. Ver [la ficha](biblioteca/kanban/clases-de-servicio.md).
 
 Cost of Delay
 :   Valor que se pierde por cada unidad de tiempo que un ítem no está en producción.
@@ -47,6 +47,9 @@ Cycle time
 
 Daily Scrum
 :   Evento diario de 15 minutos en que los Developers inspeccionan el avance hacia el Sprint Goal y ajustan su plan. Ver [la ficha](biblioteca/scrum/daily-scrum.md).
+
+Definition of Workflow
+:   En la Kanban Guide, el conjunto explícito de acuerdos de un sistema Kanban: qué es un ítem, cuándo empieza y termina, sus estados, cómo se controla el WIP, las políticas de flujo y el SLE. Ver [Kanban en una página](biblioteca/kanban/kanban-en-una-pagina.md).
 
 Dependencia externa
 :   Trabajo, recurso o aprobación que una célula necesita de otra célula o de un tercero para terminar un ítem.
@@ -81,6 +84,9 @@ Fake door
 Feature flag
 :   Mecanismo para activar o desactivar funcionalidades sin desplegar código nuevo.
 
+Flight Levels
+:   Modelo de pensamiento de Klaus Leopold que distingue tres niveles de trabajo: operativo, coordinación y estrategia. Ver [la ficha](biblioteca/kanban/flight-levels.md).
+
 Happiness Door
 :   Técnica de Management 3.0 en que cada persona marca cómo se siente al cerrar una reunión, para ver tendencias de ánimo.
 
@@ -89,6 +95,15 @@ Impact Mapping
 
 Increment
 :   En Scrum, paso concreto y usable hacia el Product Goal. Cumple la Definition of Done y se suma a los anteriores; puede haber varios por Sprint.
+
+Kanban Guide
+:   Guía de ProKanban.org (Daniel Vacanti y John Coleman) que define Kanban como una estrategia para optimizar el flujo de valor. Ver [Kanban en una página](biblioteca/kanban/kanban-en-una-pagina.md).
+
+Kanban Method
+:   Método de cambio evolutivo de David J. Anderson y Kanban University, con principios de cambio y de servicio y seis prácticas generales. Ver [la ficha](biblioteca/kanban/kanban-method.md).
+
+KMM
+:   *Kanban Maturity Model*. Modelo de Anderson y Bozheva con siete niveles de madurez organizacional. Ver [la ficha](biblioteca/kanban/kmm.md).
 
 Kudo Cards
 :   Tarjetas de reconocimiento entre pares de Management 3.0.
@@ -138,8 +153,17 @@ Product Backlog
 Product Goal
 :   Estado futuro del producto que sirve de objetivo de largo plazo para el Scrum Team. Ver [Artefactos y compromisos](biblioteca/scrum/artefactos-y-compromisos.md).
 
+Punto de compromiso
+:   Línea del tablero a partir de la cual el equipo se compromete a terminar un ítem; antes de ella solo hay opciones. Ver [Visualizar](biblioteca/kanban/visualizar.md).
+
+Punto de entrega
+:   Línea del tablero donde el ítem llega al cliente o queda disponible para usarse. Ver [Visualizar](biblioteca/kanban/visualizar.md).
+
 Refinamiento
 :   Actividad continua (no un evento) de dividir y detallar los ítems del Product Backlog. Ver [la ficha](biblioteca/scrum/refinamiento.md).
+
+Reposición
+:   Cadencia de Kanban (*replenishment*) en la que se eligen qué opciones cruzan el punto de compromiso. Ver [Las cadencias de Kanban](biblioteca/kanban/cadencias-kanban.md).
 
 Reverse shadowing
 :   Etapa de un traspaso en que el equipo receptor ejecuta el trabajo real y el equipo saliente revisa y corrige.
@@ -168,6 +192,9 @@ Scrumban
 Shadowing
 :   Etapa de un traspaso en que el equipo receptor observa al equipo saliente trabajar sobre casos reales y pregunta.
 
+Sistema pull
+:   Sistema en que se empieza un ítem nuevo solo cuando hay capacidad libre, en vez de asignar trabajo sin mirar el WIP. Ver [WIP y sistema pull](biblioteca/kanban/wip-y-pull.md).
+
 SLE
 :   *Service Level Expectation*. Pronóstico basado en datos del tiempo en que se completará un ítem (ej. 85 % en 10 días).
 
@@ -179,6 +206,9 @@ Sprint Backlog
 
 Sprint Goal
 :   Único objetivo del Sprint. Da foco y flexibilidad sobre el trabajo exacto necesario para lograrlo.
+
+STATIK
+:   *Systems Thinking Approach to Introducing Kanban*. Pasos del Kanban Method para diseñar un sistema Kanban desde el servicio y su cliente. Ver [la ficha](biblioteca/kanban/statik.md).
 
 STRIDE
 :   Modelo de amenazas: suplantación, alteración, repudio, exposición de información, denegación de servicio y elevación de privilegios.
@@ -217,7 +247,7 @@ Walking skeleton
 :   Implementación mínima de punta a punta que atraviesa toda la arquitectura y llega a producción.
 
 WIP
-:   *Work in Progress*. Trabajo iniciado y no terminado.
+:   *Work in Progress*. Trabajo iniciado y no terminado. Ver [WIP y sistema pull](biblioteca/kanban/wip-y-pull.md).
 
 WSJF
 :   *Weighted Shortest Job First*. Prioriza dividiendo el Cost of Delay entre el tamaño del trabajo, con escalas relativas.

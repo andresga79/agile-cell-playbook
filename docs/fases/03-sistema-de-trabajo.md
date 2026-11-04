@@ -43,8 +43,8 @@ flowchart TD
 
 1. Mapear el **flujo de valor real** (*value stream*): desde la idea hasta producción y validación (ver [Value Stream Mapping](../caja-de-herramientas/value-stream-map.md)).
 2. Columnas que reflejen estados reales, con distinción **en curso / listo** para visibilizar esperas.
-3. **Límites de WIP** por columna (punto de partida: número de personas en la etapa × 1,5, luego ajustar).
-4. **Clases de servicio**: Expedito, Fecha fija, Estándar, Intangible (deuda, mejora). El perfil de [Cost of Delay](../caja-de-herramientas/cost-of-delay-wsjf.md) de cada ítem indica su clase.
+3. **[Límites de WIP](../biblioteca/kanban/wip-y-pull.md)** por columna (punto de partida: número de personas en la etapa × 1,5, luego ajustar).
+4. **[Clases de servicio](../biblioteca/kanban/clases-de-servicio.md)**: Expedito, Fecha fija, Estándar, Intangible (deuda, mejora). El perfil de [Cost of Delay](../caja-de-herramientas/cost-of-delay-wsjf.md) de cada ítem indica su clase.
 5. Carriles (*swimlanes*) por tipo de demanda si aplica.
 
 Ejemplo de flujo:
@@ -67,7 +67,7 @@ Escribir las reglas del tablero visibles para todos: cuándo un ítem entra, cu�
 | Revisión de servicio | — | Mensual | Revisar métricas contra niveles de servicio |
 | Revisión de operaciones | Mensual o trimestral | Mensual o trimestral | Alinear con otras células y negocio |
 
-Ver el [calendario de cadencias](../caja-de-herramientas/calendario-cadencias.md) con horarios de ejemplo y, si el equipo está distribuido, los [acuerdos de trabajo distribuido](../caja-de-herramientas/acuerdos-trabajo-distribuido.md).
+Las siete cadencias del Kanban Method y su propósito se explican en [Las cadencias de Kanban](../biblioteca/kanban/cadencias-kanban.md). Ver el [calendario de cadencias](../caja-de-herramientas/calendario-cadencias.md) con horarios de ejemplo y, si el equipo está distribuido, los [acuerdos de trabajo distribuido](../caja-de-herramientas/acuerdos-trabajo-distribuido.md).
 
 ### 3.6 Capacidad para lo no planificado
 

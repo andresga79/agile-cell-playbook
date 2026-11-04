@@ -60,7 +60,7 @@ La guía aclara que se pueden usar solo partes de Scrum, pero que el resultado n
 ## Relacionado
 
 - [Accountabilities](accountabilities.md) · [El Sprint y Sprint Planning](sprint-y-planning.md) · [Artefactos y compromisos](artefactos-y-compromisos.md) · [Antipatrones de Scrum](antipatrones-scrum.md)
-- [Fase 3 · Diseño del sistema de trabajo](../../fases/03-sistema-de-trabajo.md)
+- [Fase 3 · Diseño del sistema de trabajo](../../fases/03-sistema-de-trabajo.md) · [Kanban en una página](../kanban/kanban-en-una-pagina.md)
 - [Assessment de madurez](../../caja-de-herramientas/assessment-madurez.md)
 
 ## Para profundizar

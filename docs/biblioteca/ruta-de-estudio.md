@@ -11,7 +11,7 @@ Cada sesión incluye lecturas, una pregunta para autoevaluarte y un ejercicio co
 | 3 | Scrum: compromisos, antipatrones, EBM y escalamiento |
 | 4 | Kanban: visualizar el trabajo |
 | 5 | Kanban: WIP, pull y políticas explícitas |
-| 6 | Kanban: clases de servicio y cadencias |
+| 6 | Kanban: clases de servicio, cadencias, KMM y Flight Levels |
 | 7 | Métricas de flujo: vocabulario y Ley de Little |
 | 8 | Métricas de flujo: CFD, scatterplot y pronóstico |
 | 9 | Scrumban |
@@ -36,3 +36,21 @@ Cada sesión incluye lecturas, una pregunta para autoevaluarte y un ejercicio co
 **Lee:** [Artefactos y compromisos](scrum/artefactos-y-compromisos.md) · [Refinamiento del Product Backlog](scrum/refinamiento.md) · [Antipatrones de Scrum](scrum/antipatrones-scrum.md) · [Evidence-Based Management](scrum/ebm.md) · [Escalamiento](scrum/escalamiento.md)  
 **Pregúntate:** ¿Qué compromiso (Product Goal, Sprint Goal o DoD) estaba más débil en tu último equipo, y cómo se notaba en los datos?  
 **Ejercicio:** Escribe una meta intermedia para un producto que conozcas y elige una medida para cada una de las cuatro áreas clave de valor de EBM.
+
+### Sesión 4 · Kanban: visualizar el trabajo (~25 min)
+
+**Lee:** [Kanban en una página](kanban/kanban-en-una-pagina.md) · [Principios y prácticas del Kanban Method](kanban/kanban-method.md) · [Visualizar](kanban/visualizar.md) · [STATIK](kanban/statik.md)  
+**Pregúntate:** En tu último equipo, ¿dónde estaba el punto de compromiso y quién decidía que un ítem lo cruzaba?  
+**Ejercicio:** Toma un ítem que tu equipo anterior entregó y reconstruye su recorrido desde el pedido hasta el cliente. Dibuja las columnas que tendría un tablero fiel a ese recorrido, con las esperas separadas del trabajo activo.
+
+### Sesión 5 · Kanban: WIP, pull y políticas explícitas (~25 min)
+
+**Lee:** [WIP y sistema pull](kanban/wip-y-pull.md) · [Políticas explícitas](kanban/politicas-explicitas.md)  
+**Pregúntate:** ¿Qué hacía tu equipo cuando alguien terminaba algo: tomaba un ítem nuevo o ayudaba a terminar otro?  
+**Ejercicio:** Imagina un equipo de cinco personas con 14 ítems en curso y varias columnas "listo para…" llenas. Propón un primer límite de WIP total, la política para cuando se alcance y la señal que mirarías en un mes para saber si funcionó.
+
+### Sesión 6 · Kanban: clases de servicio, cadencias, KMM y Flight Levels (~25 min)
+
+**Lee:** [Clases de servicio](kanban/clases-de-servicio.md) · [Las cadencias de Kanban](kanban/cadencias-kanban.md) · [Kanban Maturity Model](kanban/kmm.md) · [Flight Levels](kanban/flight-levels.md)  
+**Pregúntate:** ¿El problema de flujo más grande de tu último equipo estaba dentro del equipo o entre equipos?  
+**Ejercicio:** Haz una lista de las reuniones de un equipo que conozcas y marca qué cadencia de Kanban cubre cada una. Señala la que falta y en qué reunión existente la incorporarías, sin agregar una nueva.

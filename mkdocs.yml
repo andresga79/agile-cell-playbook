@@ -151,6 +151,18 @@ nav:
           - Antipatrones de Scrum: biblioteca/scrum/antipatrones-scrum.md
           - Evidence-Based Management: biblioteca/scrum/ebm.md
           - "Escalamiento: Nexus, LeSS y SAFe": biblioteca/scrum/escalamiento.md
+      - Kanban:
+          - biblioteca/kanban/index.md
+          - Kanban en una página: biblioteca/kanban/kanban-en-una-pagina.md
+          - Principios y prácticas del Kanban Method: biblioteca/kanban/kanban-method.md
+          - Visualizar: biblioteca/kanban/visualizar.md
+          - WIP y sistema pull: biblioteca/kanban/wip-y-pull.md
+          - Políticas explícitas: biblioteca/kanban/politicas-explicitas.md
+          - Clases de servicio: biblioteca/kanban/clases-de-servicio.md
+          - Las cadencias de Kanban: biblioteca/kanban/cadencias-kanban.md
+          - STATIK: biblioteca/kanban/statik.md
+          - Kanban Maturity Model: biblioteca/kanban/kmm.md
+          - Flight Levels: biblioteca/kanban/flight-levels.md
   - Casos de ejemplo:
       - casos/index.md
       - Crear una célula: casos/crear-celula.md
