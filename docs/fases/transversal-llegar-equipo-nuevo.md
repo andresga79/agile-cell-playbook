@@ -34,7 +34,7 @@ Que el equipo, el PO y el patrocinador cuenten, en unas tres semanas, con un **d
 - **Curiosidad antes que juicio.** Pregunta "¿cómo llegaron a trabajar así?" antes que "¿por qué no hacen X?".
 - **Haz visible tu plan.** El primer día, cuenta en cinco minutos qué harás estas semanas, qué no harás y cuándo devolverás lo que veas. Eso desarma el "viene a auditarnos".
 - **Confidencialidad en los 1:1.** Lo que te cuentan se usa agrupado y sin nombres. Dilo al empezar cada conversación y cúmplelo.
-- **Observa y pregunta más de lo que enseñas o aconsejas.** Enseñar y aconsejar vienen después, cuando haya un diagnóstico.
+- **Observa y pregunta más de lo que enseñas o aconsejas.** Enseñar y aconsejar vienen después, cuando haya un diagnóstico. Ver [Posturas de coaching](../biblioteca/personas/posturas-de-coaching.md).
 
 ### Semana 1 · Escuchar y medir
 
@@ -99,6 +99,7 @@ Reúne señales de las secciones "Qué observar al llegar a un equipo" de las fi
 | Ítems con más del doble de la edad típica, y nadie sabe por qué | Tablero | [Work item age](../biblioteca/flujo/work-item-age.md) |
 | Columnas como "Hecho, pendiente de QA" que acumulan ítems | Tablero | [Artefactos y compromisos](../biblioteca/scrum/artefactos-y-compromisos.md) |
 | Un ítem típico cambia de manos varias veces antes de llegar a producción | Tablero y 1:1 | [Los desperdicios en software](../biblioteca/lean/desperdicios.md) |
+| Los ítems esperan casi siempre al mismo equipo externo, o el equipo tiene a cargo más sistemas de los que domina | Tablero y 1:1 | [Team Topologies](../biblioteca/personas/team-topologies.md) |
 | El Sprint Goal no está escrito, o es una lista de ítems | Tablero | [El Sprint y Sprint Planning](../biblioteca/scrum/sprint-y-planning.md) |
 | Todas las personas le hablan a una sola | Daily | [Daily Scrum](../biblioteca/scrum/daily-scrum.md) |
 | Se recorre a las personas, no el tablero | Daily | [Combinar cadencia y flujo](../biblioteca/scrumban/cadencia-y-flujo.md) |
@@ -108,6 +109,7 @@ Reúne señales de las secciones "Qué observar al llegar a un equipo" de las fi
 | Solo asisten el equipo y el PO, y se presenta más de lo que se conversa | Review | [Sprint Review](../biblioteca/scrum/sprint-review.md) |
 | Nadie del equipo habló con un usuario real en el último mes | 1:1 y Review | [Continuous discovery](../biblioteca/producto/continuous-discovery.md) |
 | Las acciones de las últimas tres retros no se completaron y los temas se repiten | Retro | [Sprint Retrospective](../biblioteca/scrum/retrospectiva.md) |
+| Lo que se escucha en los 1:1 no aparece en la retro, y nadie dice "me equivoqué" en público | Retro | [Seguridad psicológica](../biblioteca/personas/seguridad-psicologica.md) |
 | Se empiezan más ítems de los que se terminan | Datos | [Ley de Little](../biblioteca/flujo/ley-de-little.md) |
 | Entra trabajo después de la Planning, Sprint tras Sprint | Datos | [Cuándo sí y cuándo no Scrumban](../biblioteca/scrumban/cuando-scrumban.md) |
 | Ítems que pasan sin terminar al Sprint siguiente | Datos | [El Sprint y Sprint Planning](../biblioteca/scrum/sprint-y-planning.md) |
@@ -120,8 +122,9 @@ Reúne señales de las secciones "Qué observar al llegar a un equipo" de las fi
 | Tres personas dan respuestas distintas sobre cuándo un ítem pasa de columna | 1:1 | [Políticas explícitas](../biblioteca/kanban/politicas-explicitas.md) |
 | Los stakeholders piden trabajo directo a los Developers, sin pasar por el backlog | 1:1 y canal del equipo | [Accountabilities](../biblioteca/scrum/accountabilities.md) |
 | El PO no puede decir a qué meta de negocio contribuye un ítem tomado al azar del backlog | 1:1 con el PO | [Impact mapping](../biblioteca/producto/impact-mapping.md) |
-| Los OKRs o metas del trimestre son entregables ("lanzar X"), no resultados medibles | Conversaciones con negocio | [OKRs](../biblioteca/producto/okrs.md) |
 | Hay una persona sin la cual "no sale nada" y apaga los incendios | 1:1 | [Pensamiento sistémico](../biblioteca/lean/pensamiento-sistemico.md) |
+| Las decisiones del equipo se revierten desde arriba, o nadie sabe qué puede decidir sin pedir permiso | 1:1 | [Management 3.0](../biblioteca/personas/management-30.md) |
+| Los OKRs o metas del trimestre son entregables ("lanzar X"), no resultados medibles | Conversaciones con negocio | [OKRs](../biblioteca/producto/okrs.md) |
 | "¿Cuándo está?" se responde con una fecha sin datos o con "depende" | Conversaciones con negocio | [Pronóstico probabilístico](../biblioteca/flujo/pronostico-probabilistico.md) |
 | Se mide o se celebra la ocupación de las personas, no la entrega | Conversaciones con negocio | [Principios de flujo](../biblioteca/lean/principios-de-flujo.md) |
 | "Hacemos Scrumban", pero no hay Sprint Goal ni límites de WIP escritos | 1:1 y tablero | [Antipatrones de Scrumban](../biblioteca/scrumban/antipatrones-scrumban.md) |

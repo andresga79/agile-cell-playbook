@@ -54,7 +54,7 @@ No sirve cuando:
 
 - [Artefactos y compromisos](artefactos-y-compromisos.md) · [Accountabilities](accountabilities.md) · [Evidence-Based Management](ebm.md)
 - [Fase 6 · Mejora, innovación y escalamiento](../../fases/06-mejora-innovacion.md)
-- [Tablero de dependencias](../../caja-de-herramientas/tablero-dependencias.md) · [Flight Levels](../kanban/flight-levels.md)
+- [Tablero de dependencias](../../caja-de-herramientas/tablero-dependencias.md) · [Flight Levels](../kanban/flight-levels.md) · [Team Topologies](../personas/team-topologies.md)
 
 ## Para profundizar
 

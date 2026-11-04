@@ -9,6 +9,9 @@ ADR
 Agente de IA
 :   Herramienta de IA que ejecuta tareas de varios pasos con cierta autonomía (abrir PRs, correr comandos) bajo permisos definidos.
 
+Agile Fluency
+:   Modelo de Diana Larsen y James Shore con cuatro zonas de beneficios (Focusing, Delivering, Optimizing y Strengthening) y la inversión que cada una pide. No es un modelo de madurez. Ver [la ficha](biblioteca/personas/agile-fluency.md).
+
 Apetito
 :   En Shape Up, tiempo que se decide invertir en un problema antes de darle forma. Fija el tiempo y deja variable el alcance; no es una estimación. Ver [Shape Up](biblioteca/producto/shape-up.md).
 
@@ -38,6 +41,9 @@ CAB
 
 Canary
 :   Liberación gradual a un porcentaje pequeño del tráfico para detectar problemas antes de llegar a todos los usuarios.
+
+Carga cognitiva
+:   En Team Topologies, cantidad de dominios, sistemas y tecnologías que un equipo puede dominar a la vez. Si se supera, el equipo decide peor y entrega más lento. Ver [Team Topologies](biblioteca/personas/team-topologies.md).
 
 CD3
 :   *Cost of Delay Divided by Duration*. Prioriza dividiendo el costo de demora por semana entre la duración estimada.
@@ -151,8 +157,14 @@ Lean
 LeSS
 :   *Large-Scale Scrum*. Marco de Craig Larman y Bas Vodde para que varios equipos trabajen sobre un producto con un solo Product Owner y un solo Product Backlog. Ver [la ficha](biblioteca/scrum/escalamiento.md).
 
+Ley de Conway
+:   Observación de Melvin Conway (1968): una organización diseña sistemas que copian su estructura de comunicación. La *maniobra inversa de Conway* diseña los equipos según la arquitectura buscada. Ver [Team Topologies](biblioteca/personas/team-topologies.md).
+
 Ley de Little
 :   Relación entre promedios de un sistema estable: tiempo en el sistema = WIP ÷ throughput. Vale solo si se cumplen sus supuestos. Ver [la ficha](biblioteca/flujo/ley-de-little.md).
+
+Management 3.0
+:   Propuesta de Jurgen Appelo (2010) para gestionar equipos como sistemas complejos, con prácticas como Delegation Poker, Moving Motivators y Kudo Cards. Ver [la ficha](biblioteca/personas/management-30.md).
 
 Mapa de conocimiento
 :   Matriz que cruza áreas funcionales, técnicas y operativas con las personas que las dominan y su nivel. Mide el avance de un traspaso.
@@ -163,11 +175,14 @@ Matriz poder / interés
 Métrica de vanidad
 :   Indicador que crece sin reflejar valor, como las líneas de código generadas.
 
+Modelo de Tuckman
+:   Etapas de desarrollo de un grupo: forming, storming, norming y performing (Tuckman, 1965), más adjourning (Tuckman y Jensen, 1977). Es un mapa, no una secuencia obligatoria. Ver [Desarrollo de equipos](biblioteca/personas/desarrollo-de-equipos.md).
+
 Monte Carlo
 :   Simulación que usa datos históricos de throughput para pronosticar fechas o alcance con probabilidades. Ver [Pronóstico probabilístico](biblioteca/flujo/pronostico-probabilistico.md).
 
 Moving Motivators
-:   Juego de Management 3.0 para conocer qué motiva a cada persona y cómo lo afecta un cambio.
+:   Juego de Management 3.0 para conocer qué motiva a cada persona y cómo lo afecta un cambio. Ver [Management 3.0](biblioteca/personas/management-30.md).
 
 MVO
 :   *Minimum Viable Outcome*. El cambio mínimo y medible en el comportamiento del usuario o negocio que valida una apuesta.
@@ -250,6 +265,9 @@ Scrum Master
 Scrumban
 :   Combinación de la cadencia de Scrum con la gestión de flujo y límites de WIP de Kanban. Corey Ladas lo propuso en 2008 como camino desde Scrum hacia un sistema pull; hoy también nombra un híbrido estable. Ver [Qué es Scrumban](biblioteca/scrumban/que-es-scrumban.md).
 
+Seguridad psicológica
+:   Creencia compartida de que el equipo es seguro para asumir riesgos interpersonales, como preguntar, admitir un error o discrepar (Edmondson, 1999). Ver [la ficha](biblioteca/personas/seguridad-psicologica.md).
+
 Shadowing
 :   Etapa de un traspaso en que el equipo receptor observa al equipo saliente trabajar sobre casos reales y pregunta.
 
@@ -288,6 +306,9 @@ Tamaño de lote
 
 TDD
 :   *Test-Driven Development*. Escribir primero una prueba que falla, luego el código mínimo que la hace pasar, y después mejorar el diseño. En XP se llama *test-first*.
+
+Team Topologies
+:   Modelo de Matthew Skelton y Manuel Pais (2019) con cuatro tipos de equipo, tres modos de interacción y la carga cognitiva como límite. Ver [la ficha](biblioteca/personas/team-topologies.md).
 
 Threat modeling
 :   Análisis de cómo puede atacarse una funcionalidad antes de construirla.

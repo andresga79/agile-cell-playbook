@@ -200,6 +200,14 @@ nav:
           - Impact mapping: biblioteca/producto/impact-mapping.md
           - Jobs to be Done: biblioteca/producto/jtbd.md
           - Shape Up: biblioteca/producto/shape-up.md
+      - Personas y equipos:
+          - biblioteca/personas/index.md
+          - Team Topologies: biblioteca/personas/team-topologies.md
+          - Seguridad psicológica: biblioteca/personas/seguridad-psicologica.md
+          - Desarrollo de equipos: biblioteca/personas/desarrollo-de-equipos.md
+          - Management 3.0: biblioteca/personas/management-30.md
+          - Posturas de coaching: biblioteca/personas/posturas-de-coaching.md
+          - Agile Fluency: biblioteca/personas/agile-fluency.md
   - Casos de ejemplo:
       - casos/index.md
       - Crear una célula: casos/crear-celula.md

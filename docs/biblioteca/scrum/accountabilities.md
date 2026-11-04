@@ -51,7 +51,7 @@ No sirve como descripción de cargo de Recursos Humanos. Una persona puede tener
 
 - [Scrum en una página](scrum-en-una-pagina.md) · [Antipatrones de Scrum](antipatrones-scrum.md) · [Daily Scrum](daily-scrum.md)
 - [Fase 0 · Diagnóstico y onboarding](../../fases/00-diagnostico-onboarding.md)
-- [Team Canvas](../../caja-de-herramientas/team-canvas.md)
+- [Team Canvas](../../caja-de-herramientas/team-canvas.md) · [Posturas de coaching](../personas/posturas-de-coaching.md)
 
 ## Para profundizar
 

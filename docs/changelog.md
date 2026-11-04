@@ -26,6 +26,9 @@ Lo publicado después del último tag aparece en `[Sin publicar]`.
 - **Biblioteca · Producto**: 5 fichas (Continuous discovery, OKRs, Impact mapping, Jobs to be Done y Shape Up), con su índice de área. Continuous discovery enlaza a la Fase 1 y OKRs al roadmap por outcomes sin repetirlos; Jobs to be Done separa las escuelas de Christensen y Moesta y de Ulwick, y Shape Up explica en qué choca con Scrum.
 - Glosario: apetito, continuous discovery, JTBD, OKR, opportunity solution tree, product trio y Shape Up; Impact Mapping actualizado con enlace a su ficha. Siglas OKR, JTBD y ODI.
 - Llegar a un equipo nuevo: tres señales de diagnóstico enlazadas a las fichas de Producto. Fichas del núcleo de Scrum enlazan a la nueva área en "Relacionado".
+- **Biblioteca · Personas y equipos**: 6 fichas (Team Topologies, Seguridad psicológica, Desarrollo de equipos, Management 3.0, Posturas de coaching y Agile Fluency), con su índice de área. Management 3.0 enlaza al Delegation Board y a la Fase 5 §5.5 sin repetirlos; Desarrollo de equipos presenta a Tuckman con sus críticas, y Posturas de coaching se centra en los seis papeles de Adkins sin repetir las posturas del SM.
+- Glosario: Agile Fluency, carga cognitiva, ley de Conway, Management 3.0, modelo de Tuckman, seguridad psicológica y Team Topologies; Moving Motivators actualizado con enlace a su ficha.
+- Llegar a un equipo nuevo: tres señales de diagnóstico enlazadas a las fichas de Personas y equipos, y enlace a Posturas de coaching desde "Tu postura". Fichas del núcleo de Scrum enlazan a la nueva área en "Relacionado".
 
 ### Corregido
 
