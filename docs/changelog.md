@@ -15,6 +15,8 @@ Lo publicado después del último tag aparece en `[Sin publicar]`.
 
 ## [Sin publicar]
 
+## [0.6.0] · 2026-11-04
+
 ### Agregado
 
 - **Transversal · Llegar a un equipo nuevo**: la agenda de las primeras tres semanas de quien llega como SM o coach (escuchar y medir, observar, diagnosticar y devolver), con su postura, preguntas para los 1:1, qué no hacer, una tabla de señales de diagnóstico enlazada a las fichas y cómo elegir la puerta de entrada.
