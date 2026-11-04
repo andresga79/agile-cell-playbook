@@ -127,7 +127,7 @@ La ruta crece junto con las fichas. Cada publicación por área agrega solo las 
 
 Hay dos escuelas con términos distintos:
 
-- **Kanban Guide** (Vacanti y Coleman, ProKanban): habla de WIP, throughput, *cycle time* (desde el punto de compromiso hasta terminado), *work item age* y SLE. No usa "lead time".
+- **Kanban Guide** (Vacanti y Coleman, ProKanban): habla de WIP, throughput, *cycle time* (entre los puntos de inicio y fin que define el equipo; equivale al lead time del playbook solo si esos puntos son el compromiso y la entrega), *work item age* y SLE. No usa "lead time".
 - **Kanban Method** (Anderson, Kanban University): distingue *lead time* (desde el compromiso hasta producción) de *cycle time* (desde que se empieza hasta que se termina). También aporta las clases de servicio, STATIK y el KMM.
 
 El playbook ya usa el vocabulario del Kanban Method: lead time P85 aparece en `catalogo-metricas.md`, Fase 5, el assessment, `politicas-tablero.md`, `cost-of-delay-wsjf.md` y el glosario.

@@ -231,7 +231,7 @@ Misma estructura de pasos que la Tarea 3.
 - [ ] **Pasos 2 a 7:** igual que en la Tarea 3, con las sesiones 7 y 8. **Agregado:**
   - En la Fase 5 §5.1 y §5.4, enlazar a `../biblioteca/flujo/metricas-y-vocabularios.md` y a `../biblioteca/flujo/pronostico-probabilistico.md`.
   - En `catalogo-metricas.md`, un admonition `tip` con un enlace a la ficha de vocabularios.
-  - En el glosario, en "Cycle time" y "Lead time", agregar una segunda línea: "En la Kanban Guide, *cycle time* abarca desde el punto de compromiso hasta terminado; ver [Métricas y vocabularios](biblioteca/flujo/metricas-y-vocabularios.md)."
+  - En el glosario, en "Cycle time" y "Lead time", agregar una segunda línea: "En la Kanban Guide, *cycle time* abarca entre los puntos de inicio y fin que define el equipo; ver [Métricas y vocabularios](biblioteca/flujo/metricas-y-vocabularios.md)."
   - Enlaces de vuelta desde las fichas de Kanban.
 - [ ] **Pasos 8 y 9:** igual que en la Tarea 3, con el commit `"Biblioteca: área Métricas de flujo"`.
 
