@@ -101,6 +101,9 @@ Increment
 Kanban Guide
 :   Guía de ProKanban.org (Daniel Vacanti y John Coleman) que define Kanban como una estrategia para optimizar el flujo de valor. Ver [Kanban en una página](biblioteca/kanban/kanban-en-una-pagina.md).
 
+Kanban Guide for Scrum Teams
+:   Guía de Scrum.org (Daniel Vacanti y Yuval Yeret, versión de enero de 2021) que suma a Scrum prácticas de flujo y cuatro métricas sin reemplazar ninguna parte de Scrum. Ver [Combinar cadencia y flujo](biblioteca/scrumban/cadencia-y-flujo.md).
+
 Kanban Method
 :   Método de cambio evolutivo de David J. Anderson y Kanban University, con principios de cambio y de servicio y seis prácticas generales. Ver [la ficha](biblioteca/kanban/kanban-method.md).
 
@@ -151,6 +154,9 @@ Offboarding
 Personal Map
 :   Herramienta de Management 3.0 para conocer el contexto personal de cada integrante del equipo.
 
+Planificación por umbral
+:   Planificar cuando la lista de ítems listos baja de un nivel acordado (el *punto de pedido* de Corey Ladas), en vez de hacerlo por calendario. Ver [Combinar cadencia y flujo](biblioteca/scrumban/cadencia-y-flujo.md).
+
 Postmortem
 :   Análisis sin culpa de un incidente para entender sus causas y definir acciones que eviten que se repita.
 
@@ -197,7 +203,7 @@ Scrum Master
 :   Accountability de Scrum que responde por la efectividad del Scrum Team y por que Scrum se entienda y practique en el equipo y la organización.
 
 Scrumban
-:   Combinación de la cadencia de Scrum con la gestión de flujo y límites de WIP de Kanban.
+:   Combinación de la cadencia de Scrum con la gestión de flujo y límites de WIP de Kanban. Corey Ladas lo propuso en 2008 como camino desde Scrum hacia un sistema pull; hoy también nombra un híbrido estable. Ver [Qué es Scrumban](biblioteca/scrumban/que-es-scrumban.md).
 
 Shadowing
 :   Etapa de un traspaso en que el equipo receptor observa al equipo saliente trabajar sobre casos reales y pregunta.

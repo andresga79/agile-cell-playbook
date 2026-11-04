@@ -171,6 +171,12 @@ nav:
           - Cómo leer un CFD: biblioteca/flujo/cfd.md
           - Scatterplot, percentiles y SLE: biblioteca/flujo/scatterplot-sle.md
           - Pronóstico probabilístico: biblioteca/flujo/pronostico-probabilistico.md
+      - Scrumban:
+          - biblioteca/scrumban/index.md
+          - Qué es Scrumban: biblioteca/scrumban/que-es-scrumban.md
+          - Cuándo sí y cuándo no: biblioteca/scrumban/cuando-scrumban.md
+          - Combinar cadencia y flujo: biblioteca/scrumban/cadencia-y-flujo.md
+          - Antipatrones de Scrumban: biblioteca/scrumban/antipatrones-scrumban.md
   - Casos de ejemplo:
       - casos/index.md
       - Crear una célula: casos/crear-celula.md

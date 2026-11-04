@@ -59,6 +59,7 @@ Encaja mal cuando la mitad del trabajo llega sin aviso durante el Sprint. Ahí e
 - [Daily Scrum](daily-scrum.md) · [Refinamiento del Product Backlog](refinamiento.md) · [Artefactos y compromisos](artefactos-y-compromisos.md)
 - [Fase 3 · Diseño del sistema de trabajo](../../fases/03-sistema-de-trabajo.md)
 - [Pronóstico Monte Carlo](../../caja-de-herramientas/pronostico-monte-carlo.md)
+- [Cuándo Scrumban](../scrumban/cuando-scrumban.md) · [Combinar cadencia y flujo](../scrumban/cadencia-y-flujo.md)
 
 ## Para profundizar
 

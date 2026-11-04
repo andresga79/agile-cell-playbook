@@ -56,7 +56,7 @@ No sirve si el sistema es inestable: si entra mucho más de lo que sale, si el e
 
 - [Scatterplot, percentiles y SLE](scatterplot-sle.md) · [Ley de Little](ley-de-little.md) · [Métricas y vocabularios](metricas-y-vocabularios.md)
 - [Pronóstico Monte Carlo](../../caja-de-herramientas/pronostico-monte-carlo.md) · [Fase 5 · Pronosticar con datos](../../fases/05-medicion.md#54-pronosticar-con-datos)
-- [El Sprint y Sprint Planning](../scrum/sprint-y-planning.md)
+- [El Sprint y Sprint Planning](../scrum/sprint-y-planning.md) · [Combinar cadencia y flujo](../scrumban/cadencia-y-flujo.md)
 
 ## Para profundizar
 

@@ -36,6 +36,8 @@ flowchart TD
     K --> M
 ```
 
+Para entender cada opción, ver [Cuándo Scrumban](../biblioteca/scrumban/cuando-scrumban.md).
+
 !!! note "Independiente del marco"
     En todos los casos se usan **métricas de flujo**, **límites de WIP** y **políticas explícitas**. Lo que cambia es si el compromiso es por *sprint* (Scrum) o por *nivel de servicio* (Kanban).
 

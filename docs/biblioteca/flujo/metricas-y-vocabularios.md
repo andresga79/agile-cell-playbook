@@ -30,10 +30,10 @@ No sirve como discusión de identidad: ninguna escuela tiene "el nombre correcto
 ## Cómo se aplica
 
 1. Escribe en las políticas del tablero dónde empieza y dónde termina cada medición, con el nombre que usa el equipo.
-2. Si el equipo viene de la Kanban Guide, anota la equivalencia con el vocabulario del playbook.
+2. Si el equipo viene de la Kanban Guide, anota la equivalencia con el playbook.
 3. Mide en ítems, no en puntos ni en horas.
 4. Revisa las cuatro métricas juntas: el throughput puede subir mientras el WIP y la edad se disparan.
-5. Reporta los tiempos con percentiles, no con promedios. Lo detalla la ficha [Scatterplot, percentiles y SLE](scatterplot-sle.md).
+5. Reporta los tiempos con percentiles, no con promedios. Ver [Scatterplot, percentiles y SLE](scatterplot-sle.md).
 
 ## Errores típicos
 
@@ -53,7 +53,7 @@ No sirve como discusión de identidad: ninguna escuela tiene "el nombre correcto
 ## Relacionado
 
 - [Ley de Little](ley-de-little.md) · [Work item age](work-item-age.md) · [Cómo leer un CFD](cfd.md)
-- [Kanban en una página](../kanban/kanban-en-una-pagina.md) · [Visualizar](../kanban/visualizar.md)
+- [Kanban en una página](../kanban/kanban-en-una-pagina.md) · [Visualizar](../kanban/visualizar.md) · [Combinar cadencia y flujo](../scrumban/cadencia-y-flujo.md)
 - [Catálogo de métricas](../../caja-de-herramientas/catalogo-metricas.md) · [Fase 5 · Medición y aprendizaje](../../fases/05-medicion.md)
 
 ## Para profundizar

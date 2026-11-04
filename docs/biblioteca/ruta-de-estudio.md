@@ -66,3 +66,9 @@ Cada sesión incluye lecturas, una pregunta para autoevaluarte y un ejercicio co
 **Lee:** [Cómo leer un CFD](flujo/cfd.md) · [Scatterplot, percentiles y SLE](flujo/scatterplot-sle.md) · [Pronóstico probabilístico](flujo/pronostico-probabilistico.md)  
 **Pregúntate:** ¿Cómo respondía tu último equipo a "¿cuándo está?", y qué habría cambiado si hubiera respondido con un rango y una probabilidad?  
 **Ejercicio:** Toma los tiempos de los últimos 20 ítems terminados de un equipo que conozcas (o invéntalos con algunos muy lentos). Calcula los percentiles 50 y 85, escribe un SLE y redacta cómo se lo explicarías a una persona de negocio en dos frases.
+
+### Sesión 9 · Scrumban (~25 min)
+
+**Lee:** [Qué es Scrumban y de dónde viene](scrumban/que-es-scrumban.md) · [Cuándo sí y cuándo no Scrumban](scrumban/cuando-scrumban.md) · [Combinar cadencia y flujo](scrumban/cadencia-y-flujo.md) · [Antipatrones de Scrumban](scrumban/antipatrones-scrumban.md)  
+**Pregúntate:** Si un equipo te dice "hacemos Scrumban", ¿cómo sabrías si lo vive como una transición, como un destino o como una excusa para dejar de hacer algo?  
+**Ejercicio:** Imagina un equipo de Scrum en el que el 35 % de los ítems terminados en los últimos cuatro Sprints entró después de la Planning. Decide si le propondrías Scrumban, escribe qué conservarías de Scrum, el primer experimento de flujo y la señal que mirarías en un mes para saber si funcionó.
