@@ -138,6 +138,19 @@ nav:
   - Biblioteca:
       - biblioteca/index.md
       - Ruta de estudio: biblioteca/ruta-de-estudio.md
+      - Scrum:
+          - biblioteca/scrum/index.md
+          - Scrum en una página: biblioteca/scrum/scrum-en-una-pagina.md
+          - "Accountabilities: PO, SM y Developers": biblioteca/scrum/accountabilities.md
+          - El Sprint y Sprint Planning: biblioteca/scrum/sprint-y-planning.md
+          - Daily Scrum: biblioteca/scrum/daily-scrum.md
+          - Sprint Review: biblioteca/scrum/sprint-review.md
+          - Sprint Retrospective: biblioteca/scrum/retrospectiva.md
+          - Artefactos y compromisos: biblioteca/scrum/artefactos-y-compromisos.md
+          - Refinamiento del Product Backlog: biblioteca/scrum/refinamiento.md
+          - Antipatrones de Scrum: biblioteca/scrum/antipatrones-scrum.md
+          - Evidence-Based Management: biblioteca/scrum/ebm.md
+          - "Escalamiento: Nexus, LeSS y SAFe": biblioteca/scrum/escalamiento.md
   - Casos de ejemplo:
       - casos/index.md
       - Crear una célula: casos/crear-celula.md

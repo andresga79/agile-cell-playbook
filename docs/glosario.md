@@ -1,5 +1,8 @@
 # Glosario
 
+Accountability
+:   En Scrum, responsabilidad de la que alguien rinde cuentas. La Scrum Guide 2020 define tres: Product Owner, Scrum Master y Developers. Ver [la ficha](biblioteca/scrum/accountabilities.md).
+
 ADR
 :   *Architecture Decision Record*. Documento breve que registra una decisión, su contexto y consecuencias.
 
@@ -42,8 +45,14 @@ Cost of Delay
 Cycle time
 :   Tiempo desde que se empieza a trabajar en un ítem hasta que se termina.
 
+Daily Scrum
+:   Evento diario de 15 minutos en que los Developers inspeccionan el avance hacia el Sprint Goal y ajustan su plan. Ver [la ficha](biblioteca/scrum/daily-scrum.md).
+
 Dependencia externa
 :   Trabajo, recurso o aprobación que una célula necesita de otra célula o de un tercero para terminar un ítem.
+
+Developers
+:   En Scrum, las personas del equipo que crean cualquier aspecto de un incremento usable en cada Sprint, sin importar su especialidad.
 
 DoR / DoD
 :   *Definition of Ready* y *Definition of Done*. Acuerdos sobre cuándo un ítem puede empezar y cuándo está terminado.
@@ -51,8 +60,14 @@ DoR / DoD
 DORA
 :   Cuatro métricas de desempeño de entrega de software: frecuencia de despliegue, lead time de cambios, change failure rate y tiempo de recuperación.
 
+EBM
+:   *Evidence-Based Management*. Guía de Scrum.org para medir y mejorar el valor de un producto con metas por niveles y cuatro áreas clave de valor. Ver [la ficha](biblioteca/scrum/ebm.md).
+
 Eficiencia de flujo
 :   Proporción del lead time en que un ítem recibe trabajo activo.
+
+Empirismo
+:   Idea de que el conocimiento viene de la experiencia y las decisiones se toman sobre lo observado. En Scrum se apoya en transparencia, inspección y adaptación.
 
 Exit plan
 :   Plan de salida acordado en el contrato con un proveedor: traslape, entregables, propiedad intelectual y continuidad del servicio.
@@ -72,11 +87,17 @@ Happiness Door
 Impact Mapping
 :   Técnica que conecta una meta de negocio con actores, impactos esperados en su comportamiento y entregables.
 
+Increment
+:   En Scrum, paso concreto y usable hacia el Product Goal. Cumple la Definition of Done y se suma a los anteriores; puede haber varios por Sprint.
+
 Kudo Cards
 :   Tarjetas de reconocimiento entre pares de Management 3.0.
 
 Lead time
 :   Tiempo desde que se compromete un ítem hasta que está disponible en producción.
+
+LeSS
+:   *Large-Scale Scrum*. Marco de Craig Larman y Bas Vodde para que varios equipos trabajen sobre un producto con un solo Product Owner y un solo Product Backlog. Ver [la ficha](biblioteca/scrum/escalamiento.md).
 
 Mapa de conocimiento
 :   Matriz que cruza áreas funcionales, técnicas y operativas con las personas que las dominan y su nivel. Mide el avance de un traspaso.
@@ -99,6 +120,9 @@ MVO
 MVP
 :   *Minimum Viable Product*. El producto mínimo construido para aprender si se logra el MVO.
 
+Nexus
+:   Marco de Scrum.org para que 3 a 9 Scrum Teams trabajen sobre un mismo producto, con foco en la integración. Ver [la ficha](biblioteca/scrum/escalamiento.md).
+
 Offboarding
 :   Salida planificada de una persona, con traspaso de responsabilidades, conocimiento y accesos.
 
@@ -108,11 +132,23 @@ Personal Map
 Postmortem
 :   Análisis sin culpa de un incidente para entender sus causas y definir acciones que eviten que se repita.
 
+Product Backlog
+:   Lista emergente y ordenada de lo que necesita el producto. Su compromiso es el Product Goal.
+
+Product Goal
+:   Estado futuro del producto que sirve de objetivo de largo plazo para el Scrum Team. Ver [Artefactos y compromisos](biblioteca/scrum/artefactos-y-compromisos.md).
+
+Refinamiento
+:   Actividad continua (no un evento) de dividir y detallar los ítems del Product Backlog. Ver [la ficha](biblioteca/scrum/refinamiento.md).
+
 Reverse shadowing
 :   Etapa de un traspaso en que el equipo receptor ejecuta el trabajo real y el equipo saliente revisa y corrige.
 
 Roadmap Ahora / Siguiente / Después
 :   Roadmap en tres horizontes de certeza decreciente, expresado en problemas y outcomes en lugar de fechas y funcionalidades.
+
+SAFe
+:   *Scaled Agile Framework*. Marco de Scaled Agile para coordinar varios equipos, desde el nivel de equipo hasta el portafolio. Ver [la ficha](biblioteca/scrum/escalamiento.md).
 
 SAST
 :   *Static Application Security Testing*. Análisis estático del código propio en busca de vulnerabilidades.
@@ -123,6 +159,9 @@ SBOM
 SCA
 :   *Software Composition Analysis*. Análisis de dependencias de terceros por vulnerabilidades y licencias.
 
+Scrum Master
+:   Accountability de Scrum que responde por la efectividad del Scrum Team y por que Scrum se entienda y practique en el equipo y la organización.
+
 Scrumban
 :   Combinación de la cadencia de Scrum con la gestión de flujo y límites de WIP de Kanban.
 
@@ -131,6 +170,15 @@ Shadowing
 
 SLE
 :   *Service Level Expectation*. Pronóstico basado en datos del tiempo en que se completará un ítem (ej. 85 % en 10 días).
+
+Sprint
+:   Ciclo de duración fija, de un mes o menos, que contiene todos los eventos de Scrum. Ver [la ficha](biblioteca/scrum/sprint-y-planning.md).
+
+Sprint Backlog
+:   El Sprint Goal, los ítems del Product Backlog seleccionados para el Sprint y el plan para entregarlos.
+
+Sprint Goal
+:   Único objetivo del Sprint. Da foco y flexibilidad sobre el trabajo exacto necesario para lograrlo.
 
 STRIDE
 :   Modelo de amenazas: suplantación, alteración, repudio, exposición de información, denegación de servicio y elevación de privilegios.

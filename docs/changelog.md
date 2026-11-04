@@ -18,6 +18,7 @@ Lo publicado después del último tag aparece en `[Sin publicar]`.
 ### Agregado
 
 - Biblioteca: portada y ruta de estudio. Tooltips de siglas en pantallas táctiles.
+- Biblioteca · Scrum: 11 fichas (Scrum en una página, accountabilities, Sprint y Planning, Daily Scrum, Sprint Review, retrospectiva, artefactos y compromisos, refinamiento, antipatrones, Evidence-Based Management y escalamiento) y las sesiones 1 a 3 de la ruta de estudio.
 
 ## [0.4.0] · 2026-10-28
 

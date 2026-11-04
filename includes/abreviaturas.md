@@ -17,3 +17,7 @@
 *[SAST]: Static Application Security Testing: análisis estático del código propio
 *[SBOM]: Software Bill of Materials: inventario de componentes de cada versión
 *[SCA]: Software Composition Analysis: análisis de dependencias de terceros
+*[EBM]: Evidence-Based Management: guía de Scrum.org para medir y mejorar el valor de un producto
+*[SM]: Scrum Master
+*[LeSS]: Large-Scale Scrum: marco para escalar Scrum a varios equipos sobre un mismo producto
+*[SAFe]: Scaled Agile Framework: marco para coordinar agilidad desde equipos hasta portafolio

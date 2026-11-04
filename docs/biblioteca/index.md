@@ -18,7 +18,7 @@ Cada ficha abre con una frase que resume el tema y el tiempo de lectura. Despué
 
 ## Áreas
 
-La biblioteca se publica por áreas y esta lista crece con cada entrega: Scrum, Kanban, métricas de flujo, Scrumban, Lean, ingeniería, producto, personas y facilitación.
+La biblioteca se publica por áreas y esta lista crece con cada entrega: [Scrum](scrum/index.md), Kanban, métricas de flujo, Scrumban, Lean, ingeniería, producto, personas y facilitación.
 
 ## Ruta de estudio
 
