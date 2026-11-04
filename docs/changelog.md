@@ -23,6 +23,9 @@ Lo publicado después del último tag aparece en `[Sin publicar]`.
 - **Biblioteca · Ingeniería**: 5 fichas (Extreme Programming, BDD, Trunk-based development, DORA y SPACE), con su índice de área. DORA presenta las cinco métricas vigentes de dora.dev, aclara que su *change lead time* (del commit a producción) no es el lead time del playbook y enlaza a la Fase 5 y al catálogo de métricas sin repetirlos; BDD enlaza a DoR y DoD.
 - Glosario: BDD, branch by abstraction, change lead time, SPACE, TDD y XP; DORA y trunk-based development actualizados con enlace a su ficha. Siglas XP, BDD, TDD y SPACE.
 - Llegar a un equipo nuevo: tres señales de diagnóstico enlazadas a las fichas de Ingeniería. Fichas del núcleo y de Lean enlazan a la nueva área en "Relacionado".
+- **Biblioteca · Producto**: 5 fichas (Continuous discovery, OKRs, Impact mapping, Jobs to be Done y Shape Up), con su índice de área. Continuous discovery enlaza a la Fase 1 y OKRs al roadmap por outcomes sin repetirlos; Jobs to be Done separa las escuelas de Christensen y Moesta y de Ulwick, y Shape Up explica en qué choca con Scrum.
+- Glosario: apetito, continuous discovery, JTBD, OKR, opportunity solution tree, product trio y Shape Up; Impact Mapping actualizado con enlace a su ficha. Siglas OKR, JTBD y ODI.
+- Llegar a un equipo nuevo: tres señales de diagnóstico enlazadas a las fichas de Producto. Fichas del núcleo de Scrum enlazan a la nueva área en "Relacionado".
 
 ### Corregido
 

@@ -53,6 +53,7 @@ No los conviertas en burocracia: un Sprint Goal no necesita una plantilla de med
 - [Refinamiento del Product Backlog](refinamiento.md) · [El Sprint y Sprint Planning](sprint-y-planning.md) · [Sprint Review](sprint-review.md)
 - [DoR y DoD](../../caja-de-herramientas/dor-dod.md) · [BDD](../ingenieria/bdd.md) · [Roadmap por outcomes](../../caja-de-herramientas/roadmap-outcomes.md)
 - [Fase 4 · Entrega continua de valor](../../fases/04-entrega-continua.md)
+- [OKRs](../producto/okrs.md) · [Impact mapping](../producto/impact-mapping.md)
 
 ## Para profundizar
 

@@ -62,6 +62,7 @@ No sirve para comparar equipos, evaluar personas ni montar un programa de medici
 - [Sprint Review](sprint-review.md) · [Artefactos y compromisos](artefactos-y-compromisos.md)
 - [Fase 5 · Medición y aprendizaje](../../fases/05-medicion.md) · [DORA](../ingenieria/dora.md)
 - [Catálogo de métricas](../../caja-de-herramientas/catalogo-metricas.md) · [Lean Canvas e hipótesis](../../caja-de-herramientas/lean-canvas-hipotesis.md)
+- [OKRs](../producto/okrs.md)
 
 ## Para profundizar
 

@@ -106,6 +106,7 @@ Reúne señales de las secciones "Qué observar al llegar a un equipo" de las fi
 | Llegan ítems que no caben en un Sprint o con preguntas que debieron resolverse antes | Planning | [Refinamiento](../biblioteca/scrum/refinamiento.md) |
 | Los criterios de aceptación no tienen ejemplos concretos o se escriben después del código | Refinamiento | [BDD](../biblioteca/ingenieria/bdd.md) |
 | Solo asisten el equipo y el PO, y se presenta más de lo que se conversa | Review | [Sprint Review](../biblioteca/scrum/sprint-review.md) |
+| Nadie del equipo habló con un usuario real en el último mes | 1:1 y Review | [Continuous discovery](../biblioteca/producto/continuous-discovery.md) |
 | Las acciones de las últimas tres retros no se completaron y los temas se repiten | Retro | [Sprint Retrospective](../biblioteca/scrum/retrospectiva.md) |
 | Se empiezan más ítems de los que se terminan | Datos | [Ley de Little](../biblioteca/flujo/ley-de-little.md) |
 | Entra trabajo después de la Planning, Sprint tras Sprint | Datos | [Cuándo sí y cuándo no Scrumban](../biblioteca/scrumban/cuando-scrumban.md) |
@@ -118,6 +119,8 @@ Reúne señales de las secciones "Qué observar al llegar a un equipo" de las fi
 | Ramas o pull requests que viven más de unos días, o una "semana de integración" | Repositorio | [Trunk-based development](../biblioteca/ingenieria/trunk-based.md) |
 | Tres personas dan respuestas distintas sobre cuándo un ítem pasa de columna | 1:1 | [Políticas explícitas](../biblioteca/kanban/politicas-explicitas.md) |
 | Los stakeholders piden trabajo directo a los Developers, sin pasar por el backlog | 1:1 y canal del equipo | [Accountabilities](../biblioteca/scrum/accountabilities.md) |
+| El PO no puede decir a qué meta de negocio contribuye un ítem tomado al azar del backlog | 1:1 con el PO | [Impact mapping](../biblioteca/producto/impact-mapping.md) |
+| Los OKRs o metas del trimestre son entregables ("lanzar X"), no resultados medibles | Conversaciones con negocio | [OKRs](../biblioteca/producto/okrs.md) |
 | Hay una persona sin la cual "no sale nada" y apaga los incendios | 1:1 | [Pensamiento sistémico](../biblioteca/lean/pensamiento-sistemico.md) |
 | "¿Cuándo está?" se responde con una fecha sin datos o con "depende" | Conversaciones con negocio | [Pronóstico probabilístico](../biblioteca/flujo/pronostico-probabilistico.md) |
 | Se mide o se celebra la ocupación de las personas, no la entrega | Conversaciones con negocio | [Principios de flujo](../biblioteca/lean/principios-de-flujo.md) |

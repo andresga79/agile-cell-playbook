@@ -53,7 +53,7 @@ Pierde sentido cuando:
 
 - [Retrospectiva](retrospectiva.md) · [Artefactos y compromisos](artefactos-y-compromisos.md) · [Evidence-Based Management](ebm.md)
 - [Fase 4 · Entrega continua de valor](../../fases/04-entrega-continua.md)
-- [Mapa de stakeholders](../../caja-de-herramientas/mapa-stakeholders.md)
+- [Mapa de stakeholders](../../caja-de-herramientas/mapa-stakeholders.md) · [Continuous discovery](../producto/continuous-discovery.md)
 
 ## Para profundizar
 

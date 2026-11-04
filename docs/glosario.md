@@ -9,6 +9,9 @@ ADR
 Agente de IA
 :   Herramienta de IA que ejecuta tareas de varios pasos con cierta autonomía (abrir PRs, correr comandos) bajo permisos definidos.
 
+Apetito
+:   En Shape Up, tiempo que se decide invertir en un problema antes de darle forma. Fija el tiempo y deja variable el alcance; no es una estimación. Ver [Shape Up](biblioteca/producto/shape-up.md).
+
 Asistente de código
 :   Herramienta de IA que sugiere o genera código dentro del editor o del flujo de revisión.
 
@@ -50,6 +53,9 @@ Change lead time
 
 Clase de servicio
 :   Política que define cómo se trata un tipo de ítem según su urgencia y costo de demora. Ver [la ficha](biblioteca/kanban/clases-de-servicio.md).
+
+Continuous discovery
+:   Hábito de producto descrito por Teresa Torres: el equipo que construye conversa con clientes al menos cada semana y hace pequeños experimentos orientados a un outcome. Ver [la ficha](biblioteca/producto/continuous-discovery.md).
 
 Cost of Delay
 :   Valor que se pierde por cada unidad de tiempo que un ítem no está en producción.
@@ -108,13 +114,16 @@ Happiness Door
 :   Técnica de Management 3.0 en que cada persona marca cómo se siente al cerrar una reunión, para ver tendencias de ánimo.
 
 Impact Mapping
-:   Técnica que conecta una meta de negocio con actores, impactos esperados en su comportamiento y entregables.
+:   Técnica de Gojko Adzic que conecta una meta de negocio con actores, impactos esperados en su comportamiento y entregables. Ver [la ficha](biblioteca/producto/impact-mapping.md).
 
 Increment
 :   En Scrum, paso concreto y usable hacia el Product Goal. Cumple la Definition of Done y se suma a los anteriores; puede haber varios por Sprint.
 
 Jidoka
 :   Pilar del Sistema de Producción Toyota: detener el proceso apenas aparece un problema para no seguir produciendo defectos. Ver [Lean en una página](biblioteca/lean/lean-en-una-pagina.md).
+
+JTBD
+:   *Jobs to be Done*. Enfoque que estudia el progreso que una persona intenta lograr en una circunstancia. Tiene dos escuelas: Christensen y Moesta, y la Outcome-Driven Innovation de Ulwick. Ver [la ficha](biblioteca/producto/jtbd.md).
 
 Kanban Guide
 :   Guía de Daniel Vacanti y John Coleman (kanbanguides.org) que define Kanban como una estrategia para optimizar el flujo de valor. Ver [Kanban en una página](biblioteca/kanban/kanban-en-una-pagina.md).
@@ -172,6 +181,12 @@ Nexus
 Offboarding
 :   Salida planificada de una persona, con traspaso de responsabilidades, conocimiento y accesos.
 
+OKR
+:   *Objectives and Key Results*. Un objetivo cualitativo con tres a cinco resultados clave medibles, revisados en un ciclo corto. Ver [la ficha](biblioteca/producto/okrs.md).
+
+Opportunity solution tree
+:   Árbol de Teresa Torres que va de un outcome a las oportunidades del cliente, las soluciones posibles y las pruebas de supuestos. Ver [Continuous discovery](biblioteca/producto/continuous-discovery.md).
+
 Pensamiento sistémico
 :   Mirar los resultados como producto de la estructura de un sistema (stocks, flujos, bucles y demoras) y no del esfuerzo individual. Ver [la ficha](biblioteca/lean/pensamiento-sistemico.md).
 
@@ -189,6 +204,9 @@ Product Backlog
 
 Product Goal
 :   Estado futuro del producto que sirve de objetivo de largo plazo para el Scrum Team. Ver [Artefactos y compromisos](biblioteca/scrum/artefactos-y-compromisos.md).
+
+Product trio
+:   En continuous discovery, el trío de producto, diseño e ingeniería que comparte la responsabilidad por un outcome y descubre en conjunto. Ver [Continuous discovery](biblioteca/producto/continuous-discovery.md).
 
 Punto de apalancamiento
 :   Lugar de un sistema donde un cambio pequeño produce un efecto grande. Según Donella Meadows, las reglas y las metas pesan más que los números. Ver [Pensamiento sistémico](biblioteca/lean/pensamiento-sistemico.md).
@@ -234,6 +252,9 @@ Scrumban
 
 Shadowing
 :   Etapa de un traspaso en que el equipo receptor observa al equipo saliente trabajar sobre casos reales y pregunta.
+
+Shape Up
+:   Método de Basecamp descrito por Ryan Singer (2019): dar forma al trabajo con un apetito, apostar en una mesa y construir en ciclos de seis semanas con alcance variable y sin backlog. Ver [la ficha](biblioteca/producto/shape-up.md).
 
 Sistema pull
 :   Sistema en que se empieza un ítem nuevo solo cuando hay capacidad libre, en vez de asignar trabajo sin mirar el WIP. Ver [WIP y sistema pull](biblioteca/kanban/wip-y-pull.md).

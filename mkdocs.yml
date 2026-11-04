@@ -193,6 +193,13 @@ nav:
           - Trunk-based development: biblioteca/ingenieria/trunk-based.md
           - DORA: biblioteca/ingenieria/dora.md
           - SPACE: biblioteca/ingenieria/space.md
+      - Producto:
+          - biblioteca/producto/index.md
+          - Continuous discovery: biblioteca/producto/continuous-discovery.md
+          - OKRs: biblioteca/producto/okrs.md
+          - Impact mapping: biblioteca/producto/impact-mapping.md
+          - Jobs to be Done: biblioteca/producto/jtbd.md
+          - Shape Up: biblioteca/producto/shape-up.md
   - Casos de ejemplo:
       - casos/index.md
       - Crear una célula: casos/crear-celula.md
