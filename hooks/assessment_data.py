@@ -7,7 +7,8 @@ Fuente única de las preguntas: docs/caja-de-herramientas/assessment-madurez.md
 
 La calculadora (docs/assets/js/assessment.js) lee el JSON generado.
 El build falla con un mensaje claro si el cuestionario no tiene
-6 dimensiones y 30 preguntas, o si falta una fase para alguna dimensión.
+6 dimensiones y 30 preguntas, si falta una fase para alguna dimensión o si
+falta un prefijo que usan las reglas de priorización (FL, IN, CA).
 """
 
 import json
@@ -21,6 +22,15 @@ SOURCE = "caja-de-herramientas/assessment-madurez.md"
 OUTPUT = "assets/data/assessment.json"
 EXPECTED_DIMENSIONS = 6
 EXPECTED_QUESTIONS = 30
+# Prefijos de dimensión que las reglas de priorización de
+# docs/assets/js/assessment.js (función priorities) usan por nombre:
+# regla 1 (flujo) y regla 2 (riesgo en producción). Si se renombra uno en el
+# Markdown, el build falla en vez de desactivar la regla sin aviso.
+PRIORITY_RULE_PREFIXES = {
+    "FL": "regla 1 (flujo bajo 2,5)",
+    "IN": "regla 2 (riesgo en producción)",
+    "CA": "regla 2 (riesgo en producción)",
+}
 
 _ID_RE = re.compile(r"^([A-Z]{2})(\d+)$")
 _DIM_HEADING_RE = re.compile(r"^###\s+\d+\s*·\s*(.+?)\s*$")
@@ -107,6 +117,12 @@ def _parse(text, docs_dir, use_directory_urls):
         _fail(f"IDs de pregunta repetidos: {', '.join(dupes)}")
     if len({d["id"] for d in dimensions}) != len(dimensions):
         _fail("dos dimensiones usan el mismo prefijo de ID")
+    prefixes = {d["id"] for d in dimensions}
+    for prefix, rule in PRIORITY_RULE_PREFIXES.items():
+        if prefix not in prefixes:
+            _fail(f"falta la dimensión con prefijo {prefix}, que usa la {rule} de "
+                  "docs/assets/js/assessment.js; si cambiaste el prefijo, "
+                  "actualiza también PRIORITY_RULE_PREFIXES y priorities()")
 
     # Tabla "De dimensión a fase"
     phases = {}
