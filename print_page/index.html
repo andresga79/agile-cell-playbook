@@ -7202,11 +7202,6 @@
 </thead>
 <tbody>
 <tr>
-<td>Parte del trabajo de la semana no aparece en el tablero</td>
-<td>Tablero y 1:1</td>
-<td><a href="#biblioteca-kanban-visualizar">Visualizar</a></td>
-</tr>
-<tr>
 <td>El tablero termina antes de que el trabajo llegue a producción</td>
 <td>Tablero</td>
 <td><a href="#biblioteca-kanban-visualizar">Visualizar</a></td>
@@ -7237,6 +7232,16 @@
 <td><a href="#biblioteca-scrum-artefactos-y-compromisos">Artefactos y compromisos</a></td>
 </tr>
 <tr>
+<td>El Sprint Goal no está escrito, o es una lista de ítems</td>
+<td>Tablero</td>
+<td><a href="#biblioteca-scrum-sprint-y-planning">El Sprint y Sprint Planning</a></td>
+</tr>
+<tr>
+<td>Parte del trabajo de la semana no aparece en el tablero</td>
+<td>Tablero y 1:1</td>
+<td><a href="#biblioteca-kanban-visualizar">Visualizar</a></td>
+</tr>
+<tr>
 <td>Un ítem típico cambia de manos varias veces antes de llegar a producción</td>
 <td>Tablero y 1:1</td>
 <td><a href="#biblioteca-lean-desperdicios">Los desperdicios en software</a></td>
@@ -7250,11 +7255,6 @@
 <td>"Hacemos Scrumban", pero no hay Sprint Goal ni límites de <abbr title="Work in Progress: trabajo iniciado y no terminado">WIP</abbr> escritos</td>
 <td>Tablero y 1:1</td>
 <td><a href="#biblioteca-scrumban-antipatrones-scrumban">Antipatrones de Scrumban</a></td>
-</tr>
-<tr>
-<td>El Sprint Goal no está escrito, o es una lista de ítems</td>
-<td>Tablero</td>
-<td><a href="#biblioteca-scrum-sprint-y-planning">El Sprint y Sprint Planning</a></td>
 </tr>
 <tr>
 <td>Todas las personas le hablan a una sola</td>
@@ -7362,16 +7362,6 @@
 <td><a href="#biblioteca-kanban-politicas-explicitas">Políticas explícitas</a></td>
 </tr>
 <tr>
-<td>Los stakeholders piden trabajo directo a los Developers, sin pasar por el backlog</td>
-<td>1:1 y canal del equipo</td>
-<td><a href="#biblioteca-scrum-accountabilities">Accountabilities</a></td>
-</tr>
-<tr>
-<td>El <abbr title="Product Owner">PO</abbr> no puede decir a qué meta de negocio contribuye un ítem tomado al azar del backlog</td>
-<td>1:1 con el <abbr title="Product Owner">PO</abbr></td>
-<td><a href="#biblioteca-producto-impact-mapping">Impact mapping</a></td>
-</tr>
-<tr>
 <td>Hay una persona sin la cual "no sale nada" y apaga los incendios</td>
 <td>1:1</td>
 <td><a href="#biblioteca-lean-pensamiento-sistemico">Pensamiento sistémico</a></td>
@@ -7385,6 +7375,16 @@
 <td>"Ya probamos eso y no funcionó": los cambios anteriores se impusieron de golpe y se recuerdan con fastidio</td>
 <td>1:1</td>
 <td><a href="#biblioteca-facilitacion-resistencia-al-cambio">Resistencia al cambio</a></td>
+</tr>
+<tr>
+<td>Los stakeholders piden trabajo directo a los Developers, sin pasar por el backlog</td>
+<td>1:1 y canal del equipo</td>
+<td><a href="#biblioteca-scrum-accountabilities">Accountabilities</a></td>
+</tr>
+<tr>
+<td>El <abbr title="Product Owner">PO</abbr> no puede decir a qué meta de negocio contribuye un ítem tomado al azar del backlog</td>
+<td>1:1 con el <abbr title="Product Owner">PO</abbr></td>
+<td><a href="#biblioteca-producto-impact-mapping">Impact mapping</a></td>
 </tr>
 <tr>
 <td>Los <abbr title="Objectives and Key Results: un objetivo y pocos resultados clave medibles">OKRs</abbr> o metas del trimestre son entregables ("lanzar X"), no resultados medibles</td>
@@ -13734,7 +13734,7 @@ Responsable:  [persona]
 </tr>
 </tbody>
 </table>
-<p>En 2003, Mary y Tom Poppendieck llevaron estas ideas al software, y en 2009 Donald Reinertsen las extendió al desarrollo de productos.</p>
+<p>En 2003, Mary y Tom Poppendieck llevaron estas ideas al software, y en 2009 Donald Reinertsen propuso una «segunda generación» del lean para el desarrollo de productos.</p>
 <h2 id="biblioteca-lean-lean-en-una-pagina-para-que-sirve-y-cuando-no">Para qué sirve (y cuándo no)<a class="headerlink" href="#biblioteca-lean-lean-en-una-pagina-para-que-sirve-y-cuando-no" title="Permanent link">&para;</a></h2>
 <p>Sirve para cambiar la pregunta de "¿la gente está ocupada?" a "¿el trabajo avanza?". Está en la base de Kanban y comparte ideas con Scrum: el <abbr title="Work in Progress: trabajo iniciado y no terminado">WIP</abbr>, el <em>pull</em>, los lotes pequeños y la mejora continua.</p>
 <p>No sirve copiado literal de la fábrica. En una línea de producción la variabilidad es el enemigo; en el desarrollo de productos parte de ella es lo que genera valor, porque cada ítem es distinto y se aprende haciéndolo. Tampoco es lean un programa de "eficiencia" que reduce personas: sin respeto por quienes hacen el trabajo, nadie va a mostrar los problemas que el sistema necesita ver.</p>
@@ -13986,7 +13986,7 @@ Responsable:  [persona]
 </table>
 <h2 id="biblioteca-lean-pensamiento-sistemico-para-que-sirve-y-cuando-no">Para qué sirve (y cuándo no)<a class="headerlink" href="#biblioteca-lean-pensamiento-sistemico-para-que-sirve-y-cuando-no" title="Permanent link">&para;</a></h2>
 <p>Sirve cuando el mismo problema vuelve después de cada "solución", y cuando la conversación busca culpables. Cambia la pregunta "¿quién falló?" por "¿qué parte del sistema produce este resultado?".</p>
-<p>Meadows también ordenó los <strong>puntos de apalancamiento</strong>: cambiar números (más personas, otra meta de horas) mueve poco; cambiar reglas, flujos de información y metas del sistema mueve mucho más. Por eso los límites de <abbr title="Work in Progress: trabajo iniciado y no terminado">WIP</abbr> o hacer visible el lead time suelen pesar más que pedir más esfuerzo.</p>
+<p>Meadows también ordenó los <strong>puntos de apalancamiento</strong>: cambiar números (más personas, otra meta de horas) mueve poco; cambiar reglas, flujos de información y metas del sistema mueve mucho más. Por eso una regla de pull con límites de <abbr title="Work in Progress: trabajo iniciado y no terminado">WIP</abbr> o hacer visible el lead time suelen pesar más que pedir más esfuerzo.</p>
 <p>No sirve como excusa para analizar sin actuar. En una crisis, primero se estabiliza. Tampoco hace falta un diagrama para todo: si la causa es obvia y local, arréglala.</p>
 <h2 id="biblioteca-lean-pensamiento-sistemico-como-se-aplica">Cómo se aplica<a class="headerlink" href="#biblioteca-lean-pensamiento-sistemico-como-se-aplica" title="Permanent link">&para;</a></h2>
 <ol>
@@ -14064,7 +14064,7 @@ Responsable:  [persona]
 <p><strong>En una frase:</strong> Valores, principios y prácticas técnicas y de equipo para cambiar el software a menudo sin que cada cambio cueste más que el anterior.</p>
 <p><strong>Área:</strong> Ingeniería · <strong>Lectura:</strong> ~3 min</p>
 <h2 id="biblioteca-ingenieria-xp-que-es">Qué es<a class="headerlink" href="#biblioteca-ingenieria-xp-que-es" title="Permanent link">&para;</a></h2>
-<p>Kent Beck presentó <abbr title="Extreme Programming: valores y prácticas de ingeniería de Kent Beck">XP</abbr> en <em>Extreme Programming Explained</em> (1999). La segunda edición (2004, con Cynthia Andres) lo reescribió: sumó el <strong>respeto</strong> a los cuatro valores originales, agregó principios que conectan valores con prácticas y reemplazó las 12 prácticas de la primera edición por 13 primarias y 11 corolarias.</p>
+<p>Kent Beck presentó <abbr title="Extreme Programming: valores y prácticas de ingeniería de Kent Beck">XP</abbr> en <em>Extreme Programming Explained</em> (1999). La segunda edición (2004, con Cynthia Andres) lo reescribió: sumó el <strong>respeto</strong> a los cuatro valores originales, rehízo los principios (14) como puente entre valores y prácticas y reemplazó las 12 prácticas de la primera edición por 13 primarias y 11 corolarias.</p>
 <table>
 <thead>
 <tr>
@@ -14189,7 +14189,7 @@ Responsable:  [persona]
 <li><strong>Commit directo a la rama principal</strong>, común en equipos chicos.</li>
 <li><strong>Ramas de vida corta</strong> de una persona o un par, que vuelven a la principal por pull request tras una revisión. Según el sitio, duran un par de días como máximo, y <strong>la espera de revisión cuenta</strong> dentro de ese plazo.</li>
 </ul>
-<p>En ambos casos, cada persona integra a la principal al menos una vez cada 24 horas.</p>
+<p>Para que haya integración continua, el sitio pide además que cada persona integre a la principal al menos una vez cada 24 horas.</p>
 <table>
 <thead>
 <tr>
@@ -14547,10 +14547,10 @@ Responsable:  [persona]
 <h2 id="biblioteca-producto-okrs-como-se-aplica">Cómo se aplica<a class="headerlink" href="#biblioteca-producto-okrs-como-se-aplica" title="Permanent link">&para;</a></h2>
 <ol>
 <li><strong>Parte de la estrategia</strong>, no de lo que el equipo ya planeaba hacer. Pocos objetivos: si todo es prioridad, nada lo es.</li>
-<li><strong>Escribe key results de outcome</strong> con línea base, umbral y plazo, igual que el <abbr title="Minimum Viable Outcome: el cambio mínimo y medible que valida una apuesta">MVO</abbr> de la <a href="#fases-01-descubrimiento">Fase 1</a>.</li>
+<li><strong>Escribe key results de outcome</strong> con métrica, umbral y plazo, como el <abbr title="Minimum Viable Outcome: el cambio mínimo y medible que valida una apuesta">MVO</abbr> de la <a href="#fases-01-descubrimiento">Fase 1</a>, y su línea base.</li>
 <li><strong>Conecta con el producto:</strong> el key result es el outcome de la tarjeta "Ahora" del <a href="#caja-de-herramientas-roadmap-outcomes">roadmap por outcomes</a>, y el Product Goal apunta en la misma dirección.</li>
 <li><strong>Alinea, no cascadees:</strong> los equipos proponen cómo contribuir al objetivo de arriba; no reciben key results recortados.</li>
-<li><strong>Revisa el avance a mitad del ciclo</strong> (como referencia, cada Sprint Review) y ajusta la apuesta si los datos no se mueven.</li>
+<li><strong>Revisa el avance durante el ciclo</strong> (como referencia, en cada Sprint Review) y ajusta la apuesta si los datos no se mueven.</li>
 <li><strong>Cierra el ciclo</strong> con una puntuación honesta y una conversación sobre qué se aprendió.</li>
 </ol>
 <h2 id="biblioteca-producto-okrs-errores-tipicos">Errores típicos<a class="headerlink" href="#biblioteca-producto-okrs-errores-tipicos" title="Permanent link">&para;</a></h2>
@@ -14659,7 +14659,7 @@ Responsable:  [persona]
 <p><strong>En una frase:</strong> Las personas no compran productos: los "contratan" para progresar en una situación concreta, y entender ese trabajo explica mejor qué construir que cualquier perfil demográfico.</p>
 <p><strong>Área:</strong> Producto · <strong>Lectura:</strong> ~3 min</p>
 <h2 id="biblioteca-producto-jtbd-que-es">Qué es<a class="headerlink" href="#biblioteca-producto-jtbd-que-es" title="Permanent link">&para;</a></h2>
-<p><em>Jobs to be Done</em> (<abbr title="Jobs to be Done: el progreso que una persona intenta lograr en una circunstancia">JTBD</abbr>) cambia la unidad de análisis: en vez del cliente o del producto, mira el <strong>trabajo</strong> que alguien intenta hacer en una circunstancia. El ejemplo clásico es el del batido, contado en <em>Competing Against Luck</em> (2016): muchos batidos se vendían temprano a personas que manejaban solas un largo trayecto. Lo "contrataban" para que el viaje fuera menos aburrido y aguantar el hambre hasta el mediodía. Su competencia no eran otros batidos, sino un plátano, un bagel o el aburrimiento.</p>
+<p><em>Jobs to be Done</em> (<abbr title="Jobs to be Done: el progreso que una persona intenta lograr en una circunstancia">JTBD</abbr>) cambia la unidad de análisis: en vez del cliente o del producto, mira el <strong>trabajo</strong> que alguien intenta hacer en una circunstancia. El ejemplo clásico es el del batido, contado en <em>Competing Against Luck</em> (2016): muchos batidos se vendían temprano a personas que manejaban solas un largo trayecto. Lo "contrataban" para que el viaje fuera menos aburrido y aguantar el hambre hasta el mediodía. Su competencia no eran otros batidos, sino un bagel o una dona: lo que combatía el aburrimiento del viaje.</p>
 <p>Hay <strong>dos escuelas</strong>, con métodos distintos. Conviene saber de cuál habla cada quien:</p>
 <table>
 <thead>
@@ -14986,7 +14986,7 @@ Responsable:  [persona]
 <p><strong>En una frase:</strong> Forming, storming, norming, performing y adjourning: un mapa útil para conversar sobre cómo cambia un equipo, no una ley que todo equipo recorre en orden.</p>
 <p><strong>Área:</strong> Personas y equipos · <strong>Lectura:</strong> ~3 min</p>
 <h2 id="biblioteca-personas-desarrollo-de-equipos-que-es">Qué es<a class="headerlink" href="#biblioteca-personas-desarrollo-de-equipos-que-es" title="Permanent link">&para;</a></h2>
-<p>Bruce Tuckman revisó en 1965 unos cincuenta estudios sobre grupos (de terapia, de entrenamiento y de laboratorio) y propuso cuatro etapas. En 1977, con Mary Ann Jensen, sumó una quinta: el cierre (<em>adjourning</em>).</p>
+<p>Bruce Tuckman revisó en 1965 unos cincuenta estudios sobre grupos (de terapia, de entrenamiento, naturales y de laboratorio) y propuso cuatro etapas. En 1977, con Mary Ann Jensen, sumó una quinta: el cierre (<em>adjourning</em>).</p>
 <table>
 <thead>
 <tr>
@@ -15023,16 +15023,16 @@ Responsable:  [persona]
 </tr>
 </tbody>
 </table>
-<p><strong>Las críticas, con honestidad.</strong> El modelo de 1965 salió de estudios de grupos de terapia y de laboratorio, no de equipos de trabajo. Connie Gersick (1988) siguió equipos reales con plazo y encontró otro patrón: largos períodos de inercia y un cambio brusco cerca de la mitad del tiempo disponible. En la práctica, los equipos retroceden cuando entra o sale alguien, cuando cambia el objetivo o después de una crisis, y pueden estar en etapas distintas según el tema.</p>
+<p><strong>Las críticas, con honestidad.</strong> El modelo de 1965 salió de estudios de grupos de terapia, de entrenamiento, naturales y de laboratorio; pocos eran equipos de trabajo. Connie Gersick (1988) siguió equipos reales con plazo y encontró otro patrón: largos períodos de inercia y un cambio brusco cerca de la mitad del tiempo disponible. Los equipos retroceden cuando entra o sale alguien, cambia el objetivo o hay una crisis, y pueden estar en etapas distintas según el tema.</p>
 <h2 id="biblioteca-personas-desarrollo-de-equipos-para-que-sirve-y-cuando-no">Para qué sirve (y cuándo no)<a class="headerlink" href="#biblioteca-personas-desarrollo-de-equipos-para-que-sirve-y-cuando-no" title="Permanent link">&para;</a></h2>
-<p>Sirve como lenguaje compartido: el conflicto de hoy puede ser parte de la evolución del equipo, no una falla. También te ayuda a ajustar tu postura; Lyssa Adkins dedica un capítulo de <em>Coaching Agile Teams</em> a cómo cambia el estilo del coach a medida que el equipo evoluciona.</p>
+<p>Sirve como lenguaje compartido: el conflicto de hoy puede ser parte de la evolución, no una falla. También ajusta tu postura; Lyssa Adkins dedica un capítulo de <em>Coaching Agile Teams</em> a cómo cambia el estilo del coach a medida que el equipo evoluciona.</p>
 <p>No sirve para diagnosticar con certeza ni para prometer plazos ("en tres Sprints estarán en performing").</p>
-<p>Recuerda que tu llegada también cambia al equipo: espera algo de forming otra vez, aunque lleven años juntos.</p>
+<p>Recuerda que tu llegada también cambia al equipo: espera algo de forming otra vez, aunque lleven años juntos. Al llegar, primero observa (<a href="#fases-transversal-llegar-equipo-nuevo">Llegar a un equipo nuevo</a>); la estructura viene después, con un plan visible.</p>
 <h2 id="biblioteca-personas-desarrollo-de-equipos-como-se-aplica">Cómo se aplica<a class="headerlink" href="#biblioteca-personas-desarrollo-de-equipos-como-se-aplica" title="Permanent link">&para;</a></h2>
 <ol>
 <li><strong>Formula hipótesis, no etiquetas.</strong> Anota en el <a href="#caja-de-herramientas-diario-observacion">diario de observación</a> qué conductas te hacen pensar en una etapa.</li>
-<li><strong>Pregúntale al equipo.</strong> Muestra las etapas en una retro y pide que cada persona marque dónde siente al equipo. Las diferencias son el tema.</li>
-<li><strong>Ajusta tu postura</strong>, como referencia: más enseñanza y estructura al formarse, facilitación del conflicto en storming y un paso atrás cuando aparecen normas propias.</li>
+<li><strong>Pregúntale al equipo.</strong> Muestra las etapas en una retro y pide que cada persona marque dónde ve al equipo; las diferencias son el tema.</li>
+<li><strong>Ajusta tu postura</strong>, como referencia: en forming, observa primero y propone estructura después, con un plan visible; facilitación del conflicto en storming y un paso atrás cuando aparecen normas propias.</li>
 <li><strong>Trata cada cambio de integrantes como un reinicio parcial:</strong> usa el <a href="#caja-de-herramientas-plan-onboarding">plan de onboarding</a> y revisa el <a href="#caja-de-herramientas-team-canvas">Team Canvas</a>.</li>
 <li><strong>Cierra bien.</strong> Si el equipo se disuelve o alguien se va, haz explícitos el cierre y el traspaso.</li>
 </ol>
@@ -15040,9 +15040,9 @@ Responsable:  [persona]
 <ul>
 <li>Leerlo como una escalera fija y esperar el performing con fecha.</li>
 <li>Suprimir el conflicto para "salir" de storming: las tensiones vuelven más fuertes.</li>
-<li>Rearmar equipos cada pocos meses y esperar que rindan como uno estable.</li>
-<li>Etiquetar personas ("él está en storming") en vez de mirar dinámicas del equipo.</li>
-<li>Ignorar el cierre: equipos que se disuelven sin traspaso ni despedida.</li>
+<li>Rearmar equipos cada pocos meses y esperar rendimiento estable.</li>
+<li>Etiquetar personas ("él está en storming") en vez de mirar dinámicas.</li>
+<li>Ignorar el cierre: disolver el equipo sin traspaso ni despedida.</li>
 </ul>
 <h2 id="biblioteca-personas-desarrollo-de-equipos-que-observar-al-llegar-a-un-equipo">Qué observar al llegar a un equipo<a class="headerlink" href="#biblioteca-personas-desarrollo-de-equipos-que-observar-al-llegar-a-un-equipo" title="Permanent link">&para;</a></h2>
 <ul>
@@ -15184,7 +15184,7 @@ Responsable:  [persona]
 </tr>
 </tbody>
 </table>
-<p>Adkins pone la base en uno mismo: conocerse, dejar el reflejo de mando y control y dejar que el estilo cambie a medida que el equipo evoluciona. Para el conflicto propone distinguir cinco niveles antes de actuar.</p>
+<p>Adkins pone la base en uno mismo: conocerse, dejar el reflejo de mando y control y dejar que el estilo cambie a medida que el equipo evoluciona. Para el conflicto propone usar los cinco niveles de conflicto de Speed Leas antes de actuar.</p>
 <p><strong>No son las posturas del Scrum Master.</strong> Las ocho posturas de Barry Overeem, en <a href="#biblioteca-scrum-accountabilities">Accountabilities</a>, describen el rol completo del <abbr title="Scrum Master">SM</abbr> e incluyen a varias de estas (coach, mentor, docente, facilitador). Adkins profundiza en el oficio: cómo ejercer cada papel y cómo pasar de uno a otro.</p>
 <h2 id="biblioteca-personas-posturas-de-coaching-para-que-sirve-y-cuando-no">Para qué sirve (y cuándo no)<a class="headerlink" href="#biblioteca-personas-posturas-de-coaching-para-que-sirve-y-cuando-no" title="Permanent link">&para;</a></h2>
 <p>Sirve para notar qué papel estás jugando y si es el que la situación pide. El problema habitual no es elegir mal una vez, sino quedarse siempre en el mismo, casi siempre docente o solucionador.</p>
@@ -15351,7 +15351,7 @@ Responsable:  [persona]
 <tr>
 <td><strong>1-2-4-All</strong></td>
 <td>Pensar solo, en pares, en cuartetos y en plenario</td>
-<td>Cualquier pregunta abierta (unos 15 minutos)</td>
+<td>Cualquier pregunta abierta</td>
 </tr>
 <tr>
 <td><strong>What, So What, Now What</strong></td>
@@ -16351,7 +16351,7 @@ Responsable:  [persona]
 <dt>Canary</dt>
 <dd>Liberación gradual a un porcentaje pequeño del tráfico para detectar problemas antes de llegar a todos los usuarios.</dd>
 <dt>Carga cognitiva</dt>
-<dd>En Team Topologies, cantidad de dominios, sistemas y tecnologías que un equipo puede dominar a la vez. Si se supera, el equipo decide peor y entrega más lento. Ver <a href="#biblioteca-personas-team-topologies">Team Topologies</a>.</dd>
+<dd>En Team Topologies, esfuerzo mental que le exigen a un equipo los dominios, sistemas y tecnologías a su cargo; tiene un límite y, si se supera, el equipo decide peor y entrega más lento. Ver <a href="#biblioteca-personas-team-topologies">Team Topologies</a>.</dd>
 <dt><abbr title="Cost of Delay Divided by Duration">CD3</abbr></dt>
 <dd><em>Cost of Delay Divided by Duration</em>. Prioriza dividiendo el costo de demora por semana entre la duración estimada.</dd>
 <dt><abbr title="Cumulative Flow Diagram: gráfico de ítems por estado a lo largo del tiempo">CFD</abbr></dt>
@@ -16664,6 +16664,10 @@ Responsable:  [persona]
 <li>Daily Scrum ("elimina la necesidad de otras reuniones"), retrospectiva (fase "Generar comprensión") y cadencias de Kanban (nota sobre la revisión del servicio).</li>
 <li>Scrumban: "no solo por calendario" en la planificación por umbral, y el trabajo no planificado se cuenta por lo que llegó.</li>
 <li>Métricas: throughput con la misma redacción en ambas escuelas; llegada a un equipo nuevo sin repetición en la elección de puerta.</li>
+<li>Biblioteca (Lean, Ingeniería): precisiones de fuentes. Reinertsen propone una «segunda generación» del lean; <abbr title="Extreme Programming: valores y prácticas de ingeniería de Kent Beck">XP</abbr> 2.ª edición rehace los principios; el plazo de 24 horas de trunk-based se atribuye a la integración continua; los límites de <abbr title="Work in Progress: trabajo iniciado y no terminado">WIP</abbr> se presentan como regla de pull.</li>
+<li>Biblioteca (Producto, Facilitación): <abbr title="Objectives and Key Results: un objetivo y pocos resultados clave medibles">OKRs</abbr> distingue métrica y línea base y revisa durante el ciclo; <abbr title="Jobs to be Done: el progreso que una persona intenta lograr en una circunstancia">JTBD</abbr> alinea la competencia del batido con la fuente (un bagel o una dona); 1-2-4-All sin duración fija, porque las fuentes difieren.</li>
+<li>Biblioteca (Personas): los cinco niveles de conflicto se atribuyen a Speed Leas; Tuckman 1965 incluye grupos naturales y pocos eran equipos de trabajo; al llegar a un equipo se observa primero, de acuerdo con Llegar a un equipo nuevo.</li>
+<li>Glosario y Llegar a un equipo nuevo: carga cognitiva como esfuerzo mental con límite; tabla de señales de diagnóstico reagrupada por «Dónde se ve».</li>
 </ul>
 <h2 id="changelog-060-2026-11-04">[0.6.0] · 2026-11-04<a class="headerlink" href="#changelog-060-2026-11-04" title="Permanent link">&para;</a></h2>
 <h3 id="changelog-agregado_1">Agregado<a class="headerlink" href="#changelog-agregado_1" title="Permanent link">&para;</a></h3>
