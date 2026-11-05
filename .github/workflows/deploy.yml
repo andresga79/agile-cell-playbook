@@ -9,16 +9,24 @@ on:
   schedule:
     - cron: "0 12 * * 1"   # lunes: revisión semanal de enlaces externos
   workflow_dispatch:
+    inputs:
+      reconstruir_archivo:
+        description: "Reconstruir todas las versiones archivadas (no solo las nuevas)"
+        type: boolean
+        default: false
 
+# Solo lectura por defecto; el job que publica pide escritura para sí mismo.
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: publicar-guia-${{ github.event_name == 'pull_request' && github.ref || 'pages' }}
+  # La revisión semanal de enlaces va en su propio grupo para no cancelar un
+  # deploy que espera turno.
+  group: publicar-guia-${{ github.event_name == 'pull_request' && github.ref || github.event_name == 'schedule' && 'enlaces' || 'pages' }}
   cancel-in-progress: false
 
 jobs:
-  build:
+  verificar:
     if: github.event_name != 'schedule'
     runs-on: ubuntu-latest
     steps:
@@ -28,14 +36,40 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
       - run: pip install -r requirements.txt
+      - name: Pruebas de los hooks (Python)
+        run: python -m unittest discover -s tests -v
+      - name: Pruebas de las herramientas interactivas (JavaScript)
+        run: node --test tests/js/*.test.js
       - name: Construir en modo estricto (falla si hay enlaces rotos)
         run: mkdocs build --strict
-      - name: Archivar cada versión publicada (tags v*)
-        if: github.event_name != 'pull_request'
+
+  publicar:
+    needs: verificar
+    # A mano, solo desde main: así no se publica otra rama en la raíz.
+    if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: mkdocs build --strict
+      - name: Archivar las versiones publicadas (tags v*)
+        env:
+          REBUILD_ARCHIVE: ${{ inputs.reconstruir_archivo && '1' || '0' }}
         run: .github/scripts/build_archive.sh site
       - name: Publicar en GitHub Pages
-        if: github.event_name != 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -43,9 +77,14 @@ jobs:
             --message "Publica ${GITHUB_SHA::7}" site
 
   enlaces-externos:
-    # Informativo: un sitio externo caído no debe bloquear la publicación.
+    # Solo los lunes o a pedido. Informativo: un sitio externo caído no
+    # bloquea nada, pero deja un issue abierto para no pasar inadvertido.
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     continue-on-error: true
+    permissions:
+      contents: read
+      issues: write
     steps:
       - uses: actions/checkout@v4
       - name: Revisar enlaces externos
@@ -58,4 +97,27 @@ jobs:
             --exclude '^https?://localhost'
             --exclude 'andresga79\.github\.io/agile-cell-playbook'
             'docs/**/*.md' README.md
+          output: lychee/out.md
           fail: true
+      - name: Abrir o actualizar el issue de enlaces rotos
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          titulo="Enlaces externos rotos"
+          enlace="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          # Sin reporte (lychee falló al ejecutarse) o demasiado largo para un issue.
+          if [ ! -s lychee/out.md ]; then
+            echo "La revisión falló sin generar reporte. Detalle: $enlace" > lychee/out.md
+          elif [ "$(wc -c < lychee/out.md)" -gt 60000 ]; then
+            { head -c 60000 lychee/out.md; printf '\n\n… (recortado; reporte completo en %s)\n' "$enlace"; } > lychee/corto.md
+            mv lychee/corto.md lychee/out.md
+          fi
+          numero=$(gh issue list --state open --search "\"$titulo\" in:title" \
+            --json number --jq '.[0].number // empty')
+          if [ -n "$numero" ]; then
+            gh issue comment "$numero" --body-file lychee/out.md
+          else
+            gh issue create --title "$titulo" --body-file lychee/out.md
+          fi

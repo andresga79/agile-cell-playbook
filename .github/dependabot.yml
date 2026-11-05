@@ -1,0 +1,19 @@
+# Actualizaciones automáticas de las dependencias fijadas.
+# Las versiones archivadas no se ven afectadas: cada tag se construye con su
+# propio requirements.txt (ver .github/scripts/build_archive.sh).
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      mkdocs:
+        patterns: ["*"]
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ["*"]
