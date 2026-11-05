@@ -3859,11 +3859,12 @@
 <h1 id="contribuir">Contribuir<a class="headerlink" href="#contribuir" title="Permanent link">&para;</a></h1>
 <p>Esta guía mejora con la experiencia de células reales.</p>
 <h2 id="flujo-del-mantenedor-directo-a-main">Flujo del mantenedor: directo a <code>main</code><a class="headerlink" href="#flujo-del-mantenedor-directo-a-main" title="Permanent link">&para;</a></h2>
-<p>El mantenedor publica los cambios directamente en <code>main</code>. Cada push dispara el workflow, que valida el sitio en modo estricto y lo publica en GitHub Pages.</p>
+<p>El mantenedor publica los cambios directamente en <code>main</code>. Cada push dispara el workflow, que corre las pruebas, valida el sitio en modo estricto y lo publica en GitHub Pages. Si las pruebas o el build fallan, no se publica.</p>
 <pre class="mermaid"><code>flowchart LR
     P[git pull] --&gt; E[Editar docs/]
     E --&gt; C[Actualizar changelog]
-    C --&gt; V[mkdocs build --strict]
+    C --&gt; T[Pruebas]
+    T --&gt; V[mkdocs build --strict]
     V --&gt; G[commit + push a main]
     G --&gt; W[Publicación automática]</code></pre>
 <h3 id="preparar-el-entorno-una-sola-vez">Preparar el entorno (una sola vez)<a class="headerlink" href="#preparar-el-entorno-una-sola-vez" title="Permanent link">&para;</a></h3>
@@ -3876,6 +3877,8 @@ pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </s
 git<span class="w"> </span>pull<span class="w">                       </span><span class="c1"># trae ediciones hechas desde la web</span>
 <span class="c1"># editar archivos en docs/ y actualizar docs/changelog.md</span>
 mkdocs<span class="w"> </span>serve<span class="w">                   </span><span class="c1"># opcional: ver en http://127.0.0.1:8000</span>
+python<span class="w"> </span>-m<span class="w"> </span>unittest<span class="w"> </span>discover<span class="w"> </span>-s<span class="w"> </span>tests<span class="w">   </span><span class="c1"># hooks (fichas, assessment)</span>
+node<span class="w"> </span>--test<span class="w"> </span>tests/js/*.test.js<span class="w">         </span><span class="c1"># calculadoras (requiere Node 18 o más)</span>
 mkdocs<span class="w"> </span>build<span class="w"> </span>--strict<span class="w">          </span><span class="c1"># debe terminar sin WARNING ni ERROR</span>
 git<span class="w"> </span>add<span class="w"> </span>.
 git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Descripción corta del cambio"</span>
@@ -3893,11 +3896,22 @@ gh<span class="w"> </span>release<span class="w"> </span>create<span class="w"> 
 </code></pre></div>
 <ol>
 <li>Agrega la fila de la versión en <code>docs/versiones.md</code> y cambia la anterior a <strong>Archivada</strong> con su enlace.</li>
-<li>El push del tag vuelve a publicar el sitio y crea la copia archivada en <code>versiones/vX.Y.Z/</code>.</li>
+<li>El push del tag vuelve a publicar el sitio y crea la copia archivada en <code>versiones/vX.Y.Z/</code>, construida con el <code>requirements.txt</code> de ese tag.</li>
 </ol>
+<div class="admonition note">
+<p class="admonition-title">Las versiones archivadas se construyen una sola vez</p>
+<p>Cada publicación conserva las copias que ya están en <code>gh-pages</code> y solo construye los tags nuevos. Para reconstruirlas todas (por ejemplo, si cambia el aviso de versión archivada), corre el workflow <strong>Publicar guía</strong> a mano desde la pestaña <strong>Actions</strong>, sobre la rama <code>main</code>, y marca <strong>Reconstruir todas las versiones archivadas</strong>. Si una versión publicada ya no tiene su tag, el deploy se detiene para no borrarla del sitio. Si la quitaste a propósito, esa misma reconstrucción completa la retira.</p>
+</div>
 <div class="admonition warning">
 <p class="admonition-title">Sin revisión previa</p>
-<p>Al publicar directo en <code>main</code>, el build estricto en local es la única barrera antes de que el cambio llegue al repositorio. Si el workflow falla, la web no se actualiza y la pestaña <strong>Actions</strong> muestra el error.</p>
+<p>Al publicar directo en <code>main</code>, las pruebas y el build estricto en local son la única barrera antes de que el cambio llegue al repositorio. Si el workflow falla, la web no se actualiza y la pestaña <strong>Actions</strong> muestra el error.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Mantenimiento automático</p>
+<ul>
+<li><strong>Dependabot</strong> abre cada mes un PR que agrupa las actualizaciones de <code>requirements.txt</code> y otro con las de las <em>actions</em>. El workflow los valida; revisa el sitio antes de hacer merge.</li>
+<li>La <strong>revisión de enlaces externos</strong> corre los lunes (o a pedido). Si encuentra enlaces rotos, abre o actualiza el issue <strong>Enlaces externos rotos</strong>.</li>
+</ul>
 </div>
 <h2 id="contribuciones-de-otras-personas">Contribuciones de otras personas<a class="headerlink" href="#contribuciones-de-otras-personas" title="Permanent link">&para;</a></h2>
 <p>Quien no mantiene el repositorio contribuye por pull request:</p>
@@ -3937,7 +3951,7 @@ gh<span class="w"> </span>release<span class="w"> </span>create<span class="w"> 
     <span class="md-icon" title="Última actualización">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">28 de octubre de 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">5 de noviembre de 2026</span>
   </span>
 
     
@@ -4026,6 +4040,10 @@ gh<span class="w"> </span>release<span class="w"> </span>create<span class="w"> 
       <script src="../assets/javascripts/bundle.525ec568.min.js"></script>
       
         <script src="../js/print-site.js"></script>
+      
+        <script src="../assets/js/assessment.js"></script>
+      
+        <script src="../assets/js/montecarlo.js"></script>
       
     
   </body>

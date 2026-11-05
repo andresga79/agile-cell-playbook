@@ -6423,7 +6423,17 @@
 <li><strong>Equipos por capa técnica</strong> (frontend, backend, QA) al escalar.</li>
 </ul></section><section class="print-page" id="fases-transversal-gobierno-proveedores"><h1 id="fases-transversal-gobierno-proveedores-transversal-gobierno-con-proveedores">Transversal · Gobierno con proveedores<a class="headerlink" href="#fases-transversal-gobierno-proveedores-transversal-gobierno-con-proveedores" title="Permanent link">&para;</a></h1>
 <p>Aplica cuando la célula es <strong>externalizada o mixta</strong>. El reto es pasar de un modelo "fábrica de software" (horas y especificaciones cerradas) a una <strong>alianza por resultados</strong> sin perder control.</p>
-<h2 id="fases-transversal-gobierno-proveedores-modelos-de-contratacion">Modelos de contratación<a class="headerlink" href="#fases-transversal-gobierno-proveedores-modelos-de-contratacion" title="Permanent link">&para;</a></h2>
+<h2 id="fases-transversal-gobierno-proveedores-objetivo-de-negocio">Objetivo de negocio<a class="headerlink" href="#fases-transversal-gobierno-proveedores-objetivo-de-negocio" title="Permanent link">&para;</a></h2>
+<p>Mantener el control del producto y del conocimiento cuando parte de la célula es externa, y pasar de pagar por horas a una alianza evaluada por resultados de flujo y calidad.</p>
+<h2 id="fases-transversal-gobierno-proveedores-entradas">Entradas<a class="headerlink" href="#fases-transversal-gobierno-proveedores-entradas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Contrato vigente o propuesta del proveedor, con su modelo de contratación.</li>
+<li>Historial de flujo disponible (lead time, despliegues, defectos) para fijar una línea base.</li>
+<li>Mapa de roles actual: quién es del cliente y quién del proveedor.</li>
+<li>Inventario de activos (repositorios, cuentas cloud, dominios, licencias, secretos) y de quién es titular.</li>
+</ul>
+<h2 id="fases-transversal-gobierno-proveedores-actividades">Actividades<a class="headerlink" href="#fases-transversal-gobierno-proveedores-actividades" title="Permanent link">&para;</a></h2>
+<h3 id="fases-transversal-gobierno-proveedores-modelos-de-contratacion">Modelos de contratación<a class="headerlink" href="#fases-transversal-gobierno-proveedores-modelos-de-contratacion" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
@@ -6461,7 +6471,89 @@
 </tbody>
 </table>
 <p><strong>Recomendación:</strong> contratar <strong>capacidad de célula dedicada</strong> con niveles de servicio basados en flujo y calidad, y evolucionar hacia componentes variables por outcome cuando haya línea base.</p>
-<h2 id="fases-transversal-gobierno-proveedores-roles-y-frontera-de-responsabilidades">Roles y frontera de responsabilidades<a class="headerlink" href="#fases-transversal-gobierno-proveedores-roles-y-frontera-de-responsabilidades" title="Permanent link">&para;</a></h2>
+<h3 id="fases-transversal-gobierno-proveedores-cadencias-de-gobierno">Cadencias de gobierno<a class="headerlink" href="#fases-transversal-gobierno-proveedores-cadencias-de-gobierno" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Cadencia</th>
+<th>Participantes</th>
+<th>Propósito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Revisión de servicio mensual</td>
+<td><abbr title="Product Owner">PO</abbr>, <abbr title="Scrum Master">SM</abbr>, gestor de cuenta</td>
+<td>Métricas vs. niveles de servicio, riesgos</td>
+</tr>
+<tr>
+<td>Comité directivo trimestral</td>
+<td>Patrocinador, gerencia proveedor</td>
+<td>Outcomes, roadmap, contrato, capacidad</td>
+</tr>
+<tr>
+<td>Retro cliente–proveedor semestral</td>
+<td>Representantes de ambos</td>
+<td>Salud de la relación</td>
+</tr>
+</tbody>
+</table>
+<p>Para ubicarlas junto a las ceremonias de la célula, ver el <a href="#caja-de-herramientas-calendario-cadencias">calendario de cadencias</a>.</p>
+<h3 id="fases-transversal-gobierno-proveedores-proteccion-del-conocimiento">Protección del conocimiento<a class="headerlink" href="#fases-transversal-gobierno-proveedores-proteccion-del-conocimiento" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Código, documentación, ADRs y pipelines en <strong>repositorios del cliente</strong>.</li>
+<li><abbr title="Definition of Done: acuerdo sobre cuándo un ítem está terminado">DoD</abbr> incluye documentación mínima y pruebas automatizadas.</li>
+<li>Plan de salida (<em>exit plan</em>) definido en el contrato: traspaso, periodo de traslape, propiedad intelectual. Su ejecución se describe en <a href="#fases-transversal-traspaso-proveedor">Traspaso a equipo interno</a>.</li>
+<li>Activos (cuentas cloud, dominios, licencias, secretos) <strong>a nombre del cliente</strong> desde el primer día.</li>
+<li>Rotación planificada con al menos 2 semanas de traslape (ver <a href="#caja-de-herramientas-plan-onboarding">plan de onboarding y offboarding</a>).</li>
+<li>Reglas explícitas sobre el uso de herramientas de IA por parte del proveedor (ver <a href="#fases-transversal-ia-en-la-celula">IA en la célula</a>).</li>
+</ul>
+<h2 id="fases-transversal-gobierno-proveedores-artefactos">Artefactos<a class="headerlink" href="#fases-transversal-gobierno-proveedores-artefactos" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Contrato con el modelo de contratación elegido y su justificación.</li>
+<li>Acuerdo de niveles de servicio basados en flujo, con línea base y fuente de datos.</li>
+<li>Calendario de cadencias de gobierno compartido por ambas partes.</li>
+<li>Plan de salida (<em>exit plan</em>) incluido en el contrato.</li>
+<li>Inventario de activos a nombre del cliente.</li>
+</ul>
+<h2 id="fases-transversal-gobierno-proveedores-metricas">Métricas<a class="headerlink" href="#fases-transversal-gobierno-proveedores-metricas" title="Permanent link">&para;</a></h2>
+<h3 id="fases-transversal-gobierno-proveedores-niveles-de-servicio-basados-en-flujo">Niveles de servicio basados en flujo<a class="headerlink" href="#fases-transversal-gobierno-proveedores-niveles-de-servicio-basados-en-flujo" title="Permanent link">&para;</a></h3>
+<p>En lugar de "X horas" o "Y puntos por sprint", acordar:</p>
+<table>
+<thead>
+<tr>
+<th>Indicador</th>
+<th>Ejemplo de compromiso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lead time de ítems estándar</td>
+<td>85 % en 10 días hábiles o menos</td>
+</tr>
+<tr>
+<td>Frecuencia de despliegue</td>
+<td>Al menos semanal</td>
+</tr>
+<tr>
+<td>Change failure rate</td>
+<td>Menor a 15 %</td>
+</tr>
+<tr>
+<td>Tiempo de recuperación de incidentes críticos</td>
+<td>Menor a 4 horas</td>
+</tr>
+<tr>
+<td>Defectos escapados a producción</td>
+<td>Tendencia decreciente trimestral</td>
+</tr>
+<tr>
+<td>Estabilidad del equipo</td>
+<td>Rotación menor a 15 % anual; transición con traslape</td>
+</tr>
+</tbody>
+</table>
+<h2 id="fases-transversal-gobierno-proveedores-roles">Roles<a class="headerlink" href="#fases-transversal-gobierno-proveedores-roles" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -6507,79 +6599,6 @@
 <p class="admonition-title">El <abbr title="Product Owner">PO</abbr> no se externaliza</p>
 <p>Externalizar el rol de Product Owner desconecta al equipo del negocio. Si no hay alternativa, el patrocinador debe participar activamente en las revisiones.</p>
 </div>
-<h2 id="fases-transversal-gobierno-proveedores-niveles-de-servicio-basados-en-flujo">Niveles de servicio basados en flujo<a class="headerlink" href="#fases-transversal-gobierno-proveedores-niveles-de-servicio-basados-en-flujo" title="Permanent link">&para;</a></h2>
-<p>En lugar de "X horas" o "Y puntos por sprint", acordar:</p>
-<table>
-<thead>
-<tr>
-<th>Indicador</th>
-<th>Ejemplo de compromiso</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Lead time de ítems estándar</td>
-<td>85 % en 10 días hábiles o menos</td>
-</tr>
-<tr>
-<td>Frecuencia de despliegue</td>
-<td>Al menos semanal</td>
-</tr>
-<tr>
-<td>Change failure rate</td>
-<td>Menor a 15 %</td>
-</tr>
-<tr>
-<td>Tiempo de recuperación de incidentes críticos</td>
-<td>Menor a 4 horas</td>
-</tr>
-<tr>
-<td>Defectos escapados a producción</td>
-<td>Tendencia decreciente trimestral</td>
-</tr>
-<tr>
-<td>Estabilidad del equipo</td>
-<td>Rotación menor a 15 % anual; transición con traslape</td>
-</tr>
-</tbody>
-</table>
-<h2 id="fases-transversal-gobierno-proveedores-cadencias-de-gobierno">Cadencias de gobierno<a class="headerlink" href="#fases-transversal-gobierno-proveedores-cadencias-de-gobierno" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Cadencia</th>
-<th>Participantes</th>
-<th>Propósito</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Revisión de servicio mensual</td>
-<td><abbr title="Product Owner">PO</abbr>, <abbr title="Scrum Master">SM</abbr>, gestor de cuenta</td>
-<td>Métricas vs. niveles de servicio, riesgos</td>
-</tr>
-<tr>
-<td>Comité directivo trimestral</td>
-<td>Patrocinador, gerencia proveedor</td>
-<td>Outcomes, roadmap, contrato, capacidad</td>
-</tr>
-<tr>
-<td>Retro cliente–proveedor semestral</td>
-<td>Representantes de ambos</td>
-<td>Salud de la relación</td>
-</tr>
-</tbody>
-</table>
-<p>Para ubicarlas junto a las ceremonias de la célula, ver el <a href="#caja-de-herramientas-calendario-cadencias">calendario de cadencias</a>.</p>
-<h2 id="fases-transversal-gobierno-proveedores-proteccion-del-conocimiento">Protección del conocimiento<a class="headerlink" href="#fases-transversal-gobierno-proveedores-proteccion-del-conocimiento" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Código, documentación, ADRs y pipelines en <strong>repositorios del cliente</strong>.</li>
-<li><abbr title="Definition of Done: acuerdo sobre cuándo un ítem está terminado">DoD</abbr> incluye documentación mínima y pruebas automatizadas.</li>
-<li>Plan de salida (<em>exit plan</em>) definido en el contrato: traspaso, periodo de traslape, propiedad intelectual. Su ejecución se describe en <a href="#fases-transversal-traspaso-proveedor">Traspaso a equipo interno</a>.</li>
-<li>Activos (cuentas cloud, dominios, licencias, secretos) <strong>a nombre del cliente</strong> desde el primer día.</li>
-<li>Rotación planificada con al menos 2 semanas de traslape (ver <a href="#caja-de-herramientas-plan-onboarding">plan de onboarding y offboarding</a>).</li>
-<li>Reglas explícitas sobre el uso de herramientas de IA por parte del proveedor (ver <a href="#fases-transversal-ia-en-la-celula">IA en la célula</a>).</li>
-</ul>
 <h2 id="fases-transversal-gobierno-proveedores-criterios-de-salida">Criterios de salida<a class="headerlink" href="#fases-transversal-gobierno-proveedores-criterios-de-salida" title="Permanent link">&para;</a></h2>
 <p>El gobierno está establecido cuando:</p>
 <ul class="task-list">
@@ -8936,8 +8955,7 @@
   <noscript>La calculadora necesita JavaScript. Puedes aplicar el cuestionario en papel con la tabla de la página del assessment.</noscript>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
-<script src="../../assets/js/assessment.js"></script></section><section class="print-page" id="caja-de-herramientas-team-canvas"><h1 id="caja-de-herramientas-team-canvas-team-canvas">Team Canvas<a class="headerlink" href="#caja-de-herramientas-team-canvas-team-canvas" title="Permanent link">&para;</a></h1>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.js" integrity="sha384-G436+Z2nlA8+PNoeRvWdxKbvOf8E/y+lYxqht2iBwNHTQDV5CJr3+AGVj8fGZi5t" crossorigin="anonymous"></script></section><section class="print-page" id="caja-de-herramientas-team-canvas"><h1 id="caja-de-herramientas-team-canvas-team-canvas">Team Canvas<a class="headerlink" href="#caja-de-herramientas-team-canvas-team-canvas" title="Permanent link">&para;</a></h1>
 <p><strong>Fase:</strong> 0 · <strong>Duración:</strong> 1,5 a 2 horas · <strong>Participantes:</strong> toda la célula, incluido el <abbr title="Product Owner">PO</abbr>.</p>
 <h2 id="caja-de-herramientas-team-canvas-bloques">Bloques<a class="headerlink" href="#caja-de-herramientas-team-canvas-bloques" title="Permanent link">&para;</a></h2>
 <table>
@@ -10514,16 +10532,15 @@ Decisión que habilita:
 <p>Comprométete con el percentil 85, no con el 50: el 50 % es una moneda al aire.</p>
 <h2 id="caja-de-herramientas-pronostico-monte-carlo-calculadora">Calculadora<a class="headerlink" href="#caja-de-herramientas-pronostico-monte-carlo-calculadora" title="Permanent link">&para;</a></h2>
 <div class="admonition info">
-<p class="admonition-title">Tus datos no salen del navegador</p>
-<p>La simulación corre en tu navegador. No se envía ni se guarda nada.</p>
+<p class="admonition-title">Tus datos se quedan en este navegador</p>
+<p>La simulación corre en tu navegador y no envía nada a ningún servidor. Los datos del formulario se guardan solo en este navegador, para que no se pierdan al recargar; usa <strong>Limpiar</strong> para borrarlos. <strong>Compartir enlace</strong> genera una URL que contiene el historial de throughput: quien la abra verá los datos y el pronóstico, así que compártela solo con quien corresponda.</p>
 </div>
 <div id="montecarlo-app" markdown="0">
   <p>Cargando la calculadora…</p>
   <noscript>El pronóstico necesita JavaScript.</noscript>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
-<script src="../../assets/js/montecarlo.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.js" integrity="sha384-G436+Z2nlA8+PNoeRvWdxKbvOf8E/y+lYxqht2iBwNHTQDV5CJr3+AGVj8fGZi5t" crossorigin="anonymous"></script>
 
 <h2 id="caja-de-herramientas-pronostico-monte-carlo-supuestos">Supuestos<a class="headerlink" href="#caja-de-herramientas-pronostico-monte-carlo-supuestos" title="Permanent link">&para;</a></h2>
 <p>El pronóstico vale lo que vale el historial. Revisa estos supuestos antes de compartirlo:</p>
@@ -10531,7 +10548,7 @@ Decisión que habilita:
 <li><strong>Sistema estable.</strong> El futuro se parece al pasado: mismo equipo, mismas políticas de <abbr title="Work in Progress: trabajo iniciado y no terminado">WIP</abbr>, sin cambios grandes de contexto. Si cambió la composición de la célula, usa solo las semanas posteriores al cambio.</li>
 <li><strong>Mismo tipo de ítems.</strong> El historial y el backlog por pronosticar tienen ítems de tamaño y naturaleza parecidos. No mezcles historias con épicas ni con incidentes.</li>
 <li><strong>La división de ítems cambia el pronóstico.</strong> Un release de 40 ítems suele terminar con más de 40: al refinar, los ítems se dividen y aparecen otros nuevos. Ajusta N con tu tasa histórica de crecimiento del backlog o vuelve a pronosticar cada semana.</li>
-<li><strong>Historial reciente y suficiente.</strong> Usa entre 8 y 12 semanas recientes. Con menos de 6 la calculadora no simula. Las semanas sin entregas (vacaciones, congelamientos) cuentan como 0 si pueden repetirse.</li>
+<li><strong>Historial reciente y suficiente.</strong> Usa entre 8 y 12 semanas recientes. Con menos de 6 la calculadora no simula. Si pegas un historial más largo, el campo <strong>Usar solo las últimas N semanas</strong> recorta las antiguas sin borrarlas. Las semanas sin entregas (vacaciones, congelamientos) cuentan como 0 si pueden repetirse.</li>
 </ul>
 <h2 id="caja-de-herramientas-pronostico-monte-carlo-uso-en-la-celula">Uso en la célula<a class="headerlink" href="#caja-de-herramientas-pronostico-monte-carlo-uso-en-la-celula" title="Permanent link">&para;</a></h2>
 <ul class="task-list">
@@ -16645,8 +16662,31 @@ Responsable:  [persona]
 <li>Versión en inglés de la guía.</li>
 </ul>
 <h2 id="changelog-sin-publicar">[Sin publicar]<a class="headerlink" href="#changelog-sin-publicar" title="Permanent link">&para;</a></h2>
-<h2 id="changelog-070-2026-11-04">[0.7.0] · 2026-11-04<a class="headerlink" href="#changelog-070-2026-11-04" title="Permanent link">&para;</a></h2>
 <h3 id="changelog-agregado">Agregado<a class="headerlink" href="#changelog-agregado" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Pronóstico Monte Carlo</strong>: campo opcional <strong>Usar solo las últimas N semanas</strong> para pronosticar solo con las semanas recientes. Los datos se guardan en el navegador, y <strong>Compartir enlace</strong> genera una URL con el historial y la pregunta, igual que la calculadora de madurez.</li>
+<li>Pruebas automáticas de los hooks (<code>unittest</code>) y de la lógica de las calculadoras (<code>node --test</code>). El CI las corre antes de publicar.</li>
+<li>Dependabot actualiza cada mes las dependencias de Python y las <em>actions</em>.</li>
+</ul>
+<h3 id="changelog-cambiado">Cambiado<a class="headerlink" href="#changelog-cambiado" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Gobierno con proveedores</strong> sigue la plantilla de 8 partes de las transversales (objetivo de negocio, entradas, actividades, artefactos, métricas, roles, criterios de salida y antipatrones), y el build la valida.</li>
+<li>Publicación:<ul>
+<li>Cada deploy conserva las versiones ya archivadas y solo construye los tags nuevos, cada uno con su propio <code>requirements.txt</code>.</li>
+<li>El workflow corre con permisos de solo lectura, salvo el job que publica.</li>
+<li>La revisión de enlaces externos corre solo los lunes o a pedido, y abre un issue si encuentra enlaces rotos.</li>
+</ul>
+</li>
+<li>Chart.js se carga con verificación de integridad (SRI). Los scripts de las calculadoras se cargan desde la configuración del sitio, ya no con rutas relativas en cada página.</li>
+</ul>
+<h3 id="changelog-corregido">Corregido<a class="headerlink" href="#changelog-corregido" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Calculadora de madurez</strong>: la fecha por defecto usa el día local. En Chile, después de las 21:00, mostraba el día siguiente.</li>
+<li><strong>Pronóstico Monte Carlo</strong>: rechaza una fecha de inicio imposible (por ejemplo, 30 de febrero) en vez de convertirla en otra fecha.</li>
+<li>El build falla con un mensaje claro si al assessment le falta uno de los prefijos de dimensión que usan las reglas de priorización (FL, IN, CA). Antes, la regla dejaba de aplicarse sin aviso.</li>
+</ul>
+<h2 id="changelog-070-2026-11-04">[0.7.0] · 2026-11-04<a class="headerlink" href="#changelog-070-2026-11-04" title="Permanent link">&para;</a></h2>
+<h3 id="changelog-agregado_1">Agregado<a class="headerlink" href="#changelog-agregado_1" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Biblioteca · Lean y flujo</strong>: 4 fichas (Lean en una página, Los desperdicios en software, Principios de flujo de Reinertsen y Pensamiento sistémico), con su índice de área. Distinguen los siete desperdicios de Ohno de su traducción al software de los Poppendieck y enlazan a Cost of Delay y <abbr title="Weighted Shortest Job First: Cost of Delay dividido por el tamaño del trabajo">WSJF</abbr> y a Value Stream Mapping sin repetirlos.</li>
 <li>Glosario: bucle de realimentación, desperdicio, jidoka, lean, pensamiento sistémico, punto de apalancamiento y tamaño de lote. Sigla <abbr title="Toyota Production System: Sistema de Producción Toyota, origen de lean">TPS</abbr>.</li>
@@ -16664,7 +16704,7 @@ Responsable:  [persona]
 <li>Glosario: <abbr title="Awareness, Desire, Knowledge, Ability, Reinforcement: modelo de cambio individual de Prosci">ADKAR</abbr>, Cynefin, Liberating Structures y ocho pasos de Kotter. Sigla <abbr title="Awareness, Desire, Knowledge, Ability, Reinforcement: modelo de cambio individual de Prosci">ADKAR</abbr>.</li>
 <li>Llegar a un equipo nuevo: tres señales de diagnóstico enlazadas a las fichas de Facilitación y cambio, y la fila de Antipatrones de Scrumban pasa junto a las demás de "Tablero y 1:1". Implementar Scrumban paso a paso y varias fichas del núcleo (Retrospectiva, Kanban Method, <abbr title="Systems Thinking Approach to Introducing Kanban: pasos para diseñar un sistema Kanban desde el servicio y su cliente">STATIK</abbr> y Cuándo sí y cuándo no Scrumban) enlazan a la nueva área.</li>
 </ul>
-<h3 id="changelog-corregido">Corregido<a class="headerlink" href="#changelog-corregido" title="Permanent link">&para;</a></h3>
+<h3 id="changelog-corregido_1">Corregido<a class="headerlink" href="#changelog-corregido_1" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Escalera Scrumban: señal del peldaño 5 y métrica de edad coherentes con el <abbr title="Service Level Expectation: pronóstico del plazo en que se completa un ítem">SLE</abbr>; resumen de señales por peldaño, enlace a los puntajes de entrada y la escalera también aplica si ya conoces al equipo.</li>
 <li>Crédito de la Kanban Guide a Daniel Vacanti y John Coleman (kanbanguides.org), sin atribuirla a ProKanban.org.</li>
@@ -16677,20 +16717,20 @@ Responsable:  [persona]
 <li>Glosario y Llegar a un equipo nuevo: carga cognitiva como esfuerzo mental con límite; tabla de señales de diagnóstico reagrupada por «Dónde se ve».</li>
 </ul>
 <h2 id="changelog-060-2026-11-04">[0.6.0] · 2026-11-04<a class="headerlink" href="#changelog-060-2026-11-04" title="Permanent link">&para;</a></h2>
-<h3 id="changelog-agregado_1">Agregado<a class="headerlink" href="#changelog-agregado_1" title="Permanent link">&para;</a></h3>
+<h3 id="changelog-agregado_2">Agregado<a class="headerlink" href="#changelog-agregado_2" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Transversal · Llegar a un equipo nuevo</strong>: la agenda de las primeras tres semanas de quien llega como <abbr title="Scrum Master">SM</abbr> o coach (escuchar y medir, observar, diagnosticar y devolver), con su postura, preguntas para los 1:1, qué no hacer, una tabla de señales de diagnóstico enlazada a las fichas y cómo elegir la puerta de entrada.</li>
 <li>Nueva herramienta: <strong>diario de observación</strong>.</li>
 <li>Biblioteca: sesión 10 de la ruta de estudio, "Preparar la llegada a un equipo".</li>
 <li><strong>Transversal · Implementar Scrumban paso a paso</strong>: una escalera de diez peldaños, del 0 al 9, que se sube por criterio cumplido y no por calendario. Cada peldaño trae su objetivo, cómo hacerlo, su señal de "listo, sigue", una duración como referencia, su riesgo principal y las fichas que lo explican. Incluye cuándo conviene Scrum con flujo, Scrumban o Kanban con cadencias, las puertas de entrada y qué se conserva y qué se transforma al venir de "Scrum a medias".</li>
 </ul>
-<h3 id="changelog-cambiado">Cambiado<a class="headerlink" href="#changelog-cambiado" title="Permanent link">&para;</a></h3>
+<h3 id="changelog-cambiado_1">Cambiado<a class="headerlink" href="#changelog-cambiado_1" title="Permanent link">&para;</a></h3>
 <ul>
 <li>El assessment de madurez avisa, en su plan de 3 semanas, que la transversal lo envuelve cuando quien lo aplica llega nuevo. La Fase 0 §0.2, la ruta Tomar de "Cómo usar la guía", el caso "Tomar una célula", el índice de fases y la portada de la biblioteca enlazan a la transversal.</li>
 <li>La Fase 3 §3.2, la ficha "Qué es Scrumban", el índice de fases y la transversal de llegada enlazan a la escalera.</li>
 </ul>
 <h2 id="changelog-050-2026-11-04">[0.5.0] · 2026-11-04<a class="headerlink" href="#changelog-050-2026-11-04" title="Permanent link">&para;</a></h2>
-<h3 id="changelog-agregado_2">Agregado<a class="headerlink" href="#changelog-agregado_2" title="Permanent link">&para;</a></h3>
+<h3 id="changelog-agregado_3">Agregado<a class="headerlink" href="#changelog-agregado_3" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Biblioteca: portada y ruta de estudio. Tooltips de siglas en pantallas táctiles.</li>
 <li>Biblioteca · Scrum: 11 fichas (Scrum en una página, accountabilities, Sprint y Planning, Daily Scrum, Sprint Review, retrospectiva, artefactos y compromisos, refinamiento, antipatrones, Evidence-Based Management y escalamiento) y las sesiones 1 a 3 de la ruta de estudio.</li>
@@ -16699,7 +16739,7 @@ Responsable:  [persona]
 <li>Biblioteca · Scrumban: 4 fichas (qué es Scrumban y de dónde viene, cuándo sí y cuándo no, combinar cadencia y flujo, y antipatrones) y la sesión 9 de la ruta de estudio. La Fase 3 §3.2 enlaza a "Cuándo Scrumban"; las fichas de Sprint y Planning, cadencias de Kanban, métricas y vocabularios y pronóstico probabilístico enlazan al área; el glosario suma Kanban Guide for Scrum Teams y planificación por umbral.</li>
 </ul>
 <h2 id="changelog-040-2026-10-28">[0.4.0] · 2026-10-28<a class="headerlink" href="#changelog-040-2026-10-28" title="Permanent link">&para;</a></h2>
-<h3 id="changelog-agregado_3">Agregado<a class="headerlink" href="#changelog-agregado_3" title="Permanent link">&para;</a></h3>
+<h3 id="changelog-agregado_4">Agregado<a class="headerlink" href="#changelog-agregado_4" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Casos de ejemplo</strong>: tres recorridos ficticios con números coherentes (crear una célula, tomar una célula existente y traspaso de proveedor a equipo interno).</li>
 <li><strong>Transversal · IA en la célula</strong>: casos de uso por fase, cambios en <abbr title="Definition of Done: acuerdo sobre cuándo un ítem está terminado">DoD</abbr> y revisión, seguridad y propiedad intelectual, medición como experimento con línea base y cláusulas con proveedores.</li>
@@ -16711,7 +16751,7 @@ Responsable:  [persona]
 <li>Glosario: 34 términos nuevos.</li>
 <li>Plantillas de issue "Error o enlace roto" y "Caso de una célula real", y revisión semanal de enlaces externos.</li>
 </ul>
-<h3 id="changelog-cambiado_1">Cambiado<a class="headerlink" href="#changelog-cambiado_1" title="Permanent link">&para;</a></h3>
+<h3 id="changelog-cambiado_2">Cambiado<a class="headerlink" href="#changelog-cambiado_2" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Las fases y herramientas existentes enlazan a las nuevas plantillas; ya no quedan artefactos sin plantilla.</li>
 <li>Las preguntas del assessment tienen una sola fuente: la calculadora las lee desde <code>assessment-madurez.md</code> al construir el sitio.</li>
@@ -16720,13 +16760,13 @@ Responsable:  [persona]
 <li>README y Contribuir actualizados con la estructura y el proceso de publicación de versiones.</li>
 </ul>
 <h2 id="changelog-030-2026-10-28">[0.3.0] · 2026-10-28<a class="headerlink" href="#changelog-030-2026-10-28" title="Permanent link">&para;</a></h2>
-<h3 id="changelog-agregado_4">Agregado<a class="headerlink" href="#changelog-agregado_4" title="Permanent link">&para;</a></h3>
+<h3 id="changelog-agregado_5">Agregado<a class="headerlink" href="#changelog-agregado_5" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Transversal · Traspaso de proveedor a equipo interno</strong>: cinco etapas (preparar, shadowing, reverse shadowing, operación autónoma y cierre) que avanzan por criterios, con inventario de activos, métricas que no deben degradarse, <abbr title="Responsable, Aprueba, Consultado, Informado">RACI</abbr>, criterios de salida y antipatrones.</li>
 <li><strong>Plan de traspaso</strong> en la caja de herramientas: inventario de activos, mapa de conocimiento con niveles 0–3, criterios de avance por etapa y registro de consultas al proveedor.</li>
 <li>Glosario: exit plan, mapa de conocimiento, shadowing, reverse shadowing y traslape.</li>
 </ul>
-<h3 id="changelog-cambiado_2">Cambiado<a class="headerlink" href="#changelog-cambiado_2" title="Permanent link">&para;</a></h3>
+<h3 id="changelog-cambiado_3">Cambiado<a class="headerlink" href="#changelog-cambiado_3" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Inicio y Cómo usar la guía: la ruta Tomar distingue el caso de traspaso desde un proveedor.</li>
 <li>Gobierno con proveedores: el plan de salida enlaza al traspaso y exige activos a nombre del cliente desde el inicio.</li>
@@ -16735,24 +16775,24 @@ Responsable:  [persona]
 <li>Gobierno con proveedores: criterios de salida.</li>
 </ul>
 <h2 id="changelog-020-2026-10-28">[0.2.0] · 2026-10-28<a class="headerlink" href="#changelog-020-2026-10-28" title="Permanent link">&para;</a></h2>
-<h3 id="changelog-agregado_5">Agregado<a class="headerlink" href="#changelog-agregado_5" title="Permanent link">&para;</a></h3>
+<h3 id="changelog-agregado_6">Agregado<a class="headerlink" href="#changelog-agregado_6" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Assessment de madurez</strong> con 30 preguntas en seis dimensiones (producto, flujo, ingeniería, calidad, equipo y relación con negocio), criterios observables para los niveles 1, 3 y 5, fuente de evidencia por pregunta, plan de aplicación de 3 semanas y reglas de priorización de fases.</li>
 <li><strong>Calculadora de madurez</strong> interactiva: autoevaluación y observación por pregunta, radar con ambas miradas, alerta de brechas de más de 1 punto, orden sugerido de fases y exportación de resultados en Markdown.</li>
 </ul>
-<h3 id="changelog-cambiado_3">Cambiado<a class="headerlink" href="#changelog-cambiado_3" title="Permanent link">&para;</a></h3>
+<h3 id="changelog-cambiado_4">Cambiado<a class="headerlink" href="#changelog-cambiado_4" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Fase 0: la sección 0.2 enlaza al assessment y la calculadora, y el criterio de salida exige brechas conversadas y orden de fases acordado.</li>
 <li>Contribuir: el mantenedor publica directo a <code>main</code> con validación local; las contribuciones externas siguen por pull request.</li>
 </ul>
 <h2 id="changelog-011-2026-10-28">[0.1.1] · 2026-10-28<a class="headerlink" href="#changelog-011-2026-10-28" title="Permanent link">&para;</a></h2>
-<h3 id="changelog-corregido_1">Corregido<a class="headerlink" href="#changelog-corregido_1" title="Permanent link">&para;</a></h3>
+<h3 id="changelog-corregido_2">Corregido<a class="headerlink" href="#changelog-corregido_2" title="Permanent link">&para;</a></h3>
 <ul>
 <li>URLs del repositorio y del sitio apuntan a la cuenta <code>andresga79</code>.</li>
 <li>Enlaces al Agile Metric Hub.</li>
 </ul>
 <h2 id="changelog-010-2026-10-28">[0.1.0] · 2026-10-28<a class="headerlink" href="#changelog-010-2026-10-28" title="Permanent link">&para;</a></h2>
-<h3 id="changelog-agregado_6">Agregado<a class="headerlink" href="#changelog-agregado_6" title="Permanent link">&para;</a></h3>
+<h3 id="changelog-agregado_7">Agregado<a class="headerlink" href="#changelog-agregado_7" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Estructura de 7 fases (0 a 6) y página transversal de gobierno con proveedores.</li>
 <li>Caja de herramientas con 10 plantillas: Team Canvas, Delegation Board, Lean Canvas e hipótesis, User Story Map, <abbr title="Architecture Decision Record: registro breve de una decisión, su contexto y consecuencias">ADR</abbr>, <abbr title="Definition of Ready: acuerdo sobre cuándo un ítem puede empezar">DoR</abbr>/<abbr title="Definition of Done: acuerdo sobre cuándo un ítem está terminado">DoD</abbr>, políticas del tablero, checklist de producción, catálogo de métricas y retrospectiva basada en datos.</li>
@@ -16761,11 +16801,12 @@ Responsable:  [persona]
 </ul></section><section class="print-page" id="contribuir"><h1 id="contribuir-contribuir">Contribuir<a class="headerlink" href="#contribuir-contribuir" title="Permanent link">&para;</a></h1>
 <p>Esta guía mejora con la experiencia de células reales.</p>
 <h2 id="contribuir-flujo-del-mantenedor-directo-a-main">Flujo del mantenedor: directo a <code>main</code><a class="headerlink" href="#contribuir-flujo-del-mantenedor-directo-a-main" title="Permanent link">&para;</a></h2>
-<p>El mantenedor publica los cambios directamente en <code>main</code>. Cada push dispara el workflow, que valida el sitio en modo estricto y lo publica en GitHub Pages.</p>
+<p>El mantenedor publica los cambios directamente en <code>main</code>. Cada push dispara el workflow, que corre las pruebas, valida el sitio en modo estricto y lo publica en GitHub Pages. Si las pruebas o el build fallan, no se publica.</p>
 <pre class="mermaid"><code>flowchart LR
     P[git pull] --&gt; E[Editar docs/]
     E --&gt; C[Actualizar changelog]
-    C --&gt; V[mkdocs build --strict]
+    C --&gt; T[Pruebas]
+    T --&gt; V[mkdocs build --strict]
     V --&gt; G[commit + push a main]
     G --&gt; W[Publicación automática]</code></pre>
 <h3 id="contribuir-preparar-el-entorno-una-sola-vez">Preparar el entorno (una sola vez)<a class="headerlink" href="#contribuir-preparar-el-entorno-una-sola-vez" title="Permanent link">&para;</a></h3>
@@ -16778,6 +16819,8 @@ pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </s
 git<span class="w"> </span>pull<span class="w">                       </span><span class="c1"># trae ediciones hechas desde la web</span>
 <span class="c1"># editar archivos en docs/ y actualizar docs/changelog.md</span>
 mkdocs<span class="w"> </span>serve<span class="w">                   </span><span class="c1"># opcional: ver en http://127.0.0.1:8000</span>
+python<span class="w"> </span>-m<span class="w"> </span>unittest<span class="w"> </span>discover<span class="w"> </span>-s<span class="w"> </span>tests<span class="w">   </span><span class="c1"># hooks (fichas, assessment)</span>
+node<span class="w"> </span>--test<span class="w"> </span>tests/js/*.test.js<span class="w">         </span><span class="c1"># calculadoras (requiere Node 18 o más)</span>
 mkdocs<span class="w"> </span>build<span class="w"> </span>--strict<span class="w">          </span><span class="c1"># debe terminar sin WARNING ni ERROR</span>
 git<span class="w"> </span>add<span class="w"> </span>.
 git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Descripción corta del cambio"</span>
@@ -16795,11 +16838,22 @@ gh<span class="w"> </span>release<span class="w"> </span>create<span class="w"> 
 </code></pre></div>
 <ol>
 <li>Agrega la fila de la versión en <code>docs/versiones.md</code> y cambia la anterior a <strong>Archivada</strong> con su enlace.</li>
-<li>El push del tag vuelve a publicar el sitio y crea la copia archivada en <code>versiones/vX.Y.Z/</code>.</li>
+<li>El push del tag vuelve a publicar el sitio y crea la copia archivada en <code>versiones/vX.Y.Z/</code>, construida con el <code>requirements.txt</code> de ese tag.</li>
 </ol>
+<div class="admonition note">
+<p class="admonition-title">Las versiones archivadas se construyen una sola vez</p>
+<p>Cada publicación conserva las copias que ya están en <code>gh-pages</code> y solo construye los tags nuevos. Para reconstruirlas todas (por ejemplo, si cambia el aviso de versión archivada), corre el workflow <strong>Publicar guía</strong> a mano desde la pestaña <strong>Actions</strong>, sobre la rama <code>main</code>, y marca <strong>Reconstruir todas las versiones archivadas</strong>. Si una versión publicada ya no tiene su tag, el deploy se detiene para no borrarla del sitio. Si la quitaste a propósito, esa misma reconstrucción completa la retira.</p>
+</div>
 <div class="admonition warning">
 <p class="admonition-title">Sin revisión previa</p>
-<p>Al publicar directo en <code>main</code>, el build estricto en local es la única barrera antes de que el cambio llegue al repositorio. Si el workflow falla, la web no se actualiza y la pestaña <strong>Actions</strong> muestra el error.</p>
+<p>Al publicar directo en <code>main</code>, las pruebas y el build estricto en local son la única barrera antes de que el cambio llegue al repositorio. Si el workflow falla, la web no se actualiza y la pestaña <strong>Actions</strong> muestra el error.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Mantenimiento automático</p>
+<ul>
+<li><strong>Dependabot</strong> abre cada mes un PR que agrupa las actualizaciones de <code>requirements.txt</code> y otro con las de las <em>actions</em>. El workflow los valida; revisa el sitio antes de hacer merge.</li>
+<li>La <strong>revisión de enlaces externos</strong> corre los lunes (o a pedido). Si encuentra enlaces rotos, abre o actualiza el issue <strong>Enlaces externos rotos</strong>.</li>
+</ul>
 </div>
 <h2 id="contribuir-contribuciones-de-otras-personas">Contribuciones de otras personas<a class="headerlink" href="#contribuir-contribuciones-de-otras-personas" title="Permanent link">&para;</a></h2>
 <p>Quien no mantiene el repositorio contribuye por pull request:</p>
@@ -16885,6 +16939,10 @@ gh<span class="w"> </span>release<span class="w"> </span>create<span class="w"> 
       <script src="../assets/javascripts/bundle.525ec568.min.js"></script>
       
         <script src="../js/print-site.js"></script>
+      
+        <script src="../assets/js/assessment.js"></script>
+      
+        <script src="../assets/js/montecarlo.js"></script>
       
     
   </body>

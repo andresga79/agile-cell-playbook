@@ -73,6 +73,10 @@
   font: inherit; font-size: .8rem; cursor: pointer; padding: .5rem 1rem; border-radius: .2rem;
   border: 1px solid var(--md-primary-fg-color); background: var(--md-primary-fg-color); color: var(--md-primary-bg-color);
 }
+#montecarlo-app button.mc-secondary { background: transparent; color: var(--md-primary-fg-color); }
+#montecarlo-app .mc-actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+#montecarlo-app .mc-status { font-size: .75rem; color: var(--md-default-fg-color--light); margin: .75rem 0 0; min-height: 1.2em; }
+#montecarlo-app .mc-share-url { font: inherit; font-size: .75rem; padding: .35rem .5rem; width: 100%; box-sizing: border-box; border: 1px solid var(--md-default-fg-color--lighter); border-radius: .2rem; background: var(--md-default-bg-color); color: var(--md-default-fg-color); }
 #montecarlo-app .mc-error { color: var(--md-code-hl-number-color, #c2185b); }
 #montecarlo-app .mc-results { margin-top: 1.5rem; }
 #montecarlo-app .mc-summary { color: var(--md-default-fg-color--light); }
@@ -80,4 +84,4 @@
 
 /* Versión imprimible (print-site): las calculadoras son interactivas y no se muestran */
 #print-site-page #assessment-app, #print-site-page #montecarlo-app { display: none; }
-@media print { #assessment-app .aa-actions, #assessment-app details.aa-compare, #montecarlo-app form { display: none; } }
+@media print { #assessment-app .aa-actions, #assessment-app details.aa-compare, #montecarlo-app form, #montecarlo-app #mc-share-out { display: none; } }
