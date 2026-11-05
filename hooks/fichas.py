@@ -41,6 +41,7 @@ TRANSVERSAL_SECCIONES = (
 TRANSVERSALES_VALIDADAS = {
     "fases/transversal-llegar-equipo-nuevo.md",
     "fases/transversal-scrumban-paso-a-paso.md",
+    "fases/transversal-gobierno-proveedores.md",
 }
 
 MIN_PALABRAS = 400

@@ -2,7 +2,20 @@
 
 Aplica cuando la célula es **externalizada o mixta**. El reto es pasar de un modelo "fábrica de software" (horas y especificaciones cerradas) a una **alianza por resultados** sin perder control.
 
-## Modelos de contratación
+## Objetivo de negocio
+
+Mantener el control del producto y del conocimiento cuando parte de la célula es externa, y pasar de pagar por horas a una alianza evaluada por resultados de flujo y calidad.
+
+## Entradas
+
+- Contrato vigente o propuesta del proveedor, con su modelo de contratación.
+- Historial de flujo disponible (lead time, despliegues, defectos) para fijar una línea base.
+- Mapa de roles actual: quién es del cliente y quién del proveedor.
+- Inventario de activos (repositorios, cuentas cloud, dominios, licencias, secretos) y de quién es titular.
+
+## Actividades
+
+### Modelos de contratación
 
 | Modelo | Ventaja | Riesgo | Cuándo usarlo |
 |---|---|---|---|
@@ -13,21 +26,36 @@ Aplica cuando la célula es **externalizada o mixta**. El reto es pasar de un mo
 
 **Recomendación:** contratar **capacidad de célula dedicada** con niveles de servicio basados en flujo y calidad, y evolucionar hacia componentes variables por outcome cuando haya línea base.
 
-## Roles y frontera de responsabilidades
+### Cadencias de gobierno
 
-| Rol | Cliente | Proveedor |
+| Cadencia | Participantes | Propósito |
 |---|---|---|
-| Patrocinador de negocio | ✅ | |
-| Product Owner | ✅ (idealmente siempre) | |
-| Scrum Master / Agile Lead | Cualquiera, con mandato claro | Cualquiera |
-| Tech Lead / Arquitectura | Acordar; el cliente conserva las decisiones estratégicas | ✅ ejecución |
-| Equipo de desarrollo y QA | | ✅ |
-| Gestor de cuenta / delivery | | ✅ |
+| Revisión de servicio mensual | PO, SM, gestor de cuenta | Métricas vs. niveles de servicio, riesgos |
+| Comité directivo trimestral | Patrocinador, gerencia proveedor | Outcomes, roadmap, contrato, capacidad |
+| Retro cliente–proveedor semestral | Representantes de ambos | Salud de la relación |
 
-!!! warning "El PO no se externaliza"
-    Externalizar el rol de Product Owner desconecta al equipo del negocio. Si no hay alternativa, el patrocinador debe participar activamente en las revisiones.
+Para ubicarlas junto a las ceremonias de la célula, ver el [calendario de cadencias](../caja-de-herramientas/calendario-cadencias.md).
 
-## Niveles de servicio basados en flujo
+### Protección del conocimiento
+
+- Código, documentación, ADRs y pipelines en **repositorios del cliente**.
+- DoD incluye documentación mínima y pruebas automatizadas.
+- Plan de salida (*exit plan*) definido en el contrato: traspaso, periodo de traslape, propiedad intelectual. Su ejecución se describe en [Traspaso a equipo interno](transversal-traspaso-proveedor.md).
+- Activos (cuentas cloud, dominios, licencias, secretos) **a nombre del cliente** desde el primer día.
+- Rotación planificada con al menos 2 semanas de traslape (ver [plan de onboarding y offboarding](../caja-de-herramientas/plan-onboarding.md)).
+- Reglas explícitas sobre el uso de herramientas de IA por parte del proveedor (ver [IA en la célula](transversal-ia-en-la-celula.md)).
+
+## Artefactos
+
+- Contrato con el modelo de contratación elegido y su justificación.
+- Acuerdo de niveles de servicio basados en flujo, con línea base y fuente de datos.
+- Calendario de cadencias de gobierno compartido por ambas partes.
+- Plan de salida (*exit plan*) incluido en el contrato.
+- Inventario de activos a nombre del cliente.
+
+## Métricas
+
+### Niveles de servicio basados en flujo
 
 En lugar de "X horas" o "Y puntos por sprint", acordar:
 
@@ -40,24 +68,19 @@ En lugar de "X horas" o "Y puntos por sprint", acordar:
 | Defectos escapados a producción | Tendencia decreciente trimestral |
 | Estabilidad del equipo | Rotación menor a 15 % anual; transición con traslape |
 
-## Cadencias de gobierno
+## Roles
 
-| Cadencia | Participantes | Propósito |
+| Rol | Cliente | Proveedor |
 |---|---|---|
-| Revisión de servicio mensual | PO, SM, gestor de cuenta | Métricas vs. niveles de servicio, riesgos |
-| Comité directivo trimestral | Patrocinador, gerencia proveedor | Outcomes, roadmap, contrato, capacidad |
-| Retro cliente–proveedor semestral | Representantes de ambos | Salud de la relación |
+| Patrocinador de negocio | ✅ | |
+| Product Owner | ✅ (idealmente siempre) | |
+| Scrum Master / Agile Lead | Cualquiera, con mandato claro | Cualquiera |
+| Tech Lead / Arquitectura | Acordar; el cliente conserva las decisiones estratégicas | ✅ ejecución |
+| Equipo de desarrollo y QA | | ✅ |
+| Gestor de cuenta / delivery | | ✅ |
 
-Para ubicarlas junto a las ceremonias de la célula, ver el [calendario de cadencias](../caja-de-herramientas/calendario-cadencias.md).
-
-## Protección del conocimiento
-
-- Código, documentación, ADRs y pipelines en **repositorios del cliente**.
-- DoD incluye documentación mínima y pruebas automatizadas.
-- Plan de salida (*exit plan*) definido en el contrato: traspaso, periodo de traslape, propiedad intelectual. Su ejecución se describe en [Traspaso a equipo interno](transversal-traspaso-proveedor.md).
-- Activos (cuentas cloud, dominios, licencias, secretos) **a nombre del cliente** desde el primer día.
-- Rotación planificada con al menos 2 semanas de traslape (ver [plan de onboarding y offboarding](../caja-de-herramientas/plan-onboarding.md)).
-- Reglas explícitas sobre el uso de herramientas de IA por parte del proveedor (ver [IA en la célula](transversal-ia-en-la-celula.md)).
+!!! warning "El PO no se externaliza"
+    Externalizar el rol de Product Owner desconecta al equipo del negocio. Si no hay alternativa, el patrocinador debe participar activamente en las revisiones.
 
 ## Criterios de salida
 
