@@ -77,6 +77,8 @@ jobs:
             --message "Publica ${GITHUB_SHA::7}" site
 
   enlaces-externos:
+    # 403 se acepta: scrum.org, ACM y doi.org bloquean a los bots aunque la
+    # página exista. Un enlace muerto devuelve 404 o 410 y sí se reporta.
     # Solo los lunes o a pedido. Informativo: un sitio externo caído no
     # bloquea nada, pero deja un issue abierto para no pasar inadvertido.
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
@@ -93,6 +95,7 @@ jobs:
           args: >-
             --no-progress
             --scheme https --scheme http
+            --accept '200..=299,403'
             --exclude '^https?://127\.0\.0\.1'
             --exclude '^https?://localhost'
             --exclude 'andresga79\.github\.io/agile-cell-playbook'
