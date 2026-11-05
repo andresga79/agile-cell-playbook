@@ -10,7 +10,7 @@
 | 2. Revisar acciones anteriores | 5 min | ¿Se hicieron? ¿Tuvieron efecto en la métrica esperada? |
 | 3. Mirar los datos | 15 min | CFD, scatterplot de cycle time, throughput, bloqueos, incidentes |
 | 4. Generar ideas | 15 min | ¿Qué explica lo que vemos? (5 porqués sobre el patrón más relevante) |
-| 5. Decidir | 15 min | Elegir **1 o 2** experimentos de mejora con métrica esperada |
+| 5. Decidir | 15 min | Elegir **un** experimento de mejora con métrica esperada (como máximo uno a la vez) |
 | 6. Cierre | 5 min | ROTI (retorno del tiempo invertido) |
 
 ## Preguntas guía sobre los datos

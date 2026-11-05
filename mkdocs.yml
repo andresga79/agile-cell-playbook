@@ -152,6 +152,33 @@ nav:
           - "La gerencia espera cambios en la primera semana": situaciones/me-piden-resultados-ya.md
           - "El equipo defiende prácticas que no funcionan": situaciones/practicas-heredadas.md
           - "Es mi primer día con el equipo": situaciones/primer-dia.md
+  - Facilitar:
+      - facilitar/index.md
+      - "Eventos de Scrum":
+          - "Sprint Planning": facilitar/eventos/sprint-planning.md
+          - "Daily": facilitar/eventos/daily.md
+          - "Sprint Review": facilitar/eventos/sprint-review.md
+          - "Retrospectiva": facilitar/eventos/retrospectiva.md
+          - "Refinamiento": facilitar/eventos/refinamiento.md
+      - "Cadencias de Kanban":
+          - "Reunión de reposición": facilitar/eventos/reposicion.md
+          - "Revisión de entrega": facilitar/eventos/revision-de-entrega.md
+      - "Tu llegada (semana 3)":
+          - "Taller de brechas": facilitar/eventos/taller-de-brechas.md
+          - "Devolución del diagnóstico": facilitar/eventos/devolucion-del-diagnostico.md
+      - Formatos de retrospectiva:
+          - facilitar/retros/index.md
+          - "Starfish": facilitar/retros/starfish.md
+          - "Velero": facilitar/retros/velero.md
+          - "4Ls": facilitar/retros/4ls.md
+          - "Mad, Sad, Glad": facilitar/retros/mad-sad-glad.md
+          - "Línea de tiempo": facilitar/retros/linea-de-tiempo.md
+          - "Start, Stop, Continue": facilitar/retros/start-stop-continue.md
+          - "Cinco porqués": facilitar/retros/cinco-porques.md
+          - "Radar del equipo": facilitar/retros/radar-del-equipo.md
+          - "TRIZ": facilitar/retros/triz.md
+          - "Lean Coffee": facilitar/retros/lean-coffee.md
+      - Banco de preguntas de coaching: facilitar/preguntas-de-coaching.md
   - Fases:
       - fases/index.md
       - "0 · Diagnóstico y onboarding": fases/00-diagnostico-onboarding.md

@@ -13,6 +13,10 @@
 
     35 situaciones frecuentes con qué hacer, qué decir y qué evitar.
 
+- :material-account-voice: **[Facilitar](facilitar/index.md)**
+
+    Guiones minuto a minuto para cada evento, 10 formatos de retro y un banco de preguntas de coaching.
+
 - :material-account-arrow-right: **[Llegar a un equipo nuevo](fases/transversal-llegar-equipo-nuevo.md)**
 
     Las primeras tres semanas: escuchar, observar y diagnosticar.

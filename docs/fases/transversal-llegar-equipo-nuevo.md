@@ -63,6 +63,9 @@ Que el equipo, el PO y el patrocinador cuenten, en unas tres semanas, con un **d
 
 ### Semana 3 · Diagnosticar y devolver
 
+!!! tip "Guiones para esta semana"
+    El [taller de brechas](../facilitar/eventos/taller-de-brechas.md) y la [devolución del diagnóstico](../facilitar/eventos/devolucion-del-diagnostico.md) tienen su agenda minuto a minuto en Facilitar.
+
 1. **Puntaje (la S3 del assessment):** el equipo se autoevalúa (60 minutos) y tú puntúas lo observado en la [calculadora de madurez](../caja-de-herramientas/calculadora-madurez.md). Cada puntaje tuyo se apoya en el diario o en los datos.
 2. **Taller de brechas** (60 minutos): primero se conversan las diferencias de más de 1 punto. Lleva tus observaciones como preguntas, no como veredictos: "Vi esto, ¿cómo lo ven ustedes?".
 3. **Puerta de entrada:** con el puntaje de Flujo ya conversado, el % de demanda no planificada y las señales, recomienda por dónde empezar (ver [Elegir la puerta de entrada](#elegir-la-puerta-de-entrada)). Proponla junto con un primer experimento y su señal de éxito.

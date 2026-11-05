@@ -17,6 +17,7 @@ Lo publicado después del último tag aparece en `[Sin publicar]`.
 
 ### Agregado
 
+- **Facilitar**: nueva sección con guiones minuto a minuto para 9 eventos (Sprint Planning, Daily, Sprint Review, Retrospectiva, Refinamiento, Reunión de reposición, Revisión de entrega, Taller de brechas y Devolución del diagnóstico), 10 formatos de retrospectiva con su origen verificado y una tabla para elegir el formato, y un banco de preguntas de coaching. Cada guion incluye qué preparar, la agenda, qué hacer si algo se tuerce y qué registrar en Jira. El build valida las plantillas y que los índices enlacen todas las páginas.
 - **Qué hago si…**: nueva sección con 35 situaciones frecuentes de un Scrum Master o coach, en seis temas: eventos, roles, flujo, métricas y compromisos, personas y cambio, y tu llegada. Cada una incluye la respuesta en corto, qué está pasando, qué hacer, frases para decir, qué no hacer y enlaces a las fichas y herramientas. El build valida su plantilla y que el índice las enlace todas.
 - Portada con accesos rápidos a Qué hago si…, Llegar a un equipo nuevo, Scrumban paso a paso y la Biblioteca.
 - **Pronóstico Monte Carlo**: campo opcional **Usar solo las últimas N semanas** para pronosticar solo con las semanas recientes. Los datos se guardan en el navegador, y **Compartir enlace** genera una URL con el historial y la pregunta, igual que la calculadora de madurez.

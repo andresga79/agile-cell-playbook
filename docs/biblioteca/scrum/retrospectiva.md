@@ -30,7 +30,7 @@ Una estructura muy usada es la de Esther Derby y Diana Larsen, en cinco fases:
 4. **Decidir qué hacer:** pocas acciones concretas, con responsable.
 5. **Cerrar:** resumir y evaluar la propia retro.
 
-Para la versión con datos (CFD, percentiles, bloqueos), el formato de experimento y las preguntas guía, usa la [retrospectiva basada en datos](../../caja-de-herramientas/retro-datos.md). Cambia el formato cada cierto tiempo para no caer en piloto automático, pero mantén las acciones visibles en el tablero del Sprint.
+Para la versión con datos (CFD, percentiles, bloqueos), el formato de experimento y las preguntas guía, usa la [retrospectiva basada en datos](../../caja-de-herramientas/retro-datos.md). Cambia el formato cada cierto tiempo para no caer en piloto automático ([10 formatos](../../facilitar/retros/index.md)), pero mantén las acciones visibles en el tablero del Sprint.
 
 !!! tip "Una acción que se termina vale más que cinco que se anotan"
     Si el equipo nunca cierra sus acciones, la primera mejora es hacer menos y hacerlas visibles.
