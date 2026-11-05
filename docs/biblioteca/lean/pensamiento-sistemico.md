@@ -35,7 +35,7 @@ Peter Senge describió patrones que se repiten, los **arquetipos**. Dos aparecen
 
 Sirve cuando el mismo problema vuelve después de cada "solución", y cuando la conversación busca culpables. Cambia la pregunta "¿quién falló?" por "¿qué parte del sistema produce este resultado?".
 
-Meadows también ordenó los **puntos de apalancamiento**: cambiar números (más personas, otra meta de horas) mueve poco; cambiar reglas, flujos de información y metas del sistema mueve mucho más. Por eso los límites de WIP o hacer visible el lead time suelen pesar más que pedir más esfuerzo.
+Meadows también ordenó los **puntos de apalancamiento**: cambiar números (más personas, otra meta de horas) mueve poco; cambiar reglas, flujos de información y metas del sistema mueve mucho más. Por eso una regla de pull con límites de WIP o hacer visible el lead time suelen pesar más que pedir más esfuerzo.
 
 No sirve como excusa para analizar sin actuar. En una crisis, primero se estabiliza. Tampoco hace falta un diagrama para todo: si la causa es obvia y local, arréglala.
 

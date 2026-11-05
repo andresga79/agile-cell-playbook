@@ -91,17 +91,17 @@ Reúne señales de las secciones "Qué observar al llegar a un equipo" de las fi
 
 | Señal | Dónde se ve | Ficha |
 |---|---|---|
-| Parte del trabajo de la semana no aparece en el tablero | Tablero y 1:1 | [Visualizar](../biblioteca/kanban/visualizar.md) |
 | El tablero termina antes de que el trabajo llegue a producción | Tablero | [Visualizar](../biblioteca/kanban/visualizar.md) |
 | Columnas "listo para…" llenas, con más ítems que las activas | Tablero | [WIP y sistema pull](../biblioteca/kanban/wip-y-pull.md) |
 | Más de dos ítems en curso por persona (como referencia) | Tablero | [WIP y sistema pull](../biblioteca/kanban/wip-y-pull.md) |
 | Sin límites de WIP visibles, o nadie sabe qué pasa al alcanzarlos | Tablero | [Kanban en una página](../biblioteca/kanban/kanban-en-una-pagina.md) |
 | Ítems con más del doble de la edad típica, y nadie sabe por qué | Tablero | [Work item age](../biblioteca/flujo/work-item-age.md) |
 | Columnas como "Hecho, pendiente de QA" que acumulan ítems | Tablero | [Artefactos y compromisos](../biblioteca/scrum/artefactos-y-compromisos.md) |
+| El Sprint Goal no está escrito, o es una lista de ítems | Tablero | [El Sprint y Sprint Planning](../biblioteca/scrum/sprint-y-planning.md) |
+| Parte del trabajo de la semana no aparece en el tablero | Tablero y 1:1 | [Visualizar](../biblioteca/kanban/visualizar.md) |
 | Un ítem típico cambia de manos varias veces antes de llegar a producción | Tablero y 1:1 | [Los desperdicios en software](../biblioteca/lean/desperdicios.md) |
 | Los ítems esperan casi siempre al mismo equipo externo, o el equipo tiene a cargo más sistemas de los que domina | Tablero y 1:1 | [Team Topologies](../biblioteca/personas/team-topologies.md) |
 | "Hacemos Scrumban", pero no hay Sprint Goal ni límites de WIP escritos | Tablero y 1:1 | [Antipatrones de Scrumban](../biblioteca/scrumban/antipatrones-scrumban.md) |
-| El Sprint Goal no está escrito, o es una lista de ítems | Tablero | [El Sprint y Sprint Planning](../biblioteca/scrum/sprint-y-planning.md) |
 | Todas las personas le hablan a una sola | Daily | [Daily Scrum](../biblioteca/scrum/daily-scrum.md) |
 | Se recorre a las personas, no el tablero | Daily | [Combinar cadencia y flujo](../biblioteca/scrumban/cadencia-y-flujo.md) |
 | Lo que se dice no coincide con lo que muestra el tablero | Daily | [Scrum en una página](../biblioteca/scrum/scrum-en-una-pagina.md) |
@@ -123,11 +123,11 @@ Reúne señales de las secciones "Qué observar al llegar a un equipo" de las fi
 | Nadie sabe cada cuánto se despliega ni qué cuenta como despliegue fallido | Datos y 1:1 | [DORA](../biblioteca/ingenieria/dora.md) |
 | Ramas o pull requests que viven más de unos días, o una "semana de integración" | Repositorio | [Trunk-based development](../biblioteca/ingenieria/trunk-based.md) |
 | Tres personas dan respuestas distintas sobre cuándo un ítem pasa de columna | 1:1 | [Políticas explícitas](../biblioteca/kanban/politicas-explicitas.md) |
-| Los stakeholders piden trabajo directo a los Developers, sin pasar por el backlog | 1:1 y canal del equipo | [Accountabilities](../biblioteca/scrum/accountabilities.md) |
-| El PO no puede decir a qué meta de negocio contribuye un ítem tomado al azar del backlog | 1:1 con el PO | [Impact mapping](../biblioteca/producto/impact-mapping.md) |
 | Hay una persona sin la cual "no sale nada" y apaga los incendios | 1:1 | [Pensamiento sistémico](../biblioteca/lean/pensamiento-sistemico.md) |
 | Las decisiones del equipo se revierten desde arriba, o nadie sabe qué puede decidir sin pedir permiso | 1:1 | [Management 3.0](../biblioteca/personas/management-30.md) |
 | "Ya probamos eso y no funcionó": los cambios anteriores se impusieron de golpe y se recuerdan con fastidio | 1:1 | [Resistencia al cambio](../biblioteca/facilitacion/resistencia-al-cambio.md) |
+| Los stakeholders piden trabajo directo a los Developers, sin pasar por el backlog | 1:1 y canal del equipo | [Accountabilities](../biblioteca/scrum/accountabilities.md) |
+| El PO no puede decir a qué meta de negocio contribuye un ítem tomado al azar del backlog | 1:1 con el PO | [Impact mapping](../biblioteca/producto/impact-mapping.md) |
 | Los OKRs o metas del trimestre son entregables ("lanzar X"), no resultados medibles | Conversaciones con negocio | [OKRs](../biblioteca/producto/okrs.md) |
 | "¿Cuándo está?" se responde con una fecha sin datos o con "depende" | Conversaciones con negocio | [Pronóstico probabilístico](../biblioteca/flujo/pronostico-probabilistico.md) |
 | Se mide o se celebra la ocupación de las personas, no la entrega | Conversaciones con negocio | [Principios de flujo](../biblioteca/lean/principios-de-flujo.md) |

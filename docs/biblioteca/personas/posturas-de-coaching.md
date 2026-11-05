@@ -17,7 +17,7 @@ En *Coaching Agile Teams* (2010), Lyssa Adkins dedica la parte central del libro
 | **Navegador de conflictos** | Lees qué tan escalado está el conflicto y decides si intervenir | Hay tensiones que crecen o se esconden |
 | **Director de colaboración** | Llevas al equipo de cooperar (cada uno con lo suyo) a colaborar (crear juntos) | El trabajo se reparte en piezas individuales |
 
-Adkins pone la base en uno mismo: conocerse, dejar el reflejo de mando y control y dejar que el estilo cambie a medida que el equipo evoluciona. Para el conflicto propone distinguir cinco niveles antes de actuar.
+Adkins pone la base en uno mismo: conocerse, dejar el reflejo de mando y control y dejar que el estilo cambie a medida que el equipo evoluciona. Para el conflicto propone usar los cinco niveles de conflicto de Speed Leas antes de actuar.
 
 **No son las posturas del Scrum Master.** Las ocho posturas de Barry Overeem, en [Accountabilities](../scrum/accountabilities.md), describen el rol completo del SM e incluyen a varias de estas (coach, mentor, docente, facilitador). Adkins profundiza en el oficio: cómo ejercer cada papel y cómo pasar de uno a otro.
 

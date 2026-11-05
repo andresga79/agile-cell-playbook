@@ -26,10 +26,10 @@ No sirve como lista de tareas trimestral ni como herramienta de evaluación indi
 ## Cómo se aplica
 
 1. **Parte de la estrategia**, no de lo que el equipo ya planeaba hacer. Pocos objetivos: si todo es prioridad, nada lo es.
-2. **Escribe key results de outcome** con línea base, umbral y plazo, igual que el MVO de la [Fase 1](../../fases/01-descubrimiento.md).
+2. **Escribe key results de outcome** con métrica, umbral y plazo, como el MVO de la [Fase 1](../../fases/01-descubrimiento.md), y su línea base.
 3. **Conecta con el producto:** el key result es el outcome de la tarjeta "Ahora" del [roadmap por outcomes](../../caja-de-herramientas/roadmap-outcomes.md), y el Product Goal apunta en la misma dirección.
 4. **Alinea, no cascadees:** los equipos proponen cómo contribuir al objetivo de arriba; no reciben key results recortados.
-5. **Revisa el avance a mitad del ciclo** (como referencia, cada Sprint Review) y ajusta la apuesta si los datos no se mueven.
+5. **Revisa el avance durante el ciclo** (como referencia, en cada Sprint Review) y ajusta la apuesta si los datos no se mueven.
 6. **Cierra el ciclo** con una puntuación honesta y una conversación sobre qué se aprendió.
 
 ## Errores típicos

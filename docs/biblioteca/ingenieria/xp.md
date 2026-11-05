@@ -6,7 +6,7 @@
 
 ## Qué es
 
-Kent Beck presentó XP en *Extreme Programming Explained* (1999). La segunda edición (2004, con Cynthia Andres) lo reescribió: sumó el **respeto** a los cuatro valores originales, agregó principios que conectan valores con prácticas y reemplazó las 12 prácticas de la primera edición por 13 primarias y 11 corolarias.
+Kent Beck presentó XP en *Extreme Programming Explained* (1999). La segunda edición (2004, con Cynthia Andres) lo reescribió: sumó el **respeto** a los cuatro valores originales, rehízo los principios (14) como puente entre valores y prácticas y reemplazó las 12 prácticas de la primera edición por 13 primarias y 11 corolarias.
 
 | Capa | Segunda edición (2004) |
 |---|---|

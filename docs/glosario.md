@@ -46,7 +46,7 @@ Canary
 :   Liberación gradual a un porcentaje pequeño del tráfico para detectar problemas antes de llegar a todos los usuarios.
 
 Carga cognitiva
-:   En Team Topologies, cantidad de dominios, sistemas y tecnologías que un equipo puede dominar a la vez. Si se supera, el equipo decide peor y entrega más lento. Ver [Team Topologies](biblioteca/personas/team-topologies.md).
+:   En Team Topologies, esfuerzo mental que le exigen a un equipo los dominios, sistemas y tecnologías a su cargo; tiene un límite y, si se supera, el equipo decide peor y entrega más lento. Ver [Team Topologies](biblioteca/personas/team-topologies.md).
 
 CD3
 :   *Cost of Delay Divided by Duration*. Prioriza dividiendo el costo de demora por semana entre la duración estimada.

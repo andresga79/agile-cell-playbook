@@ -18,7 +18,7 @@ En 1996, Womack y Jones resumieron el pensamiento lean en cinco principios. Así
 | Pull | ¿Se empieza algo porque hay capacidad o porque alguien empuja? |
 | Perfección | ¿Qué mejora pequeña probamos esta semana? |
 
-En 2003, Mary y Tom Poppendieck llevaron estas ideas al software, y en 2009 Donald Reinertsen las extendió al desarrollo de productos.
+En 2003, Mary y Tom Poppendieck llevaron estas ideas al software, y en 2009 Donald Reinertsen propuso una «segunda generación» del lean para el desarrollo de productos.
 
 ## Para qué sirve (y cuándo no)
 

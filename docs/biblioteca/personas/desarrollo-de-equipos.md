@@ -6,7 +6,7 @@
 
 ## Qué es
 
-Bruce Tuckman revisó en 1965 unos cincuenta estudios sobre grupos (de terapia, de entrenamiento y de laboratorio) y propuso cuatro etapas. En 1977, con Mary Ann Jensen, sumó una quinta: el cierre (*adjourning*).
+Bruce Tuckman revisó en 1965 unos cincuenta estudios sobre grupos (de terapia, de entrenamiento, naturales y de laboratorio) y propuso cuatro etapas. En 1977, con Mary Ann Jensen, sumó una quinta: el cierre (*adjourning*).
 
 | Etapa | Qué se ve | Qué suele necesitar |
 |---|---|---|
@@ -16,21 +16,21 @@ Bruce Tuckman revisó en 1965 unos cincuenta estudios sobre grupos (de terapia, 
 | **Performing** | Foco en el resultado; resuelve problemas sin ayuda | Desafíos y menos intervención |
 | **Adjourning** | El equipo termina o cambia mucho su composición | Cierre explícito y traspaso |
 
-**Las críticas, con honestidad.** El modelo de 1965 salió de estudios de grupos de terapia y de laboratorio, no de equipos de trabajo. Connie Gersick (1988) siguió equipos reales con plazo y encontró otro patrón: largos períodos de inercia y un cambio brusco cerca de la mitad del tiempo disponible. En la práctica, los equipos retroceden cuando entra o sale alguien, cuando cambia el objetivo o después de una crisis, y pueden estar en etapas distintas según el tema.
+**Las críticas, con honestidad.** El modelo de 1965 salió de estudios de grupos de terapia, de entrenamiento, naturales y de laboratorio; pocos eran equipos de trabajo. Connie Gersick (1988) siguió equipos reales con plazo y encontró otro patrón: largos períodos de inercia y un cambio brusco cerca de la mitad del tiempo disponible. Los equipos retroceden cuando entra o sale alguien, cambia el objetivo o hay una crisis, y pueden estar en etapas distintas según el tema.
 
 ## Para qué sirve (y cuándo no)
 
-Sirve como lenguaje compartido: el conflicto de hoy puede ser parte de la evolución del equipo, no una falla. También te ayuda a ajustar tu postura; Lyssa Adkins dedica un capítulo de *Coaching Agile Teams* a cómo cambia el estilo del coach a medida que el equipo evoluciona.
+Sirve como lenguaje compartido: el conflicto de hoy puede ser parte de la evolución, no una falla. También ajusta tu postura; Lyssa Adkins dedica un capítulo de *Coaching Agile Teams* a cómo cambia el estilo del coach a medida que el equipo evoluciona.
 
 No sirve para diagnosticar con certeza ni para prometer plazos ("en tres Sprints estarán en performing").
 
-Recuerda que tu llegada también cambia al equipo: espera algo de forming otra vez, aunque lleven años juntos.
+Recuerda que tu llegada también cambia al equipo: espera algo de forming otra vez, aunque lleven años juntos. Al llegar, primero observa ([Llegar a un equipo nuevo](../../fases/transversal-llegar-equipo-nuevo.md)); la estructura viene después, con un plan visible.
 
 ## Cómo se aplica
 
 1. **Formula hipótesis, no etiquetas.** Anota en el [diario de observación](../../caja-de-herramientas/diario-observacion.md) qué conductas te hacen pensar en una etapa.
-2. **Pregúntale al equipo.** Muestra las etapas en una retro y pide que cada persona marque dónde siente al equipo. Las diferencias son el tema.
-3. **Ajusta tu postura**, como referencia: más enseñanza y estructura al formarse, facilitación del conflicto en storming y un paso atrás cuando aparecen normas propias.
+2. **Pregúntale al equipo.** Muestra las etapas en una retro y pide que cada persona marque dónde ve al equipo; las diferencias son el tema.
+3. **Ajusta tu postura**, como referencia: en forming, observa primero y propone estructura después, con un plan visible; facilitación del conflicto en storming y un paso atrás cuando aparecen normas propias.
 4. **Trata cada cambio de integrantes como un reinicio parcial:** usa el [plan de onboarding](../../caja-de-herramientas/plan-onboarding.md) y revisa el [Team Canvas](../../caja-de-herramientas/team-canvas.md).
 5. **Cierra bien.** Si el equipo se disuelve o alguien se va, haz explícitos el cierre y el traspaso.
 
@@ -38,9 +38,9 @@ Recuerda que tu llegada también cambia al equipo: espera algo de forming otra v
 
 - Leerlo como una escalera fija y esperar el performing con fecha.
 - Suprimir el conflicto para "salir" de storming: las tensiones vuelven más fuertes.
-- Rearmar equipos cada pocos meses y esperar que rindan como uno estable.
-- Etiquetar personas ("él está en storming") en vez de mirar dinámicas del equipo.
-- Ignorar el cierre: equipos que se disuelven sin traspaso ni despedida.
+- Rearmar equipos cada pocos meses y esperar rendimiento estable.
+- Etiquetar personas ("él está en storming") en vez de mirar dinámicas.
+- Ignorar el cierre: disolver el equipo sin traspaso ni despedida.
 
 ## Qué observar al llegar a un equipo
 

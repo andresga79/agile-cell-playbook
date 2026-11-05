@@ -11,7 +11,7 @@ Es un modelo de ramas del control de versiones. El sitio de referencia, que mant
 - **Commit directo a la rama principal**, común en equipos chicos.
 - **Ramas de vida corta** de una persona o un par, que vuelven a la principal por pull request tras una revisión. Según el sitio, duran un par de días como máximo, y **la espera de revisión cuenta** dentro de ese plazo.
 
-En ambos casos, cada persona integra a la principal al menos una vez cada 24 horas.
+Para que haya integración continua, el sitio pide además que cada persona integre a la principal al menos una vez cada 24 horas.
 
 | Aspecto | Ramas de larga vida | Trunk-based |
 |---|---|---|

@@ -40,6 +40,10 @@ Lo publicado después del último tag aparece en `[Sin publicar]`.
 - Daily Scrum ("elimina la necesidad de otras reuniones"), retrospectiva (fase "Generar comprensión") y cadencias de Kanban (nota sobre la revisión del servicio).
 - Scrumban: "no solo por calendario" en la planificación por umbral, y el trabajo no planificado se cuenta por lo que llegó.
 - Métricas: throughput con la misma redacción en ambas escuelas; llegada a un equipo nuevo sin repetición en la elección de puerta.
+- Biblioteca (Lean, Ingeniería): precisiones de fuentes. Reinertsen propone una «segunda generación» del lean; XP 2.ª edición rehace los principios; el plazo de 24 horas de trunk-based se atribuye a la integración continua; los límites de WIP se presentan como regla de pull.
+- Biblioteca (Producto, Facilitación): OKRs distingue métrica y línea base y revisa durante el ciclo; JTBD alinea la competencia del batido con la fuente (un bagel o una dona); 1-2-4-All sin duración fija, porque las fuentes difieren.
+- Biblioteca (Personas): los cinco niveles de conflicto se atribuyen a Speed Leas; Tuckman 1965 incluye grupos naturales y pocos eran equipos de trabajo; al llegar a un equipo se observa primero, de acuerdo con Llegar a un equipo nuevo.
+- Glosario y Llegar a un equipo nuevo: carga cognitiva como esfuerzo mental con límite; tabla de señales de diagnóstico reagrupada por «Dónde se ve».
 
 ## [0.6.0] · 2026-11-04
 

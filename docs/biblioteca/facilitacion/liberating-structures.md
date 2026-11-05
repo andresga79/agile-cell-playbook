@@ -14,7 +14,7 @@ Cinco estructuras que un SM usa seguido:
 
 | Estructura | Para qué | Dónde la usas |
 |---|---|---|
-| **1-2-4-All** | Pensar solo, en pares, en cuartetos y en plenario | Cualquier pregunta abierta (unos 15 minutos) |
+| **1-2-4-All** | Pensar solo, en pares, en cuartetos y en plenario | Cualquier pregunta abierta |
 | **What, So What, Now What** | Pasar de los hechos al significado y a la acción | Recoger datos y generar comprensión en la retro |
 | **15% Solutions** | Lo que cada uno puede hacer ya, sin más recursos ni permisos | Cerrar una retro con acciones reales |
 | **Troika Consulting** | Recibir ayuda de dos pares sobre un desafío propio | Problemas de rol, tríos de SM o de PO |

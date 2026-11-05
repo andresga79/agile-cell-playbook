@@ -6,7 +6,7 @@
 
 ## Qué es
 
-*Jobs to be Done* (JTBD) cambia la unidad de análisis: en vez del cliente o del producto, mira el **trabajo** que alguien intenta hacer en una circunstancia. El ejemplo clásico es el del batido, contado en *Competing Against Luck* (2016): muchos batidos se vendían temprano a personas que manejaban solas un largo trayecto. Lo "contrataban" para que el viaje fuera menos aburrido y aguantar el hambre hasta el mediodía. Su competencia no eran otros batidos, sino un plátano, un bagel o el aburrimiento.
+*Jobs to be Done* (JTBD) cambia la unidad de análisis: en vez del cliente o del producto, mira el **trabajo** que alguien intenta hacer en una circunstancia. El ejemplo clásico es el del batido, contado en *Competing Against Luck* (2016): muchos batidos se vendían temprano a personas que manejaban solas un largo trayecto. Lo "contrataban" para que el viaje fuera menos aburrido y aguantar el hambre hasta el mediodía. Su competencia no eran otros batidos, sino un bagel o una dona: lo que combatía el aburrimiento del viaje.
 
 Hay **dos escuelas**, con métodos distintos. Conviene saber de cuál habla cada quien:
 
