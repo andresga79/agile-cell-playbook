@@ -8,7 +8,14 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "hooks"))
 
 from fichas import (  # noqa: E402
     FICHA_SECCIONES,
+    GUION_SECCIONES,
+    RETRO_SECCIONES,
     SITUACION_SECCIONES,
+    _sin_enlace,
+    es_formato_retro,
+    es_guion,
+    validar_formato_retro,
+    validar_guion,
     TRANSVERSAL_SECCIONES,
     contar_palabras,
     es_ficha,
@@ -154,6 +161,53 @@ class SituacionTest(unittest.TestCase):
         self.assertTrue(es_situacion("situaciones/daily-status-report.md"))
         self.assertFalse(es_situacion("situaciones/index.md"))
         self.assertFalse(es_situacion("biblioteca/scrum/daily-scrum.md"))
+
+
+def pagina(cabecera, secciones, palabras, tabla=True, enlace=True):
+    partes = ["# Prueba", "", "**En corto:** algo.", "", cabecera, ""]
+    for nombre in secciones:
+        partes += [f"## {nombre}", ""]
+        if nombre == "Agenda":
+            partes += ["| Min | Bloque |", "|---|---|", "| 0–5 | Inicio |", ""] if tabla else ["texto", ""]
+        elif nombre == "Relacionado":
+            partes += ["- [Ficha](../../biblioteca/scrum/daily-scrum.md)" if enlace else "- Ficha", ""]
+        else:
+            partes += ["texto", ""]
+    base = "\n".join(partes)
+    return base + "\n" + " ".join(["palabra"] * max(0, palabras - contar_palabras(base))) + "\n"
+
+
+GUION_CAB = "**Duración:** 2 h · **Participan:** Scrum Team"
+RETRO_CAB = "**Duración:** ~60 min · **Ideal para:** equipos nuevos"
+
+
+class FacilitarTest(unittest.TestCase):
+    def test_guion_valido(self):
+        self.assertEqual(validar_guion(pagina(GUION_CAB, GUION_SECCIONES, 450)), [])
+
+    def test_guion_sin_tabla_en_agenda(self):
+        self.assertTrue(alguno(validar_guion(pagina(GUION_CAB, GUION_SECCIONES, 450, tabla=False)), "tabla"))
+
+    def test_guion_limites_y_cabecera(self):
+        self.assertTrue(alguno(validar_guion(pagina(GUION_CAB, GUION_SECCIONES, 800)), "700"))
+        self.assertTrue(alguno(validar_guion(pagina("**Duración:** 2 h", GUION_SECCIONES, 450)), "Participan"))
+
+    def test_retro_valida_y_errores(self):
+        self.assertEqual(validar_formato_retro(pagina(RETRO_CAB, RETRO_SECCIONES, 350)), [])
+        sin_origen = tuple(s for s in RETRO_SECCIONES if s != "Origen")
+        self.assertTrue(alguno(validar_formato_retro(pagina(RETRO_CAB, sin_origen, 350)), "Origen"))
+        self.assertTrue(alguno(validar_formato_retro(pagina(RETRO_CAB, RETRO_SECCIONES, 350, enlace=False)), "Relacionado"))
+
+    def test_rutas(self):
+        self.assertTrue(es_guion("facilitar/eventos/sprint-planning.md"))
+        self.assertFalse(es_guion("facilitar/eventos/index.md"))
+        self.assertTrue(es_formato_retro("facilitar/retros/starfish.md"))
+        self.assertFalse(es_formato_retro("facilitar/eventos/starfish.md"))
+
+    def test_indices(self):
+        rutas = ["facilitar/eventos/a.md", "facilitar/retros/b.md"]
+        self.assertEqual(_sin_enlace("- [A](eventos/a.md)", rutas, es_guion, "facilitar/"), [])
+        self.assertEqual(_sin_enlace("", rutas, es_formato_retro, "facilitar/retros/"), ["b.md"])
 
 
 if __name__ == "__main__":
