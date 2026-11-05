@@ -4,7 +4,8 @@ La guía publicada en la raíz del sitio es siempre la **última versión**. Cad
 
 | Versión | Fecha | Principal novedad | Enlace |
 |---|---|---|---|
-| 0.6.0 | 2026-11-04 | Llegada a un equipo nuevo y escalera de Scrumban | Versión actual |
+| 0.7.0 | 2026-11-04 | Biblioteca complementaria: Lean, Ingeniería, Producto, Personas y Facilitación | Versión actual |
+| 0.6.0 | 2026-11-04 | Llegada a un equipo nuevo y escalera de Scrumban | [Archivada](https://andresga79.github.io/agile-cell-playbook/versiones/v0.6.0/) |
 | 0.5.0 | 2026-11-04 | Biblioteca: Scrum, Kanban, métricas de flujo y Scrumban | [Archivada](https://andresga79.github.io/agile-cell-playbook/versiones/v0.5.0/) |
 | 0.4.0 | 2026-10-28 | Casos de ejemplo, priorización económica, seguridad, IA en la célula y nuevas herramientas | [Archivada](https://andresga79.github.io/agile-cell-playbook/versiones/v0.4.0/) |
 | 0.3.0 | 2026-10-28 | Traspaso de proveedor a equipo interno | [Archivada](https://andresga79.github.io/agile-cell-playbook/versiones/v0.3.0/) |

@@ -15,6 +15,8 @@ Lo publicado después del último tag aparece en `[Sin publicar]`.
 
 ## [Sin publicar]
 
+## [0.7.0] · 2026-11-04
+
 ### Agregado
 
 - **Biblioteca · Lean y flujo**: 4 fichas (Lean en una página, Los desperdicios en software, Principios de flujo de Reinertsen y Pensamiento sistémico), con su índice de área. Distinguen los siete desperdicios de Ohno de su traducción al software de los Poppendieck y enlazan a Cost of Delay y WSJF y a Value Stream Mapping sin repetirlos.
