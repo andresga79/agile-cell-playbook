@@ -15,6 +15,27 @@ Lo publicado después del último tag aparece en `[Sin publicar]`.
 
 ## [Sin publicar]
 
+### Agregado
+
+- **Pronóstico Monte Carlo**: campo opcional **Usar solo las últimas N semanas** para pronosticar solo con las semanas recientes. Los datos se guardan en el navegador, y **Compartir enlace** genera una URL con el historial y la pregunta, igual que la calculadora de madurez.
+- Pruebas automáticas de los hooks (`unittest`) y de la lógica de las calculadoras (`node --test`). El CI las corre antes de publicar.
+- Dependabot actualiza cada mes las dependencias de Python y las *actions*.
+
+### Cambiado
+
+- **Gobierno con proveedores** sigue la plantilla de 8 partes de las transversales (objetivo de negocio, entradas, actividades, artefactos, métricas, roles, criterios de salida y antipatrones), y el build la valida.
+- Publicación:
+    - Cada deploy conserva las versiones ya archivadas y solo construye los tags nuevos, cada uno con su propio `requirements.txt`.
+    - El workflow corre con permisos de solo lectura, salvo el job que publica.
+    - La revisión de enlaces externos corre solo los lunes o a pedido, y abre un issue si encuentra enlaces rotos.
+- Chart.js se carga con verificación de integridad (SRI). Los scripts de las calculadoras se cargan desde la configuración del sitio, ya no con rutas relativas en cada página.
+
+### Corregido
+
+- **Calculadora de madurez**: la fecha por defecto usa el día local. En Chile, después de las 21:00, mostraba el día siguiente.
+- **Pronóstico Monte Carlo**: rechaza una fecha de inicio imposible (por ejemplo, 30 de febrero) en vez de convertirla en otra fecha.
+- El build falla con un mensaje claro si al assessment le falta uno de los prefijos de dimensión que usan las reglas de priorización (FL, IN, CA). Antes, la regla dejaba de aplicarse sin aviso.
+
 ## [0.7.0] · 2026-11-04
 
 ### Agregado

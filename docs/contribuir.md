@@ -4,13 +4,14 @@ Esta guía mejora con la experiencia de células reales.
 
 ## Flujo del mantenedor: directo a `main`
 
-El mantenedor publica los cambios directamente en `main`. Cada push dispara el workflow, que valida el sitio en modo estricto y lo publica en GitHub Pages.
+El mantenedor publica los cambios directamente en `main`. Cada push dispara el workflow, que corre las pruebas, valida el sitio en modo estricto y lo publica en GitHub Pages. Si las pruebas o el build fallan, no se publica.
 
 ```mermaid
 flowchart LR
     P[git pull] --> E[Editar docs/]
     E --> C[Actualizar changelog]
-    C --> V[mkdocs build --strict]
+    C --> T[Pruebas]
+    T --> V[mkdocs build --strict]
     V --> G[commit + push a main]
     G --> W[Publicación automática]
 ```
@@ -30,6 +31,8 @@ source .venv/bin/activate      # en cada terminal nueva
 git pull                       # trae ediciones hechas desde la web
 # editar archivos en docs/ y actualizar docs/changelog.md
 mkdocs serve                   # opcional: ver en http://127.0.0.1:8000
+python -m unittest discover -s tests   # hooks (fichas, assessment)
+node --test tests/js/*.test.js         # calculadoras (requiere Node 18 o más)
 mkdocs build --strict          # debe terminar sin WARNING ni ERROR
 git add .
 git commit -m "Descripción corta del cambio"
@@ -50,10 +53,17 @@ gh release create vX.Y.Z --verify-tag --title "vX.Y.Z: resumen" --notes "…secc
 ```
 
 1. Agrega la fila de la versión en `docs/versiones.md` y cambia la anterior a **Archivada** con su enlace.
-2. El push del tag vuelve a publicar el sitio y crea la copia archivada en `versiones/vX.Y.Z/`.
+2. El push del tag vuelve a publicar el sitio y crea la copia archivada en `versiones/vX.Y.Z/`, construida con el `requirements.txt` de ese tag.
+
+!!! note "Las versiones archivadas se construyen una sola vez"
+    Cada publicación conserva las copias que ya están en `gh-pages` y solo construye los tags nuevos. Para reconstruirlas todas (por ejemplo, si cambia el aviso de versión archivada), corre el workflow **Publicar guía** a mano desde la pestaña **Actions**, sobre la rama `main`, y marca **Reconstruir todas las versiones archivadas**. Si una versión publicada ya no tiene su tag, el deploy se detiene para no borrarla del sitio. Si la quitaste a propósito, esa misma reconstrucción completa la retira.
 
 !!! warning "Sin revisión previa"
-    Al publicar directo en `main`, el build estricto en local es la única barrera antes de que el cambio llegue al repositorio. Si el workflow falla, la web no se actualiza y la pestaña **Actions** muestra el error.
+    Al publicar directo en `main`, las pruebas y el build estricto en local son la única barrera antes de que el cambio llegue al repositorio. Si el workflow falla, la web no se actualiza y la pestaña **Actions** muestra el error.
+
+!!! info "Mantenimiento automático"
+    - **Dependabot** abre cada mes un PR que agrupa las actualizaciones de `requirements.txt` y otro con las de las *actions*. El workflow los valida; revisa el sitio antes de hacer merge.
+    - La **revisión de enlaces externos** corre los lunes (o a pedido). Si encuentra enlaces rotos, abre o actualiza el issue **Enlaces externos rotos**.
 
 ## Contribuciones de otras personas
 

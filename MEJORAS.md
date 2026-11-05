@@ -4,6 +4,13 @@ Revisión del 2026-10-28 sobre `main` (`04bcc55`). El build `mkdocs build --stri
 
 Prioridad: **Alta** = mejor relación impacto/esfuerzo · **Media** · **Baja**.
 
+## Estado (2026-11-04)
+
+Resueltos 16 de los 17 puntos. S1 y P6 ya se habían resuelto en versiones anteriores; el detalle de los demás está en la sección `[Sin publicar]` del changelog.
+
+- **Resueltos:** C1, C2 (la dependencia de `use_directory_urls` quedó documentada en `mkdocs.yml`, porque print-site no permite enlazar su página como `.md`), P1 a P6, S1 a S3 y J1 a J5.
+- **Pendiente de decisión:** C3. Conviene decidir el enfoque de i18n cuando se vaya a traducir. La opción recomendada es `mkdocs-static-i18n` con sufijo de idioma (`pagina.en.md`), que no obliga a mover los archivos actuales.
+
 ## Contenido
 
 | # | Prioridad | Punto | Dónde | Propuesta |
