@@ -109,6 +109,49 @@ hooks:
 nav:
   - Inicio: index.md
   - Cómo usar la guía: como-usar.md
+  - Qué hago si…:
+      - situaciones/index.md
+      - Eventos:
+          - "La daily dura 30 minutos o más": situaciones/daily-demasiado-larga.md
+          - "La daily se volvió un reporte de estado": situaciones/daily-reporte-de-estado.md
+          - "La planning es llenar el sprint, sin Sprint Goal": situaciones/planning-sin-objetivo.md
+          - "Nadie habla en la retro": situaciones/retro-en-silencio.md
+          - "Las retros se repiten y nada cambia": situaciones/retro-sin-cambios.md
+          - "La review es una demo sin stakeholders ni feedback": situaciones/review-sin-stakeholders.md
+      - Roles:
+          - "El líder técnico reparte las tareas": situaciones/lider-asigna-tareas.md
+          - "El PO no aparece o no tiene tiempo": situaciones/po-ausente.md
+          - "Esperan que sea el secretario o el jefe de proyecto del equipo": situaciones/sm-como-secretario.md
+          - "Los stakeholders piden trabajo directo a los Developers": situaciones/stakeholders-saltan-al-po.md
+          - "Soy SM de varios equipos y no llego a todos": situaciones/varios-equipos.md
+          - "Me piden la velocidad o productividad por persona": situaciones/velocity-por-persona.md
+      - Flujo:
+          - "Todos tienen cuatro o cinco cosas abiertas": situaciones/demasiado-wip.md
+          - "Dependemos de otro equipo que no responde": situaciones/dependencias-de-otro-equipo.md
+          - "El PO no prioriza la deuda técnica": situaciones/deuda-tecnica-sin-prioridad.md
+          - "\"Hecho\" significa algo distinto para cada uno": situaciones/hecho-no-es-hecho.md
+          - "Hay tarjetas bloqueadas durante días": situaciones/items-bloqueados.md
+          - "Los bugs y el soporte se comen el sprint": situaciones/soporte-se-come-el-sprint.md
+          - "Siempre quedan ítems para el siguiente sprint": situaciones/sprint-arrastra-items.md
+          - "Hay trabajo que no está en el tablero": situaciones/trabajo-invisible.md
+          - "Llega un urgente a mitad del sprint": situaciones/urgente-a-mitad-de-sprint.md
+      - Métricas y compromisos:
+          - "Quieren comparar equipos por velocity": situaciones/comparar-equipos-por-velocity.md
+          - "Las estimaciones se vuelven discusiones eternas": situaciones/discusiones-de-estimacion.md
+          - "Negocio pide una fecha de entrega": situaciones/me-piden-una-fecha.md
+          - "Hay métricas y dashboards que nadie usa": situaciones/metricas-que-nadie-mira.md
+      - Personas y cambio:
+          - "Una persona domina todas las conversaciones": situaciones/alguien-domina.md
+          - "Dos personas del equipo están en conflicto": situaciones/conflicto-entre-personas.md
+          - "El equipo me ve como el ojo del jefe": situaciones/desconfian-del-sm.md
+          - "Una persona está sobrecargada o es imprescindible": situaciones/persona-sobrecargada.md
+          - "El equipo rechaza los límites de WIP": situaciones/resistencia-a-limites-wip.md
+          - "El equipo dice que Scrum no sirve": situaciones/scrum-no-sirve.md
+      - Tu llegada:
+          - "Me presionan para cambiar todo el proceso de golpe": situaciones/implementar-scrumban-ya.md
+          - "La gerencia espera cambios en la primera semana": situaciones/me-piden-resultados-ya.md
+          - "El equipo defiende prácticas que no funcionan": situaciones/practicas-heredadas.md
+          - "Es mi primer día con el equipo": situaciones/primer-dia.md
   - Fases:
       - fases/index.md
       - "0 · Diagnóstico y onboarding": fases/00-diagnostico-onboarding.md

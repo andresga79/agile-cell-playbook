@@ -33,7 +33,7 @@ Que el equipo, el PO y el patrocinador cuenten, en unas tres semanas, con un **d
 - **Tu autoridad todavía no existe.** Se gana escuchando, cumpliendo lo pequeño y devolviendo lo que viste con cuidado.
 - **Curiosidad antes que juicio.** Pregunta "¿cómo llegaron a trabajar así?" antes que "¿por qué no hacen X?".
 - **Haz visible tu plan.** El primer día, cuenta en cinco minutos qué harás estas semanas, qué no harás y cuándo devolverás lo que veas. Eso desarma el "viene a auditarnos".
-- **Confidencialidad en los 1:1.** Lo que te cuentan se usa agrupado y sin nombres. Dilo al empezar cada conversación y cúmplelo.
+- **Confidencialidad en los 1:1.** Lo que te cuentan se usa agrupado y sin nombres, salvo acoso o un riesgo para alguien, que no puedes callar. Dilo, con esa excepción, al empezar cada conversación y cúmplelo.
 - **Observa y pregunta más de lo que enseñas o aconsejas.** Enseñar y aconsejar vienen después, cuando haya un diagnóstico. Ver [Posturas de coaching](../biblioteca/personas/posturas-de-coaching.md).
 
 ### Semana 1 · Escuchar y medir
@@ -84,6 +84,9 @@ Que el equipo, el PO y el patrocinador cuenten, en unas tres semanas, con un **d
 
 !!! tip "Si te piden resultados ya"
     Ofrece la línea base de datos como primer entregable de la semana 1. Si un riesgo grave no puede esperar (seguridad, datos, producción), no lo resuelves cambiando el proceso: lo escalas a quien corresponde y lo registras.
+
+!!! tip "Cuando algo pasa y tienes que responder"
+    [Qué hago si…](../situaciones/index.md) reúne 35 situaciones frecuentes, desde una daily que se alarga hasta la presión por cambiar todo de golpe. Su sección [Tu llegada](../situaciones/index.md#tu-llegada) cubre las primeras semanas.
 
 ## Señales de diagnóstico
 

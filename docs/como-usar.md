@@ -19,6 +19,9 @@ flowchart TD
 
 En la ruta Tomar, si llegas nuevo como SM o coach, sigue [Llegar a un equipo nuevo](fases/transversal-llegar-equipo-nuevo.md) durante el diagnóstico de la Fase 0.
 
+!!! tip "Para el día a día"
+    Cuando algo pasa y necesitas decidir rápido (una daily que se alarga, un urgente a mitad del sprint, una petición de fechas), busca en [Qué hago si…](situaciones/index.md). Cada situación empieza con la respuesta en una o dos frases.
+
 Cada ruta tiene un caso de ejemplo: [Crear una célula](casos/crear-celula.md), [Tomar una célula](casos/tomar-celula.md) y [Traspaso de proveedor](casos/traspaso-proveedor.md).
 
 ## Tiempos de referencia

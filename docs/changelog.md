@@ -17,6 +17,8 @@ Lo publicado después del último tag aparece en `[Sin publicar]`.
 
 ### Agregado
 
+- **Qué hago si…**: nueva sección con 35 situaciones frecuentes de un Scrum Master o coach, en seis temas: eventos, roles, flujo, métricas y compromisos, personas y cambio, y tu llegada. Cada una incluye la respuesta en corto, qué está pasando, qué hacer, frases para decir, qué no hacer y enlaces a las fichas y herramientas. El build valida su plantilla y que el índice las enlace todas.
+- Portada con accesos rápidos a Qué hago si…, Llegar a un equipo nuevo, Scrumban paso a paso y la Biblioteca.
 - **Pronóstico Monte Carlo**: campo opcional **Usar solo las últimas N semanas** para pronosticar solo con las semanas recientes. Los datos se guardan en el navegador, y **Compartir enlace** genera una URL con el historial y la pregunta, igual que la calculadora de madurez.
 - Pruebas automáticas de los hooks (`unittest`) y de la lógica de las calculadoras (`node --test`). El CI las corre antes de publicar.
 - Dependabot actualiza cada mes las dependencias de Python y las *actions*.

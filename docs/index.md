@@ -5,6 +5,28 @@
 !!! abstract "Principio rector"
     No optimizamos la actividad del equipo: optimizamos el **flujo de valor** desde que nace una necesidad de negocio hasta que un usuario la usa en producción y medimos si cambió algo.
 
+## Acceso rápido
+
+<div class="grid cards" markdown>
+
+- :material-lifebuoy: **[Qué hago si…](situaciones/index.md)**
+
+    35 situaciones frecuentes con qué hacer, qué decir y qué evitar.
+
+- :material-account-arrow-right: **[Llegar a un equipo nuevo](fases/transversal-llegar-equipo-nuevo.md)**
+
+    Las primeras tres semanas: escuchar, observar y diagnosticar.
+
+- :material-stairs: **[Scrumban paso a paso](fases/transversal-scrumban-paso-a-paso.md)**
+
+    La escalera de diez peldaños, con señales para subir cada uno.
+
+- :material-book-open-variant: **[Biblioteca](biblioteca/index.md)**
+
+    55 fichas de consulta rápida sobre Scrum, Kanban, flujo y prácticas complementarias.
+
+</div>
+
 ## ¿Para quién es?
 
 - **Scrum Masters, Agile Coaches y Delivery Leads** que forman o reciben una célula.

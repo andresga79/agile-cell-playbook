@@ -15,7 +15,7 @@ Responde con probabilidades las dos preguntas que negocio hace siempre: **¿cuá
 | ¿Cuándo? | N ítems | Semanas (y fechas) para terminarlos | El 85 % de las simulaciones termina en esa cantidad de semanas **o menos** |
 | ¿Cuánto? | N semanas | Ítems terminados en ese plazo | En el 85 % de las simulaciones se alcanza esa cantidad de ítems **o más** |
 
-Comprométete con el percentil 85, no con el 50: el 50 % es una moneda al aire.
+Para planificar, usa el percentil 85, no el 50: el 50 % es una moneda al aire. Aun así, es una probabilidad y no una promesa: vuelve a pronosticar cada semana.
 
 ## Calculadora
 
@@ -46,4 +46,4 @@ El pronóstico vale lo que vale el historial. Revisa estos supuestos antes de co
 - [ ] Registra el acierto: qué porcentaje de entregas cae dentro del rango pronosticado (métrica de la [Fase 5](../fases/05-medicion.md)).
 
 !!! warning "Antipatrón"
-    Convertir el percentil 50 en compromiso, o usar el pronóstico para presionar al equipo. El pronóstico describe el sistema; si no gusta el resultado, se cambia el sistema (WIP, tamaño de los ítems, dependencias), no el número.
+    Convertir el percentil 50 en compromiso, presentar el 85 como una promesa o usar el pronóstico para presionar al equipo. El pronóstico describe el sistema; si no gusta el resultado, se cambia el sistema (WIP, tamaño de los ítems, dependencias), no el número.
