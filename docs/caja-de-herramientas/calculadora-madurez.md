@@ -13,5 +13,4 @@ Registra los puntajes del [assessment de madurez](assessment-madurez.md). Para c
   <noscript>La calculadora necesita JavaScript. Puedes aplicar el cuestionario en papel con la tabla de la página del assessment.</noscript>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
-<script src="../../assets/js/assessment.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.js" integrity="sha384-G436+Z2nlA8+PNoeRvWdxKbvOf8E/y+lYxqht2iBwNHTQDV5CJr3+AGVj8fGZi5t" crossorigin="anonymous"></script>

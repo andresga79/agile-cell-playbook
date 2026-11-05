@@ -19,16 +19,15 @@ Comprométete con el percentil 85, no con el 50: el 50 % es una moneda al aire.
 
 ## Calculadora
 
-!!! info "Tus datos no salen del navegador"
-    La simulación corre en tu navegador. No se envía ni se guarda nada.
+!!! info "Tus datos se quedan en este navegador"
+    La simulación corre en tu navegador y no envía nada a ningún servidor. Los datos del formulario se guardan solo en este navegador, para que no se pierdan al recargar; usa **Limpiar** para borrarlos. **Compartir enlace** genera una URL que contiene el historial de throughput: quien la abra verá los datos y el pronóstico, así que compártela solo con quien corresponda.
 
 <div id="montecarlo-app" markdown="0">
   <p>Cargando la calculadora…</p>
   <noscript>El pronóstico necesita JavaScript.</noscript>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
-<script src="../../assets/js/montecarlo.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.js" integrity="sha384-G436+Z2nlA8+PNoeRvWdxKbvOf8E/y+lYxqht2iBwNHTQDV5CJr3+AGVj8fGZi5t" crossorigin="anonymous"></script>
 
 ## Supuestos
 
@@ -37,7 +36,7 @@ El pronóstico vale lo que vale el historial. Revisa estos supuestos antes de co
 - **Sistema estable.** El futuro se parece al pasado: mismo equipo, mismas políticas de WIP, sin cambios grandes de contexto. Si cambió la composición de la célula, usa solo las semanas posteriores al cambio.
 - **Mismo tipo de ítems.** El historial y el backlog por pronosticar tienen ítems de tamaño y naturaleza parecidos. No mezcles historias con épicas ni con incidentes.
 - **La división de ítems cambia el pronóstico.** Un release de 40 ítems suele terminar con más de 40: al refinar, los ítems se dividen y aparecen otros nuevos. Ajusta N con tu tasa histórica de crecimiento del backlog o vuelve a pronosticar cada semana.
-- **Historial reciente y suficiente.** Usa entre 8 y 12 semanas recientes. Con menos de 6 la calculadora no simula. Las semanas sin entregas (vacaciones, congelamientos) cuentan como 0 si pueden repetirse.
+- **Historial reciente y suficiente.** Usa entre 8 y 12 semanas recientes. Con menos de 6 la calculadora no simula. Si pegas un historial más largo, el campo **Usar solo las últimas N semanas** recorta las antiguas sin borrarlas. Las semanas sin entregas (vacaciones, congelamientos) cuentan como 0 si pueden repetirse.
 
 ## Uso en la célula
 

@@ -48,6 +48,11 @@ plugins:
       locale: es
       fallback_to_build_date: true
       strict: false   # archivos aún sin commit no deben romper el build estricto
+  # print-site genera la página en /print_page/ en tiempo de build, fuera de
+  # docs/, así que no se puede enlazar como .md. docs/como-usar.md la enlaza a
+  # mano con ../print_page/, que supone use_directory_urls: true (el valor por
+  # defecto). Si se cambia esa opción, actualizar ese enlace. El build lo
+  # informa como INFO (enlace no reconocido), no como advertencia.
   - print-site:
       add_to_navigation: true
       print_page_title: Versión imprimible
@@ -90,6 +95,12 @@ markdown_extensions:
 
 extra_css:
   - assets/css/assessment.css
+
+# Los scripts de las herramientas se cargan en todas las páginas y solo se
+# activan si encuentran su contenedor (#assessment-app, #montecarlo-app).
+extra_javascript:
+  - assets/js/assessment.js
+  - assets/js/montecarlo.js
 
 hooks:
   - hooks/assessment_data.py

@@ -217,6 +217,13 @@
     return lines.join("\n");
   }
 
+  // AAAA-MM-DD en la zona horaria del navegador (toISOString usa UTC y,
+  // en Chile después de las 21:00, mostraría el día siguiente).
+  function localISODate(d) {
+    var pad = function (n) { return (n < 10 ? "0" : "") + n; };
+    return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
+  }
+
   function toDims(data) {
     if (!data || !Array.isArray(data.dimensions)) throw new Error("Formato de datos inesperado.");
     return data.dimensions.map(function (d) {
@@ -230,7 +237,8 @@
   var core = {
     fmt: fmt, fmtDiff: fmtDiff, level: level, avg: avg, reference: reference, priorities: priorities,
     encodeScores: encodeScores, decodeScores: decodeScores, buildHash: buildHash, parseHash: parseHash,
-    parsePrevious: parsePrevious, evolution: evolution, exportMarkdown: exportMarkdown, toDims: toDims
+    parsePrevious: parsePrevious, evolution: evolution, exportMarkdown: exportMarkdown, toDims: toDims,
+    localISODate: localISODate
   };
 
   if (typeof module === "object" && module.exports) {
@@ -329,7 +337,7 @@
     var cellInput = el("input", { type: "text", placeholder: "Ej.: Célula Pagos", id: "aa-cell", autocomplete: "off" });
     var dateInput = el("input", { type: "date", id: "aa-date" });
     cellInput.value = state.cell || "";
-    dateInput.value = state.date || new Date().toISOString().slice(0, 10);
+    dateInput.value = state.date || localISODate(new Date());
     cellInput.addEventListener("input", save);
     dateInput.addEventListener("change", save);
     root.appendChild(el("div", { class: "aa-meta" }, [

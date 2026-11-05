@@ -5,6 +5,7 @@
   var MIN_WEEKS = 6;
   var MAX_SIM_WEEKS = 520; // tope de seguridad: 10 años
   var PERCENTILES = [50, 85, 95];
+  var STORAGE_KEY = "acp-montecarlo-v1";
 
   // ---------------------------------------------------------------------------
   // Lógica pura (sin DOM). Se exporta para pruebas en Node.
@@ -86,7 +87,9 @@
     var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(str || "");
     if (!m) return null;
     var d = new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
-    return isNaN(d.getTime()) ? null : d;
+    // Date desborda fechas imposibles (2026-13-45 pasa a 2027): se rechazan.
+    if (isNaN(d.getTime()) || d.getMonth() !== Number(m[2]) - 1 || d.getDate() !== Number(m[3])) return null;
+    return d;
   }
 
   function addWeeks(date, weeks) {
@@ -100,11 +103,65 @@
     return { weeks: values.length, mean: sum / values.length, min: Math.min.apply(null, values), max: Math.max.apply(null, values) };
   }
 
+  // Solo las últimas `k` semanas (el historial va de la más antigua a la más
+  // reciente). Sin `k`, o si `k` cubre todo el historial, se usa completo.
+  function recentWeeks(values, k) {
+    if (!k || k >= values.length) return values.slice();
+    return values.slice(values.length - k);
+  }
+
+  // Valida el campo "últimas N semanas": "" = todo el historial.
+  // Devuelve { k: número | 0 } o { error: "..." }.
+  function parseRecent(text) {
+    var t = String(text || "").trim();
+    if (!t) return { k: 0 };
+    if (!/^\d+$/.test(t) || Number(t) < MIN_WEEKS) {
+      return { error: "Para usar solo las semanas recientes indica un entero de al menos " + MIN_WEEKS + ", o deja el campo vacío para usar todo el historial." };
+    }
+    return { k: Number(t) };
+  }
+
+  // AAAA-MM-DD en la zona horaria del navegador (toISOString usa UTC).
+  function localISODate(d) {
+    var pad = function (n) { return (n < 10 ? "0" : "") + n; };
+    return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
+  }
+
+  // Enlace compartible: t=5.3.7.4.6.2&m=when&n=30&s=2026-11-16&r=12
+  function buildHash(state) {
+    var parts = ["t=" + state.values.join("."), "m=" + (state.mode === "how" ? "how" : "when"), "n=" + state.n];
+    if (state.start) parts.push("s=" + state.start);
+    if (state.recent) parts.push("r=" + state.recent);
+    return parts.join("&");
+  }
+
+  // null si el texto no trae "t="; { error } si lo trae pero no es válido;
+  // si no, los valores de los campos como texto.
+  function parseHash(text) {
+    var get = function (key) {
+      var r = new RegExp("(?:^|[#&?])" + key + "=([^&\\s]*)").exec(String(text || ""));
+      return r ? r[1] : "";
+    };
+    var t = get("t");
+    if (!t) return null;
+    if (!/^\d+(\.\d+)*$/.test(t)) return { error: "El enlace no trae un historial de throughput válido." };
+    var n = get("n"), start = get("s"), recent = get("r");
+    return {
+      data: t.split(".").join(", "),
+      mode: get("m") === "how" ? "how" : "when",
+      n: /^\d+$/.test(n) ? n : "",
+      start: parseDate(start) ? start : "",
+      recent: /^\d+$/.test(recent) ? recent : ""
+    };
+  }
+
   var core = {
     SIMULATIONS: SIMULATIONS, MAX_SIM_WEEKS: MAX_SIM_WEEKS,
     parseThroughput: parseThroughput, simulateWhen: simulateWhen, simulateHowMany: simulateHowMany,
     percentileWhen: percentileWhen, percentileHowMany: percentileHowMany, histogram: histogram,
-    parseDate: parseDate, addWeeks: addWeeks, stats: stats
+    parseDate: parseDate, addWeeks: addWeeks, stats: stats,
+    recentWeeks: recentWeeks, parseRecent: parseRecent, localISODate: localISODate,
+    buildHash: buildHash, parseHash: parseHash
   };
 
   if (typeof module === "object" && module.exports) {
@@ -141,8 +198,44 @@
     try {
       return d.toLocaleDateString("es", { day: "numeric", month: "short", year: "numeric" });
     } catch (e) {
-      return d.toISOString().slice(0, 10);
+      return localISODate(d);
     }
+  }
+
+  // --- Almacenamiento local (opcional: la página funciona si falla) ---------
+
+  function formState() {
+    var v = function (id) { return (document.getElementById(id) || {}).value || ""; };
+    return {
+      data: v("mc-data"), n: v("mc-n"), start: v("mc-start"), recent: v("mc-recent"),
+      mode: document.getElementById("mc-mode-how").checked ? "how" : "when"
+    };
+  }
+
+  function loadStored() {
+    try {
+      var raw = window.localStorage.getItem(STORAGE_KEY);
+      var obj = raw ? JSON.parse(raw) : null;
+      return obj && typeof obj === "object" ? obj : null;
+    } catch (e) { return null; }
+  }
+
+  function save() {
+    try { window.localStorage.setItem(STORAGE_KEY, JSON.stringify(formState())); }
+    catch (e) { /* sin almacenamiento disponible: se sigue trabajando en memoria */ }
+  }
+
+  function clearStored() {
+    try { window.localStorage.removeItem(STORAGE_KEY); } catch (e) { /* nada */ }
+  }
+
+  var statusTimer = null;
+  function setStatus(msg) {
+    var status = document.getElementById("mc-status");
+    if (!status) return;
+    status.textContent = msg;
+    clearTimeout(statusTimer);
+    statusTimer = setTimeout(function () { status.textContent = ""; }, 6000);
   }
 
   function field(labelText, input, hint) {
@@ -155,18 +248,21 @@
     return wrap;
   }
 
-  function render() {
+  function render(state) {
+    state = state || {};
     root.innerHTML = "";
     var form = el("form", { id: "mc-form", novalidate: "novalidate" });
 
     var data = el("textarea", { id: "mc-data", rows: "4", spellcheck: "false", inputmode: "numeric",
       placeholder: "5, 3, 7, 4, 6, 2, 5, 8, 4, 6" });
+    data.value = typeof state.data === "string" ? state.data : "";
     form.appendChild(field("Throughput semanal histórico", data,
       "Ítems terminados por semana, de la más antigua a la más reciente. Separa con coma, espacio o salto de línea. Mínimo " + MIN_WEEKS + " semanas."));
 
     var whenRadio = el("input", { type: "radio", name: "mc-mode", value: "when", id: "mc-mode-when" });
     var howRadio = el("input", { type: "radio", name: "mc-mode", value: "how", id: "mc-mode-how" });
-    whenRadio.checked = true;
+    if (state.mode === "how") howRadio.checked = true;
+    else whenRadio.checked = true;
     form.appendChild(el("fieldset", {}, [
       el("legend", { text: "¿Qué quieres saber?" }),
       el("label", { for: "mc-mode-when" }, [whenRadio, "¿Cuándo? Semanas para terminar N ítems"]),
@@ -174,22 +270,46 @@
     ]));
 
     var nInput = el("input", { type: "number", id: "mc-n", min: "1", max: "5000", step: "1", inputmode: "numeric", value: "30" });
+    if (state.n) nInput.value = String(state.n);
     var startInput = el("input", { type: "date", id: "mc-start" });
+    if (state.start && parseDate(state.start)) startInput.value = state.start;
     var nField = field("Ítems por terminar", nInput);
     form.appendChild(el("div", { class: "mc-row" }, [
       nField,
       field("Fecha de inicio (opcional)", startInput, "Si la indicas, las semanas se traducen a fechas.")
     ]));
 
+    var recentInput = el("input", { type: "number", id: "mc-recent", min: String(MIN_WEEKS), step: "1", inputmode: "numeric", placeholder: "Todo el historial" });
+    if (state.recent) recentInput.value = String(state.recent);
+    form.appendChild(field("Usar solo las últimas N semanas (opcional)", recentInput,
+      "Si el proceso cambió (otro equipo, otro tablero, otra política), usa solo las semanas que reflejan cómo se trabaja hoy. Vacío: todo el historial."));
+
     function syncMode() {
       nField.querySelector("label").textContent = whenRadio.checked ? "Ítems por terminar" : "Semanas disponibles";
     }
     whenRadio.addEventListener("change", syncMode);
     howRadio.addEventListener("change", syncMode);
+    syncMode();
 
-    form.appendChild(el("button", { type: "submit", text: "Pronosticar" }));
+    var shareBtn = el("button", { type: "button", class: "mc-secondary", text: "Compartir enlace" });
+    var clearBtn = el("button", { type: "button", class: "mc-secondary", text: "Limpiar" });
+    shareBtn.addEventListener("click", shareLink);
+    clearBtn.addEventListener("click", function () {
+      clearStored();
+      last = null;
+      if (chart) { chart.destroy(); chart = null; }
+      render({});
+      setStatus("Se borraron los datos guardados en este navegador.");
+    });
+    form.appendChild(el("div", { class: "mc-actions" }, [
+      el("button", { type: "submit", text: "Pronosticar" }), shareBtn, clearBtn
+    ]));
     form.addEventListener("submit", function (ev) { ev.preventDefault(); run(); });
+    form.addEventListener("input", save);
+    form.addEventListener("change", save);
     root.appendChild(form);
+    root.appendChild(el("p", { class: "mc-status", id: "mc-status", role: "status", "aria-live": "polite" }));
+    root.appendChild(el("div", { id: "mc-share-out" }));
 
     root.appendChild(el("div", { class: "mc-results", id: "mc-results", "aria-live": "polite" }));
     root.appendChild(el("div", { class: "mc-chart", id: "mc-chart-wrap", hidden: "hidden" }, [
@@ -201,7 +321,7 @@
     var out = document.getElementById("mc-results");
     out.innerHTML = "";
     out.appendChild(el("p", { class: "mc-error", text: msg }));
-    ["mc-data", "mc-n"].forEach(function (id) { document.getElementById(id).removeAttribute("aria-invalid"); });
+    ["mc-data", "mc-n", "mc-recent"].forEach(function (id) { document.getElementById(id).removeAttribute("aria-invalid"); });
     if (input) { input.setAttribute("aria-invalid", "true"); input.focus(); }
     document.getElementById("mc-chart-wrap").hidden = true;
     last = null;
@@ -216,12 +336,19 @@
     if (!/^\d+$/.test(String(nInput.value).trim()) || n < 1 || n > 5000) {
       return showError("Indica un número entero entre 1 y 5000.", nInput);
     }
+    var recentInput = document.getElementById("mc-recent");
+    var recent = parseRecent(recentInput.value);
+    if (recent.error) return showError(recent.error, recentInput);
     dataInput.removeAttribute("aria-invalid");
     nInput.removeAttribute("aria-invalid");
+    recentInput.removeAttribute("aria-invalid");
 
     var mode = document.getElementById("mc-mode-when").checked ? "when" : "how";
     var start = parseDate(document.getElementById("mc-start").value);
-    var values = parsed.values;
+    var values = recentWeeks(parsed.values, recent.k);
+    if (values.every(function (v) { return v === 0; })) {
+      return showError("Las últimas " + values.length + " semanas tienen 0 ítems: no hay datos para pronosticar. Amplía la ventana o deja el campo vacío.", recentInput);
+    }
     var sorted = mode === "when" ? simulateWhen(values, n, SIMULATIONS) : simulateHowMany(values, n, SIMULATIONS);
 
     var rows = PERCENTILES.map(function (p) {
@@ -234,7 +361,7 @@
     var out = document.getElementById("mc-results");
     out.innerHTML = "";
     out.appendChild(el("h3", { text: mode === "when" ? "¿Cuándo terminamos " + n + " ítems?" : "¿Cuánto entregamos en " + n + " semanas?" }));
-    out.appendChild(el("p", { class: "mc-summary", text: num(SIMULATIONS) + " simulaciones con " + st.weeks + " semanas de historial (promedio " + num(st.mean, 1) + " ítems por semana, mínimo " + st.min + ", máximo " + st.max + ")." }));
+    out.appendChild(el("p", { class: "mc-summary", text: num(SIMULATIONS) + " simulaciones con " + (values.length < parsed.values.length ? "las últimas " + st.weeks + " de " + parsed.values.length : st.weeks) + " semanas de historial (promedio " + num(st.mean, 1) + " ítems por semana, mínimo " + st.min + ", máximo " + st.max + ")." }));
 
     var tbody = el("tbody");
     rows.forEach(function (r) {
@@ -263,6 +390,28 @@
       : "Lectura: en el 85 % de las simulaciones se terminan " + p85 + " ítems o más en " + n + " semanas. Comprométete con ese número, no con el promedio." }));
 
     drawChart();
+  }
+
+  function shareLink() {
+    var st = formState();
+    var parsed = parseThroughput(st.data);
+    if (parsed.error) return showError(parsed.error, document.getElementById("mc-data"));
+    var hash = buildHash({ values: parsed.values, mode: st.mode, n: st.n, start: st.start, recent: st.recent });
+    var url = location.href.split("#")[0] + "#" + hash;
+    var out = document.getElementById("mc-share-out");
+    out.innerHTML = "";
+    var input = el("input", { type: "text", readonly: "readonly", id: "mc-share-url", class: "mc-share-url" });
+    input.value = url;
+    out.appendChild(el("label", { for: "mc-share-url", text: "Enlace con el historial y la pregunta" }));
+    out.appendChild(input);
+    var manual = function () { input.select(); setStatus("Selecciona el enlace y cópialo manualmente."); };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(function () {
+        setStatus("Enlace copiado. Contiene el throughput de la célula: compártelo solo con quien corresponda.");
+      }, manual);
+    } else {
+      manual();
+    }
   }
 
   function themeColor(varName, fallback) {
@@ -325,7 +474,20 @@
     root = document.getElementById("montecarlo-app");
     if (!root || root.getAttribute("data-mc-ready")) return;
     root.setAttribute("data-mc-ready", "1");
-    render();
+
+    var fromHash = parseHash(location.hash);
+    if (fromHash && fromHash.error) {
+      render(loadStored() || {});
+      setStatus(fromHash.error);
+    } else if (fromHash) {
+      render(fromHash);
+      save();
+      try { history.replaceState(null, "", location.pathname + location.search); } catch (e) { /* nada */ }
+      run();
+      setStatus(last ? "Se cargaron los datos del enlace compartido." : "Se cargaron los datos del enlace, pero hay que corregirlos para pronosticar.");
+    } else {
+      render(loadStored() || {});
+    }
     new MutationObserver(function () { if (last) drawChart(); })
       .observe(document.body, { attributes: true, attributeFilter: ["data-md-color-scheme"] });
   }
